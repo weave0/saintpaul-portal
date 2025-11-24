@@ -6,6 +6,119 @@
 
 ---
 
+## 🆕 Frontend Enhancement (Nov 23, 2025) – First-Person Navigation Mode + Full Enhancement Suite
+
+Added immersive exploration capability to the 3D Historical Viewer with six comprehensive enhancements:
+
+### Core First-Person Mode
+
+**Features**:
+- Toggle between Orbit and First-Person (PointerLock) modes
+- WASD movement with ground clamping
+- Mouse-look when pointer is locked (ESC releases)
+- Automatic camera height adjustment when entering FP mode
+- Updated on-screen control instructions and checklist documentation
+
+### Enhancement Suite (All 6 Implemented) ✅
+
+#### 1. Sprint Mode
+- **Feature**: Hold **Shift** for 2.5x speed boost
+- **Implementation**: Velocity-based movement with smooth lerp acceleration/deceleration
+- **UX**: Instructions panel shows "Shift: Sprint" in first-person mode
+- **File**: `HistoricalViewer.jsx` (FirstPersonController)
+
+#### 2. Camera Mode Persistence
+- **Feature**: Preference saved to localStorage (`'saintpaul-camera-mode'`)
+- **Implementation**: Restored on component mount, updated on every toggle
+- **UX**: Returns to user's preferred mode (orbit/first-person) on page reload
+- **File**: `HistoricalViewer.jsx` (useState initializer + useEffect)
+
+#### 3. Collision Detection
+- **Feature**: AABB-based prevention of walking through buildings
+- **Implementation**: 3m player radius checked against all building footprints
+- **Physics**: Velocity reduced by 50% on collision; movement blocked
+- **Buildings**: Checks both snapshot buildings and BuildingSpec overlays
+- **File**: `HistoricalViewer.jsx` (FirstPersonController.checkCollision)
+
+#### 4. Heatmap Overlay
+- **Component**: `HeatmapOverlay.jsx` (new)
+- **Metrics**: `population`, `propertyValue`, `buildingAge`, `walkScore`, `poiDensity`
+- **Visualization**: 3D grid cells with height = intensity, color gradient (blue→yellow→red)
+- **API**: Fetches `/api/insights/heatmap/:metric?gridSize=50`
+- **Controls**: MUI panel (bottom-right) with Switch toggle + Select dropdown
+- **Integration**: `HistoricalViewer.jsx` imports and embeds component
+
+#### 5. Movement Toggle Tests
+- **Framework**: Vitest + @testing-library/react + jsdom
+- **Coverage**:
+  - Camera mode button rendering and toggle state
+  - localStorage persistence (save/restore)
+  - Controls instructions display (mode-specific)
+  - Grid visibility toggle
+  - Heatmap controls rendering and interaction
+  - Metric selector conditional display
+- **Files**:
+  - `frontend/tests/movement.test.jsx` (new, 200+ lines)
+  - `frontend/tests/setup.js` (new, WebGL/ResizeObserver mocks)
+  - `vite.config.js` (added test config)
+  - `package.json` (added vitest, @testing-library deps)
+- **Scripts**: `npm test`, `npm run test:ui`, `npm run test:coverage`
+
+#### 6. Insights API Documentation
+- **File**: `README.md` (new "Modern Location Insights" section)
+- **Endpoints Documented**:
+  - `GET /api/insights` – Query with filters, pagination, bbox, search
+  - `GET /api/insights/:id` – Get by ID
+  - `GET /api/insights/coordinates/:lon/:lat` – Nearest match (click-to-explore)
+  - `GET /api/insights/nearby` – Radius search
+  - `GET /api/insights/heatmap/:metric` – Spatial grid aggregation
+  - `GET /api/insights/stats` – Statistical summaries
+- **Includes**:
+  - Full parameter tables with types, defaults, examples
+  - Response structure examples (JSON)
+  - PowerShell curl examples for each endpoint
+  - Heatmap metric descriptions and color gradient explanation
+
+**Files Modified/Created**:
+- `frontend/src/pages/HistoricalViewer.jsx` – Enhanced controller, collision, heatmap, persistence
+- `frontend/src/components/HeatmapOverlay.jsx` – NEW: 3D heatmap + controls
+- `frontend/tests/movement.test.jsx` – NEW: Comprehensive test suite
+- `frontend/tests/setup.js` – NEW: Vitest configuration and mocks
+- `frontend/vite.config.js` – Added test environment config
+- `frontend/package.json` – Added test dependencies and scripts
+- `README.md` – Insights API endpoint documentation
+- `3D_VIEWER_CHECKLIST.md` – Updated Step 8 with enhancement details
+- `ENHANCEMENT_SUMMARY.md` – This comprehensive summary
+
+**Implementation Notes**:
+- Movement speed is frame-rate independent (delta-scaled)
+- Camera kept above ground (`y >= 5`) to prevent clipping
+- OrbitControls disabled while in FP mode to avoid conflicts
+- Pointer lock initiated by clicking inside the canvas (standard UX)
+- Collision uses simple AABB (fast, no raycasting overhead)
+- Heatmap grid cells use transparent materials for overlay effect
+- All tests mock WebGL context to avoid Canvas errors in jsdom
+
+**Usage**:
+```powershell
+cd frontend
+npm install  # Installs new test dependencies
+npm test     # Run test suite
+npm run dev  # Start dev server
+
+# In browser:
+# 1. Navigate to /3d-viewer
+# 2. Click Walk icon → first-person mode
+# 3. Click canvas to lock pointer
+# 4. W/A/S/D to move, Shift to sprint, mouse to look
+# 5. Toggle heatmap in bottom-right panel
+# 6. Select metric to visualize
+```
+
+---
+
+---
+
 ## 🎯 Follow-Up Enhancements Completed
 
 All 5 recommended follow-up tasks have been successfully implemented, tested, and committed:

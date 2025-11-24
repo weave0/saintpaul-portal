@@ -148,15 +148,74 @@ Open your browser and visit:
 - [ ] Scroll wheel zooms in/out
 - [ ] Double-click resets camera
 
+### Step 8 (Optional): First-Person Mode + Enhancement Suite ✅
+
+Enable immersive navigation with six comprehensive enhancements:
+
+**Core Controls:**
+
+```text
+• Click Walk icon (top-left) to enter first-person
+• Click inside canvas to lock pointer (PointerLock)
+• W / A / S / D to move
+• Shift to sprint (2.5x speed boost)
+• Mouse move to look
+• ESC to release pointer
+• Click 3D Rotate icon to return to orbit controls
+```
+
+**Enhancement Features:**
+
+1. **Sprint Mode** – Hold Shift for faster movement with smooth acceleration
+2. **Collision Detection** – Can't walk through buildings (AABB physics)
+3. **Camera Persistence** – Your preferred mode (orbit/first-person) saves to localStorage
+4. **Heatmap Overlay** – Toggle 3D visualization of insights metrics (bottom-right panel)
+5. **Movement Tests** – Comprehensive test suite (run `npm test` in frontend)
+6. **API Docs** – `/api/insights/*` endpoints documented in README.md
+
+**Testing First-Person Mode:**
+
+- [ ] First-person toggle works (Walk/3D Rotate icons)
+- [ ] Movement responds to WASD
+- [ ] Sprint works with Shift key
+- [ ] ESC releases pointer lock
+- [ ] Collision prevents walking through buildings
+- [ ] Camera mode persists on page reload
+- [ ] Switch back to orbit mode works
+
+**Testing Heatmap Overlay:**
+
+- [ ] Heatmap panel visible (bottom-right)
+- [ ] Toggle switch shows/hides heatmap grid
+- [ ] Metric selector dropdown appears when enabled
+- [ ] Changing metrics updates visualization
+- [ ] 3D grid cells render with color gradient (blue→yellow→red)
+
 **Building Interaction:**
+
 - [ ] Click a building to select it
 - [ ] Info panel shows building details
 - [ ] Selected building highlights
 
 **UI Controls:**
+
 - [ ] Grid toggle button works
 - [ ] Quick jump chips work
 - [ ] Responsive to window resize
+
+**Run Tests:**
+
+```powershell
+cd frontend
+npm install  # Installs test dependencies if needed
+npm test     # Run Vitest suite
+```
+
+Expected test results:
+- Camera mode toggle tests: ✅ Pass
+- localStorage persistence tests: ✅ Pass
+- Controls display tests: ✅ Pass
+- Heatmap controls tests: ✅ Pass
 
 ---
 

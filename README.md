@@ -297,6 +297,120 @@ Diff response shape (simplified):
 - `GET /api/building-specs/__quality/dashboard` – Summary metrics (counts, completeness average, confidence distribution)
 - `GET /api/building-specs/__export/csv?fields=...` – CSV export with filter params identical to list endpoint
 
+### Modern Location Insights
+
+The Insights API provides rich, modern geospatial and contextual data for Saint Paul locations, including building characteristics, parcel information, census demographics, and nearby points of interest.
+
+**Endpoints:**
+
+- `GET /api/insights` – Query insights with filters (pagination, bbox, keyword search)
+- `GET /api/insights/:id` – Get insight by ID
+- `GET /api/insights/coordinates/:lon/:lat` – Lookup insight by coordinates (nearest match)
+- `GET /api/insights/nearby` – Find insights near a location (`lat`, `lon`, `radius`)
+- `GET /api/insights/heatmap/:metric` – Generate spatial heatmap grid for visualization
+- `GET /api/insights/stats` – Get statistical summaries (counts, averages, distributions)
+
+**Query Parameters (GET /api/insights):**
+
+| Param | Type | Description | Example |
+|-------|------|-------------|---------|
+| `page` | integer | Page number (default: 1) | `page=2` |
+| `limit` | integer | Results per page (default: 50, max: 500) | `limit=100` |
+| `bbox` | string | Bounding box: `minLon,minLat,maxLon,maxLat` | `bbox=-93.15,44.93,-93.08,44.98` |
+| `search` | string | Text search across `name`, `address`, `tags` | `search=cathedral` |
+| `propertyType` | string | Filter by property type | `propertyType=residential` |
+| `minValue` / `maxValue` | number | Assessed value range | `minValue=200000&maxValue=500000` |
+| `minWalkScore` / `maxWalkScore` | number | Walk score range (0-100) | `minWalkScore=70` |
+
+**Heatmap Endpoint (GET /api/insights/heatmap/:metric):**
+
+Generates a spatial grid with aggregated metric values for 3D visualization.
+
+**Supported metrics:**
+
+- `population` – Census population density
+- `propertyValue` – Average assessed property value
+- `buildingAge` – Average building age
+- `walkScore` – Average walk score
+- `poiDensity` – Points of interest density
+
+**Parameters:**
+
+| Param | Type | Default | Description |
+|-------|------|---------|-------------|
+| `gridSize` | number | 50 | Size of each grid cell in meters |
+| `bbox` | string | *(full extent)* | Limit to bounding box |
+
+**Response Structure:**
+
+```json
+{
+  "metric": "population",
+  "gridSize": 50,
+  "grid": [
+    {
+      "center": [-93.1, 44.95],
+      "value": 1234.5,
+      "count": 12
+    }
+  ]
+}
+```
+
+**Coordinate Lookup (GET /api/insights/coordinates/:lon/:lat):**
+
+Returns the nearest insight within 100 meters of the specified coordinates. Used for click-to-explore functionality in the 3D viewer.
+
+**Example:**
+
+```powershell
+curl "http://localhost:5000/api/insights/coordinates/-93.094/44.944"
+```
+
+**Nearby Search (GET /api/insights/nearby):**
+
+Find insights within a radius of a coordinate.
+
+**Parameters:**
+
+| Param | Type | Required | Description |
+|-------|------|----------|-------------|
+| `lat` | number | Yes | Latitude |
+| `lon` | number | Yes | Longitude |
+| `radius` | number | No | Search radius in meters (default: 500, max: 5000) |
+| `limit` | number | No | Max results (default: 20) |
+
+**Example:**
+
+```powershell
+curl "http://localhost:5000/api/insights/nearby?lat=44.944&lon=-93.094&radius=1000&limit=10"
+```
+
+**Stats Endpoint (GET /api/insights/stats):**
+
+Returns aggregated statistics across all insights.
+
+**Response:**
+
+```json
+{
+  "count": 5432,
+  "avgPropertyValue": 285000,
+  "avgWalkScore": 68.5,
+  "propertyTypeDistribution": {
+    "residential": 3200,
+    "commercial": 1500,
+    "industrial": 732
+  },
+  "valueRanges": {
+    "under100k": 234,
+    "100k-250k": 1234,
+    "250k-500k": 2100,
+    "over500k": 1864
+  }
+}
+```
+
 ### Sanborn Acquisition Stub
 
 Script: `node backend/scripts/downloadSanbornSheets.js [outputDir]`

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import InsightPanel from './InsightPanel';
 import {
   Box,
   Card,
@@ -43,6 +44,9 @@ const BuildingSpecExplorer = () => {
     architect: '',
     sort: '-yearCompleted,name',
   });
+  const [selectedSpec, setSelectedSpec] = useState(null);
+  const [insight, setInsight] = useState(null);
+  const [loadingInsight, setLoadingInsight] = useState(false);
 
   const loadSpecs = async (page = 1) => {
     setLoading(true);
@@ -272,7 +276,9 @@ const BuildingSpecExplorer = () => {
           <Grid container spacing={2}>
             {specs.map((spec) => (
               <Grid item xs={12} md={6} lg={4} key={spec._id}>
-                <Card sx={{ height: '100%' }}>
+                <Card sx={{ height: '100%', cursor: 'pointer', outline: selectedSpec?._id === spec._id ? '2px solid #1a4d7d' : 'none' }}
+                  onClick={() => { setSelectedSpec(spec); setInsight(null); }}
+                >
                   <CardContent>
                     <Typography variant="h6" gutterBottom>
                       {spec.name}
@@ -321,6 +327,48 @@ const BuildingSpecExplorer = () => {
                 color="primary"
                 size="large"
               />
+            </Box>
+          )}
+          {selectedSpec && (
+            <Box sx={{ mt: 4, position: 'relative' }}>
+              <Card sx={{ mb: 2 }}>
+                <CardContent>
+                  <Typography variant="h5" gutterBottom>{selectedSpec.name}</Typography>
+                  <Typography variant="body2" gutterBottom>
+                    Built: {selectedSpec.yearCompleted || selectedSpec.yearConstructed || '—'} | Stories: {selectedSpec.height?.stories || '—'} | Style: {selectedSpec.architecturalStyle || '—'}
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary" gutterBottom>
+                    Architect: {selectedSpec.architect || '—'}
+                  </Typography>
+                  <Button
+                    variant="contained"
+                    disabled={loadingInsight}
+                    onClick={async () => {
+                      if (!selectedSpec.centroid) return;
+                      try {
+                        setLoadingInsight(true);
+                        const { lon, lat } = selectedSpec.centroid;
+                        const res = await fetch(`/api/insights/coordinates/${lon}/${lat}?tolerance=30`);
+                        if (res.ok) {
+                          const data = await res.json();
+                          setInsight(data);
+                        }
+                      } catch (e) {
+                        console.error('Failed to load insight', e);
+                      } finally {
+                        setLoadingInsight(false);
+                      }
+                    }}
+                    sx={{ mt: 1 }}
+                  >
+                    {loadingInsight ? 'Loading Insight…' : 'Load Modern Insight'}
+                  </Button>
+                  <Button variant="text" sx={{ ml: 2 }} onClick={() => { setSelectedSpec(null); setInsight(null); }}>
+                    Close
+                  </Button>
+                </CardContent>
+              </Card>
+              <InsightPanel data={insight} onClose={() => setInsight(null)} />
             </Box>
           )}
         </>

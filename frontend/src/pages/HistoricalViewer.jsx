@@ -1,10 +1,107 @@
-import React, { Suspense, useState, useEffect } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Environment, Sky, Grid } from '@react-three/drei';
+import React, { Suspense, useState, useEffect, useRef } from 'react';
+import { Canvas, useFrame, useThree } from '@react-three/fiber';
+import { OrbitControls, Environment, Sky, Grid, PointerLockControls } from '@react-three/drei';
 import { Box, CircularProgress, Typography, Paper, IconButton, Tooltip } from '@mui/material';
-import { Info, Visibility, VisibilityOff, Layers } from '@mui/icons-material';
+import { Visibility, VisibilityOff, Layers, DirectionsWalk, ThreeDRotation } from '@mui/icons-material';
 import Building3D from '../components/Building3D';
 import TimelineSlider from '../components/TimelineSlider';
+import HeatmapOverlay, { HeatmapControls } from '../components/HeatmapOverlay';
+
+// First-person movement controller (WASD + mouse look via PointerLock)
+// Supports sprint (Shift) with smooth acceleration and collision detection
+const FirstPersonController = ({ enabled, speed = 30, sprintMultiplier = 2.5, buildings = [] }) => {
+  const { camera } = useThree();
+  const keys = useRef({});
+  const velocity = useRef(new THREE.Vector3());
+  const targetSpeed = useRef(speed);
+
+  useEffect(() => {
+    const onKeyDown = (e) => { keys.current[e.key.toLowerCase()] = true; };
+    const onKeyUp = (e) => { keys.current[e.key.toLowerCase()] = false; };
+    window.addEventListener('keydown', onKeyDown);
+    window.addEventListener('keyup', onKeyUp);
+    return () => {
+      window.removeEventListener('keydown', onKeyDown);
+      window.removeEventListener('keyup', onKeyUp);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (enabled) {
+      // Drop camera closer to ground when entering FP mode if it's very high
+      if (camera.position.y > 40) camera.position.y = 12;
+    }
+  }, [enabled, camera]);
+
+  // Simple AABB collision check
+  const checkCollision = (newPos) => {
+    const playerRadius = 3; // collision radius around player
+    for (const building of buildings) {
+      if (!building.location?.coordinates) continue;
+      const lon = building.location.coordinates[0];
+      const lat = building.location.coordinates[1];
+      const bx = (lon - (-93.1)) * 10000;
+      const bz = (lat - 44.95) * 10000;
+      const bw = (building.dimensions?.width || 10) / 2;
+      const bl = (building.dimensions?.length || 10) / 2;
+      
+      // AABB collision: check if player overlaps building footprint
+      if (
+        newPos.x + playerRadius > bx - bw &&
+        newPos.x - playerRadius < bx + bw &&
+        newPos.z + playerRadius > bz - bl &&
+        newPos.z - playerRadius < bz + bl
+      ) {
+        return true; // collision detected
+      }
+    }
+    return false;
+  };
+
+  useFrame((_, delta) => {
+    if (!enabled) return;
+    
+    // Sprint detection
+    const isSprinting = keys.current['shift'];
+    targetSpeed.current = isSprinting ? speed * sprintMultiplier : speed;
+
+    // Forward direction (flattened to XZ plane)
+    const forward = new THREE.Vector3();
+    camera.getWorldDirection(forward);
+    forward.y = 0;
+    forward.normalize();
+    const right = new THREE.Vector3().crossVectors(forward, new THREE.Vector3(0, 1, 0)).normalize().multiplyScalar(-1);
+
+    let move = new THREE.Vector3();
+    if (keys.current['w']) move.add(forward);
+    if (keys.current['s']) move.add(forward.clone().multiplyScalar(-1));
+    if (keys.current['a']) move.add(right.clone().multiplyScalar(-1));
+    if (keys.current['d']) move.add(right);
+
+    if (move.lengthSq() > 0) {
+      move.normalize();
+      // Smooth acceleration
+      velocity.current.lerp(move.multiplyScalar(targetSpeed.current), 0.15);
+      const potentialMove = velocity.current.clone().multiplyScalar(delta);
+      const newPos = camera.position.clone().add(potentialMove);
+      
+      // Only apply movement if no collision
+      if (!checkCollision(newPos)) {
+        camera.position.copy(newPos);
+      } else {
+        // Stop velocity on collision
+        velocity.current.multiplyScalar(0.5);
+      }
+    } else {
+      // Deceleration when no keys pressed
+      velocity.current.lerp(new THREE.Vector3(), 0.1);
+    }
+
+    // Keep camera above ground
+    if (camera.position.y < 5) camera.position.y = 5;
+  });
+  return null;
+};
 
 const HistoricalViewer = () => {
   const [selectedYear, setSelectedYear] = useState(1905);
@@ -19,6 +116,17 @@ const HistoricalViewer = () => {
   const [diffFromId, setDiffFromId] = useState(null);
   const [diffToId, setDiffToId] = useState(null);
   const [diffData, setDiffData] = useState(null);
+  const [firstPerson, setFirstPerson] = useState(() => {
+    const saved = localStorage.getItem('saintpaul-camera-mode');
+    return saved === 'first-person';
+  });
+  const [heatmapVisible, setHeatmapVisible] = useState(false);
+  const [heatmapMetric, setHeatmapMetric] = useState('population');
+
+  // Persist camera mode preference
+  useEffect(() => {
+    localStorage.setItem('saintpaul-camera-mode', firstPerson ? 'first-person' : 'orbit');
+  }, [firstPerson]);
 
   useEffect(() => {
     // Load static historical snapshots
@@ -171,18 +279,42 @@ const HistoricalViewer = () => {
             );
           })}
 
+          {/* Heatmap Overlay */}
+          <HeatmapOverlay
+            metric={heatmapMetric}
+            gridSize={50}
+            visible={heatmapVisible}
+          />
+
           {/* Environment */}
           <Environment preset="city" />
 
           {/* Controls */}
-          <OrbitControls
-            enablePan={true}
-            enableZoom={true}
-            enableRotate={true}
-            minDistance={20}
-            maxDistance={500}
-            maxPolarAngle={Math.PI / 2.2}
-          />
+          {!firstPerson && (
+            <OrbitControls
+              enablePan={true}
+              enableZoom={true}
+              enableRotate={true}
+              minDistance={20}
+              maxDistance={500}
+              maxPolarAngle={Math.PI / 2.2}
+            />
+          )}
+          {firstPerson && (
+            <>
+              <PointerLockControls />
+              <FirstPersonController 
+                enabled={true} 
+                buildings={[
+                  ...(currentSnapshot?.buildings || []),
+                  ...buildingSpecs.map(spec => ({
+                    location: { coordinates: [spec.centroid.lon, spec.centroid.lat] },
+                    dimensions: { length: spec.dimensions.length_m || 10, width: spec.dimensions.width_m || 10 }
+                  }))
+                ]}
+              />
+            </>
+          )}
         </Suspense>
       </Canvas>
 
@@ -264,6 +396,17 @@ const HistoricalViewer = () => {
           gap: 1,
         }}
       >
+        <Tooltip title={firstPerson ? 'Disable First-Person' : 'Enable First-Person'}>
+          <IconButton
+            onClick={() => setFirstPerson(fp => !fp)}
+            sx={{
+              backgroundColor: 'rgba(255, 255, 255, 0.9)',
+              '&:hover': { backgroundColor: 'rgba(255, 255, 255, 1)' },
+            }}
+          >
+            {firstPerson ? <ThreeDRotation /> : <DirectionsWalk />}
+          </IconButton>
+        </Tooltip>
         <Tooltip title="Toggle Grid">
           <IconButton
             onClick={() => setShowGrid(!showGrid)}
@@ -350,13 +493,34 @@ const HistoricalViewer = () => {
         <Typography variant="caption" sx={{ display: 'block', mb: 0.5 }}>
           <strong>Controls:</strong>
         </Typography>
-        <Typography variant="caption" sx={{ display: 'block', fontSize: '0.7rem' }}>
-          • Left Click + Drag: Rotate<br />
-          • Right Click + Drag: Pan<br />
-          • Scroll: Zoom<br />
-          • Click Building: Select
-        </Typography>
+        {!firstPerson && (
+          <Typography variant="caption" sx={{ display: 'block', fontSize: '0.7rem' }}>
+            • Left Click + Drag: Rotate<br />
+            • Right Click + Drag: Pan<br />
+            • Scroll: Zoom<br />
+            • Click Building: Select<br />
+            • Toggle FP (Walk icon)
+          </Typography>
+        )}
+        {firstPerson && (
+          <Typography variant="caption" sx={{ display: 'block', fontSize: '0.7rem' }}>
+            • Click canvas: Lock mouse<br />
+            • ESC: Release mouse<br />
+            • Mouse Move: Look<br />
+            • W/A/S/D: Move<br />
+            • Shift: Sprint<br />
+            • Toggle Orbit (3D icon)
+          </Typography>
+        )}
       </Paper>
+
+      {/* Heatmap Controls */}
+      <HeatmapControls
+        visible={heatmapVisible}
+        onVisibleChange={setHeatmapVisible}
+        metric={heatmapMetric}
+        onMetricChange={setHeatmapMetric}
+      />
     </Box>
   );
 };

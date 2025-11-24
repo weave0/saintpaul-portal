@@ -3,7 +3,8 @@ import { useFrame } from '@react-three/fiber';
 import { Text } from '@react-three/drei';
 import * as THREE from 'three';
 
-const Building3D = ({ building, isHighlighted, inSnapshot, onClick }) => {
+// 3D representation of a single building. Pure render component – no global controls.
+const Building3D = ({ building, isHighlighted, inSnapshot, onClick, onInsight }) => {
   const meshRef = useRef();
   const [hovered, setHovered] = useState(false);
   
@@ -42,7 +43,11 @@ const Building3D = ({ building, isHighlighted, inSnapshot, onClick }) => {
       <mesh
         ref={meshRef}
         position={[0, height / 2, 0]}
-        onClick={onClick}
+        onClick={(e) => {
+          e.stopPropagation();
+          if (onClick) onClick(e);
+          if (onInsight) onInsight(building._id || building.id);
+        }}
         onPointerOver={() => setHovered(true)}
         onPointerOut={() => setHovered(false)}
       >
@@ -84,6 +89,8 @@ const Building3D = ({ building, isHighlighted, inSnapshot, onClick }) => {
           <meshBasicMaterial color="#ff9800" wireframe />
         </mesh>
       )}
+
+      {/* PointerLockControls removed from here – now managed at scene level */}
     </group>
   );
 };

@@ -51,6 +51,7 @@ app.use('/api/history', require('./routes/history'));
 app.use('/api/building-specs', require('./routes/buildingSpecs'));
 app.use('/api/reconstructions', require('./routes/reconstructions'));
 app.use('/api/metrics', require('./routes/metrics'));
+app.use('/api/insights', require('./routes/insights'));
 
 // Swagger / OpenAPI docs
 try {
