@@ -1,0 +1,303 @@
+[
+  {
+    "name": "Minnesota State Capitol",
+    "description": "The Minnesota State Capitol is the seat of government for the U.S. state of Minnesota. Designed by Saint Paul resident Cass Gilbert in the Beaux-Arts style and completed in 1905 at a cost of $4.5 million, it features the world's second-largest self-supporting marble dome after Saint Peter's Basilica in Rome. Built with Georgian marble and Saint Cloud granite exterior, the interior contains 20 different types of stone including Mankato stone. The rotunda features a large star representing the 'North Star State' with a 6-foot crystal chandelier above. The opulent design with extensive artwork and gold-leaf decoration reflects the great wealth Minnesota generated at the turn of the 20th century.",
+    "coordinates": {
+      "latitude": 44.9548,
+      "longitude": -93.1022
+    },
+    "category": "landmark",
+    "yearEstablished": 1905,
+    "images": [],
+    "historicalEvents": ["STATE_CAPITOL_COMPLETED"],
+    "address": {
+      "street": "75 Rev Dr Martin Luther King Jr Blvd",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zipCode": "55155"
+    },
+    "metadata": {
+      "source": "Minnesota Historical Society, Wikipedia",
+      "lastVerified": "2024-11-23",
+      "architect": "Cass Gilbert",
+      "cost": "$4.5 million USD",
+      "architecturalStyle": "Beaux-Arts",
+      "constructionPeriod": "1896-1905"
+    }
+  },
+  {
+    "name": "Cathedral of Saint Paul",
+    "description": "A magnificent Roman Catholic cathedral and co-cathedral of the Archdiocese of Saint Paul and Minneapolis. Commissioned by Archbishop John Ireland in 1904 and designed by renowned French Beaux-Arts architect Emmanuel Louis Masqueray (chief architect of the 1904 World's Fair in St. Louis). Modeled after St. Peter's Basilica in Rome, it features a 306-foot copper-clad dome and can seat 3,000 people. The design allows unobstructed views of the altar and pulpit from any seat. It stands as the highest structure in the city and is prominently visible on the Saint Paul skyline.",
+    "coordinates": {
+      "latitude": 44.9464,
+      "longitude": -93.1109
+    },
+    "category": "cultural",
+    "yearEstablished": 1915,
+    "images": [],
+    "historicalEvents": [],
+    "address": {
+      "street": "239 Selby Ave",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zipCode": "55102"
+    },
+    "metadata": {
+      "source": "Archdiocese of Saint Paul and Minneapolis, Wikipedia",
+      "lastVerified": "2024-11-23",
+      "architect": "Emmanuel Louis Masqueray",
+      "capacity": 3000,
+      "architecturalStyle": "Beaux-Arts, Renaissance Revival",
+      "constructionPeriod": "1906-1915"
+    }
+  },
+  {
+    "name": "Fort Snelling",
+    "description": "Historic military fort originally known as Fort Saint Anthony, built in 1819-1820 at the strategic confluence of the Minnesota and Mississippi Rivers. Established to assert American dominance in the fur-trading industry and secure the Upper Midwest frontier following the Louisiana Purchase. The fort played a crucial role in Minnesota's development and westward expansion. It was essential to Saint Paul's early growth, with the fort's brig serving as the town's first jail. Until the 7th bridge was built in 1880, access from Saint Paul required a cable ferry dating to the 1840s. Lieutenant Zebulon Pike negotiated approximately 100,000 acres from the indigenous Dakota in 1805 to establish the military reservation.",
+    "coordinates": {
+      "latitude": 44.8919,
+      "longitude": -93.1817
+    },
+    "category": "historical",
+    "yearEstablished": 1820,
+    "images": [],
+    "historicalEvents": ["FORT_SNELLING_ESTABLISHED", "PIKE_TREATY_1805"],
+    "address": {
+      "street": "200 Tower Ave",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zipCode": "55111"
+    },
+    "metadata": {
+      "source": "Minnesota Historical Society, Wikipedia, National Park Service",
+      "lastVerified": "2024-11-23",
+      "originalName": "Fort Saint Anthony",
+      "militaryBranch": "U.S. Army",
+      "constructionPeriod": "1819-1825"
+    }
+  },
+  {
+    "name": "Indian Mounds Park",
+    "description": "Sacred Indigenous site containing burial mounds built by the Hopewell culture approximately 2,000 years ago (around 400 AD). Originally containing as many as 37 burial mounds, though only 6 remain today. The Hopewell people buried their dead with artifacts in a distinctive fashion, cremating the deceased. The Dakota people later used the same site, wrapping bodies in animal skins for burial. The Mdewakanton Dakota lived at the nearby village of Kaposia and considered the area part of Bdóte, their site of creation for their people. Below the mounds was Carver's Cave (Wakan Tipi or 'sacred lodge'), featuring petroglyphs of rattlesnakes and bears cut into sandstone walls. The site represents thousands of years of Indigenous presence in the Saint Paul area.",
+    "coordinates": {
+      "latitude": 44.9358,
+      "longitude": -93.0528
+    },
+    "category": "historical",
+    "yearEstablished": -400,
+    "images": [],
+    "historicalEvents": ["HOPEWELL_MOUNDS_BUILT"],
+    "address": {
+      "street": "10 Mounds Blvd",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zipCode": "55106"
+    },
+    "metadata": {
+      "source": "Minnesota Historical Society, Wikipedia",
+      "lastVerified": "2024-11-23",
+      "culturalSignificance": "Hopewell tradition burial site, Dakota sacred site Bdóte",
+      "dakotaName": "Wakan Tipi",
+      "remainingMounds": 6,
+      "originalMounds": 37
+    }
+  },
+  {
+    "name": "James J. Hill House",
+    "description": "Massive red sandstone mansion built 1889-1891 for railroad magnate James J. Hill, founder of the Great Northern Railway and one of the most powerful industrialists in American history. The 36,000 square-foot Richardson Romanesque mansion features 13 bathrooms, 22 fireplaces, a 100-foot long art gallery, two-story skylit reception hall, pipe organ, and was one of the first houses in Minnesota with electric lighting and central heating. Hill's railroad empire, which also included the Northern Pacific Railway, made Saint Paul a major transportation hub and both railroads were headquartered in the city until merging with Burlington Northern. Now a National Historic Landmark operated by the Minnesota Historical Society.",
+    "coordinates": {
+      "latitude": 44.9442,
+      "longitude": -93.1176
+    },
+    "category": "landmark",
+    "yearEstablished": 1891,
+    "images": [],
+    "historicalEvents": ["JAMES_J_HILL_RAILROAD_EMPIRE"],
+    "address": {
+      "street": "240 Summit Ave",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zipCode": "55102"
+    },
+    "metadata": {
+      "source": "Minnesota Historical Society, Wikipedia",
+      "lastVerified": "2024-11-23",
+      "architect": "Peabody, Stearns and Furber",
+      "architecturalStyle": "Richardson Romanesque",
+      "squareFeet": 36000,
+      "constructionPeriod": "1889-1891"
+    }
+  },
+  {
+    "name": "Landmark Center",
+    "description": "Historic building completed in 1902, originally serving as the Federal Court House and Post Office for the Upper Midwest. This beautiful Richardson Romanesque structure now functions as an arts and cultural center for Saint Paul. As a courthouse, it was the site of famous gangster trials including John Dillinger, Machine Gun Kelly, and Baby Face Nelson during the 1930s. The building stands in Rice Park like a time capsule and has been beautifully preserved as an example of early 20th century federal architecture.",
+    "coordinates": {
+      "latitude": 44.9450,
+      "longitude": -93.0945
+    },
+    "category": "landmark",
+    "yearEstablished": 1902,
+    "images": [],
+    "historicalEvents": [],
+    "address": {
+      "street": "75 W 5th St",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zipCode": "55102"
+    },
+    "metadata": {
+      "source": "Landmark Center, Wikipedia",
+      "lastVerified": "2024-11-23",
+      "architecturalStyle": "Richardson Romanesque",
+      "currentUse": "Arts and cultural center",
+      "originalUse": "Federal Courts and Post Office"
+    }
+  },
+  {
+    "name": "Como Park Zoo and Conservatory",
+    "description": "Free public zoo and conservatory that has been a beloved Saint Paul institution since the 1870s. Lake Como was purchased by the city in 1872 following Horace Cleveland's visionary proposal for a citywide park system to preserve natural beauty as the city grew. Later, Lake Phalen was also purchased in 1899. The Marjorie McNeely Conservatory houses exotic plants year-round in a beautiful glass structure. The zoo and conservatory represent Saint Paul's commitment to accessible public spaces and free admission has been maintained throughout its history.",
+    "coordinates": {
+      "latitude": 44.9819,
+      "longitude": -93.1506
+    },
+    "category": "recreational",
+    "yearEstablished": 1873,
+    "images": [],
+    "historicalEvents": [],
+    "address": {
+      "street": "1225 Estabrook Dr",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zipCode": "55103"
+    },
+    "metadata": {
+      "source": "Como Park Zoo and Conservatory, Wikipedia",
+      "lastVerified": "2024-11-23",
+      "admission": "Free",
+      "parkPlanner": "Horace Cleveland"
+    }
+  },
+  {
+    "name": "Summit Avenue Historic District",
+    "description": "One of the longest and best-preserved Victorian boulevards in America, stretching 4.5 miles from the Cathedral to the Mississippi River. The avenue was developed starting in the 1860s-1870s as Saint Paul's wealthiest residents built grand mansions along the high bluffs overlooking the city. Home to over 370 Victorian homes representing various architectural styles from the Gilded Age, including the James J. Hill House (1891), F. Scott Fitzgerald's birthplace, and the Minnesota Governor's Residence. The tree-lined street showcases the wealth generated by Saint Paul's role as a frontier trading post and railroad center in the late 19th century.",
+    "coordinates": {
+      "latitude": 44.9417,
+      "longitude": -93.1289
+    },
+    "category": "landmark",
+    "yearEstablished": 1862,
+    "images": [],
+    "historicalEvents": [],
+    "address": {
+      "street": "Summit Ave",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zipCode": "55105"
+    },
+    "metadata": {
+      "source": "Wikipedia, National Register of Historic Places",
+      "lastVerified": "2024-11-23",
+      "length": "4.5 miles",
+      "historicHomes": 370,
+      "architecturalPeriod": "1860s-1920s"
+    }
+  },
+  {
+    "name": "Harriet Island Regional Park",
+    "description": "Named after Harriet Bishop, a Baptist schoolteacher from Vermont who came to Saint Paul in 1847 via New York City and opened the city's first school in a cabin at St. Peter Street and Kellogg Boulevard. She taught children of diverse ethnic, racial, and religious backgrounds and was a supporter of the temperance movement. The island park along the Mississippi River, named in her honor, now hosts numerous festivals and events including the Irish Fair of Minnesota and serves as a gathering place for the community with the Harriet Island Pavilion designed by African-American architect Clarence W. Wigington.",
+    "coordinates": {
+      "latitude": 44.9365,
+      "longitude": -93.0857
+    },
+    "category": "recreational",
+    "yearEstablished": 1900,
+    "images": [],
+    "historicalEvents": [],
+    "address": {
+      "street": "200 Dr Justus Ohage Blvd",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zipCode": "55107"
+    },
+    "metadata": {
+      "source": "Wikipedia, Saint Paul Parks and Recreation",
+      "lastVerified": "2024-11-23",
+      "namedAfter": "Harriet Bishop",
+      "yearNamed": 1900,
+      "pavilionArchitect": "Clarence W. Wigington"
+    }
+  },
+  {
+    "name": "Science Museum of Minnesota",
+    "description": "Founded in 1907, the Science Museum of Minnesota is one of the most popular museums in the Upper Midwest. It features extensive exhibits on natural history, technology, physical science, and Mississippi River ecology. The museum has been a cornerstone of Saint Paul's educational and cultural landscape for over a century, making science accessible and engaging for millions of visitors. Located on the Mississippi River bluffs, it reflects Saint Paul's commitment to education and public culture.",
+    "coordinates": {
+      "latitude": 44.9432,
+      "longitude": -93.0982
+    },
+    "category": "educational",
+    "yearEstablished": 1907,
+    "images": [],
+    "historicalEvents": [],
+    "address": {
+      "street": "120 W Kellogg Blvd",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zipCode": "55102"
+    },
+    "metadata": {
+      "source": "Science Museum of Minnesota, Wikipedia",
+      "lastVerified": "2024-11-23"
+    }
+  },
+  {
+    "name": "First Cathedral of Saint Paul",
+    "description": "The original log chapel established in 1841 by Father Lucien Galtier, a Catholic missionary sent to minister to French Canadians. Built on the bluffs above the riverboat landing near present-day Second Street and Cedar Street, Father Galtier named it for his favorite saint, Paul the Apostle, also creating a pairing with Saint Peter's Church in Mendota across the river. The chapel gave its name to the settlement, which gradually changed from 'Pig's Eye Landing' to 'Saint Paul's Landing' and finally to Saint Paul. The name Saint Paul was first used in official records at a marriage ceremony on January 26, 1841.",
+    "coordinates": {
+      "latitude": 44.9418,
+      "longitude": -93.0938
+    },
+    "category": "historical",
+    "yearEstablished": 1841,
+    "images": [],
+    "historicalEvents": ["SAINT_PAUL_NAMED", "FIRST_CHURCH_BUILT"],
+    "address": {
+      "street": "Cedar St and 2nd St (historical location)",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zipCode": "55101"
+    },
+    "metadata": {
+      "source": "Wikipedia, Minnesota Historical Society",
+      "lastVerified": "2024-11-23",
+      "founder": "Father Lucien Galtier",
+      "significance": "Origin of Saint Paul's name",
+      "originalName": "Saint Paul's Chapel"
+    }
+  },
+  {
+    "name": "Kaposia (Dakota Village Site)",
+    "description": "Historic village site of the Mdewakanton Dakota people, located near Indian Mounds Park on the bluffs overlooking the Mississippi River. Approximately 200 Dakota lived here before vacating the area following the 1837 Treaty of St. Peters and moving to the west side of the Mississippi River. The area was part of Bdóte, which the Dakota considered the site of creation for their people. They called the white sandstone cliffs Imniza-Ska ('white cliffs'). The site represents the Indigenous presence that predated European settlement of Saint Paul.",
+    "coordinates": {
+      "latitude": 44.9350,
+      "longitude": -93.0540
+    },
+    "category": "historical",
+    "yearEstablished": -1000,
+    "images": [],
+    "historicalEvents": ["TREATY_OF_ST_PETERS"],
+    "address": {
+      "street": "Near Mounds Blvd (historical location)",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zipCode": "55106"
+    },
+    "metadata": {
+      "source": "Minnesota Historical Society, Wikipedia",
+      "lastVerified": "2024-11-23",
+      "dakotaName": "Kaposia",
+      "people": "Mdewakanton Dakota",
+      "population": 200,
+      "significance": "Part of Bdóte, Dakota creation site"
+    }
+  }
+]

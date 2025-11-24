@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2025-11-23T00:00:00.000Z",
+  "notes": "Sample normalized BuildingSpec objects derived from public sources (Sanborn map sheet refs, NRHP records, architectural surveys).",
+  "items": [
+    {
+      "name": "Minnesota State Capitol",
+      "centroid": { "lat": 44.9551, "lon": -93.1022 },
+      "footprint": [
+        [-93.10245, 44.95525],
+        [-93.10200, 44.95525],
+        [-93.10200, 44.95495],
+        [-93.10245, 44.95495],
+        [-93.10245, 44.95525]
+      ],
+      "dimensions": { "length_m": 90, "width_m": 75, "area_m2": 6750, "footprintAccuracy_m": 2 },
+      "height": { "roofHeight_m": 70, "eaveHeight_m": 28, "stories": 4, "storyHeight_m": 6 },
+      "materials": [ { "material": "marble", "percentage": 70 }, { "material": "granite", "percentage": 20 }, { "material": "limestone", "percentage": 10 } ],
+      "roof": { "type": "dome", "material": "marble", "geometryNotes": "Double shell dome, lantern top." },
+      "architecturalStyle": "Beaux-Arts",
+      "architect": "Cass Gilbert",
+      "yearDesigned": 1896,
+      "yearConstructed": 1897,
+      "yearCompleted": 1905,
+      "alterations": [ { "year": 1980, "description": "Restoration of dome and chambers", "type": "restoration" } ],
+      "status": "existing",
+      "sources": [
+        { "name": "NRHP", "year": 1972, "url": "https://npgallery.nps.gov/NRHP/AssetDetail/123456", "type": "narrative", "rawReference": "NRHP Listing", "confidence": "high" },
+        { "name": "Sanborn Fire Insurance Map", "year": 1905, "url": "https://www.loc.gov/", "type": "map", "rawReference": "Plate 12", "confidence": "high" },
+        { "name": "Architectural Plans", "year": 1896, "url": "https://example.org/capitol-plans", "type": "drawing", "rawReference": "Sheet A1-A12", "confidence": "very_high" }
+      ],
+      "dataQuality": { "completenessPercent": 85, "lastVerified": "2025-11-01T00:00:00.000Z", "verifiedBy": "research_bot" },
+      "revision": { "version": 1, "notes": "Initial normalized spec." }
+    },
+    {
+      "name": "Landmark Center",
+      "centroid": { "lat": 44.9457, "lon": -93.0993 },
+      "footprint": [
+        [-93.09950, 44.94580],
+        [-93.09905, 44.94580],
+        [-93.09905, 44.94555],
+        [-93.09950, 44.94555],
+        [-93.09950, 44.94580]
+      ],
+      "dimensions": { "length_m": 60, "width_m": 50, "area_m2": 3000, "footprintAccuracy_m": 3 },
+      "height": { "roofHeight_m": 55, "eaveHeight_m": 25, "stories": 5, "storyHeight_m": 5 },
+      "materials": [ { "material": "sandstone", "percentage": 80 }, { "material": "granite", "percentage": 20 } ],
+      "roof": { "type": "hip", "material": "slate", "geometryNotes": "Multiple turrets and dormers." },
+      "architecturalStyle": "Romanesque Revival",
+      "architect": "Willoughby J. Edbrooke",
+      "yearDesigned": 1898,
+      "yearConstructed": 1898,
+      "yearCompleted": 1902,
+      "alterations": [ { "year": 1978, "description": "Adaptive reuse interior renovation", "type": "renovation" } ],
+      "status": "existing",
+      "sources": [
+        { "name": "NRHP", "year": 1972, "url": "https://npgallery.nps.gov/NRHP/AssetDetail/654321", "type": "narrative", "rawReference": "NRHP Listing", "confidence": "high" },
+        { "name": "Sanborn Fire Insurance Map", "year": 1904, "url": "https://www.loc.gov/", "type": "map", "rawReference": "Plate 7", "confidence": "medium" },
+        { "name": "Historic Photograph", "year": 1903, "url": "https://example.org/landmark-photo", "type": "photograph", "rawReference": "Photo ID LC-1903-22", "confidence": "medium" }
+      ],
+      "dataQuality": { "completenessPercent": 70, "lastVerified": "2025-11-15T00:00:00.000Z", "verifiedBy": "research_bot" },
+      "revision": { "version": 1, "notes": "Initial normalized spec." }
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+[
+  {
+    "title": "Hopewell Burial Mounds Constructed",
+    "description": "The Hopewell culture constructed approximately 37 burial mounds at what is now Indian Mounds Park, approximately 2,000 years ago. The Hopewell people buried their dead with artifacts in a distinctive fashion, cremating the deceased. These mounds represent some of the oldest human structures in the Saint Paul area and demonstrate the ancient Indigenous presence in the region.",
+    "date": "400-01-01T00:00:00Z",
+    "endDate": "600-01-01T00:00:00Z",
+    "category": "indigenous",
+    "relatedLocations": ["Indian Mounds Park"],
+    "images": [],
+    "sources": [
+      {
+        "title": "History of Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/History_of_Saint_Paul,_Minnesota",
+        "type": "secondary"
+      },
+      {
+        "title": "Minnesota Historical Society",
+        "url": "https://www.mnhs.org/",
+        "type": "primary"
+      }
+    ],
+    "significance": "Demonstrates ancient Indigenous presence and cultural traditions in the Saint Paul area dating back approximately 2,000 years.",
+    "tags": ["indigenous", "hopewell", "burial mounds", "archaeology"]
+  },
+  {
+    "title": "Dakota Settlement at Kaposia",
+    "description": "The Mdewakanton Dakota people established the village of Kaposia on the bluffs overlooking the Mississippi River near present-day Indian Mounds Park. Approximately 200 Dakota lived here, considering the area part of Bdóte, their site of creation. They called the white sandstone cliffs Imniza-Ska ('white cliffs'). Below the mounds was Carver's Cave (Wakan Tipi or 'sacred lodge'), featuring petroglyphs of rattlesnakes and bears cut into sandstone walls.",
+    "date": "1700-01-01T00:00:00Z",
+    "endDate": "1837-09-29T00:00:00Z",
+    "category": "indigenous",
+    "relatedLocations": ["Kaposia (Dakota Village Site)", "Indian Mounds Park"],
+    "images": [],
+    "sources": [
+      {
+        "title": "History of Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/History_of_Saint_Paul,_Minnesota",
+        "type": "secondary"
+      }
+    ],
+    "significance": "The Dakota presence at Kaposia represents the Indigenous inhabitants who lived in the area immediately before European settlement.",
+    "tags": ["indigenous", "dakota", "kaposia", "bdote"]
+  },
+  {
+    "title": "Pike Treaty with Dakota",
+    "description": "Lieutenant Zebulon Pike negotiated with the Indigenous Dakota people to obtain approximately 100,000 acres of land at the confluence of the Minnesota and Mississippi Rivers. This treaty laid the groundwork for the establishment of Fort Snelling and American military presence in the Upper Midwest.",
+    "date": "1805-09-23T00:00:00Z",
+    "category": "treaty",
+    "relatedLocations": ["Fort Snelling"],
+    "images": [],
+    "sources": [
+      {
+        "title": "History of Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/History_of_Saint_Paul,_Minnesota",
+        "type": "secondary"
+      }
+    ],
+    "significance": "Established American claim to the land where Fort Snelling would be built, beginning U.S. military and governmental presence in Minnesota.",
+    "tags": ["treaty", "indigenous", "military", "zebulon pike"]
+  },
+  {
+    "title": "Fort Snelling Established",
+    "description": "Originally named Fort Saint Anthony, the military fort was built at the strategic confluence of the Minnesota and Mississippi Rivers to assert American dominance in the fur-trading industry and secure the Upper Midwest frontier following the Louisiana Purchase. The fort played a crucial role in Minnesota's development and westward expansion.",
+    "date": "1819-08-24T00:00:00Z",
+    "endDate": "1820-01-01T00:00:00Z",
+    "category": "military",
+    "relatedLocations": ["Fort Snelling"],
+    "images": [],
+    "sources": [
+      {
+        "title": "Fort Snelling History",
+        "url": "https://www.mnhs.org/fortsnelling",
+        "type": "primary"
+      }
+    ],
+    "significance": "Established U.S. military presence in the Upper Midwest and played a crucial role in Saint Paul's early development, including serving as the town's first jail.",
+    "tags": ["military", "fort", "frontier", "westward expansion"]
+  },
+  {
+    "title": "Treaty of St. Peters",
+    "description": "The Dakota people signed the Treaty of St. Peters, ceding land east of the Mississippi River to the United States. Following this treaty, the approximately 200 Dakota living at Kaposia vacated the area and moved to the west side of the Mississippi River, opening the area for European-American settlement.",
+    "date": "1837-09-29T00:00:00Z",
+    "category": "treaty",
+    "relatedLocations": ["Kaposia (Dakota Village Site)"],
+    "images": [],
+    "sources": [
+      {
+        "title": "History of Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/History_of_Saint_Paul,_Minnesota",
+        "type": "secondary"
+      }
+    ],
+    "significance": "Ended Dakota occupation of the Saint Paul area and enabled European-American settlement of the region.",
+    "tags": ["treaty", "indigenous", "dakota", "land cession"]
+  },
+  {
+    "title": "Pig's Eye Landing Established",
+    "description": "Pierre 'Pig's Eye' Parrant, a French Canadian fur trader and bootlegger, established the first settlement that would become Saint Paul. Evicted from Fort Snelling's military reservation for selling illegal whiskey, he set up a tavern near present-day Lambert's Landing. Other squatters joined him, and the settlement became known as 'Pig's Eye Landing' after its most infamous resident.",
+    "date": "1838-01-01T00:00:00Z",
+    "category": "founding",
+    "relatedLocations": ["First Cathedral of Saint Paul"],
+    "images": [],
+    "sources": [
+      {
+        "title": "History of Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/History_of_Saint_Paul,_Minnesota",
+        "type": "secondary"
+      }
+    ],
+    "significance": "The first European settlement at the site that would become Saint Paul, though initially known by the less dignified name 'Pig's Eye Landing.'",
+    "tags": ["founding", "settlement", "french canadian", "frontier"]
+  },
+  {
+    "title": "Saint Paul Named by Father Galtier",
+    "description": "Father Lucien Galtier, a Catholic missionary sent to minister to French Canadians, built a log chapel on the bluffs above the riverboat landing. He named it for his favorite saint, Paul the Apostle, creating a pairing with Saint Peter's Church in Mendota across the river. The chapel gave its name to the settlement, which gradually changed from 'Pig's Eye Landing' to 'Saint Paul's Landing' and finally to Saint Paul. The name was first used in official records at a marriage ceremony on January 26, 1841.",
+    "date": "1841-11-01T00:00:00Z",
+    "category": "founding",
+    "relatedLocations": ["First Cathedral of Saint Paul"],
+    "images": [],
+    "sources": [
+      {
+        "title": "History of Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/History_of_Saint_Paul,_Minnesota",
+        "type": "secondary"
+      }
+    ],
+    "significance": "The naming of Saint Paul marked the transformation from a rough frontier settlement to a city with aspirations of permanence and respectability.",
+    "tags": ["founding", "naming", "catholic", "father galtier"]
+  },
+  {
+    "title": "Harriet Bishop Opens First School",
+    "description": "Harriet Bishop, a Baptist schoolteacher from Vermont, arrived in Saint Paul via New York City and opened the city's first school in a cabin at St. Peter Street and Kellogg Boulevard. She taught children of diverse ethnic, racial, and religious backgrounds and was a supporter of the temperance movement. Her pioneering work in education made her one of Saint Paul's most respected early citizens.",
+    "date": "1847-07-01T00:00:00Z",
+    "category": "education",
+    "relatedLocations": ["Harriet Island Regional Park"],
+    "images": [],
+    "sources": [
+      {
+        "title": "History of Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/History_of_Saint_Paul,_Minnesota",
+        "type": "secondary"
+      }
+    ],
+    "significance": "Established formal education in Saint Paul and demonstrated commitment to inclusive, non-sectarian public schooling.",
+    "tags": ["education", "schools", "temperance", "social reform"]
+  },
+  {
+    "title": "Saint Paul Becomes Territorial Capital",
+    "description": "When Minnesota Territory was formed, Saint Paul was designated as the territorial capital despite having only about 900 residents. This designation was crucial to the city's future growth and development, establishing it as the political center of the region.",
+    "date": "1849-03-03T00:00:00Z",
+    "category": "government",
+    "relatedLocations": [],
+    "images": [],
+    "sources": [
+      {
+        "title": "Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/Saint_Paul,_Minnesota",
+        "type": "secondary"
+      }
+    ],
+    "significance": "Established Saint Paul as the political center of Minnesota, a status it has maintained since territorial days.",
+    "tags": ["government", "territorial capital", "politics"]
+  },
+  {
+    "title": "Hamline University Founded",
+    "description": "Hamline University, Minnesota's oldest university, was founded in Saint Paul by the Methodist Church. It represents the city's early commitment to higher education and has been a cornerstone of Saint Paul's educational landscape for over 170 years.",
+    "date": "1854-01-01T00:00:00Z",
+    "category": "education",
+    "relatedLocations": [],
+    "images": [],
+    "sources": [
+      {
+        "title": "History of Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/History_of_Saint_Paul,_Minnesota",
+        "type": "secondary"
+      }
+    ],
+    "significance": "Minnesota's oldest university, establishing Saint Paul as a center for higher education in the Upper Midwest.",
+    "tags": ["education", "university", "methodist", "higher education"]
+  },
+  {
+    "title": "City of Saint Paul Incorporated",
+    "description": "Saint Paul was officially incorporated as a city. From a settlement of about 900 people in 1849, it had grown substantially due to its role as territorial capital and Mississippi River port. The city's incorporation formalized its governmental structure and civic identity.",
+    "date": "1854-03-04T00:00:00Z",
+    "category": "government",
+    "relatedLocations": [],
+    "images": [],
+    "sources": [
+      {
+        "title": "Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/Saint_Paul,_Minnesota",
+        "type": "secondary"
+      }
+    ],
+    "significance": "Formalized Saint Paul's governmental structure and civic institutions, enabling more organized growth and development.",
+    "tags": ["government", "incorporation", "civic development"]
+  },
+  {
+    "title": "Minnesota Statehood - Saint Paul Becomes State Capital",
+    "description": "When Minnesota was admitted to the Union as the 32nd state, Saint Paul continued as the state capital. The city had grown to about 10,000 people during the 'boom years' of 1849-1860. The transition from territorial to state capital solidified Saint Paul's political importance.",
+    "date": "1858-05-11T00:00:00Z",
+    "category": "government",
+    "relatedLocations": [],
+    "images": [],
+    "sources": [
+      {
+        "title": "Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/Saint_Paul,_Minnesota",
+        "type": "secondary"
+      }
+    ],
+    "significance": "Solidified Saint Paul's position as Minnesota's permanent state capital and political center.",
+    "tags": ["statehood", "capital", "government"]
+  },
+  {
+    "title": "Summit Avenue Development Begins",
+    "description": "Development of Summit Avenue began as Saint Paul's wealthiest residents started building grand mansions along the high bluffs overlooking the city. The avenue would eventually stretch 4.5 miles from the Cathedral to the Mississippi River, becoming one of the longest and best-preserved Victorian boulevards in America with over 370 Victorian homes.",
+    "date": "1862-01-01T00:00:00Z",
+    "endDate": "1920-01-01T00:00:00Z",
+    "category": "architecture",
+    "relatedLocations": ["Summit Avenue Historic District"],
+    "images": [],
+    "sources": [
+      {
+        "title": "Summit Avenue Historic District",
+        "url": "https://en.wikipedia.org/wiki/Summit_Avenue_(Saint_Paul)",
+        "type": "secondary"
+      }
+    ],
+    "significance": "Created one of America's most impressive Victorian residential boulevards, showcasing the wealth generated by Saint Paul's role as a frontier trading and railroad center.",
+    "tags": ["architecture", "gilded age", "victorian", "wealth"]
+  },
+  {
+    "title": "Como Park Established",
+    "description": "Lake Como was purchased by the city following Horace Cleveland's visionary proposal for a citywide park system to preserve natural beauty as the city grew. The park would later include a zoo and conservatory, becoming one of Saint Paul's most beloved public spaces with free admission maintained to this day.",
+    "date": "1873-01-01T00:00:00Z",
+    "category": "recreation",
+    "relatedLocations": ["Como Park Zoo and Conservatory"],
+    "images": [],
+    "sources": [
+      {
+        "title": "Como Park Zoo and Conservatory",
+        "url": "https://comozooconservatory.org/",
+        "type": "primary"
+      }
+    ],
+    "significance": "Established Saint Paul's commitment to accessible public parks and green spaces, with free admission maintained for over 150 years.",
+    "tags": ["parks", "recreation", "public space", "urban planning"]
+  },
+  {
+    "title": "Macalester College Founded",
+    "description": "Macalester College, a private liberal arts college, was founded in Saint Paul. Along with Hamline University and the University of St. Thomas, Macalester established Saint Paul as a major center for higher education in Minnesota.",
+    "date": "1885-01-01T00:00:00Z",
+    "category": "education",
+    "relatedLocations": [],
+    "images": [],
+    "sources": [
+      {
+        "title": "History of Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/History_of_Saint_Paul,_Minnesota",
+        "type": "secondary"
+      }
+    ],
+    "significance": "Further established Saint Paul as a center for higher education and intellectual life in the Upper Midwest.",
+    "tags": ["education", "university", "liberal arts"]
+  },
+  {
+    "title": "University of St. Thomas Founded",
+    "description": "The University of St. Thomas, Minnesota's largest private university, was founded as a Catholic institution in Saint Paul. It became one of the cornerstones of the city's educational and cultural landscape.",
+    "date": "1885-01-01T00:00:00Z",
+    "category": "education",
+    "relatedLocations": [],
+    "images": [],
+    "sources": [
+      {
+        "title": "History of Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/History_of_Saint_Paul,_Minnesota",
+        "type": "secondary"
+      }
+    ],
+    "significance": "Established the largest private university in Minnesota, contributing to Saint Paul's reputation as an educational center.",
+    "tags": ["education", "university", "catholic"]
+  },
+  {
+    "title": "First Saint Paul Winter Carnival",
+    "description": "The first Saint Paul Winter Carnival was held to celebrate winter and prove to skeptics that Saint Paul was habitable during the cold months. A New York reporter had written that Saint Paul was 'another Siberia, unfit for human habitation' in winter. The Winter Carnival became an iconic annual tradition showcasing Saint Paul's resilience and community spirit.",
+    "date": "1886-01-01T00:00:00Z",
+    "category": "cultural",
+    "relatedLocations": [],
+    "images": [],
+    "sources": [
+      {
+        "title": "Saint Paul Winter Carnival",
+        "url": "https://www.winter-carnival.com/",
+        "type": "primary"
+      }
+    ],
+    "significance": "Established an iconic annual tradition that celebrates Saint Paul's winter climate and community spirit, becoming the oldest winter festival in the United States.",
+    "tags": ["winter carnival", "festival", "tradition", "culture"]
+  },
+  {
+    "title": "James J. Hill House Completed",
+    "description": "Railroad magnate James J. Hill completed his massive 36,000 square-foot red sandstone mansion on Summit Avenue. The Richardson Romanesque mansion with 13 bathrooms, 22 fireplaces, and 100-foot art gallery showcased the immense wealth generated by Hill's railroad empire. Hill founded the Great Northern Railway and also controlled the Northern Pacific Railway, both headquartered in Saint Paul.",
+    "date": "1891-01-01T00:00:00Z",
+    "category": "architecture",
+    "relatedLocations": ["James J. Hill House", "Summit Avenue Historic District"],
+    "images": [],
+    "sources": [
+      {
+        "title": "James J. Hill House",
+        "url": "https://www.mnhs.org/hillhouse",
+        "type": "primary"
+      }
+    ],
+    "significance": "Symbolizes the wealth and power of Saint Paul's railroad era and James J. Hill's transformation of the city into a major transportation hub.",
+    "tags": ["architecture", "railroad", "gilded age", "james j hill"]
+  },
+  {
+    "title": "Landmark Center Completed",
+    "description": "The Federal Courts Building and Post Office was completed in Richardson Romanesque style. During the 1930s, it hosted famous gangster trials including John Dillinger, Machine Gun Kelly, and Baby Face Nelson. The building now serves as the Landmark Center, a cultural hub in downtown Saint Paul.",
+    "date": "1902-01-01T00:00:00Z",
+    "category": "architecture",
+    "relatedLocations": ["Landmark Center"],
+    "images": [],
+    "sources": [
+      {
+        "title": "Landmark Center",
+        "url": "https://landmarkcenter.org/",
+        "type": "primary"
+      }
+    ],
+    "significance": "Served as the federal courthouse for the Upper Midwest and later became an arts and cultural center, preserving early 20th century federal architecture.",
+    "tags": ["architecture", "federal building", "courthouse", "gangster trials"]
+  },
+  {
+    "title": "1904 Tornado Strikes Saint Paul",
+    "description": "A devastating tornado with estimated winds of 180 mph struck Saint Paul, causing $1.78 million in damage (equivalent to approximately $60 million today). The tornado caused significant destruction across the city and remains one of the most severe weather events in Saint Paul's history.",
+    "date": "1904-08-20T00:00:00Z",
+    "category": "disaster",
+    "relatedLocations": [],
+    "images": [],
+    "sources": [
+      {
+        "title": "History of Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/History_of_Saint_Paul,_Minnesota",
+        "type": "secondary"
+      }
+    ],
+    "significance": "One of the most destructive natural disasters in Saint Paul's history, causing widespread damage and demonstrating the city's resilience in rebuilding.",
+    "tags": ["tornado", "disaster", "weather", "destruction"]
+  },
+  {
+    "title": "Minnesota State Capitol Completed",
+    "description": "Designed by Saint Paul resident Cass Gilbert in the Beaux-Arts style, the Minnesota State Capitol was completed at a cost of $4.5 million. The building features the world's second-largest self-supporting marble dome and reflects the great wealth Minnesota generated at the turn of the 20th century. Built with Georgian marble and Saint Cloud granite exterior, with interiors containing 20 different types of stone.",
+    "date": "1905-01-01T00:00:00Z",
+    "category": "architecture",
+    "relatedLocations": ["Minnesota State Capitol"],
+    "images": [],
+    "sources": [
+      {
+        "title": "Minnesota State Capitol",
+        "url": "https://www.mnhs.org/capitol",
+        "type": "primary"
+      }
+    ],
+    "significance": "Showcases the architectural ambitions and wealth of Minnesota at the turn of the 20th century, serving as the seat of state government.",
+    "tags": ["architecture", "beaux-arts", "government", "cass gilbert"]
+  },
+  {
+    "title": "Science Museum of Minnesota Founded",
+    "description": "The Science Museum of Minnesota was founded, becoming one of the most popular museums in the Upper Midwest. The museum reflects Saint Paul's commitment to education and public culture, featuring extensive exhibits on natural history, technology, and Mississippi River ecology.",
+    "date": "1907-01-01T00:00:00Z",
+    "category": "cultural",
+    "relatedLocations": ["Science Museum of Minnesota"],
+    "images": [],
+    "sources": [
+      {
+        "title": "Science Museum of Minnesota",
+        "url": "https://www.smm.org/",
+        "type": "primary"
+      }
+    ],
+    "significance": "Established a major educational and cultural institution that has served millions of visitors for over a century.",
+    "tags": ["museum", "science", "education", "culture"]
+  },
+  {
+    "title": "Cathedral of Saint Paul Completed",
+    "description": "Commissioned by Archbishop John Ireland and designed by Emmanuel Louis Masqueray, the Cathedral of Saint Paul was completed after nine years of construction. Modeled after St. Peter's Basilica in Rome, it features a 306-foot copper-clad dome and can seat 3,000 people. The Cathedral stands as the highest structure in the city and is prominently visible on the Saint Paul skyline.",
+    "date": "1915-01-01T00:00:00Z",
+    "category": "architecture",
+    "relatedLocations": ["Cathedral of Saint Paul"],
+    "images": [],
+    "sources": [
+      {
+        "title": "Cathedral of Saint Paul",
+        "url": "https://www.cathedralsaintpaul.org/",
+        "type": "primary"
+      }
+    ],
+    "significance": "Created an architectural masterpiece that dominates Saint Paul's skyline and serves as the co-cathedral of the Archdiocese of Saint Paul and Minneapolis.",
+    "tags": ["architecture", "cathedral", "catholic", "beaux-arts"]
+  },
+  {
+    "title": "Hmong Immigration to Saint Paul Begins",
+    "description": "Following the end of the Vietnam War and Laotian Civil War, Hmong refugees who had supported American forces began arriving in Saint Paul. The city became home to one of the largest Hmong populations in the United States. By 2004, nearly 10% of Saint Paul's population was Hmong, representing one of the most significant immigration waves in the city's history.",
+    "date": "1976-01-01T00:00:00Z",
+    "endDate": "2024-01-01T00:00:00Z",
+    "category": "immigration",
+    "relatedLocations": [],
+    "images": [],
+    "sources": [
+      {
+        "title": "Saint Paul, Minnesota",
+        "url": "https://en.wikipedia.org/wiki/Saint_Paul,_Minnesota",
+        "type": "secondary"
+      }
+    ],
+    "significance": "Transformed Saint Paul's demographic and cultural landscape, making it home to one of the largest Hmong populations in the United States.",
+    "tags": ["immigration", "hmong", "refugees", "demographics"]
+  },
+  {
+    "title": "Republican National Convention Hosted",
+    "description": "Saint Paul hosted the 2008 Republican National Convention at the Xcel Energy Center, nominating John McCain for president. This major political event brought national attention to Saint Paul and showcased the city's capacity to host large-scale events.",
+    "date": "2008-09-01T00:00:00Z",
+    "endDate": "2008-09-04T00:00:00Z",
+    "category": "political",
+    "relatedLocations": [],
+    "images": [],
+    "sources": [
+      {
+        "title": "2008 Republican National Convention",
+        "url": "https://en.wikipedia.org/wiki/2008_Republican_National_Convention",
+        "type": "secondary"
+      }
+    ],
+    "significance": "Brought national political attention to Saint Paul and demonstrated the city's capability to host major events.",
+    "tags": ["politics", "convention", "republican", "national politics"]
+  }
+]

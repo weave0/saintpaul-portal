@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Minnesota State Capitol",
+    "description": "The Minnesota State Capitol is the seat of government for the U.S. state of Minnesota, located in its capital city of Saint Paul. Designed by architect Cass Gilbert and completed in 1905, it is one of the finest examples of Beaux-Arts architecture in America.",
+    "coordinates": {
+      "latitude": 44.9550,
+      "longitude": -93.1022
+    },
+    "category": "landmark",
+    "yearEstablished": 1905,
+    "address": {
+      "street": "75 Rev Dr Martin Luther King Jr Blvd",
+      "city": "Saint Paul",
+      "state": "Minnesota",
+      "zip": "55155"
+    },
+    "images": [],
+    "historicalEvents": [
+      {
+        "date": "1905-01-02",
+        "title": "Capitol Building Completed",
+        "description": "The Minnesota State Capitol building was officially completed after four years of construction."
+      }
+    ],
+    "metadata": {
+      "source": "Minnesota Historical Society",
+      "verified": true
+    }
+  },
+  {
+    "name": "Cathedral of Saint Paul",
+    "description": "The Cathedral of Saint Paul is a Roman Catholic cathedral and the co-cathedral of the Archdiocese of Saint Paul and Minneapolis. Designed by Emmanuel Louis Masqueray in the Beaux-Arts style, it was completed in 1915.",
+    "coordinates": {
+      "latitude": 44.9465,
+      "longitude": -93.1119
+    },
+    "category": "cultural",
+    "yearEstablished": 1915,
+    "address": {
+      "street": "239 Selby Ave",
+      "city": "Saint Paul",
+      "state": "Minnesota",
+      "zip": "55102"
+    },
+    "images": [],
+    "historicalEvents": [],
+    "metadata": {
+      "source": "Cathedral Archives",
+      "verified": true
+    }
+  },
+  {
+    "name": "Science Museum of Minnesota",
+    "description": "The Science Museum of Minnesota is a science museum in downtown Saint Paul. Founded in 1907, it is one of the premier science museums in the United States.",
+    "coordinates": {
+      "latitude": 44.9432,
+      "longitude": -93.0982
+    },
+    "category": "educational",
+    "yearEstablished": 1907,
+    "address": {
+      "street": "120 W Kellogg Blvd",
+      "city": "Saint Paul",
+      "state": "Minnesota",
+      "zip": "55102"
+    },
+    "images": [],
+    "historicalEvents": [],
+    "metadata": {
+      "source": "Science Museum Records",
+      "verified": true
+    }
+  },
+  {
+    "name": "Fort Snelling",
+    "description": "Fort Snelling is a former military fortification and National Historic Landmark located at the confluence of the Minnesota and Mississippi Rivers. Built between 1819 and 1825, it played a significant role in the westward expansion of the United States.",
+    "coordinates": {
+      "latitude": 44.8917,
+      "longitude": -93.1805
+    },
+    "category": "historical",
+    "yearEstablished": 1820,
+    "address": {
+      "street": "200 Tower Ave",
+      "city": "Saint Paul",
+      "state": "Minnesota",
+      "zip": "55111"
+    },
+    "images": [],
+    "historicalEvents": [],
+    "metadata": {
+      "source": "Minnesota Historical Society",
+      "verified": true
+    }
+  }
+]

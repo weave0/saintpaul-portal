@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Minnesota Territory Created",
+    "description": "The Minnesota Territory was formally organized on March 3, 1849. Saint Paul was designated as the territorial capital, setting the stage for the city's future importance.",
+    "date": "1849-03-03",
+    "category": "political",
+    "significance": "regional",
+    "tags": ["government", "territorial-era"],
+    "sources": [
+      {
+        "title": "Minnesota Historical Society Archives",
+        "author": "Various",
+        "year": 1849
+      }
+    ]
+  },
+  {
+    "title": "City of Saint Paul Incorporated",
+    "description": "Saint Paul was officially incorporated as a city on March 4, 1854. This marked the formal establishment of city government and municipal services.",
+    "date": "1854-03-04",
+    "category": "political",
+    "significance": "local",
+    "tags": ["incorporation", "city-government"],
+    "sources": []
+  },
+  {
+    "title": "First Railroad Reaches Saint Paul",
+    "description": "The arrival of the first railroad in 1862 transformed Saint Paul into a major transportation and commercial hub. This connection to the national rail network facilitated rapid growth and development.",
+    "date": "1862-07-02",
+    "category": "infrastructure",
+    "significance": "regional",
+    "tags": ["railroad", "transportation", "commerce"],
+    "sources": []
+  },
+  {
+    "title": "James J. Hill Builds Railroad Empire",
+    "description": "Railroad magnate James J. Hill established Saint Paul as the headquarters of his Great Northern Railway, contributing significantly to the city's economic development.",
+    "date": "1879-01-01",
+    "category": "economic",
+    "significance": "national",
+    "tags": ["railroad", "james-j-hill", "commerce"],
+    "sources": []
+  },
+  {
+    "title": "State Capitol Building Completed",
+    "description": "After four years of construction, the current Minnesota State Capitol designed by Cass Gilbert was completed. It remains one of the finest examples of Beaux-Arts architecture in the United States.",
+    "date": "1905-01-02",
+    "category": "infrastructure",
+    "significance": "regional",
+    "tags": ["architecture", "government", "cass-gilbert"],
+    "sources": []
+  },
+  {
+    "title": "F. Scott Fitzgerald Born in Saint Paul",
+    "description": "Author F. Scott Fitzgerald was born in Saint Paul and spent much of his early life here. He would go on to become one of America's greatest writers.",
+    "date": "1896-09-24",
+    "category": "cultural",
+    "significance": "national",
+    "tags": ["literature", "f-scott-fitzgerald"],
+    "sources": []
+  }
+]

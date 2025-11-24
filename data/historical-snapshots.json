@@ -1,0 +1,379 @@
+[
+  {
+    "year": 1841,
+    "period": "Founding Era",
+    "description": "Father Galtier's log chapel and the earliest settlement at Pig's Eye Landing. The settlement consisted of scattered cabins and a few rough structures near the riverboat landing.",
+    "population": 150,
+    "bounds": {
+      "center": { "latitude": 44.9418, "longitude": -93.0938 },
+      "radiusMeters": 500
+    },
+    "buildings": [
+      {
+        "name": "Saint Paul's Chapel (First Cathedral)",
+        "location": { "latitude": 44.9418, "longitude": -93.0938 },
+        "type": "religious",
+        "material": "log",
+        "stories": 1,
+        "footprintMeters": { "length": 9, "width": 6 },
+        "status": "constructed",
+        "yearBuilt": 1841,
+        "notes": "Simple log chapel built by Father Lucien Galtier, gave the city its name"
+      },
+      {
+        "name": "Pig's Eye Parrant's Tavern",
+        "location": { "latitude": 44.9420, "longitude": -93.0950 },
+        "type": "commercial",
+        "material": "log",
+        "stories": 1,
+        "footprintMeters": { "length": 8, "width": 6 },
+        "status": "constructed",
+        "yearBuilt": 1838,
+        "notes": "Whiskey trading post that gave the original settlement its name"
+      }
+    ],
+    "streets": [
+      {
+        "name": "Riverboat Landing Path",
+        "coordinates": [
+          { "latitude": 44.9415, "longitude": -93.0945 },
+          { "latitude": 44.9425, "longitude": -93.0935 }
+        ],
+        "type": "dirt path",
+        "widthMeters": 3
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Mississippi River Landing",
+        "location": { "latitude": 44.9415, "longitude": -93.0955 },
+        "type": "natural/infrastructure",
+        "description": "Main riverboat landing and commercial hub"
+      }
+    ],
+    "dataSources": [
+      {
+        "type": "historical record",
+        "reference": "Minnesota Historical Society - Early Saint Paul maps",
+        "confidence": "medium",
+        "notes": "Exact building locations estimated from historical accounts"
+      }
+    ]
+  },
+  {
+    "year": 1858,
+    "period": "Territorial Capital & Early Statehood",
+    "description": "Saint Paul as Minnesota's territorial capital (since 1849) and newly designated state capital. The city has grown substantially with formal streets, commercial buildings, and civic structures. Population boom from 900 (1849) to 10,000.",
+    "population": 10000,
+    "bounds": {
+      "center": { "latitude": 44.9440, "longitude": -93.0930 },
+      "radiusMeters": 1500
+    },
+    "buildings": [
+      {
+        "name": "First State Capitol Building",
+        "location": { "latitude": 44.9450, "longitude": -93.0925 },
+        "type": "government",
+        "material": "brick",
+        "stories": 2,
+        "footprintMeters": { "length": 30, "width": 20 },
+        "status": "constructed",
+        "yearBuilt": 1853,
+        "notes": "Temporary capitol building before the current capitol was built"
+      },
+      {
+        "name": "Market Street Commercial District",
+        "location": { "latitude": 44.9445, "longitude": -93.0940 },
+        "type": "commercial",
+        "material": "wood/brick",
+        "stories": 2,
+        "status": "district",
+        "notes": "Multiple storefronts and warehouses serving riverboat trade"
+      }
+    ],
+    "streets": [
+      {
+        "name": "Third Street",
+        "coordinates": [
+          { "latitude": 44.9440, "longitude": -93.1000 },
+          { "latitude": 44.9440, "longitude": -93.0900 }
+        ],
+        "type": "dirt/planked",
+        "widthMeters": 10
+      },
+      {
+        "name": "Wabasha Street",
+        "coordinates": [
+          { "latitude": 44.9500, "longitude": -93.0930 },
+          { "latitude": 44.9400, "longitude": -93.0930 }
+        ],
+        "type": "dirt/planked",
+        "widthMeters": 10
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Steamboat Landing District",
+        "location": { "latitude": 44.9420, "longitude": -93.0960 },
+        "type": "commercial",
+        "description": "Bustling riverboat commerce with warehouses and docks"
+      }
+    ],
+    "dataSources": [
+      {
+        "type": "historical maps",
+        "reference": "1858 Saint Paul city plat maps - Minnesota Historical Society",
+        "confidence": "high",
+        "notes": "Street grid well documented in territorial records"
+      }
+    ]
+  },
+  {
+    "year": 1905,
+    "period": "Gilded Age Peak",
+    "description": "Saint Paul at its architectural zenith. The new State Capitol completed, Summit Avenue filled with mansions, downtown commercial district fully developed. Railroad hub with James J. Hill's empire headquarters. Population exceeding 160,000.",
+    "population": 163000,
+    "bounds": {
+      "center": { "latitude": 44.9470, "longitude": -93.1000 },
+      "radiusMeters": 3000
+    },
+    "buildings": [
+      {
+        "name": "Minnesota State Capitol",
+        "location": { "latitude": 44.9548, "longitude": -93.1022 },
+        "type": "government",
+        "material": "Georgia marble, Saint Cloud granite",
+        "stories": 4,
+        "footprintMeters": { "length": 107, "width": 69 },
+        "heightMeters": 69,
+        "status": "constructed",
+        "yearBuilt": 1905,
+        "architect": "Cass Gilbert",
+        "architecturalStyle": "Beaux-Arts",
+        "notes": "World's second-largest self-supporting marble dome"
+      },
+      {
+        "name": "Landmark Center (Federal Courts Building)",
+        "location": { "latitude": 44.9450, "longitude": -93.0945 },
+        "type": "government",
+        "material": "stone",
+        "stories": 4,
+        "footprintMeters": { "length": 61, "width": 46 },
+        "status": "constructed",
+        "yearBuilt": 1902,
+        "architecturalStyle": "Richardson Romanesque",
+        "notes": "Federal courthouse and post office"
+      },
+      {
+        "name": "James J. Hill House",
+        "location": { "latitude": 44.9442, "longitude": -93.1176 },
+        "type": "residential",
+        "material": "red sandstone",
+        "stories": 3,
+        "footprintMeters": { "length": 55, "width": 37 },
+        "status": "constructed",
+        "yearBuilt": 1891,
+        "architect": "Peabody, Stearns and Furber",
+        "architecturalStyle": "Richardson Romanesque",
+        "notes": "36,000 sq ft mansion of railroad magnate"
+      },
+      {
+        "name": "Ryan Hotel",
+        "location": { "latitude": 44.9465, "longitude": -93.0928 },
+        "type": "commercial",
+        "material": "brick",
+        "stories": 8,
+        "status": "constructed",
+        "yearBuilt": 1885,
+        "notes": "Prominent downtown hotel"
+      }
+    ],
+    "streets": [
+      {
+        "name": "Summit Avenue",
+        "coordinates": [
+          { "latitude": 44.9464, "longitude": -93.1109 },
+          { "latitude": 44.9339, "longitude": -93.1836 }
+        ],
+        "type": "paved boulevard",
+        "widthMeters": 20,
+        "notes": "4.5 mile Victorian boulevard with 370+ mansions"
+      },
+      {
+        "name": "Wabasha Street Bridge",
+        "coordinates": [
+          { "latitude": 44.9430, "longitude": -93.0930 },
+          { "latitude": 44.9390, "longitude": -93.0930 }
+        ],
+        "type": "bridge",
+        "widthMeters": 15,
+        "notes": "Connects downtown to West Side"
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Rice Park",
+        "location": { "latitude": 44.9450, "longitude": -93.0950 },
+        "type": "park",
+        "description": "Central downtown park surrounded by civic buildings"
+      }
+    ],
+    "dataSources": [
+      {
+        "type": "architectural drawings",
+        "reference": "Cass Gilbert architectural archive, Minnesota Historical Society",
+        "confidence": "very high",
+        "notes": "Detailed construction drawings and surveys available"
+      },
+      {
+        "type": "Sanborn Fire Insurance Maps",
+        "reference": "1903-1905 Sanborn maps of Saint Paul",
+        "confidence": "very high",
+        "notes": "Building-by-building footprints with materials and heights"
+      }
+    ]
+  },
+  {
+    "year": 1950,
+    "period": "Post-War Mid-Century",
+    "description": "Post-WWII Saint Paul with established downtown commercial core. Many Victorian buildings still standing. Pre-interstate highway system. Population peak approaching 310,000.",
+    "population": 311000,
+    "bounds": {
+      "center": { "latitude": 44.9470, "longitude": -93.1000 },
+      "radiusMeters": 4000
+    },
+    "buildings": [
+      {
+        "name": "Minnesota State Capitol",
+        "location": { "latitude": 44.9548, "longitude": -93.1022 },
+        "type": "government",
+        "status": "standing",
+        "yearBuilt": 1905,
+        "condition": "excellent"
+      },
+      {
+        "name": "Cathedral of Saint Paul",
+        "location": { "latitude": 44.9464, "longitude": -93.1109 },
+        "type": "religious",
+        "material": "stone",
+        "stories": 3,
+        "status": "standing",
+        "yearBuilt": 1915,
+        "architect": "Emmanuel Louis Masqueray",
+        "notes": "306-foot copper dome, seats 3,000"
+      },
+      {
+        "name": "First National Bank Building",
+        "location": { "latitude": 44.9460, "longitude": -93.0935 },
+        "type": "commercial",
+        "material": "steel/stone",
+        "stories": 32,
+        "heightMeters": 132,
+        "status": "constructed",
+        "yearBuilt": 1931,
+        "notes": "Art Deco skyscraper, tallest building in Minnesota 1931-1973"
+      }
+    ],
+    "streets": [
+      {
+        "name": "Kellogg Boulevard",
+        "coordinates": [
+          { "latitude": 44.9430, "longitude": -93.1100 },
+          { "latitude": 44.9430, "longitude": -93.0850 }
+        ],
+        "type": "paved boulevard",
+        "widthMeters": 25,
+        "notes": "Main downtown thoroughfare"
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Union Depot",
+        "location": { "latitude": 44.9473, "longitude": -93.0857 },
+        "type": "transportation",
+        "description": "Major railroad passenger terminal"
+      }
+    ],
+    "dataSources": [
+      {
+        "type": "aerial photography",
+        "reference": "1950s aerial surveys - Minnesota Historical Aerial Photographs Online",
+        "confidence": "very high",
+        "notes": "Detailed aerial photography available"
+      }
+    ]
+  },
+  {
+    "year": 2000,
+    "period": "Modern Era",
+    "description": "Contemporary Saint Paul with preserved historic core, modern development, and restored riverfront. Many historic buildings preserved while new development occurs.",
+    "population": 287151,
+    "bounds": {
+      "center": { "latitude": 44.9470, "longitude": -93.1000 },
+      "radiusMeters": 5000
+    },
+    "buildings": [
+      {
+        "name": "Minnesota State Capitol",
+        "location": { "latitude": 44.9548, "longitude": -93.1022 },
+        "type": "government",
+        "status": "standing",
+        "yearBuilt": 1905,
+        "condition": "restored",
+        "notes": "Major restoration completed 2017"
+      },
+      {
+        "name": "Xcel Energy Center",
+        "location": { "latitude": 44.9447, "longitude": -93.1009 },
+        "type": "sports/entertainment",
+        "material": "steel/glass",
+        "status": "constructed",
+        "yearBuilt": 2000,
+        "capacity": 17954,
+        "notes": "Home of Minnesota Wild NHL team"
+      },
+      {
+        "name": "Science Museum of Minnesota",
+        "location": { "latitude": 44.9432, "longitude": -93.0982 },
+        "type": "cultural",
+        "material": "modern",
+        "status": "constructed",
+        "yearBuilt": 1999,
+        "notes": "Relocated to current riverfront location"
+      }
+    ],
+    "streets": [
+      {
+        "name": "Interstate 94",
+        "coordinates": [
+          { "latitude": 44.9520, "longitude": -93.1200 },
+          { "latitude": 44.9480, "longitude": -93.0800 }
+        ],
+        "type": "interstate highway",
+        "widthMeters": 40,
+        "lanes": 8
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Harriet Island Regional Park",
+        "location": { "latitude": 44.9365, "longitude": -93.0857 },
+        "type": "park",
+        "description": "Developed riverfront park and event venue"
+      }
+    ],
+    "dataSources": [
+      {
+        "type": "GIS data",
+        "reference": "Ramsey County GIS, City of Saint Paul Open Data",
+        "confidence": "very high",
+        "notes": "Precise building footprints and infrastructure data available"
+      },
+      {
+        "type": "satellite imagery",
+        "reference": "USGS, Google Earth historical imagery",
+        "confidence": "very high"
+      }
+    ]
+  }
+]
