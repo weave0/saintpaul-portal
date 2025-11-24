@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-11-24T02:58:40.877Z",
+  "sources": [
+    {
+      "name": "Music & Entertainment History",
+      "count": 17,
+      "file": "stpaul_music_entertainment_history.json",
+      "status": "success",
+      "details": {
+        "historic_venues": 3,
+        "current_venues": 6,
+        "musicians": 5,
+        "festivals": 3
+      }
+    }
+  ],
+  "totalRecords": 17
+}

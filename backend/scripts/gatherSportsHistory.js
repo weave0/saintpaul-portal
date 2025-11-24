@@ -1,0 +1,352 @@
+/**
+ * Sports History and Venues
+ * Teams, athletes, stadiums, championships
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const outputDir = path.join(__dirname, '../../data/collected');
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+function gatherSportsHistory() {
+  console.log('⚾ Sports History Mining Started...\n');
+
+  const sportsHistory = {
+    professional_teams_historic: [
+      {
+        team: 'St. Paul Saints (original)',
+        sport: 'Baseball',
+        league: 'American Association',
+        period: '1884-1960',
+        stadium: 'Lexington Park',
+        championships: ['Multiple American Association titles'],
+        notable_players: ['Roy Campanella', 'Duke Snider', 'Ted Williams (minor league stint)'],
+        significance: 'Minor league powerhouse, Hall of Fame talent',
+        demise: 'Team folded when Minneapolis got MLB team (1960)'
+      },
+      {
+        team: 'St. Paul Fighting Saints (WHA)',
+        sport: 'Ice Hockey',
+        league: 'World Hockey Association',
+        period: '1972-1977',
+        arena: 'St. Paul Civic Center',
+        significance: 'Professional hockey before NHL came to Minnesota',
+        demise: 'WHA financial troubles'
+      }
+    ],
+    
+    professional_teams_current: [
+      {
+        team: 'St. Paul Saints',
+        sport: 'Baseball',
+        league: 'International League (AAA) / Previously Independent',
+        founded: 1993,
+        stadium: 'CHS Field',
+        stadium_opened: 2015,
+        capacity: 7210,
+        affiliation: 'Minnesota Twins (2021-present)',
+        championships: ['American Association championships (independent league)'],
+        ownership: 'Mike Veeck, Bill Murray (co-owner)',
+        celebrity: 'Bill Murray',
+        attendance: 'Regularly sell out',
+        significance: 'Successful independent team turned AAA affiliate',
+        notable: 'Fun promotions, pig mascot, entertainment-focused'
+      },
+      {
+        team: 'Minnesota Wild',
+        sport: 'Ice Hockey',
+        league: 'NHL',
+        founded: 2000,
+        arena: 'Xcel Energy Center, St. Paul',
+        arena_opened: 2000,
+        capacity: 17954,
+        significance: 'NHL returned to Minnesota (North Stars left 1993)',
+        playoffs: 'Multiple appearances',
+        note: 'St. Paul is home arena for Twin Cities NHL team'
+      },
+      {
+        team: 'Minnesota Swarm (defunct) / Minnesota Swarm',
+        sport: 'Lacrosse',
+        league: 'National Lacrosse League',
+        period: '2005-2015',
+        arena: 'Xcel Energy Center',
+        championships: ['2015 NLL Championship'],
+        moved_to: 'Georgia (2015)'
+      }
+    ],
+    
+    stadiums_arenas: [
+      {
+        name: 'Xcel Energy Center',
+        opened: 2000,
+        location: 'Downtown St. Paul (235 W Kellogg Blvd)',
+        capacity: '17,954 (hockey), 20,000 (concerts)',
+        teams: ['Minnesota Wild (NHL)'],
+        events: ['Concerts', 'NCAA tournaments', 'High school hockey tournament'],
+        significance: 'Modern sports/entertainment venue, downtown revival catalyst',
+        nickname: 'The X',
+        architect: 'HOK Sport',
+        cost: '$130 million'
+      },
+      {
+        name: 'CHS Field',
+        opened: 2015,
+        location: 'Lowertown (360 Broadway St)',
+        capacity: 7210,
+        team: 'St. Paul Saints',
+        significance: 'Modern minor league ballpark, Lowertown development',
+        features: ['Pig\'s Eye Pilsner Porch', 'View of State Capitol', 'Modern amenities'],
+        leed: 'Silver certified'
+      },
+      {
+        name: 'St. Paul Civic Center (demolished)',
+        opened: 1973,
+        demolished: 1998,
+        location: 'Downtown',
+        teams: ['Minnesota Fighting Saints (WHA)', 'Minnesota North Stars (NHL, some games)'],
+        replaced_by: 'RiverCentre (convention center)',
+        significance: 'First enclosed arena in St. Paul'
+      },
+      {
+        name: 'Lexington Park (demolished)',
+        period: '1897-1957',
+        location: 'Lexington Parkway and University Avenue',
+        team: 'St. Paul Saints (baseball)',
+        capacity: '~9,000',
+        demolished: 1957,
+        replaced_by: 'Midway Stadium (baseball), then commercial development',
+        significance: 'Historic minor league ballpark',
+        notable_games: 'Negro League games, barnstorming tours'
+      },
+      {
+        name: 'Midway Stadium (demolished)',
+        period: '1957-2015',
+        location: 'Snelling and Energy Park',
+        team: 'St. Paul Saints (1993-2014)',
+        demolished: 2016,
+        significance: 'Home of revived Saints',
+        quirky: 'Had pig (mascot) that delivered balls to umpire'
+      }
+    ],
+    
+    high_school_sports: {
+      hockey: {
+        significance: 'Minnesota high school hockey is legendary',
+        tournament: 'State Hockey Tournament',
+        venue: 'Xcel Energy Center',
+        attendance: 'Packed crowds, state cultural event',
+        tradition: 'Dating to 1945',
+        st_paul_schools: [
+          'Cretin-Derham Hall',
+          'St. Paul Central',
+          'Como Park',
+          'Harding',
+          'Highland Park',
+          'Humboldt',
+          'Johnson'
+        ],
+        nhl_players: 'Numerous NHL players from St. Paul high schools'
+      },
+      football: {
+        venues: ['Various high school stadiums'],
+        notable_schools: ['Cretin-Derham Hall', 'St. Paul Central'],
+        tradition: 'Strong programs'
+      }
+    },
+    
+    college_sports: {
+      universities: [
+        {
+          school: 'University of St. Thomas',
+          location: 'St. Paul',
+          division: 'NCAA Division I (moved from III in 2021)',
+          sports: ['Football', 'Basketball', 'Hockey', 'Baseball', 'etc.'],
+          arena: 'Schoenecker Arena (hockey)',
+          stadium: 'O\'Shaughnessy Stadium (football)',
+          significance: 'Historic move to Division I'
+        },
+        {
+          school: 'Macalester College',
+          location: 'St. Paul',
+          division: 'NCAA Division III',
+          sports: ['Football', 'Basketball', 'Soccer', 'etc.'],
+          significance: 'Liberal arts college with competitive programs'
+        },
+        {
+          school: 'Hamline University',
+          location: 'St. Paul',
+          division: 'NCAA Division III',
+          sports: ['Football', 'Hockey', 'Basketball'],
+          significance: 'Oldest university in Minnesota (1854)'
+        },
+        {
+          school: 'Concordia University, St. Paul',
+          division: 'NCAA Division II',
+          sports: ['Football', 'Hockey', 'etc.']
+        },
+        {
+          school: 'Bethel University',
+          location: 'Arden Hills (St. Paul area)',
+          division: 'NCAA Division III',
+          sports: ['Football', 'Hockey', 'Basketball']
+        }
+      ]
+    },
+    
+    famous_athletes: [
+      {
+        name: 'Paul Molitor',
+        sport: 'Baseball',
+        born: 'St. Paul, 1956',
+        career: 'MLB (1978-1998)',
+        teams: ['Milwaukee Brewers', 'Toronto Blue Jays', 'Minnesota Twins'],
+        achievements: ['Hall of Fame (2004)', '3,319 hits', 'World Series champion (1993)'],
+        high_school: 'Cretin-Derham Hall'
+      },
+      {
+        name: 'Dave Winfield',
+        sport: 'Baseball',
+        born: 'St. Paul, 1951',
+        career: 'MLB (1973-1995)',
+        teams: ['San Diego Padres', 'New York Yankees', 'others'],
+        achievements: ['Hall of Fame (2001)', '12x All-Star', '3,110 hits'],
+        high_school: 'St. Paul Central',
+        unique: 'Drafted by NFL, NBA, MLB, and ABA'
+      },
+      {
+        name: 'Joe Mauer',
+        sport: 'Baseball',
+        born: 'St. Paul, 1983',
+        career: 'MLB (2004-2018)',
+        team: 'Minnesota Twins (entire career)',
+        achievements: ['Hall of Fame candidate', '3x AL batting champion', '2009 AL MVP', '6x All-Star'],
+        high_school: 'Cretin-Derham Hall',
+        significance: 'St. Paul native who became Twins legend'
+      },
+      {
+        name: 'Jack Morris',
+        sport: 'Baseball',
+        born: 'St. Paul, 1955',
+        career: 'MLB (1977-1994)',
+        achievements: ['Hall of Fame (2018)', '3x World Series champion', '1991 World Series MVP'],
+        significance: 'Pitched Game 7 of 1991 World Series for Twins'
+      },
+      {
+        name: 'Tim Pawlenty',
+        note: 'Governor, but also notable South St. Paul hockey player in youth'
+      },
+      {
+        name: 'Herb Brooks',
+        sport: 'Ice Hockey',
+        born: 'St. Paul, 1937',
+        career: 'Coach',
+        achievement: 'Coached 1980 "Miracle on Ice" Olympic team',
+        high_school: 'St. Paul Johnson',
+        significance: 'St. Paul native coached greatest upset in sports history',
+        legacy: 'Herb Brooks Foundation'
+      }
+    ],
+    
+    sporting_events: [
+      {
+        event: '1991 World Series',
+        significance: 'Minnesota Twins won, Twin Cities celebration',
+        venue: 'Metrodome (Minneapolis), but regional celebration',
+        hero: 'Jack Morris (St. Paul native) Game 7 performance'
+      },
+      {
+        event: '2004 NHL All-Star Game',
+        venue: 'Xcel Energy Center',
+        significance: 'Showcased new St. Paul arena'
+      },
+      {
+        event: 'NCAA Frozen Four',
+        venue: 'Xcel Energy Center',
+        frequency: 'Multiple times',
+        significance: 'Hockey capital hosts college championship'
+      },
+      {
+        event: 'Minnesota State High School Hockey Tournament',
+        venue: 'Xcel Energy Center',
+        significance: 'Annual state cultural phenomenon',
+        attendance: 'Sellout crowds',
+        tradition: 'Since 1945'
+      }
+    ],
+    
+    boxing_wrestling: {
+      boxing: {
+        venue: 'St. Paul Auditorium (historic)',
+        period: '1900s-1960s',
+        significance: 'Major boxing venue',
+        fighters: 'Various local and touring fighters'
+      },
+      wrestling: {
+        promotion: 'AWA (American Wrestling Association)',
+        period: '1960s-1990s',
+        connection: 'Minneapolis-St. Paul based',
+        significance: 'Major professional wrestling territory'
+      }
+    },
+    
+    recreational_sports: [
+      {
+        activity: 'Pond Hockey',
+        significance: 'Minnesota winter tradition',
+        venues: ['Como Lake', 'Phalen Lake', 'Various city ponds'],
+        culture: 'Outdoor hockey on frozen ponds/lakes'
+      },
+      {
+        activity: 'Curling',
+        venues: ['St. Paul Curling Club'],
+        significance: 'Strong curling tradition'
+      },
+      {
+        activity: 'Broomball',
+        significance: 'Minnesota winter sport',
+        venues: ['City rinks']
+      }
+    ]
+  };
+
+  const filename = 'stpaul_sports_history.json';
+  fs.writeFileSync(path.join(outputDir, filename), JSON.stringify(sportsHistory, null, 2));
+  
+  const teamCount = sportsHistory.professional_teams_historic.length + sportsHistory.professional_teams_current.length;
+  const venueCount = sportsHistory.stadiums_arenas.length;
+  const athleteCount = sportsHistory.famous_athletes.length;
+  const totalCount = teamCount + venueCount + athleteCount + sportsHistory.college_sports.universities.length;
+  
+  console.log(`   ✅ ${teamCount} professional teams documented`);
+  console.log(`   ✅ ${venueCount} stadiums/arenas cataloged`);
+  console.log(`   ✅ ${athleteCount} famous athletes profiled`);
+  console.log(`   ✅ ${sportsHistory.college_sports.universities.length} colleges/universities`);
+  console.log(`   ✅ High school sports traditions documented`);
+
+  const results = {
+    timestamp: new Date().toISOString(),
+    sources: [{
+      name: 'Sports History',
+      count: totalCount,
+      file: filename,
+      status: 'success'
+    }],
+    totalRecords: totalCount
+  };
+
+  fs.writeFileSync(
+    path.join(outputDir, '_sports_summary.json'),
+    JSON.stringify(results, null, 2)
+  );
+
+  console.log('\n' + '='.repeat(60));
+  console.log(`🎯 Sports History Mining Complete: ${totalCount} total records`);
+  console.log('='.repeat(60));
+  
+  return results;
+}
+
+gatherSportsHistory();

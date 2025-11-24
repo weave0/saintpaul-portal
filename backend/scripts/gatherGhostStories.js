@@ -1,0 +1,395 @@
+/**
+ * Ghost Stories, Haunted Locations, and Paranormal History
+ * Urban legends, folklore, haunted buildings
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const outputDir = path.join(__dirname, '../../data/collected');
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+function gatherGhostStories() {
+  console.log('👻 Ghost Stories & Haunted Locations Mining Started...\n');
+
+  const hauntedStPaul = {
+    introduction: {
+      description: 'St. Paul has a rich paranormal history, with numerous haunted locations dating back to the city\'s founding',
+      period: '1841-present',
+      significance: 'Victorian-era architecture, tragic history, and preservation efforts have maintained many allegedly haunted sites'
+    },
+    
+    haunted_locations: [
+      {
+        name: 'Wabasha Street Caves',
+        address: '215 Wabasha Street S',
+        built: 1840,
+        original_use: 'Mushroom farm (mine)',
+        haunted_era: '1930s-present',
+        ghosts: [
+          {
+            name: 'Unknown gangster',
+            description: 'Believed to be a gangster killed during Prohibition',
+            manifestations: ['Cold spots', 'Unexplained shadows', 'Sounds of music and laughter'],
+            era: '1930s'
+          }
+        ],
+        history: 'Used as speakeasy and nightclub "Castle Royal" during Prohibition, frequented by gangsters like John Dillinger',
+        paranormal_activity: [
+          'Apparitions in 1930s clothing',
+          'Sounds of big band music',
+          'Cold spots in specific areas',
+          'Objects moving on their own'
+        ],
+        tours_available: true,
+        open_to_public: true
+      },
+      
+      {
+        name: 'Landmark Center (Old Federal Courts Building)',
+        address: '75 West 5th Street',
+        built: 1902,
+        architectural_style: 'Richardsonian Romanesque',
+        haunted_era: '1902-present',
+        ghosts: [
+          {
+            name: 'Unknown prisoner',
+            description: 'Believed to be a prisoner who died in the building\'s cells',
+            manifestations: ['Footsteps in hallways', 'Cell doors closing', 'Moaning sounds'],
+            location: 'Former jail cells in basement'
+          },
+          {
+            name: 'Unknown judge or court official',
+            manifestations: ['Footsteps in courtrooms', 'Papers rustling when rooms are empty'],
+            location: 'Historic courtrooms'
+          }
+        ],
+        history: 'Housed federal courts where gangsters were tried, had jail cells in basement',
+        paranormal_activity: [
+          'Footsteps in empty hallways',
+          'Cell doors opening and closing',
+          'Unexplained cold spots',
+          'Shadows in courtrooms',
+          'Disembodied voices'
+        ],
+        nrhp_listed: 1972,
+        notable_trials: ['Gangster trials 1930s'],
+        open_to_public: true
+      },
+      
+      {
+        name: 'Forepaugh\'s Restaurant (Joseph Lybrandt Forepaugh House)',
+        address: '276 South Exchange Street',
+        built: 1870,
+        architectural_style: 'French Second Empire Victorian',
+        haunted_era: '1892-present',
+        ghosts: [
+          {
+            name: 'Molly (housemaid)',
+            death_year: 1892,
+            death_cause: 'Suicide (allegedly pregnant with Forepaugh\'s child)',
+            manifestations: [
+              'Appears on third floor',
+              'Moves objects',
+              'Turns lights on/off',
+              'Footsteps on stairs',
+              'Perfume scent'
+            ],
+            description: 'Young Irish housemaid who allegedly had affair with Joseph Forepaugh'
+          },
+          {
+            name: 'Joseph Lybrandt Forepaugh',
+            death_year: 1892,
+            death_cause: 'Suicide (shot himself)',
+            manifestations: [
+              'Appears in dining rooms',
+              'Cigar smoke smell',
+              'Shadowy figure',
+              'Objects moving'
+            ],
+            description: 'Wealthy businessman who committed suicide months after Molly\'s death'
+          }
+        ],
+        history: 'Forepaugh was prominent businessman, mansion fell into disrepair before restoration as restaurant (1976)',
+        paranormal_activity: [
+          'Staff and diners report ghost sightings',
+          'Objects moving on their own',
+          'Unexplained sounds',
+          'Temperature fluctuations',
+          'Perfume and cigar smoke smells'
+        ],
+        current_use: 'Fine dining restaurant',
+        paranormal_investigations: 'Multiple TV shows and investigations',
+        famous_ghost_story: true
+      },
+      
+      {
+        name: 'Fitzgerald Theater (Old Shubert Theater)',
+        address: '10 East Exchange Street',
+        built: 1910,
+        renamed: 1994,
+        haunted_era: '1910-present',
+        ghosts: [
+          {
+            name: 'Ben (stagehand)',
+            death_year: 'Unknown (1930s estimated)',
+            death_cause: 'Fell from catwalk',
+            manifestations: [
+              'Footsteps on catwalk',
+              'Tools moving',
+              'Lights flickering',
+              'Protective presence'
+            ],
+            description: 'Believed to be friendly ghost who protects performers and staff'
+          }
+        ],
+        history: 'Historic vaudeville theater, later home of "A Prairie Home Companion"',
+        paranormal_activity: [
+          'Unexplained footsteps backstage',
+          'Stage lights acting strange',
+          'Tools and equipment moving',
+          'Feelings of being watched',
+          'Cold spots'
+        ],
+        current_use: 'Live performance venue',
+        nrhp_listed: true
+      },
+      
+      {
+        name: 'Saint Paul Hotel',
+        address: '350 Market Street',
+        built: 1910,
+        haunted_era: '1910-present',
+        ghosts: [
+          {
+            name: 'Charles Wade',
+            death_year: 1933,
+            death_cause: 'Murdered',
+            room: 'Various locations',
+            manifestations: [
+              'Phantom footsteps',
+              'Doors opening/closing',
+              'Elevator operating on its own',
+              'Cold spots'
+            ],
+            description: 'Businessman murdered in hotel during gangster era'
+          }
+        ],
+        history: 'Luxury hotel frequented by gangsters, politicians, and wealthy travelers',
+        paranormal_activity: [
+          'Elevator going to floors without being called',
+          'Doors opening and closing',
+          'Footsteps in hallways',
+          'Unexplained voices',
+          'Cold spots in specific rooms'
+        ],
+        current_use: 'Luxury hotel',
+        celebrity_ghosts: 'Various gangster-era spirits reported'
+      },
+      
+      {
+        name: 'James J. Hill House',
+        address: '240 Summit Avenue',
+        built: 1891,
+        architectural_style: 'Richardsonian Romanesque',
+        haunted_era: '1916-present',
+        ghosts: [
+          {
+            name: 'Mary Hill (James J. Hill\'s wife)',
+            death_year: 1921,
+            manifestations: [
+              'Footsteps in hallways',
+              'Lights turning on/off',
+              'Piano music',
+              'Scent of perfume'
+            ],
+            description: 'Mary Hill died in the house, some say she never left'
+          },
+          {
+            name: 'Servants',
+            manifestations: [
+              'Sounds from servants\' quarters',
+              'Footsteps on back stairs',
+              'Kitchen sounds'
+            ]
+          }
+        ],
+        history: '36,000 sq ft mansion of railroad baron James J. Hill',
+        paranormal_activity: [
+          'Footsteps when house is empty',
+          'Doors opening on their own',
+          'Piano playing (no one at piano)',
+          'Shadows on stairs',
+          'Cold spots'
+        ],
+        current_use: 'Minnesota Historical Society museum',
+        open_to_public: true,
+        tours_available: true
+      },
+      
+      {
+        name: 'Griggs Mansion (now demolished)',
+        address: '476 Summit Avenue',
+        built: 1883,
+        demolished: 1939,
+        legend: 'Cursed mansion',
+        history: 'Series of tragedies befell the Griggs family',
+        curse_description: 'Family experienced multiple deaths, financial ruin, and misfortune',
+        events: [
+          'Chauncey Griggs\' death (1910)',
+          'Son\'s death',
+          'Financial collapse',
+          'Mansion abandoned and demolished'
+        ],
+        legacy: 'Local legend of cursed Summit Avenue mansion'
+      },
+      
+      {
+        name: 'Mounds Park',
+        location: 'Earl Street and Mounds Boulevard',
+        built: 'Pre-Columbian (burial mounds)',
+        age: '2000 years old',
+        haunted_era: 'Ancient-present',
+        significance: 'Sacred Native American burial site',
+        ghosts: [
+          {
+            name: 'Native American spirits',
+            description: 'Spirits of those buried in the mounds',
+            manifestations: [
+              'Apparitions in traditional dress',
+              'Drumming sounds',
+              'Chanting',
+              'Feelings of being watched',
+              'Unexplained lights'
+            ]
+          }
+        ],
+        history: 'Contains 6 remaining prehistoric burial mounds (16-18 originally)',
+        paranormal_activity: [
+          'Apparitions of Native Americans',
+          'Unexplained sounds (drums, chanting)',
+          'Orbs in photographs',
+          'Strong spiritual energy reported',
+          'Disembodied voices'
+        ],
+        cultural_significance: 'Sacred site, treat with respect'
+      }
+    ],
+    
+    urban_legends: [
+      {
+        name: 'The Swede Hollow Ghost',
+        location: 'Swede Hollow (East 7th Street)',
+        period: '1880s-1950s',
+        description: 'Immigrant shantytown razed in 1956',
+        legend: 'Ghosts of former Swedish, Italian, and Mexican immigrants seen in the hollow',
+        manifestations: ['Voices in unfamiliar languages', 'Shadowy figures', 'Sounds of old neighborhood'],
+        history: 'Poor immigrant neighborhood demolished, residents forcibly relocated'
+      },
+      {
+        name: 'The Woman in White (Oakland Cemetery)',
+        location: 'Oakland Cemetery, 927 Jackson Street',
+        founded: 1853,
+        legend: 'Woman in Victorian white dress searching for lost child',
+        sightings: 'Multiple reports over decades',
+        description: 'Apparition of woman in white wandering among graves at night'
+      },
+      {
+        name: 'The Mississippi River Ghosts',
+        location: 'Mississippi River bluffs and caves',
+        legends: [
+          'Steamboat disaster victims',
+          'Murder victims from gangster era',
+          'Homeless people who died in caves',
+          'Native Americans from ancient times'
+        ],
+        manifestations: ['Voices near river', 'Shadowy figures', 'Unexplained lights']
+      }
+    ],
+    
+    ghost_tours: [
+      {
+        name: 'Wabasha Street Caves Ghost Tours',
+        type: 'Commercial tour',
+        frequency: 'Seasonal',
+        website: 'wabashastreetcaves.com'
+      },
+      {
+        name: 'St. Paul Gangster Tours',
+        type: 'Historical/paranormal tour',
+        focus: 'Prohibition-era crime and ghosts',
+        includes: 'Haunted gangster hideouts'
+      }
+    ],
+    
+    paranormal_investigations: {
+      tv_shows: [
+        'Ghost Adventures',
+        'Ghost Hunters',
+        'Most Haunted',
+        'Paranormal State'
+      ],
+      locations_investigated: [
+        'Wabasha Street Caves',
+        'Forepaugh\'s Restaurant',
+        'Landmark Center',
+        'Fitzgerald Theater'
+      ]
+    },
+    
+    halloween_events: [
+      {
+        name: 'Wabasha Street Caves Halloween Tours',
+        description: 'Special haunted cave tours in October',
+        popular: true
+      },
+      {
+        name: 'Historic Ghost Walk',
+        description: 'Walking tour of downtown haunted locations',
+        seasonal: true
+      }
+    ]
+  };
+
+  const filename = 'stpaul_ghost_stories_haunted.json';
+  fs.writeFileSync(path.join(outputDir, filename), JSON.stringify(hauntedStPaul, null, 2));
+  
+  const locationCount = hauntedStPaul.haunted_locations.length;
+  const legendCount = hauntedStPaul.urban_legends.length;
+  const totalCount = locationCount + legendCount;
+  
+  console.log(`   ✅ ${locationCount} haunted locations documented`);
+  console.log(`   ✅ ${legendCount} urban legends cataloged`);
+  console.log(`   ✅ Ghost tours and paranormal investigations listed`);
+
+  const results = {
+    timestamp: new Date().toISOString(),
+    sources: [{
+      name: 'Ghost Stories & Haunted Locations',
+      count: totalCount,
+      file: filename,
+      status: 'success',
+      details: {
+        haunted_locations: locationCount,
+        urban_legends: legendCount,
+        ghost_tours: hauntedStPaul.ghost_tours.length
+      }
+    }],
+    totalRecords: totalCount
+  };
+
+  fs.writeFileSync(
+    path.join(outputDir, '_ghosts_summary.json'),
+    JSON.stringify(results, null, 2)
+  );
+
+  console.log('\n' + '='.repeat(60));
+  console.log(`🎯 Ghost Stories Mining Complete: ${totalCount} total records`);
+  console.log('='.repeat(60));
+  
+  return results;
+}
+
+gatherGhostStories();

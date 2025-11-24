@@ -1,0 +1,113 @@
+{
+  "prohibition_era": {
+    "period": "1920-1933",
+    "significance": "St. Paul Agreement - safe haven for gangsters",
+    "description": "Under corrupt police chief John \"The Big Fellow\" O'Connor, St. Paul became a safe haven for criminals who agreed not to commit crimes within city limits",
+    "notable_criminals": [
+      {
+        "name": "John Dillinger",
+        "active": "1933-1934",
+        "locations": [
+          "Lincoln Court Apartments",
+          "Green Lantern Saloon"
+        ],
+        "events": [
+          "Dillinger gang shootout at Lincoln Court (March 31, 1934)"
+        ],
+        "arrested": true,
+        "date": "March 31, 1934",
+        "location": "93 South Lexington Parkway"
+      },
+      {
+        "name": "Ma Barker and the Barker-Karpis Gang",
+        "active": "1931-1935",
+        "locations": [
+          "Commodore Hotel",
+          "Various apartments"
+        ],
+        "crimes": [
+          "William Hamm Jr. kidnapping (1933)",
+          "Edward Bremer kidnapping (1934)"
+        ],
+        "ransom": 200000,
+        "description": "Used St. Paul as planning headquarters for kidnappings and bank robberies"
+      },
+      {
+        "name": "Baby Face Nelson",
+        "active": "1933-1934",
+        "locations": [
+          "Various St. Paul safe houses"
+        ],
+        "description": "Frequently used St. Paul as hideout between robberies"
+      },
+      {
+        "name": "Alvin \"Creepy\" Karpis",
+        "active": "1931-1936",
+        "locations": [
+          "Grand Avenue area"
+        ],
+        "description": "Key member of Barker-Karpis gang, operated from St. Paul",
+        "captured": 1936,
+        "fbi_most_wanted": true
+      },
+      {
+        "name": "Leon Gleckman",
+        "role": "Mob boss",
+        "active": "1920s-1930s",
+        "description": "St. Paul's most powerful bootlegger and gangster coordinator",
+        "operations": [
+          "Bootlegging",
+          "Gambling",
+          "Prostitution"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "name": "Hollyhocks Club",
+        "address": "White Bear Lake",
+        "description": "Illegal casino and nightclub frequented by gangsters",
+        "operated": "1925-1933"
+      },
+      {
+        "name": "Green Lantern Saloon",
+        "address": "Wabasha Street",
+        "description": "Gangster meeting place, owned by Harry Sawyer",
+        "significance": "Planning headquarters for kidnappings"
+      },
+      {
+        "name": "Lincoln Court Apartments",
+        "address": "93 South Lexington Parkway",
+        "significance": "Site of John Dillinger shootout",
+        "date": "March 31, 1934",
+        "historical_marker": true
+      }
+    ],
+    "end_of_era": {
+      "event": "William Hamm Jr. kidnapping",
+      "date": "June 15, 1933",
+      "significance": "FBI involvement ended \"St. Paul System\"",
+      "result": "Federal crackdown on organized crime in St. Paul"
+    }
+  },
+  "notable_cases": [
+    {
+      "case": "James-Younger Gang",
+      "year": 1876,
+      "event": "Northfield Raid aftermath",
+      "description": "Gang members fled through Minnesota after failed Northfield bank robbery",
+      "connection": "Some members had St. Paul connections"
+    },
+    {
+      "case": "St. Paul Police Corruption Scandal",
+      "year": 1935,
+      "description": "Massive corruption revealed in police department",
+      "result": "Department reorganization, end of \"O'Connor System\""
+    }
+  ],
+  "crime_statistics_historical": {
+    "homicide_rate_1930s": "Among highest in nation during gangster era",
+    "kidnapping_capital": "Called \"Kidnapping Capital of America\" 1931-1936",
+    "bootlegging": "Major distribution hub for illegal alcohol"
+  }
+}

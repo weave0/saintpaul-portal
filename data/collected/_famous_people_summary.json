@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-11-24T03:01:39.449Z",
+  "sources": [
+    {
+      "name": "Famous People & Notable Residents",
+      "count": 24,
+      "file": "stpaul_famous_people.json",
+      "status": "success"
+    }
+  ],
+  "totalRecords": 24
+}

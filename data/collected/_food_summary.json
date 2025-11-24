@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-11-24T03:01:39.354Z",
+  "sources": [
+    {
+      "name": "Food & Restaurant History",
+      "count": 22,
+      "file": "stpaul_food_restaurant_history.json",
+      "status": "success"
+    }
+  ],
+  "totalRecords": 22
+}

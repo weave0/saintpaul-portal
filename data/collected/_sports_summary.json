@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-11-24T03:01:39.402Z",
+  "sources": [
+    {
+      "name": "Sports History",
+      "count": 21,
+      "file": "stpaul_sports_history.json",
+      "status": "success"
+    }
+  ],
+  "totalRecords": 21
+}

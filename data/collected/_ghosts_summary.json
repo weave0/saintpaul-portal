@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-11-24T02:58:40.831Z",
+  "sources": [
+    {
+      "name": "Ghost Stories & Haunted Locations",
+      "count": 11,
+      "file": "stpaul_ghost_stories_haunted.json",
+      "status": "success",
+      "details": {
+        "haunted_locations": 8,
+        "urban_legends": 3,
+        "ghost_tours": 2
+      }
+    }
+  ],
+  "totalRecords": 11
+}

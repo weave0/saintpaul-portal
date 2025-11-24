@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-24T02:58:40.039Z",
+  "sources": [
+    {
+      "name": "St. Paul Police Incidents",
+      "count": 1971,
+      "file": "stpaul_police_incidents.json",
+      "status": "success"
+    },
+    {
+      "name": "Crime Grid Statistics",
+      "count": 1971,
+      "file": "stpaul_crime_grid.json",
+      "status": "success"
+    },
+    {
+      "name": "Historical Crime Data",
+      "count": 1,
+      "file": "stpaul_historical_crime.json",
+      "status": "success",
+      "note": "Prohibition-era gangster history, notable criminals, locations"
+    }
+  ],
+  "totalRecords": 3943
+}
