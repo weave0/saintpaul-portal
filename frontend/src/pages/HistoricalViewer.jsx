@@ -304,19 +304,16 @@ const HistoricalViewer = () => {
             />
           )}
           {firstPerson && (
-            <>
-              <PointerLockControls />
-              <FirstPersonController 
-                enabled={true} 
-                buildings={[
-                  ...(currentSnapshot?.buildings || []),
-                  ...buildingSpecs.map(spec => ({
-                    location: { coordinates: [spec.centroid.lon, spec.centroid.lat] },
-                    dimensions: { length: spec.dimensions.length_m || 10, width: spec.dimensions.width_m || 10 }
-                  }))
-                ]}
-              />
-            </>
+            <FirstPersonController 
+              enabled={true} 
+              buildings={[
+                ...(currentSnapshot?.buildings || []),
+                ...buildingSpecs.map(spec => ({
+                  location: { coordinates: [spec.centroid.lon, spec.centroid.lat] },
+                  dimensions: { length: spec.dimensions.length_m || 10, width: spec.dimensions.width_m || 10 }
+                }))
+              ]}
+            />
           )}
         </Suspense>
       </Canvas>
