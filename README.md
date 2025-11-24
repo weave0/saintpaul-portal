@@ -8,7 +8,9 @@ A comprehensive, visually engaging, and user-friendly web experience for explori
 - **Historical Timeline**: Journey through pivotal events that shaped Saint Paul's history
 - **Digital Library**: Access photographs, documents, and archives from Saint Paul's past
 - **Beautiful UI/UX**: Modern, responsive design built with React and Material UI
-- **RESTful API**: Comprehensive backend for managing locations, events, and media
+- **RESTful API**: Comprehensive backend with rate limiting, caching, and robust validation
+- **Advanced Filtering**: Pagination, sorting, field projection, and spatial queries
+- **Data Quality**: Schema validation, completeness tracking, and source attribution
 
 ## 📁 Project Structure
 
@@ -207,29 +209,42 @@ To import this data into MongoDB, you can use `mongoimport` or create a custom i
 
 ### Backend
 
-Jest is used for backend tests. Two layers exist:
+- **Express.js** - Web framework
+- **MongoDB/Mongoose** - Database and ODM
+- **Express Rate Limit** - API protection (3-tier strategy)
+- **Helmet** - Security headers
+- **CORS** - Cross-origin resource sharing
+- **Morgan** - HTTP request logging
+- **Jest** - Testing framework
+- **mongodb-memory-server** - In-memory MongoDB for integration tests
+- **Supertest** - HTTP assertions
+- **ESLint** - Code quality and consistency
+
+**Testing Strategy**: Two-layer approach
 
 | Layer | Purpose | DB | Files |
 |-------|---------|----|-------|
-| Unit/Mock | Fast verification of route logic & diff generation | Mocked Mongoose methods | `autoGenerate.test.js`, `diff.test.js`, `pagination.test.js` |
-| Integration | Real query semantics, indexes, filters | `mongodb-memory-server` in‑memory | `tests/integration/buildingSpecs.integration.test.js` |
+| Unit/Mock | Fast verification of route logic & diff generation | Mocked Mongoose methods | `autoGenerate.test.js`, `pagination.test.js` |
+| Integration | Real query semantics, indexes, filters, validation | `mongodb-memory-server` in‑memory | `tests/integration/*.integration.test.js` |
 
-Key coverage:
+**Key Test Coverage**:
 
-1. `autoGenerate.test.js` – snapshot auto-generation flow returns an ID and spec count.
-2. `diff.test.js` – added / removed / changed detection including field-level changes for `architecturalStyle`, `height.roofHeight_m`, `height.stories`, `status`.
-3. `pagination.test.js` – pagination metadata, filter combinations (yearMin/yearMax, style, materialType, roofType, stories), sorting, field projection, spatial queries.
-4. `buildingSpecs.integration.test.js` – real data filters (style, year ranges, material+roof, combined queries) against in-memory Mongo.
-5. Validation cases for required query parameters.
+1. `diff.integration.test.js` – Diff endpoint with real DB, cache behavior, error cases
+2. `buildingSpecs.integration.test.js` – Pagination, filters, spatial queries
+3. `autoGenerate.test.js` – Snapshot auto-generation validation
+4. `pagination.test.js` – Metadata, sorting, field projection
+5. `health.test.js` – API health check
 
-Run tests:
+**Run tests**:
 
 ```bash
 cd backend
-npm test
+npm test              # All tests
+npm run test:coverage # With coverage report
+npm run lint          # Check code quality
 ```
 
-Tech stack (backend): **Express**, **MongoDB/Mongoose**, **Helmet**, **CORS**, **Morgan**, **Jest**, **mongodb-memory-server**, **Supertest**.
+**CI/CD**: GitHub Actions runs lint + tests on all PRs and pushes to main.
 
 ## 📊 API Endpoints
 
