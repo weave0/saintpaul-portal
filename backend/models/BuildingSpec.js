@@ -7,17 +7,20 @@ const mongoose = require('mongoose');
  * Data is designed to be source-attributed, versioned, and confidence-scored.
  */
 const BuildingSpecSchema = new mongoose.Schema({
-  name: { type: String, required: true, trim: true },
+  name: { type: String, required: true, trim: true, maxlength: 300 },
   locationRef: { type: mongoose.Schema.Types.ObjectId, ref: 'Location' },
   // WGS84 centroid of footprint
   centroid: {
-    lat: { type: Number, required: true },
-    lon: { type: Number, required: true }
+    lat: { type: Number, required: true, min: -90, max: 90 },
+    lon: { type: Number, required: true, min: -180, max: 180 }
   },
   // Raw footprint polygon (array of [lon, lat]) retained for legacy/simple operations
   footprint: {
     type: [[Number]],
-    validate: v => Array.isArray(v) && v.length >= 4
+    validate: {
+      validator: v => Array.isArray(v) && v.length >= 4,
+      message: 'Footprint must have at least 4 coordinate pairs (closed polygon)'
+    }
   },
   // GeoJSON footprint (Polygon) for spatial queries (coordinates: [ [ [lon,lat], ... ] ])
   footprintGeo: {
@@ -32,57 +35,57 @@ const BuildingSpecSchema = new mongoose.Schema({
   },
   // Primary physical characteristics
   dimensions: {
-    length_m: Number, // principal axis
-    width_m: Number,  // secondary axis
-    area_m2: Number,
-    footprintAccuracy_m: Number // estimated positional accuracy radius
+    length_m: { type: Number, min: 0.1, max: 500 }, // principal axis
+    width_m: { type: Number, min: 0.1, max: 500 },  // secondary axis
+    area_m2: { type: Number, min: 0, max: 250000 },
+    footprintAccuracy_m: { type: Number, min: 0, max: 100 } // estimated positional accuracy radius
   },
   height: {
-    roofHeight_m: Number, // highest architectural point
-    eaveHeight_m: Number, // typical wall/eave height
-    stories: Number,
-    storyHeight_m: { type: Number, default: 3.5 }
+    roofHeight_m: { type: Number, min: 0, max: 200 }, // highest architectural point
+    eaveHeight_m: { type: Number, min: 0, max: 150 }, // typical wall/eave height
+    stories: { type: Number, min: 0, max: 50, validate: { validator: Number.isInteger, message: 'Stories must be an integer' } },
+    storyHeight_m: { type: Number, default: 3.5, min: 2.0, max: 8.0 }
   },
   materials: [{
-    material: String, // e.g. limestone, brick, sandstone, steel, glass
-    percentage: Number // optional proportion 0-100
+    material: { type: String, trim: true, maxlength: 100 }, // e.g. limestone, brick, sandstone, steel, glass
+    percentage: { type: Number, min: 0, max: 100 } // optional proportion 0-100
   }],
   roof: {
-    type: String, // flat, gable, hip, mansard, dome, spire
-    material: String,
-    geometryNotes: String
+    type: { type: String, enum: ['flat', 'gable', 'hip', 'mansard', 'dome', 'spire', 'shed', 'gambrel', 'other', ''] },
+    material: { type: String, trim: true, maxlength: 100 },
+    geometryNotes: { type: String, maxlength: 500 }
   },
-  architecturalStyle: String, // e.g. Beaux-Arts, Gothic Revival
-  architect: String,
-  engineer: String,
-  builder: String,
-  yearDesigned: Number,
-  yearConstructed: Number,
-  yearCompleted: Number,
+  architecturalStyle: { type: String, trim: true, maxlength: 150 }, // e.g. Beaux-Arts, Gothic Revival
+  architect: { type: String, trim: true, maxlength: 200 },
+  engineer: { type: String, trim: true, maxlength: 200 },
+  builder: { type: String, trim: true, maxlength: 200 },
+  yearDesigned: { type: Number, min: 1600, max: 2100 },
+  yearConstructed: { type: Number, min: 1600, max: 2100 },
+  yearCompleted: { type: Number, min: 1600, max: 2100 },
   alterations: [{
-    year: Number,
-    description: String,
-    type: { type: String, enum: ['addition', 'renovation', 'restoration', 'partial-demolition', 'other'] }
+    year: { type: Number, min: 1600, max: 2100 },
+    description: { type: String, maxlength: 1000 },
+    type: { type: String, enum: ['addition', 'renovation', 'restoration', 'partial-demolition', 'other', ''] }
   }],
-  status: { type: String, enum: ['existing', 'demolished', 'under_construction', 'planned'], default: 'existing' },
+  status: { type: String, enum: ['existing', 'demolished', 'under_construction', 'planned'], default: 'existing', required: true },
   // Source attribution & provenance
   sources: [{
-    name: String, // e.g. 'Sanborn Fire Insurance Map'
-    year: Number,
-    url: String,
-    type: { type: String, enum: ['map', 'photograph', 'drawing', 'survey', 'permit', 'narrative', 'other'] },
-    rawReference: String, // sheet number, plate id, etc.
+    name: { type: String, trim: true, maxlength: 200 }, // e.g. 'Sanborn Fire Insurance Map'
+    year: { type: Number, min: 1600, max: 2100 },
+    url: { type: String, maxlength: 500 },
+    type: { type: String, enum: ['map', 'photograph', 'drawing', 'survey', 'permit', 'narrative', 'other', ''], required: true },
+    rawReference: { type: String, maxlength: 300 }, // sheet number, plate id, etc.
     confidence: { type: String, enum: ['very_high', 'high', 'medium', 'low', 'estimated'], default: 'medium' }
   }],
   dataQuality: {
-    completenessPercent: Number, // 0-100 subjective evaluation
+    completenessPercent: { type: Number, min: 0, max: 100 }, // 0-100 subjective evaluation
     lastVerified: { type: Date, default: Date.now },
-    verifiedBy: String
+    verifiedBy: { type: String, maxlength: 200 }
   },
   // Versioning for blueprint evolution
   revision: {
-    version: { type: Number, default: 1 },
-    notes: String
+    version: { type: Number, default: 1, min: 1 },
+    notes: { type: String, maxlength: 1000 }
   }
 }, { timestamps: true });
 

@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const BuildingSpec = require('../models/BuildingSpec');
 const mongoose = require('mongoose');
+const { writeLimiter } = require('../middleware/rateLimiter');
 
 // GET all / filtered building specs with pagination, sorting, and field selection
 router.get('/', async (req, res) => {
@@ -144,7 +145,7 @@ router.post('/', async (req, res) => {
 });
 
 // PUT update spec
-router.put('/:id', async (req, res) => {
+router.put('/:id', writeLimiter, async (req, res) => {
   try {
     const spec = await BuildingSpec.findByIdAndUpdate(
       req.params.id,
@@ -159,7 +160,7 @@ router.put('/:id', async (req, res) => {
 });
 
 // DELETE
-router.delete('/:id', async (req, res) => {
+router.delete('/:id', writeLimiter, async (req, res) => {
   try {
     const spec = await BuildingSpec.findByIdAndDelete(req.params.id);
     if (!spec) return res.status(404).json({ error: 'BuildingSpec not found' });

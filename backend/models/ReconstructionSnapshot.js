@@ -6,18 +6,18 @@ const mongoose = require('mongoose');
  * enabling time-versioned reconstruction queries.
  */
 const ReconstructionSnapshotSchema = new mongoose.Schema({
-  year: { type: Number, required: true },
-  label: String, // e.g. "Gilded Age Peak"
-  description: String,
+  year: { type: Number, required: true, min: 1600, max: 2100 },
+  label: { type: String, trim: true, maxlength: 200 }, // e.g. "Gilded Age Peak"
+  description: { type: String, maxlength: 2000 },
   specRefs: [{ type: mongoose.Schema.Types.ObjectId, ref: 'BuildingSpec' }],
   sources: [{
-    name: String,
-    url: String,
-    year: Number,
-    note: String
+    name: { type: String, trim: true, maxlength: 200 },
+    url: { type: String, maxlength: 500 },
+    year: { type: Number, min: 1600, max: 2100 },
+    note: { type: String, maxlength: 1000 }
   }],
-  completenessPercent: Number,
-  methodology: String
+  completenessPercent: { type: Number, min: 0, max: 100 },
+  methodology: { type: String, maxlength: 2000 }
 }, { timestamps: true });
 
 ReconstructionSnapshotSchema.index({ year: 1 });

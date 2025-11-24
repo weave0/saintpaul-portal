@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const ReconstructionSnapshot = require('../models/ReconstructionSnapshot');
 const BuildingSpec = require('../models/BuildingSpec');
+const { writeLimiter, heavyLimiter } = require('../middleware/rateLimiter');
+const diffCache = require('../utils/diffCache');
 
 // List snapshots (optional year filter)
 router.get('/', async (req, res) => {
@@ -13,50 +15,20 @@ router.get('/', async (req, res) => {
   } catch (e) { res.status(500).json({ error: e.message }); }
 });
 
-// Get single snapshot
-router.get('/:id', async (req, res) => {
-  try {
-    const snap = await ReconstructionSnapshot.findById(req.params.id).populate('specRefs');
-    if (!snap) return res.status(404).json({ error: 'Snapshot not found' });
-    res.json(snap);
-  } catch (e) { res.status(500).json({ error: e.message }); }
-});
-
-// Create snapshot
-router.post('/', async (req, res) => {
-  try {
-    const snap = new ReconstructionSnapshot(req.body);
-    await snap.save();
-    res.status(201).json(snap);
-  } catch (e) { res.status(400).json({ error: e.message }); }
-});
-
-// Update snapshot
-router.put('/:id', async (req, res) => {
-  try {
-    const snap = await ReconstructionSnapshot.findByIdAndUpdate(
-      req.params.id, req.body, { new: true, runValidators: true }
-    );
-    if (!snap) return res.status(404).json({ error: 'Snapshot not found' });
-    res.json(snap);
-  } catch (e) { res.status(400).json({ error: e.message }); }
-});
-
-// Delete snapshot
-router.delete('/:id', async (req, res) => {
-  try {
-    const snap = await ReconstructionSnapshot.findByIdAndDelete(req.params.id);
-    if (!snap) return res.status(404).json({ error: 'Snapshot not found' });
-    res.json({ message: 'Snapshot deleted' });
-  } catch (e) { res.status(500).json({ error: e.message }); }
-});
-
 // Diff endpoint: compare two snapshots (spec membership & basic spec deltas)
 // GET /api/reconstructions/diff?from=<id>&to=<id>
-router.get('/diff', async (req, res) => {
+// MUST come before /:id route
+router.get('/diff', heavyLimiter, async (req, res) => {
   try {
     const { from, to } = req.query;
     if (!from || !to) return res.status(400).json({ error: 'from and to snapshot IDs required' });
+
+    // Check cache first
+    const cached = diffCache.get(from, to);
+    if (cached) {
+      return res.json({ ...cached, cached: true });
+    }
+
     const [fromSnap, toSnap] = await Promise.all([
       ReconstructionSnapshot.findById(from).populate('specRefs'),
       ReconstructionSnapshot.findById(to).populate('specRefs')
@@ -102,7 +74,7 @@ router.get('/diff', async (req, res) => {
       }
     });
 
-    res.json({
+    const result = {
       from: { id: fromSnap._id, year: fromSnap.year, label: fromSnap.label, count: fromSnap.specRefs.length },
       to: { id: toSnap._id, year: toSnap.year, label: toSnap.label, count: toSnap.specRefs.length },
       summary: {
@@ -113,8 +85,14 @@ router.get('/diff', async (req, res) => {
       },
       addedSpecs,
       removedSpecs,
-      changedSpecs
-    });
+      changedSpecs,
+      cached: false
+    };
+
+    // Cache the result
+    diffCache.set(from, to, result);
+
+    res.json(result);
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
@@ -122,7 +100,8 @@ router.get('/diff', async (req, res) => {
 
 // Auto-generate snapshot from BuildingSpec filters
 // POST /api/reconstructions/auto-generate?year=1905&style=Beaux-Arts&beforeYear=1906
-router.post('/auto-generate', async (req, res) => {
+// MUST come before /:id route
+router.post('/auto-generate', heavyLimiter, async (req, res) => {
   try {
     const merged = { ...req.query, ...req.body };
     const { year, style, status, beforeYear, label, description } = merged;
@@ -152,6 +131,44 @@ router.post('/auto-generate', async (req, res) => {
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
+});
+
+// Get single snapshot
+router.get('/:id', async (req, res) => {
+  try {
+    const snap = await ReconstructionSnapshot.findById(req.params.id).populate('specRefs');
+    if (!snap) return res.status(404).json({ error: 'Snapshot not found' });
+    res.json(snap);
+  } catch (e) { res.status(500).json({ error: e.message }); }
+});
+
+// Create snapshot
+router.post('/', writeLimiter, async (req, res) => {
+  try {
+    const snap = new ReconstructionSnapshot(req.body);
+    await snap.save();
+    res.status(201).json(snap);
+  } catch (e) { res.status(400).json({ error: e.message }); }
+});
+
+// Update snapshot
+router.put('/:id', writeLimiter, async (req, res) => {
+  try {
+    const snap = await ReconstructionSnapshot.findByIdAndUpdate(
+      req.params.id, req.body, { new: true, runValidators: true }
+    );
+    if (!snap) return res.status(404).json({ error: 'Snapshot not found' });
+    res.json(snap);
+  } catch (e) { res.status(400).json({ error: e.message }); }
+});
+
+// Delete snapshot
+router.delete('/:id', writeLimiter, async (req, res) => {
+  try {
+    const snap = await ReconstructionSnapshot.findByIdAndDelete(req.params.id);
+    if (!snap) return res.status(404).json({ error: 'Snapshot not found' });
+    res.json({ message: 'Snapshot deleted' });
+  } catch (e) { res.status(500).json({ error: e.message }); }
 });
 
 module.exports = router;

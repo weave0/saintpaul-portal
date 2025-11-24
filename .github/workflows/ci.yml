@@ -24,11 +24,15 @@ jobs:
         working-directory: backend
         run: npm install
 
+      - name: Run lint check
+        working-directory: backend
+        run: npm run lint
+
       - name: Run backend tests
         working-directory: backend
         env:
           NODE_ENV: test
-        run: npm test -- --runInBand
+        run: npm test -- --runInBand --coverage
 
   frontend-lint-build:
     runs-on: ubuntu-latest
