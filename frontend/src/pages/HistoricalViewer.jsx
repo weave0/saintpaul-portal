@@ -1,11 +1,12 @@
 import React, { Suspense, useState, useEffect, useRef } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { OrbitControls, Environment, Sky, Grid, PointerLockControls } from '@react-three/drei';
+import { OrbitControls, Environment, Sky, Grid } from '@react-three/drei';
 import { Box, CircularProgress, Typography, Paper, IconButton, Tooltip } from '@mui/material';
 import { Visibility, VisibilityOff, Layers, DirectionsWalk, ThreeDRotation } from '@mui/icons-material';
 import Building3D from '../components/Building3D';
 import TimelineSlider from '../components/TimelineSlider';
 import HeatmapOverlay, { HeatmapControls } from '../components/HeatmapOverlay';
+import * as THREE from 'three';
 
 // First-person movement controller (WASD + mouse look via PointerLock)
 // Supports sprint (Shift) with smooth acceleration and collision detection
@@ -14,6 +15,8 @@ const FirstPersonController = ({ enabled, speed = 30, sprintMultiplier = 2.5, bu
   const keys = useRef({});
   const velocity = useRef(new THREE.Vector3());
   const targetSpeed = useRef(speed);
+  
+  if (!enabled) return null;
 
   useEffect(() => {
     const onKeyDown = (e) => { keys.current[e.key.toLowerCase()] = true; };

@@ -1,18 +1,22 @@
 import React, { useRef, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { Text } from '@react-three/drei';
-import * as THREE from 'three';
 
 // 3D representation of a single building. Pure render component – no global controls.
 const Building3D = ({ building, isHighlighted, inSnapshot, onClick, onInsight }) => {
   const meshRef = useRef();
   const [hovered, setHovered] = useState(false);
   
+  // Safety check for building data
+  if (!building || !building.location || !building.location.coordinates) {
+    return null;
+  }
+  
   // Convert lat/lon to local XZ coordinates (simplified)
   // In production, use proper projection transformation
   const x = (building.location.coordinates[0] - (-93.1)) * 10000;
   const z = (building.location.coordinates[1] - 44.95) * 10000;
-  const height = building.height || (building.stories * 4); // 4 meters per story
+  const height = building.height || (building.stories * 4) || 20; // 4 meters per story, default 20m
 
   // Create building color based on material and era
   const getMaterialColor = () => {
