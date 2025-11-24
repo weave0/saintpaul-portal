@@ -1,0 +1,49 @@
+# Azure Static Web Apps Configuration
+
+# App location (frontend)
+app_location: "/frontend"
+
+# API location (backend)
+api_location: "/backend"
+
+# Output location after build
+output_location: "dist"
+
+# Build commands
+app_build_command: "npm run build"
+api_build_command: "npm install"
+
+# Routes
+routes:
+  - route: "/api/*"
+    rewrite: "/api/*"
+  - route: "/*"
+    rewrite: "/index.html"
+
+# Environment variables (set in Azure Portal)
+# MONGODB_URI
+# NODE_ENV=production
+
+# Navigation fallback for SPA
+navigationFallback:
+  rewrite: "/index.html"
+  exclude:
+    - "/api/*"
+    - "/*.{css,js,jpg,png,gif,svg,ico,woff,woff2,ttf,eot}"
+
+# Platform configuration
+platform:
+  apiRuntime: "node:18"
+
+# Security headers
+globalHeaders:
+  X-Content-Type-Options: "nosniff"
+  X-Frame-Options: "DENY"
+  X-XSS-Protection: "1; mode=block"
+  Referrer-Policy: "strict-origin-when-cross-origin"
+
+# Redirect rules
+redirects:
+  - from: "/home"
+    to: "/"
+    type: 301

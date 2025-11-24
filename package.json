@@ -1,0 +1,49 @@
+{
+  "name": "stpaul-history-portal",
+  "version": "1.0.0",
+  "description": "Comprehensive historical knowledge portal for St. Paul, Minnesota",
+  "author": "Brett L. Weaver <brett.l.weaver@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm install --production",
+    "build": "npm run build:frontend && npm run build:backend",
+    "test:frontend": "cd frontend && npm test",
+    "test:backend": "cd backend && npm test",
+    "test": "npm run test:backend && npm run test:frontend",
+    "deploy:vercel": "vercel --prod",
+    "deploy:azure": "az staticwebapp create --name stpaul-history --resource-group stpaul-history-rg --source . --location centralus --branch main",
+    "lint": "eslint . --ext .js,.jsx",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "eslint": "^8.57.0",
+    "prettier": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Weave0/SaintPaul.git"
+  },
+  "keywords": [
+    "history",
+    "st-paul",
+    "minnesota",
+    "cultural-heritage",
+    "3d-visualization",
+    "historical-data"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
