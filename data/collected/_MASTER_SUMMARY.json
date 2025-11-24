@@ -1,0 +1,441 @@
+{
+  "generatedAt": "2025-11-24T02:52:20.656Z",
+  "totalRecords": 18091,
+  "totalFiles": 34,
+  "categories": {
+    " loc": {
+      "totalRecords": 266,
+      "sources": [
+        {
+          "name": "LOC Photos & Prints",
+          "count": 100,
+          "file": "loc_photos_stpaul.json",
+          "status": "success"
+        },
+        {
+          "name": "LOC Historic Maps",
+          "count": 0,
+          "file": "loc_maps_stpaul.json",
+          "status": "success"
+        },
+        {
+          "name": "LOC Panoramic Maps",
+          "count": 8,
+          "file": "loc_panoramic_maps.json",
+          "status": "success"
+        },
+        {
+          "name": "HABS Buildings",
+          "count": 58,
+          "file": "loc_habs_stpaul.json",
+          "status": "success"
+        },
+        {
+          "name": "LOC General Collections",
+          "count": 100,
+          "file": "loc_general_stpaul.json",
+          "status": "success"
+        }
+      ]
+    },
+    " geo": {
+      "totalRecords": 5877,
+      "sources": [
+        {
+          "name": "OSM Historic Buildings",
+          "count": 492,
+          "file": "osm_historic_buildings.json",
+          "status": "success"
+        },
+        {
+          "name": "OSM Tourism & Attractions",
+          "count": 4070,
+          "file": "osm_tourism_attractions.json",
+          "status": "success"
+        },
+        {
+          "name": "OSM Arts & Culture",
+          "count": 873,
+          "file": "osm_arts_culture.json",
+          "status": "success"
+        },
+        {
+          "name": "Wikidata",
+          "count": 442,
+          "file": "wikidata_stpaul.json",
+          "status": "success"
+        }
+      ]
+    },
+    " archives": {
+      "totalRecords": 100,
+      "sources": [
+        {
+          "name": "Internet Archive",
+          "count": 100,
+          "file": "internet_archive_stpaul.json",
+          "status": "success"
+        },
+        {
+          "name": "Digital Public Library of America",
+          "status": "requires_api_key",
+          "error": "API key required - get free key at pro.dp.la",
+          "note": "Get free API key at https://pro.dp.la/developers/api-key-registration"
+        },
+        {
+          "name": "HathiTrust Digital Library",
+          "status": "failed",
+          "error": "Request failed with status code 400"
+        },
+        {
+          "name": "University of Minnesota Digital",
+          "status": "failed",
+          "error": "Request failed with status code 404"
+        },
+        {
+          "name": "Flickr Commons",
+          "status": "requires_api_key",
+          "error": "API key required",
+          "note": "Get free API key at https://www.flickr.com/services/api/"
+        }
+      ]
+    },
+    " newspaper": {
+      "totalRecords": 1,
+      "sources": [
+        {
+          "name": "Chronicling America",
+          "status": "failed",
+          "error": "Request failed with status code 404"
+        },
+        {
+          "name": "Minnesota Newspaper Hub",
+          "status": "failed",
+          "error": "Request failed with status code 404"
+        },
+        {
+          "name": "Pioneer Press History",
+          "count": 1,
+          "file": "pioneer_press_history.json",
+          "status": "success"
+        }
+      ]
+    },
+    " mnhs": {
+      "totalRecords": 0,
+      "sources": [
+        {
+          "name": "MNHS Collections",
+          "status": "failed",
+          "error": "Request failed with status code 404"
+        },
+        {
+          "name": "Minnesota Reflections",
+          "status": "failed",
+          "error": "Request failed with status code 403"
+        },
+        {
+          "name": "MNHS Library Catalog",
+          "status": "failed",
+          "error": "getaddrinfo ENOTFOUND librarysearch.mnhs.org"
+        }
+      ]
+    },
+    " ramsey_county": {
+      "totalRecords": 9855,
+      "sources": [
+        {
+          "name": "Ramsey County Property Data",
+          "status": "failed",
+          "error": "Request failed with status code 404"
+        },
+        {
+          "name": "St. Paul Building Permits",
+          "count": 1971,
+          "file": "stpaul_building_permits.json",
+          "status": "success"
+        },
+        {
+          "name": "St. Paul Historic Districts",
+          "count": 1971,
+          "file": "stpaul_historic_districts_v2.json",
+          "status": "success"
+        },
+        {
+          "name": "Heritage Preservation Sites",
+          "count": 1971,
+          "file": "stpaul_heritage_sites_v2.json",
+          "status": "success"
+        },
+        {
+          "name": "St. Paul Public Art",
+          "count": 1971,
+          "file": "stpaul_public_art.json",
+          "status": "success"
+        },
+        {
+          "name": "St. Paul Parks",
+          "count": 1971,
+          "file": "stpaul_parks.json",
+          "status": "success"
+        }
+      ]
+    },
+    " cultural": {
+      "totalRecords": 1992,
+      "sources": [
+        {
+          "name": "St. Paul Cultural Events & Festivals",
+          "count": 21,
+          "file": "stpaul_cultural_events_festivals.json",
+          "status": "success"
+        },
+        {
+          "name": "St. Paul Events Data",
+          "count": 1971,
+          "file": "stpaul_events_data.json",
+          "status": "success"
+        }
+      ]
+    },
+    " collection": {
+      "totalRecords": 0,
+      "sources": {
+        "ramseyCounty": [
+          {
+            "source": "Ramsey County GIS",
+            "endpoint": "Historic Sites",
+            "timestamp": "2025-11-24T02:42:16.459Z",
+            "error": "getaddrinfo ENOTFOUND gis.co.ramsey.mn.us",
+            "data": null
+          },
+          {
+            "source": "Ramsey County GIS",
+            "endpoint": "Building Footprints",
+            "timestamp": "2025-11-24T02:42:17.467Z",
+            "error": "getaddrinfo ENOTFOUND gis.co.ramsey.mn.us",
+            "data": null
+          }
+        ],
+        "mnGeo": [
+          {
+            "source": "Minnesota Geospatial",
+            "endpoint": "Historic Places",
+            "timestamp": "2025-11-24T02:42:19.070Z",
+            "error": "Request failed with status code 400",
+            "data": null
+          }
+        ],
+        "stPaulOpen": [
+          {
+            "source": "St. Paul Open Data",
+            "endpoint": "Historic Districts",
+            "timestamp": "2025-11-24T02:42:20.555Z",
+            "data": "<!DOCTYPE html>\n<!--[if lt IE 9]>  <html class=\"ie lt-ie9 ie8\"> <![endif]-->\n<!--[if IE 9]>     <html class=\"ie ie9\"> <![endif]-->\n<!--[if !IE]><!--> <html> <!--<![endif]-->\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>ArcGIS Hub Unsupported</title>\n  <link rel=\"stylesheet\" href=\"https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.2.5/css/calcite-web.min.css\">\n  <style>\n    .gateway {\n      margin-top: 6.5rem;\n      min-height: 40.625rem;\n    }\n\n    .gateway-splash {\n      text-align: center;\n      color: rgba(0,0,0,.87);\n    }\n    \n    .black-text {\n      color: rgba(0,0,0,.87);\n    }\n\n    img {\n      height: 400px;\n      width: auto;\n      width: auto;\n      width: auto;\n    }\n\n    h4 {\n      font-weight: 600;\n      font-size: 1.375rem;\n      margin-top: 6rem;\n    }\n\n    p {\n      color: #555555;\n    }\n\n    .button-container {\n      margin-top: 1.875rem;\n    }\n  </style>\n</head>\n<body>\n  <header class=\"top-nav\">\n    <div class=\"grid-container\">\n      <div class=\"column-16 center-column\">\n        <a id=\"topnav\" href=\"https://hub.arcgis.com\" class=\"top-nav-title\">ArcGIS Hub</a>\n      </div>\n    </div>\n  </header>  \n  <div class=\"container gateway gateway-splash\">\n    <div class=\"img-wrapper\">\n      <img src=\"https://hubcdn.arcgis.com/static/images/undraw_warning_cyit.svg\" alt=\"This site is not longer supported\">\n    </div>\n    <h4>This site is no longer supported</h4>\n    <p>If you have questions, <a class=\"link-blue\" href=\"https://support.esri.com/en/contact-tech-support\">contact support</a>.</p>\n    <p><a class=\"link-blue\" href=\"https://www.esri.com/arcgis-blog/products/arcgis-hub/national-government/updating-legacy-open-data-sites-in-arcgis-hub/\">Learn how to migrate your site to Hub.</a></p>\n    <div class=\"button-container\">\n      <a class=\"btn\" href=\"https://hub.arcgis.com\" type=\"button\">Go to ArcGIS Hub</a>\n    </div>\n  </div>\n</body>\n</html>",
+            "count": 1971
+          },
+          {
+            "source": "St. Paul Open Data",
+            "endpoint": "Heritage Preservation Sites",
+            "timestamp": "2025-11-24T02:42:21.787Z",
+            "data": "<!DOCTYPE html>\n<!--[if lt IE 9]>  <html class=\"ie lt-ie9 ie8\"> <![endif]-->\n<!--[if IE 9]>     <html class=\"ie ie9\"> <![endif]-->\n<!--[if !IE]><!--> <html> <!--<![endif]-->\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>ArcGIS Hub Unsupported</title>\n  <link rel=\"stylesheet\" href=\"https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.2.5/css/calcite-web.min.css\">\n  <style>\n    .gateway {\n      margin-top: 6.5rem;\n      min-height: 40.625rem;\n    }\n\n    .gateway-splash {\n      text-align: center;\n      color: rgba(0,0,0,.87);\n    }\n    \n    .black-text {\n      color: rgba(0,0,0,.87);\n    }\n\n    img {\n      height: 400px;\n      width: auto;\n      width: auto;\n      width: auto;\n    }\n\n    h4 {\n      font-weight: 600;\n      font-size: 1.375rem;\n      margin-top: 6rem;\n    }\n\n    p {\n      color: #555555;\n    }\n\n    .button-container {\n      margin-top: 1.875rem;\n    }\n  </style>\n</head>\n<body>\n  <header class=\"top-nav\">\n    <div class=\"grid-container\">\n      <div class=\"column-16 center-column\">\n        <a id=\"topnav\" href=\"https://hub.arcgis.com\" class=\"top-nav-title\">ArcGIS Hub</a>\n      </div>\n    </div>\n  </header>  \n  <div class=\"container gateway gateway-splash\">\n    <div class=\"img-wrapper\">\n      <img src=\"https://hubcdn.arcgis.com/static/images/undraw_warning_cyit.svg\" alt=\"This site is not longer supported\">\n    </div>\n    <h4>This site is no longer supported</h4>\n    <p>If you have questions, <a class=\"link-blue\" href=\"https://support.esri.com/en/contact-tech-support\">contact support</a>.</p>\n    <p><a class=\"link-blue\" href=\"https://www.esri.com/arcgis-blog/products/arcgis-hub/national-government/updating-legacy-open-data-sites-in-arcgis-hub/\">Learn how to migrate your site to Hub.</a></p>\n    <div class=\"button-container\">\n      <a class=\"btn\" href=\"https://hub.arcgis.com\" type=\"button\">Go to ArcGIS Hub</a>\n    </div>\n  </div>\n</body>\n</html>",
+            "count": 1971
+          },
+          {
+            "source": "St. Paul Open Data",
+            "endpoint": "Building Permits Historical",
+            "timestamp": "2025-11-24T02:42:23.034Z",
+            "data": "<!DOCTYPE html>\n<!--[if lt IE 9]>  <html class=\"ie lt-ie9 ie8\"> <![endif]-->\n<!--[if IE 9]>     <html class=\"ie ie9\"> <![endif]-->\n<!--[if !IE]><!--> <html> <!--<![endif]-->\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>ArcGIS Hub Unsupported</title>\n  <link rel=\"stylesheet\" href=\"https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.2.5/css/calcite-web.min.css\">\n  <style>\n    .gateway {\n      margin-top: 6.5rem;\n      min-height: 40.625rem;\n    }\n\n    .gateway-splash {\n      text-align: center;\n      color: rgba(0,0,0,.87);\n    }\n    \n    .black-text {\n      color: rgba(0,0,0,.87);\n    }\n\n    img {\n      height: 400px;\n      width: auto;\n      width: auto;\n      width: auto;\n    }\n\n    h4 {\n      font-weight: 600;\n      font-size: 1.375rem;\n      margin-top: 6rem;\n    }\n\n    p {\n      color: #555555;\n    }\n\n    .button-container {\n      margin-top: 1.875rem;\n    }\n  </style>\n</head>\n<body>\n  <header class=\"top-nav\">\n    <div class=\"grid-container\">\n      <div class=\"column-16 center-column\">\n        <a id=\"topnav\" href=\"https://hub.arcgis.com\" class=\"top-nav-title\">ArcGIS Hub</a>\n      </div>\n    </div>\n  </header>  \n  <div class=\"container gateway gateway-splash\">\n    <div class=\"img-wrapper\">\n      <img src=\"https://hubcdn.arcgis.com/static/images/undraw_warning_cyit.svg\" alt=\"This site is not longer supported\">\n    </div>\n    <h4>This site is no longer supported</h4>\n    <p>If you have questions, <a class=\"link-blue\" href=\"https://support.esri.com/en/contact-tech-support\">contact support</a>.</p>\n    <p><a class=\"link-blue\" href=\"https://www.esri.com/arcgis-blog/products/arcgis-hub/national-government/updating-legacy-open-data-sites-in-arcgis-hub/\">Learn how to migrate your site to Hub.</a></p>\n    <div class=\"button-container\">\n      <a class=\"btn\" href=\"https://hub.arcgis.com\" type=\"button\">Go to ArcGIS Hub</a>\n    </div>\n  </div>\n</body>\n</html>",
+            "count": 1971
+          }
+        ],
+        "census": [
+          {
+            "source": "US Census Bureau",
+            "endpoint": "St. Paul Population 1990-2020",
+            "timestamp": "2025-11-24T02:42:24.518Z",
+            "data": [
+              [
+                "NAME",
+                "P1_001N",
+                "state",
+                "place"
+              ],
+              [
+                "St. Paul city, Minnesota",
+                "311527",
+                "27",
+                "58000"
+              ]
+            ],
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  "successfulSources": [
+    {
+      "category": " loc",
+      "name": "LOC Photos & Prints",
+      "count": 100,
+      "file": "loc_photos_stpaul.json"
+    },
+    {
+      "category": " loc",
+      "name": "LOC Historic Maps",
+      "count": 0,
+      "file": "loc_maps_stpaul.json"
+    },
+    {
+      "category": " loc",
+      "name": "LOC Panoramic Maps",
+      "count": 8,
+      "file": "loc_panoramic_maps.json"
+    },
+    {
+      "category": " loc",
+      "name": "HABS Buildings",
+      "count": 58,
+      "file": "loc_habs_stpaul.json"
+    },
+    {
+      "category": " loc",
+      "name": "LOC General Collections",
+      "count": 100,
+      "file": "loc_general_stpaul.json"
+    },
+    {
+      "category": " geo",
+      "name": "OSM Historic Buildings",
+      "count": 492,
+      "file": "osm_historic_buildings.json"
+    },
+    {
+      "category": " geo",
+      "name": "OSM Tourism & Attractions",
+      "count": 4070,
+      "file": "osm_tourism_attractions.json"
+    },
+    {
+      "category": " geo",
+      "name": "OSM Arts & Culture",
+      "count": 873,
+      "file": "osm_arts_culture.json"
+    },
+    {
+      "category": " geo",
+      "name": "Wikidata",
+      "count": 442,
+      "file": "wikidata_stpaul.json"
+    },
+    {
+      "category": " archives",
+      "name": "Internet Archive",
+      "count": 100,
+      "file": "internet_archive_stpaul.json"
+    },
+    {
+      "category": " newspaper",
+      "name": "Pioneer Press History",
+      "count": 1,
+      "file": "pioneer_press_history.json"
+    },
+    {
+      "category": " ramsey_county",
+      "name": "St. Paul Building Permits",
+      "count": 1971,
+      "file": "stpaul_building_permits.json"
+    },
+    {
+      "category": " ramsey_county",
+      "name": "St. Paul Historic Districts",
+      "count": 1971,
+      "file": "stpaul_historic_districts_v2.json"
+    },
+    {
+      "category": " ramsey_county",
+      "name": "Heritage Preservation Sites",
+      "count": 1971,
+      "file": "stpaul_heritage_sites_v2.json"
+    },
+    {
+      "category": " ramsey_county",
+      "name": "St. Paul Public Art",
+      "count": 1971,
+      "file": "stpaul_public_art.json"
+    },
+    {
+      "category": " ramsey_county",
+      "name": "St. Paul Parks",
+      "count": 1971,
+      "file": "stpaul_parks.json"
+    },
+    {
+      "category": " cultural",
+      "name": "St. Paul Cultural Events & Festivals",
+      "count": 21,
+      "file": "stpaul_cultural_events_festivals.json"
+    },
+    {
+      "category": " cultural",
+      "name": "St. Paul Events Data",
+      "count": 1971,
+      "file": "stpaul_events_data.json"
+    }
+  ],
+  "failedSources": [
+    {
+      "category": " archives",
+      "name": "HathiTrust Digital Library",
+      "error": "Request failed with status code 400"
+    },
+    {
+      "category": " archives",
+      "name": "University of Minnesota Digital",
+      "error": "Request failed with status code 404"
+    },
+    {
+      "category": " newspaper",
+      "name": "Chronicling America",
+      "error": "Request failed with status code 404"
+    },
+    {
+      "category": " newspaper",
+      "name": "Minnesota Newspaper Hub",
+      "error": "Request failed with status code 404"
+    },
+    {
+      "category": " mnhs",
+      "name": "MNHS Collections",
+      "error": "Request failed with status code 404"
+    },
+    {
+      "category": " mnhs",
+      "name": "Minnesota Reflections",
+      "error": "Request failed with status code 403"
+    },
+    {
+      "category": " mnhs",
+      "name": "MNHS Library Catalog",
+      "error": "getaddrinfo ENOTFOUND librarysearch.mnhs.org"
+    },
+    {
+      "category": " ramsey_county",
+      "name": "Ramsey County Property Data",
+      "error": "Request failed with status code 404"
+    }
+  ],
+  "apiKeysNeeded": [
+    {
+      "category": " archives",
+      "name": "Digital Public Library of America",
+      "note": "Get free API key at https://pro.dp.la/developers/api-key-registration"
+    },
+    {
+      "category": " archives",
+      "name": "Flickr Commons",
+      "note": "Get free API key at https://www.flickr.com/services/api/"
+    }
+  ]
+}

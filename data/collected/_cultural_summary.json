@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-11-24T02:51:40.187Z",
+  "sources": [
+    {
+      "name": "St. Paul Cultural Events & Festivals",
+      "count": 21,
+      "file": "stpaul_cultural_events_festivals.json",
+      "status": "success"
+    },
+    {
+      "name": "St. Paul Events Data",
+      "count": 1971,
+      "file": "stpaul_events_data.json",
+      "status": "success"
+    }
+  ],
+  "totalRecords": 1992
+}

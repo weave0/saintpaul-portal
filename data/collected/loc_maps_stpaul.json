@@ -1,0 +1,457 @@
+{
+  "breadcrumbs": [
+    {
+      "Library of Congress": "https://www.loc.gov"
+    },
+    {
+      "Maps": "https://www.loc.gov/maps/"
+    },
+    {
+      "Search": "https://www.loc.gov/maps/?c=100&fo=json&q=saint+paul+minnesota&sp=1"
+    }
+  ],
+  "content": {
+    "active": true,
+    "link": "https://www.loc.gov/maps/",
+    "pagination": "1 of 2",
+    "partof": [],
+    "results": [],
+    "slug": "",
+    "title": "Search Maps",
+    "url": "https://www.loc.gov/maps/"
+  },
+  "context": "original-format:map",
+  "description": "The Library of Congress has custody of the largest and most comprehensive cartographic collection in the world with collections numbering over 5.5 million maps, 80,000 atlases, 6,000 reference works, over 500 globes and globe gores, 3,000 raised relief models, and a large number of cartographic materials in other formats, including over 19,000 cds/dvds. The online map collections represents only a small fraction that have been converted to digital form.",
+  "expert_resources": [
+    {
+      "title": "Geography and Map Reading Room, Guide to the Collections",
+      "url": "/maps/collections/"
+    },
+    {
+      "title": "How to Order Reproductions",
+      "url": "https://www.loc.gov/duplicationservices/collections-guide/#loctoggler=2"
+    },
+    {
+      "title": "Geography and Map Ask a Librarian",
+      "url": "https://ask.loc.gov/map-geography/"
+    }
+  ],
+  "facet_trail": [
+    {
+      "facet": "Original Format",
+      "field": "original-format",
+      "superset": "https://www.loc.gov/search/?c=100&fo=json&q=saint+paul+minnesota&sp=1",
+      "value": "map"
+    },
+    {
+      "facet": "searchTerms",
+      "field": "searchTerms",
+      "superset": "https://www.loc.gov/maps/?c=100&fo=json&sp=1",
+      "value": "saint paul minnesota"
+    },
+    {
+      "facet": "Available Online",
+      "field": "digitized",
+      "superset": "https://www.loc.gov/maps/?all=true&c=100&fo=json&q=saint+paul+minnesota&sp=1",
+      "value": "digitized"
+    }
+  ],
+  "facet_views": {
+    "calendar": "https://www.loc.gov/maps/?c=100&fo=json&fs=calendar&q=saint+paul+minnesota&sp=1",
+    "chart": "https://www.loc.gov/maps/?c=100&fo=json&fs=chart&q=saint+paul+minnesota&sp=1",
+    "current": "list",
+    "list": "https://www.loc.gov/maps/?c=100&fo=json&q=saint+paul+minnesota&sp=1"
+  },
+  "facets": [],
+  "featured_items": [
+    {
+      "image": "/static/collections/rochambeau-maps/images/ar110600.jpg",
+      "title": "Plan de New-York et des environs, levé par Montrésor, ingénieur en 1775.",
+      "url": "/item/gm71000988"
+    },
+    {
+      "image": "/static/collections/rochambeau-maps/images/ar131300.jpg",
+      "title": "Philadelphie, par Easburn, arpenteur général de Pensilvanie.",
+      "url": "/item/gm71002154"
+    },
+    {
+      "image": "/static/collections/rochambeau-maps/images/ar146000.jpg",
+      "title": "Carte detaillée de West Point sur la rivière d'York au confluent des Rivières de Pamunkey et Matapony.",
+      "url": "/item/gm71002171"
+    },
+    {
+      "description": "Knox County, Ohio 1870.",
+      "image": "/static/collections/panoramic-maps/images/pm007010.jpg",
+      "title": "Bird's eye view of the city of Mount Vernon",
+      "url": "/item/73694512"
+    },
+    {
+      "image": "/static/collections/rochambeau-maps/images/ct001260.jpg",
+      "title": "Sault du Niagara, de 135 pieds de haut.",
+      "url": "/item/gm71000999"
+    },
+    {
+      "image": "/static/collections/transportation-and-communication/images/ct002135.jpg",
+      "title": "Carte figurative et approximative des quantités de céréales qui ont circulé en 1853 sur les voies d'eau et de fer de l'Empire Francais / dressée par Mr. Minard, inspecteur général des ponts et chaussées en retraite ; gravée chez Regnier et Dourdet.",
+      "url": "/item/2004626063"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/hotchkiss-maps/images/cwh00025.jpg",
+      "title": "[Map of parts of Caroline, Hanover, and Henrico counties, Va. west of the Mattaponi River and the Richmond, Fredericksburg, and Potomac Railroad].",
+      "url": "/item/2002627430"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/hotchkiss-maps/images/cwh00013.jpg",
+      "title": "Part of map of portions of the milit'y dep'ts of Washington, Pennsylvania, Annapolis, and north eastern Virginia",
+      "url": "/item/2002627436"
+    },
+    {
+      "image": "/static/collections/railroad-maps-1828-to-1900/images/rr000430.jpg",
+      "title": "Lloyd's American railroad map.",
+      "url": "/item/gm70005368"
+    },
+    {
+      "image": "/static/collections/world-war-ii-maps-military-situation-maps-from-1944-to-1945/images/ict21197.jpg",
+      "title": "[December 18, 1944], HQ Twelfth Army Group situation map.",
+      "url": "/item/2004630291"
+    },
+    {
+      "image": "/static/collections/general-maps/images/ct003320.jpg",
+      "title": "Sweden.",
+      "url": "/item/2011587049"
+    },
+    {
+      "image": "/static/collections/sanborn-maps/images/08930.jpg",
+      "title": "Montpelier, Washington County, Vermont.",
+      "url": "/item/sanborn08930_004"
+    },
+    {
+      "image": "/static/collections/general-maps/images/ct001562.jpg",
+      "title": "New Zealand.",
+      "url": "/item/2005628354"
+    },
+    {
+      "image": "/static/collections/transportation-and-communication/images/br000060.jpg",
+      "title": "Carta da viação ferrea do Brasil",
+      "url": "/item/2003682784"
+    },
+    {
+      "image": "/static/collections/discovery-and-exploration/images/ct001000.jpg",
+      "title": "La Californie ou Nouvelle Caroline : teatro de los trabajos, Apostolicos de la Compa. e Jesus en la America Septe.",
+      "url": "/item/96686640"
+    },
+    {
+      "description": "'The Queen of the Prairies,' county seat of Tarrant County 1886.",
+      "image": "/static/collections/panoramic-maps/images/pm009100.jpg",
+      "title": "Fort Worth, Tex.,",
+      "url": "/item/75696591"
+    },
+    {
+      "image": "/static/collections/general-maps/images/ct001553.jpg",
+      "title": "Chile.",
+      "url": "/item/2005631595"
+    },
+    {
+      "description": "Pennsylvania 1896.",
+      "image": "/static/collections/panoramic-maps/images/pm007520.jpg",
+      "title": "Clarion, Clarion County",
+      "url": "/item/75694956"
+    },
+    {
+      "image": "/static/collections/national-parks-maps/images/np000250.jpg",
+      "title": "Great Smoky Mountains National Park",
+      "url": "/item/82696147"
+    },
+    {
+      "image": "/static/collections/civil-war-maps/images/cw0283200.jpg",
+      "title": "Vicksburg and its defences. Constructed and engraved to illustrate 'The war with the South'",
+      "url": "/item/99447426"
+    },
+    {
+      "image": "/static/collections/discovery-and-exploration/images/ct000342.jpg",
+      "title": "Americae sive qvartae orbis partis nova et exactissima descriptio",
+      "url": "/item/map49000970"
+    },
+    {
+      "image": "/static/collections/military-battles-and-campaigns/images/ict21082.jpg",
+      "title": "[August 26, 1944], HQ Twelfth Army Group situation map.",
+      "url": "/item/2004629120"
+    },
+    {
+      "image": "/static/collections/sanborn-maps/images/01227.jpg",
+      "title": "Washington, District of Columbia, District of Columbia.",
+      "url": "/item/sanborn01227_004"
+    },
+    {
+      "image": "/static/collections/discovery-and-exploration/images/ct000668.jpg",
+      "title": "Carte de l'Amerique Septentrionnale : depuis le 25, jusqu'au 65p0s deg. de latt. and environ 140, and 235 deg. de longitude / par Iean Baptiste Louis Franquelin, hydrographe du roy, à Québec en Canada.",
+      "url": "/item/2002622264"
+    },
+    {
+      "image": "/static/collections/civil-war-maps/images/cw0688500.jpg",
+      "title": "[Topographical map of part of Washington D.C.].",
+      "url": "/item/88694009"
+    },
+    {
+      "image": "/static/collections/national-parks-maps/images/np000251.jpg",
+      "title": "Great Smoky Mountains National Park, North Carolina-Tennessee, trail map",
+      "url": "/item/81692179"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm004420.jpg",
+      "title": "The panorama of St. Louis.",
+      "url": "/item/75694660"
+    },
+    {
+      "image": "/static/collections/railroad-maps-1828-to-1900/images/rr006160.jpg",
+      "title": "Map showing the route and connections of the Wheeling and Cincinnati Mineral Railway.",
+      "url": "/item/98688856"
+    },
+    {
+      "description": "Top. Eng., Hd. Qrs., 2nd Corps, A.N.Va. : [Chancellorsville, Virginia].",
+      "image": "/static/collections/hotchkiss-maps/images/cwh00142.jpg",
+      "title": "Memoranda of J. Hotchkiss",
+      "url": "/item/2005625049"
+    },
+    {
+      "image": "/static/collections/transportation-and-communication/images/ct003154.jpg",
+      "title": "Bicycle road-map : New Haven, Connecticut, to New London, Connecticut.",
+      "url": "/item/2010592716"
+    }
+  ],
+  "form_facets": {},
+  "image_url": [
+    "/static/images/original-format/map.png"
+  ],
+  "manifest": "portals/maps/manifest.yaml",
+  "next": {
+    "active": false,
+    "api": "/maps/?fa=partof:digital+collections&c=40",
+    "disable_max_line_length": true,
+    "disable_navigation": true,
+    "link": "https://www.loc.gov/maps/collections/",
+    "pagination": "2 of 2",
+    "show_featured": true,
+    "slug": "collections",
+    "style": "gallery",
+    "title": "Collections with Maps",
+    "url": "https://www.loc.gov/maps/collections/?st=gallery"
+  },
+  "next_sibling": {
+    "active": false,
+    "api": "/maps/?fa=partof:digital+collections&c=40",
+    "disable_max_line_length": true,
+    "disable_navigation": true,
+    "link": "https://www.loc.gov/maps/collections/",
+    "pagination": "2 of 2",
+    "show_featured": true,
+    "slug": "collections",
+    "style": "gallery",
+    "title": "Collections with Maps",
+    "url": "https://www.loc.gov/maps/collections/?st=gallery"
+  },
+  "options": {
+    "access_group": [
+      ""
+    ],
+    "access_group_raw": "",
+    "all": null,
+    "api_version": "1",
+    "app_context": null,
+    "application_version": "$Revision$",
+    "attribute": null,
+    "attribute!": null,
+    "attribute_map": null,
+    "cache_tags": [],
+    "callback": null,
+    "clip": null,
+    "clip_image_width": null,
+    "clip_rotation": null,
+    "content_filter": null,
+    "content_replacement": "",
+    "count": 100,
+    "dates": null,
+    "default_count": 25,
+    "delimiter": null,
+    "digital_id": null,
+    "display_level": null,
+    "distance": null,
+    "downloadOption": null,
+    "duration": 0.4554259777069092,
+    "embed": [],
+    "embed!": [],
+    "error_response_status": null,
+    "excludeTerms": null,
+    "facetLimits": "",
+    "facetPrefix": null,
+    "facet_count": null,
+    "facet_style": null,
+    "field": null,
+    "format": "json",
+    "host": "www.loc.gov",
+    "ical": false,
+    "id": null,
+    "iiif": false,
+    "in": "original-format:map",
+    "index": null,
+    "inputEncoding": "UTF-8",
+    "is_partial": true,
+    "item": null,
+    "items": null,
+    "keys": null,
+    "language": null,
+    "latlong": null,
+    "method": "GET",
+    "newSearch": null,
+    "new_clip_url": false,
+    "onsite": false,
+    "operator": null,
+    "outputEncoding": "UTF-8",
+    "page_campaigns": [],
+    "path_info": "/maps/",
+    "port": "443",
+    "proxypath": null,
+    "query": "saint paul minnesota",
+    "query_string": "c=100&fo=json&q=Saint+Paul+Minnesota&sp=1",
+    "redirect_proxy": false,
+    "redirect_to_item": null,
+    "referer": "",
+    "region": "",
+    "release_id": 123456789,
+    "request_host": "www.loc.gov",
+    "request_params": {
+      "c": [
+        "100"
+      ],
+      "fo": [
+        "json"
+      ],
+      "q": "Saint Paul Minnesota",
+      "sp": [
+        "1"
+      ]
+    },
+    "request_url": "https://www.loc.gov/maps/?c=100&fo=json&q=Saint+Paul+Minnesota&sp=1",
+    "resource": "",
+    "resource_sequence": null,
+    "scheme": "https",
+    "searchIn": "original-format:map",
+    "searchTerms": "saint paul minnesota",
+    "segments": null,
+    "site_id": null,
+    "site_type": "maps",
+    "solrQuery": "",
+    "sortBy": null,
+    "sortOrder": null,
+    "startPage": 1,
+    "style": null,
+    "suggested": null,
+    "target": null,
+    "template": "search/base",
+    "timestamp": 1763952594.5374627,
+    "type": "search",
+    "tz_aware": null,
+    "unionFacets": "",
+    "url": "https://www.loc.gov/maps/?c=100&fo=json&q=saint+paul+minnesota&sp=1",
+    "webcast_permalink": null
+  },
+  "pages": [
+    {
+      "active": true,
+      "children": [
+        {
+          "active": true,
+          "link": "https://www.loc.gov/maps/",
+          "pagination": "1 of 2",
+          "partof": [],
+          "results": [],
+          "slug": "",
+          "title": "Search Maps",
+          "url": "https://www.loc.gov/maps/"
+        }
+      ],
+      "link": "https://www.loc.gov/maps/",
+      "pagination": "1 of 2",
+      "slug": "",
+      "title": "Search Maps",
+      "url": "https://www.loc.gov/maps/"
+    },
+    {
+      "active": false,
+      "api": "/maps/?fa=partof:digital+collections&c=40",
+      "disable_max_line_length": true,
+      "disable_navigation": true,
+      "link": "https://www.loc.gov/maps/collections/",
+      "pagination": "2 of 2",
+      "show_featured": true,
+      "slug": "collections",
+      "style": "gallery",
+      "title": "Collections with Maps",
+      "url": "https://www.loc.gov/maps/collections/?st=gallery"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "first": null,
+    "from": 0,
+    "last": null,
+    "next": null,
+    "of": 0,
+    "page_list": [
+      {
+        "number": 1,
+        "url": null
+      }
+    ],
+    "perpage": 100,
+    "perpage_options": [
+      25,
+      50,
+      100,
+      150
+    ],
+    "previous": null,
+    "results": "0 - 0",
+    "to": 0,
+    "total": 1
+  },
+  "portal": true,
+  "portal_label": "Format",
+  "previous": null,
+  "previous_sibling": null,
+  "results": [],
+  "search": {
+    "dates": null,
+    "facet_limits": "",
+    "field": null,
+    "hits": 0,
+    "in": "original-format:map",
+    "query": "saint paul minnesota",
+    "recommended": 0,
+    "site": {},
+    "sort_by": null,
+    "type": "search",
+    "union_facets": "",
+    "url": "https://www.loc.gov/maps/?c=100&fo=json&q=saint+paul+minnesota&sp=1"
+  },
+  "shards": [
+    "00",
+    "01",
+    "08"
+  ],
+  "site_type": "maps",
+  "timestamp": 1763952594993,
+  "title": "Maps",
+  "type": "context-portal",
+  "views": {
+    "brief": "https://www.loc.gov/maps/?c=100&fo=json&q=saint+paul+minnesota&sp=1&st=brief",
+    "current": "list",
+    "gallery": "https://www.loc.gov/maps/?c=100&fo=json&q=saint+paul+minnesota&sp=1&st=gallery",
+    "grid": "https://www.loc.gov/maps/?c=100&fo=json&q=saint+paul+minnesota&sp=1&st=grid",
+    "list": "https://www.loc.gov/maps/?c=100&fo=json&q=saint+paul+minnesota&sp=1",
+    "slideshow": "https://www.loc.gov/maps/?c=100&fo=json&q=saint+paul+minnesota&sp=1&st=slideshow"
+  }
+}

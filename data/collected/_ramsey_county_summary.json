@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-11-24T02:51:31.527Z",
+  "sources": [
+    {
+      "name": "Ramsey County Property Data",
+      "status": "failed",
+      "error": "Request failed with status code 404"
+    },
+    {
+      "name": "St. Paul Building Permits",
+      "count": 1971,
+      "file": "stpaul_building_permits.json",
+      "status": "success"
+    },
+    {
+      "name": "St. Paul Historic Districts",
+      "count": 1971,
+      "file": "stpaul_historic_districts_v2.json",
+      "status": "success"
+    },
+    {
+      "name": "Heritage Preservation Sites",
+      "count": 1971,
+      "file": "stpaul_heritage_sites_v2.json",
+      "status": "success"
+    },
+    {
+      "name": "St. Paul Public Art",
+      "count": 1971,
+      "file": "stpaul_public_art.json",
+      "status": "success"
+    },
+    {
+      "name": "St. Paul Parks",
+      "count": 1971,
+      "file": "stpaul_parks.json",
+      "status": "success"
+    }
+  ],
+  "totalRecords": 9855
+}

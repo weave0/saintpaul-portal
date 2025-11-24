@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-11-24T02:50:10.206Z",
+  "sources": [
+    {
+      "name": "OSM Historic Buildings",
+      "count": 492,
+      "file": "osm_historic_buildings.json",
+      "status": "success"
+    },
+    {
+      "name": "OSM Tourism & Attractions",
+      "count": 4070,
+      "file": "osm_tourism_attractions.json",
+      "status": "success"
+    },
+    {
+      "name": "OSM Arts & Culture",
+      "count": 873,
+      "file": "osm_arts_culture.json",
+      "status": "success"
+    },
+    {
+      "name": "Wikidata",
+      "count": 442,
+      "file": "wikidata_stpaul.json",
+      "status": "success"
+    }
+  ],
+  "totalRecords": 5877
+}

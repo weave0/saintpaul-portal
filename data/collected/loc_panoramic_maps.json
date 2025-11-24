@@ -1,0 +1,5242 @@
+{
+  "aka": [
+    "panmaps",
+    "https://lccn.loc.gov/2003682703"
+  ],
+  "breadcrumbs": [
+    {
+      "Library of Congress": "https://www.loc.gov"
+    },
+    {
+      "Digital Collections": "https://www.loc.gov/collections/"
+    },
+    {
+      "Panoramic Maps": "https://www.loc.gov/collections/panoramic-maps/"
+    },
+    {
+      "Search": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&q=saint+paul+minnesota&sp=1"
+    }
+  ],
+  "content": {
+    "active": true,
+    "image_url": [
+      "/static/collections/panoramic-maps/500_500.jpg"
+    ],
+    "link": "https://www.loc.gov/collections/panoramic-maps/",
+    "pagination": "2 of 3",
+    "partof": [],
+    "results": [
+      {
+        "access_restricted": false,
+        "aka": [
+          "http://www.loc.gov/resource/g4144s.pm004070/",
+          "http://www.loc.gov/item/73693464/",
+          "https://hdl.loc.gov/loc.gmd/g4144s.pm004070",
+          "http://lccn.loc.gov/73693464"
+        ],
+        "campaigns": [],
+        "contributor": [
+          "ruger, a.",
+          "chicago lithographing co"
+        ],
+        "date": "1867-01-01",
+        "dates": [
+          "1867"
+        ],
+        "description": [
+          "Perspective map not drawn to scale. Bird's-eye view. LC Panoramic maps (2nd ed.), 407 Available also through the Library of Congress Web site as a raster image. Indexed for points of interest. Vault AACR2: 100; 651/1; 710/1"
+        ],
+        "digitized": true,
+        "extract_timestamp": "2021-10-29T23:00:40.111Z",
+        "group": [
+          "gmd.mar",
+          "catalog-split-10",
+          "catalog",
+          "general-maps",
+          "main-catalog-split-10",
+          "main-catalog"
+        ],
+        "hassegments": false,
+        "id": "http://www.loc.gov/item/73693464/",
+        "image_url": [
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004070.gif",
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004070.gif#h=150&w=192",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004070/full/pct:12.5/0/default.jpg#h=865&w=1109",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004070/full/pct:25/0/default.jpg#h=1730&w=2219"
+        ],
+        "index": 1,
+        "item": {
+          "call_number": [
+            "G4144.S4A3 1867 .R8"
+          ],
+          "contributors": [
+            "Ruger, A.",
+            "Chicago Lithographing Co."
+          ],
+          "created_published": [
+            "Chicago, Chicago Lithographing Co. [1867]"
+          ],
+          "date": "1867",
+          "digital_id": [
+            "http://hdl.loc.gov/loc.gmd/g4144s.pm004070"
+          ],
+          "format": [
+            "cartographic"
+          ],
+          "language": [
+            "eng"
+          ],
+          "location": [
+            "Saint Paul (Minn.)"
+          ],
+          "medium": [
+            "col. map 52 x 71 cm."
+          ],
+          "notes": [
+            "Perspective map not drawn to scale.",
+            "Bird's-eye view.",
+            "LC Panoramic maps (2nd ed.), 407",
+            "Available also through the Library of Congress Web site as a raster image.",
+            "Indexed for points of interest.",
+            "Vault",
+            "AACR2: 100; 651/1; 710/1"
+          ],
+          "number_former_id": [
+            "https://www.loc.gov/item/73693464",
+            "https://www.loc.gov/item/5411229"
+          ],
+          "repository": [
+            "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+          ],
+          "subjects": [
+            "Saint Paul (Minn.)--Aerial views",
+            "United States--Minnesota--Saint Paul"
+          ],
+          "title": "Saint Paul, Minnesota 1867."
+        },
+        "language": [
+          "english"
+        ],
+        "location": [
+          "united states",
+          "saint paul",
+          "minnesota"
+        ],
+        "location_city": [
+          "saint paul"
+        ],
+        "location_country": [
+          "united states"
+        ],
+        "location_state": [
+          "minnesota"
+        ],
+        "mime_type": [
+          "image/gif",
+          "image/tiff",
+          "image/jpeg",
+          "image/jp2"
+        ],
+        "number": [
+          "2005-01-05t12:17:34",
+          "73693464",
+          "http://www.loc.gov/item/5411229",
+          "http://www.loc.gov/item/73693464"
+        ],
+        "number_former_id": [
+          "http://www.loc.gov/item/73693464",
+          "http://www.loc.gov/item/5411229"
+        ],
+        "number_lccn": [
+          "73693464"
+        ],
+        "number_source_modified": [
+          "2005-01-05t12:17:34"
+        ],
+        "online_format": [
+          "image"
+        ],
+        "original_format": [
+          "map"
+        ],
+        "partof": [
+          "american memory",
+          "catalog",
+          "geography and map division",
+          "panoramic maps",
+          "cities and towns"
+        ],
+        "resources": [
+          {
+            "files": 1,
+            "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004070.gif",
+            "url": "https://www.loc.gov/resource/g4144s.pm004070/"
+          }
+        ],
+        "shelf_id": "G4144.S4A3 1867 .R8",
+        "site": [
+          "ammem",
+          "catalog"
+        ],
+        "subject": [
+          "saint paul",
+          "aerial views",
+          "saint paul (minn.)",
+          "minnesota",
+          "united states"
+        ],
+        "timestamp": "2022-12-10T05:50:11.007Z",
+        "title": "Saint Paul, Minnesota 1867.",
+        "type": [
+          "cartographic"
+        ],
+        "url": "https://www.loc.gov/item/73693464/"
+      },
+      {
+        "access_restricted": false,
+        "aka": [
+          "https://hdl.loc.gov/loc.gmd/g4144s.pm004090",
+          "http://www.loc.gov/resource/g4144s.pm004090/",
+          "http://www.loc.gov/item/75694648/",
+          "http://lccn.loc.gov/75694648"
+        ],
+        "campaigns": [],
+        "contributor": [
+          "green, vernon",
+          "[ellsbury, geo. h.]"
+        ],
+        "date": "1874-01-01",
+        "dates": [
+          "1874"
+        ],
+        "description": [
+          "LC Panoramic maps (2nd ed.), 409 Available also through the Library of Congress Web site as a raster image. AACR2: 100; 651/1"
+        ],
+        "digitized": true,
+        "extract_timestamp": "2021-10-30T01:24:28.395Z",
+        "group": [
+          "gmd.mar",
+          "catalog-split-01",
+          "catalog",
+          "general-maps",
+          "main-catalog-split-01",
+          "main-catalog"
+        ],
+        "hassegments": false,
+        "id": "http://www.loc.gov/item/75694648/",
+        "image_url": [
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004090.gif",
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004090.gif#h=150&w=287",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004090/full/pct:12.5/0/default.jpg#h=614&w=1176",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004090/full/pct:25/0/default.jpg#h=1228&w=2352"
+        ],
+        "index": 2,
+        "item": {
+          "call_number": [
+            "G4144.S4A35 1874  .E5"
+          ],
+          "contributors": [
+            "[Ellsbury, Geo. H.]",
+            "Green, Vernon, joint author."
+          ],
+          "created_published": [
+            "n.p., 1874]"
+          ],
+          "date": "1874",
+          "digital_id": [
+            "http://hdl.loc.gov/loc.gmd/g4144s.pm004090"
+          ],
+          "format": [
+            "cartographic"
+          ],
+          "language": [
+            "eng"
+          ],
+          "location": [
+            "Saint Paul (Minn.)"
+          ],
+          "medium": [
+            "col. view on sheet 41 x 80 cm."
+          ],
+          "notes": [
+            "LC Panoramic maps (2nd ed.), 409",
+            "Available also through the Library of Congress Web site as a raster image.",
+            "AACR2: 100; 651/1"
+          ],
+          "number_former_id": [
+            "https://www.loc.gov/item/75694648",
+            "https://www.loc.gov/item/5423897"
+          ],
+          "repository": [
+            "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+          ],
+          "subjects": [
+            "Saint Paul (Minn.)--Aerial views",
+            "United States--Minnesota--Saint Paul"
+          ],
+          "title": "[View of St. Paul, Minnesota."
+        },
+        "language": [
+          "english"
+        ],
+        "location": [
+          "united states",
+          "saint paul",
+          "minnesota"
+        ],
+        "location_city": [
+          "saint paul"
+        ],
+        "location_country": [
+          "united states"
+        ],
+        "location_state": [
+          "minnesota"
+        ],
+        "mime_type": [
+          "image/gif",
+          "image/tiff",
+          "image/jpeg",
+          "image/jp2"
+        ],
+        "number": [
+          "2002-12-14t18:41:07",
+          "http://www.loc.gov/item/75694648",
+          "http://www.loc.gov/item/5423897",
+          "75694648"
+        ],
+        "number_former_id": [
+          "http://www.loc.gov/item/75694648",
+          "http://www.loc.gov/item/5423897"
+        ],
+        "number_lccn": [
+          "75694648"
+        ],
+        "number_source_modified": [
+          "2002-12-14t18:41:07"
+        ],
+        "online_format": [
+          "image"
+        ],
+        "original_format": [
+          "map"
+        ],
+        "partof": [
+          "american memory",
+          "catalog",
+          "geography and map division",
+          "panoramic maps",
+          "cities and towns"
+        ],
+        "resources": [
+          {
+            "files": 1,
+            "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004090.gif",
+            "url": "https://www.loc.gov/resource/g4144s.pm004090/"
+          }
+        ],
+        "shelf_id": "G4144.S4A35 1874  .E5",
+        "site": [
+          "ammem",
+          "catalog"
+        ],
+        "subject": [
+          "saint paul",
+          "aerial views",
+          "saint paul (minn.)",
+          "minnesota",
+          "united states"
+        ],
+        "timestamp": "2022-12-10T05:53:25.542Z",
+        "title": "[View of St. Paul, Minnesota.",
+        "type": [
+          "cartographic"
+        ],
+        "url": "https://www.loc.gov/item/75694648/"
+      },
+      {
+        "access_restricted": false,
+        "aka": [
+          "http://www.loc.gov/item/78693711/",
+          "http://www.loc.gov/resource/g4144s.pm004061/",
+          "https://hdl.loc.gov/loc.gmd/g4144s.pm004061",
+          "http://lccn.loc.gov/78693711"
+        ],
+        "campaigns": [],
+        "contributor": [
+          "queen, james",
+          "strobel, max",
+          "ritchie, thompson"
+        ],
+        "date": "1853-01-01",
+        "dates": [
+          "1853"
+        ],
+        "description": [
+          "Panorama. \"Entered according to Act of Congress in the year 1853, by Thompson Ritchie, in the Clerk's Office of the District Court of the Eastern District of Penna.\" LC Panoramic maps (2nd ed.), 406.1 Available also through the Library of Congress Web site as a raster image. AACR2: 651/1; 700/1"
+        ],
+        "digitized": true,
+        "extract_timestamp": "2021-10-30T01:53:11.013Z",
+        "group": [
+          "gmd.mar",
+          "catalog-split-10",
+          "catalog",
+          "general-maps",
+          "main-catalog-split-10",
+          "main-catalog"
+        ],
+        "hassegments": false,
+        "id": "http://www.loc.gov/item/78693711/",
+        "image_url": [
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004061.gif",
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004061.gif#h=150&w=205",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004061/full/pct:12.5/0/default.jpg#h=604&w=826",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004061/full/pct:25/0/default.jpg#h=1208&w=1652"
+        ],
+        "index": 3,
+        "item": {
+          "call_number": [
+            "G4144.S4A35 1853 .R5"
+          ],
+          "contributors": [
+            "Ritchie, Thompson.",
+            "Strobel, Max.",
+            "Queen, James, 1824-approximately 1877."
+          ],
+          "created_published": [
+            "[Philadelphia?] : Ritchie, [1853]"
+          ],
+          "date": "1853",
+          "digital_id": [
+            "http://hdl.loc.gov/loc.gmd/g4144s.pm004061"
+          ],
+          "format": [
+            "cartographic"
+          ],
+          "language": [
+            "eng"
+          ],
+          "location": [
+            "Saint Paul (Minn.)"
+          ],
+          "medium": [
+            "1 view : col. ; 30 x 50 cm."
+          ],
+          "notes": [
+            "Panorama.",
+            "\"Entered according to Act of Congress in the year 1853, by Thompson Ritchie, in the Clerk's Office of the District Court of the Eastern District of Penna.\"",
+            "LC Panoramic maps (2nd ed.), 406.1",
+            "Available also through the Library of Congress Web site as a raster image.",
+            "AACR2: 651/1; 700/1"
+          ],
+          "number_former_id": [
+            "https://www.loc.gov/item/78693711",
+            "https://www.loc.gov/item/5443078"
+          ],
+          "repository": [
+            "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+          ],
+          "subjects": [
+            "Saint Paul (Minn.)--Aerial views",
+            "United States--Minnesota--Saint Paul"
+          ],
+          "title": "City of St. Paul, capital of Minnesota"
+        },
+        "language": [
+          "english"
+        ],
+        "location": [
+          "united states",
+          "saint paul",
+          "minnesota"
+        ],
+        "location_city": [
+          "saint paul"
+        ],
+        "location_country": [
+          "united states"
+        ],
+        "location_state": [
+          "minnesota"
+        ],
+        "mime_type": [
+          "image/gif",
+          "image/tiff",
+          "image/jpeg",
+          "image/jp2"
+        ],
+        "number": [
+          "78693711",
+          "http://www.loc.gov/item/78693711",
+          "http://www.loc.gov/item/5443078",
+          "2013-05-01t10:57:31"
+        ],
+        "number_former_id": [
+          "http://www.loc.gov/item/78693711",
+          "http://www.loc.gov/item/5443078"
+        ],
+        "number_lccn": [
+          "78693711"
+        ],
+        "number_source_modified": [
+          "2013-05-01t10:57:31"
+        ],
+        "online_format": [
+          "image"
+        ],
+        "original_format": [
+          "map"
+        ],
+        "partof": [
+          "american memory",
+          "catalog",
+          "geography and map division",
+          "panoramic maps",
+          "cities and towns"
+        ],
+        "resources": [
+          {
+            "files": 1,
+            "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004061.gif",
+            "url": "https://www.loc.gov/resource/g4144s.pm004061/"
+          }
+        ],
+        "shelf_id": "G4144.S4A35 1853 .R5",
+        "site": [
+          "ammem",
+          "catalog"
+        ],
+        "subject": [
+          "saint paul",
+          "aerial views",
+          "saint paul (minn.)",
+          "minnesota",
+          "united states"
+        ],
+        "timestamp": "2022-12-10T05:55:27.244Z",
+        "title": "City of St. Paul, capital of Minnesota",
+        "type": [
+          "cartographic"
+        ],
+        "url": "https://www.loc.gov/item/78693711/"
+      },
+      {
+        "access_restricted": false,
+        "aka": [
+          "http://lccn.loc.gov/84690615",
+          "http://www.loc.gov/item/84690615/",
+          "https://search.catalog.loc.gov/instances/22c6b6a1-904e-52e1-860b-539f7a79b8e9",
+          "https://hdl.loc.gov/loc.gmd/g4144s.pm004091",
+          "http://www.loc.gov/resource/g4144s.pm004091/"
+        ],
+        "campaigns": [],
+        "contributor": [
+          "wellge, h. (henry)",
+          "beck & pauli",
+          "brosius, h.",
+          "stoner, j. j."
+        ],
+        "date": "1883",
+        "dates": [
+          "1883"
+        ],
+        "description": [
+          "Bird's-eye view. \"H. Brosius, del.\" appears on most of the illustrations. Includes ill. of buildings, index to points of interest, and inset \"Extension of Fort [i.e., West Seventh] Street.\" LC Panoramic maps (2nd ed.), 409.1 Available also through the Library of Congress Web site as a raster image. Conserved; 002667.12 1976 Library of Congress Conservation Division. For treatment information, contact the Preservation Directorate. https://ask.loc.gov/preservation pda Transfer from P&P, 11/17/81."
+        ],
+        "digitized": true,
+        "extract_timestamp": "2025-09-30T15:26:21.562Z",
+        "group": [
+          "catalog-split-07",
+          "catalog",
+          "gmd.mar",
+          "main-catalog-split-07",
+          "general-maps"
+        ],
+        "hassegments": false,
+        "id": "http://www.loc.gov/item/84690615/",
+        "image_url": [
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004091.gif",
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004091.gif#h=150&w=228",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004091/full/pct:12.5/0/default.jpg#h=1020&w=1548",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004091/full/pct:25/0/default.jpg#h=2040&w=3096"
+        ],
+        "index": 4,
+        "item": {
+          "call_number": [
+            "G4144.S4A3 1883 .W4"
+          ],
+          "contributors": [
+            "Wellge, H. (Henry)",
+            "Stoner, J. J.",
+            "Brosius, H.",
+            "Beck & Pauli"
+          ],
+          "created_published": [
+            "Madison, Wis. : J.J. Stoner, c1883"
+          ],
+          "date": "1883",
+          "digital_id": [
+            "http://hdl.loc.gov/loc.gmd/g4144s.pm004091"
+          ],
+          "format": [
+            "cartographic"
+          ],
+          "language": [
+            "eng"
+          ],
+          "location": [
+            "Saint Paul (Minn.)"
+          ],
+          "medium": [
+            "1 view : col. ; 55 x 100 cm., on sheet 73 x 109 cm."
+          ],
+          "notes": [
+            "Bird's-eye view.",
+            "\"H. Brosius, del.\" appears on most of the illustrations.",
+            "Includes ill. of buildings, index to points of interest, and inset \"Extension of Fort [i.e., West Seventh] Street.\"",
+            "LC Panoramic maps (2nd ed.), 409.1",
+            "Available also through the Library of Congress Web site as a raster image.",
+            "Conserved; 002667.12 1976 Library of Congress Conservation Division. For treatment information, contact the Preservation Directorate. https://ask.loc.gov/preservation pda",
+            "Transfer from P&P, 11/17/81."
+          ],
+          "repository": [
+            "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+          ],
+          "subjects": [
+            "Saint Paul (Minn.)--Aerial views",
+            "United States--Minnesota--Saint Paul"
+          ],
+          "title": "St. Paul, Minnesota 1883 : state capital and county seat of Ramsey Co"
+        },
+        "language": [
+          "english"
+        ],
+        "location": [
+          "united states",
+          "saint paul",
+          "minnesota"
+        ],
+        "location_city": [
+          "saint paul"
+        ],
+        "location_country": [
+          "united states"
+        ],
+        "location_state": [
+          "minnesota"
+        ],
+        "mime_type": [
+          "image/gif",
+          "image/tiff",
+          "image/jpeg",
+          "image/jp2"
+        ],
+        "number": [
+          "2002-12-14t18:46:43",
+          "2025-07-23t15:24:27.100000",
+          "http://www.loc.gov/item/84690615",
+          "84690615",
+          "http://www.loc.gov/item/5471600"
+        ],
+        "number_former_id": [
+          "http://www.loc.gov/item/84690615",
+          "http://www.loc.gov/item/5471600"
+        ],
+        "number_lccn": [
+          "84690615"
+        ],
+        "number_source_modified": [
+          "2025-07-23t15:24:27.100000",
+          "2002-12-14t18:46:43"
+        ],
+        "online_format": [
+          "image"
+        ],
+        "original_format": [
+          "map"
+        ],
+        "partof": [
+          "american memory",
+          "catalog",
+          "geography and map division",
+          "panoramic maps",
+          "cities and towns"
+        ],
+        "resources": [
+          {
+            "files": 1,
+            "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004091.gif",
+            "url": "https://www.loc.gov/resource/g4144s.pm004091/"
+          }
+        ],
+        "shelf_id": "G4144.S4A3 1883 .W4",
+        "site": [
+          "catalog",
+          "ammem"
+        ],
+        "subject": [
+          "saint paul",
+          "aerial views",
+          "saint paul (minn.)",
+          "minnesota",
+          "united states"
+        ],
+        "timestamp": "2025-09-30T17:15:21.577Z",
+        "title": "St. Paul, Minnesota 1883 : state capital and county seat of Ramsey Co",
+        "type": [
+          "cartographic"
+        ],
+        "url": "https://www.loc.gov/item/84690615/"
+      },
+      {
+        "access_restricted": false,
+        "aka": [
+          "http://www.loc.gov/item/75694650/",
+          "http://www.loc.gov/resource/g4144s.pm004110/",
+          "https://hdl.loc.gov/loc.gmd/g4144s.pm004110",
+          "http://lccn.loc.gov/75694650"
+        ],
+        "campaigns": [],
+        "contributor": [
+          "saint, robert m."
+        ],
+        "date": "1906-01-01",
+        "dates": [
+          "1906"
+        ],
+        "description": [
+          "Perspective map not drawn to scale. Bird's-eye-view. LC Panoramic maps (2nd ed.), 411 Available also through the Library of Congress Web site as a raster image. AACR2: 651"
+        ],
+        "digitized": true,
+        "extract_timestamp": "2021-10-29T21:49:23.563Z",
+        "group": [
+          "gmd.mar",
+          "catalog-split-10",
+          "catalog",
+          "general-maps",
+          "main-catalog-split-10",
+          "main-catalog"
+        ],
+        "hassegments": false,
+        "id": "http://www.loc.gov/item/75694650/",
+        "image_url": [
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004110.gif",
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004110.gif#h=150&w=265",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004110/full/pct:12.5/0/default.jpg#h=700&w=1236",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004110/full/pct:25/0/default.jpg#h=1400&w=2472"
+        ],
+        "index": 5,
+        "item": {
+          "call_number": [
+            "G4144.S4A3 1906  .S3"
+          ],
+          "contributors": [
+            "Saint, Robert M."
+          ],
+          "created_published": [
+            "St. Paul, c1906."
+          ],
+          "date": "1906",
+          "digital_id": [
+            "http://hdl.loc.gov/loc.gmd/g4144s.pm004110"
+          ],
+          "format": [
+            "cartographic"
+          ],
+          "language": [
+            "eng"
+          ],
+          "location": [
+            "Saint Paul (Minn.)"
+          ],
+          "medium": [
+            "map 38 x 77 cm."
+          ],
+          "notes": [
+            "Perspective map not drawn to scale.",
+            "Bird's-eye-view.",
+            "LC Panoramic maps (2nd ed.), 411",
+            "Available also through the Library of Congress Web site as a raster image.",
+            "AACR2: 651"
+          ],
+          "number_former_id": [
+            "https://www.loc.gov/item/75694650",
+            "https://www.loc.gov/item/5423899"
+          ],
+          "repository": [
+            "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+          ],
+          "subjects": [
+            "Saint Paul (Minn.)--Aerial views",
+            "United States--Minnesota--Saint Paul"
+          ],
+          "title": "St. Paul, Minn."
+        },
+        "language": [
+          "english"
+        ],
+        "location": [
+          "united states",
+          "saint paul",
+          "minnesota"
+        ],
+        "location_city": [
+          "saint paul"
+        ],
+        "location_country": [
+          "united states"
+        ],
+        "location_state": [
+          "minnesota"
+        ],
+        "mime_type": [
+          "image/gif",
+          "image/tiff",
+          "image/jpeg",
+          "image/jp2"
+        ],
+        "number": [
+          "http://www.loc.gov/item/75694650",
+          "2002-12-14t18:41:08",
+          "75694650",
+          "http://www.loc.gov/item/5423899"
+        ],
+        "number_former_id": [
+          "http://www.loc.gov/item/75694650",
+          "http://www.loc.gov/item/5423899"
+        ],
+        "number_lccn": [
+          "75694650"
+        ],
+        "number_source_modified": [
+          "2002-12-14t18:41:08"
+        ],
+        "online_format": [
+          "image"
+        ],
+        "original_format": [
+          "map"
+        ],
+        "partof": [
+          "american memory",
+          "catalog",
+          "geography and map division",
+          "panoramic maps",
+          "cities and towns"
+        ],
+        "resources": [
+          {
+            "files": 1,
+            "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004110.gif",
+            "url": "https://www.loc.gov/resource/g4144s.pm004110/"
+          }
+        ],
+        "shelf_id": "G4144.S4A3 1906  .S3",
+        "site": [
+          "ammem",
+          "catalog"
+        ],
+        "subject": [
+          "saint paul",
+          "aerial views",
+          "saint paul (minn.)",
+          "minnesota",
+          "united states"
+        ],
+        "timestamp": "2022-12-10T05:53:25.542Z",
+        "title": "St. Paul, Minn.",
+        "type": [
+          "cartographic"
+        ],
+        "url": "https://www.loc.gov/item/75694650/"
+      },
+      {
+        "access_restricted": false,
+        "aka": [
+          "http://www.loc.gov/item/75694649/",
+          "https://hdl.loc.gov/loc.gmd/g4144s.pm004080",
+          "http://www.loc.gov/resource/g4144s.pm004080/",
+          "http://lccn.loc.gov/75694649"
+        ],
+        "campaigns": [],
+        "contributor": [
+          "hageboeck, august"
+        ],
+        "date": "1873-01-01",
+        "dates": [
+          "1873"
+        ],
+        "description": [
+          "LC Panoramic maps (2nd ed.), 408 Available also through the Library of Congress Web site as a raster image. AACR2: 651/1"
+        ],
+        "digitized": true,
+        "extract_timestamp": "2021-10-30T01:51:17.764Z",
+        "group": [
+          "gmd.mar",
+          "catalog-split-02",
+          "catalog",
+          "general-maps",
+          "main-catalog-split-02",
+          "main-catalog"
+        ],
+        "hassegments": false,
+        "id": "http://www.loc.gov/item/75694649/",
+        "image_url": [
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004080.gif",
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004080.gif#h=150&w=425",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004080/full/pct:12.5/0/default.jpg#h=354&w=1002",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004080/full/pct:25/0/default.jpg#h=708&w=2004"
+        ],
+        "index": 6,
+        "item": {
+          "call_number": [
+            "G4144.S4A35 1873  .H3"
+          ],
+          "contributors": [
+            "Hageboeck, August."
+          ],
+          "created_published": [
+            "Davenport, Iowa, 1873."
+          ],
+          "date": "1873",
+          "digital_id": [
+            "http://hdl.loc.gov/loc.gmd/g4144s.pm004080"
+          ],
+          "format": [
+            "cartographic"
+          ],
+          "language": [
+            "eng"
+          ],
+          "location": [
+            "Saint Paul (Minn.)"
+          ],
+          "medium": [
+            "col. view 17 x 62 cm."
+          ],
+          "notes": [
+            "LC Panoramic maps (2nd ed.), 408",
+            "Available also through the Library of Congress Web site as a raster image.",
+            "AACR2: 651/1"
+          ],
+          "number_former_id": [
+            "https://www.loc.gov/item/75694649",
+            "https://www.loc.gov/item/5423898"
+          ],
+          "repository": [
+            "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+          ],
+          "subjects": [
+            "Saint Paul (Minn.)--Aerial views",
+            "United States--Minnesota--Saint Paul"
+          ],
+          "title": "Panorama of St. Paul, Minn."
+        },
+        "language": [
+          "english"
+        ],
+        "location": [
+          "united states",
+          "saint paul",
+          "minnesota"
+        ],
+        "location_city": [
+          "saint paul"
+        ],
+        "location_country": [
+          "united states"
+        ],
+        "location_state": [
+          "minnesota"
+        ],
+        "mime_type": [
+          "image/gif",
+          "image/tiff",
+          "image/jpeg",
+          "image/jp2"
+        ],
+        "number": [
+          "75694649",
+          "2002-12-14t18:41:07",
+          "http://www.loc.gov/item/75694649",
+          "http://www.loc.gov/item/5423898"
+        ],
+        "number_former_id": [
+          "http://www.loc.gov/item/75694649",
+          "http://www.loc.gov/item/5423898"
+        ],
+        "number_lccn": [
+          "75694649"
+        ],
+        "number_source_modified": [
+          "2002-12-14t18:41:07"
+        ],
+        "online_format": [
+          "image"
+        ],
+        "original_format": [
+          "map"
+        ],
+        "partof": [
+          "american memory",
+          "catalog",
+          "geography and map division",
+          "panoramic maps",
+          "cities and towns"
+        ],
+        "resources": [
+          {
+            "files": 1,
+            "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004080.gif",
+            "url": "https://www.loc.gov/resource/g4144s.pm004080/"
+          }
+        ],
+        "shelf_id": "G4144.S4A35 1873  .H3",
+        "site": [
+          "ammem",
+          "catalog"
+        ],
+        "subject": [
+          "saint paul",
+          "aerial views",
+          "saint paul (minn.)",
+          "minnesota",
+          "united states"
+        ],
+        "timestamp": "2022-12-10T05:53:25.542Z",
+        "title": "Panorama of St. Paul, Minn.",
+        "type": [
+          "cartographic"
+        ],
+        "url": "https://www.loc.gov/item/75694649/"
+      },
+      {
+        "access_restricted": false,
+        "aka": [
+          "http://www.loc.gov/resource/g4144s.pm004100/",
+          "http://www.loc.gov/item/75694647/",
+          "https://hdl.loc.gov/loc.gmd/g4144s.pm004100",
+          "http://lccn.loc.gov/75694647"
+        ],
+        "campaigns": [],
+        "contributor": [
+          "brown, treacy & co. (saint paul, minn.)"
+        ],
+        "date": "1893-01-01",
+        "dates": [
+          "1893"
+        ],
+        "description": [
+          "Perspective map not drawn to scale. LC Panoramic maps (2nd ed.), 410 Available also through the Library of Congress Web site as a raster image. AACR2"
+        ],
+        "digitized": true,
+        "extract_timestamp": "2021-10-29T22:30:27.551Z",
+        "group": [
+          "gmd.mar",
+          "catalog-split-00",
+          "catalog",
+          "general-maps",
+          "main-catalog-split-00",
+          "main-catalog"
+        ],
+        "hassegments": false,
+        "id": "http://www.loc.gov/item/75694647/",
+        "image_url": [
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004100.gif",
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004100.gif#h=150&w=195",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004100/full/pct:12.5/0/default.jpg#h=319&w=414",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004100/full/pct:25/0/default.jpg#h=638&w=828"
+        ],
+        "index": 7,
+        "item": {
+          "call_number": [
+            "G4144.S4A3 1893  .B7"
+          ],
+          "contributors": [
+            "Brown, Treacy & Co. (Saint Paul, Minn.)"
+          ],
+          "created_published": [
+            "[n.p.] c1893."
+          ],
+          "date": "1893",
+          "digital_id": [
+            "http://hdl.loc.gov/loc.gmd/g4144s.pm004100"
+          ],
+          "format": [
+            "cartographic"
+          ],
+          "language": [
+            "eng"
+          ],
+          "location": [
+            "Saint Paul (Minn.)"
+          ],
+          "medium": [
+            "col. map 19 x 26 cm."
+          ],
+          "notes": [
+            "Perspective map not drawn to scale.",
+            "LC Panoramic maps (2nd ed.), 410",
+            "Available also through the Library of Congress Web site as a raster image.",
+            "AACR2"
+          ],
+          "number_former_id": [
+            "https://www.loc.gov/item/75694647",
+            "https://www.loc.gov/item/5423896"
+          ],
+          "repository": [
+            "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+          ],
+          "subjects": [
+            "Saint Paul (Minn.)--Aerial views",
+            "United States--Minnesota--Saint Paul"
+          ],
+          "title": "Bird's-eye view of St. Paul, looking west from Dayton's Bluff."
+        },
+        "language": [
+          "english"
+        ],
+        "location": [
+          "united states",
+          "saint paul",
+          "minnesota"
+        ],
+        "location_city": [
+          "saint paul"
+        ],
+        "location_country": [
+          "united states"
+        ],
+        "location_state": [
+          "minnesota"
+        ],
+        "mime_type": [
+          "image/gif",
+          "image/tiff",
+          "image/jpeg",
+          "image/jp2"
+        ],
+        "number": [
+          "http://www.loc.gov/item/5423896",
+          "75694647",
+          "http://www.loc.gov/item/75694647",
+          "2002-12-14t18:41:06"
+        ],
+        "number_former_id": [
+          "http://www.loc.gov/item/75694647",
+          "http://www.loc.gov/item/5423896"
+        ],
+        "number_lccn": [
+          "75694647"
+        ],
+        "number_source_modified": [
+          "2002-12-14t18:41:06"
+        ],
+        "online_format": [
+          "image"
+        ],
+        "original_format": [
+          "map"
+        ],
+        "partof": [
+          "american memory",
+          "catalog",
+          "geography and map division",
+          "panoramic maps",
+          "cities and towns"
+        ],
+        "resources": [
+          {
+            "files": 1,
+            "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004100.gif",
+            "url": "https://www.loc.gov/resource/g4144s.pm004100/"
+          }
+        ],
+        "shelf_id": "G4144.S4A3 1893  .B7",
+        "site": [
+          "ammem",
+          "catalog"
+        ],
+        "subject": [
+          "saint paul",
+          "aerial views",
+          "saint paul (minn.)",
+          "minnesota",
+          "united states"
+        ],
+        "timestamp": "2022-12-10T05:53:25.542Z",
+        "title": "Bird's-eye view of St. Paul, looking west from Dayton's Bluff.",
+        "type": [
+          "cartographic"
+        ],
+        "url": "https://www.loc.gov/item/75694647/"
+      },
+      {
+        "access_restricted": false,
+        "aka": [
+          "http://www.loc.gov/item/78693710/",
+          "http://www.loc.gov/resource/g4144s.pm004092/",
+          "https://hdl.loc.gov/loc.gmd/g4144s.pm004092",
+          "http://lccn.loc.gov/78693710"
+        ],
+        "campaigns": [],
+        "contributor": [
+          "baker, collins & co",
+          "marr & richards engraving co"
+        ],
+        "date": "1888-01-01",
+        "dates": [
+          "1888"
+        ],
+        "description": [
+          "Perspective map not drawn to scale. Bird's-eye-view. LC Panoramic maps (2nd ed.), 409.2 Available also through the Library of Congress Web site as a raster image. AACR2: 651/1"
+        ],
+        "digitized": true,
+        "extract_timestamp": "2021-10-29T21:23:55.645Z",
+        "group": [
+          "gmd.mar",
+          "catalog-split-09",
+          "catalog",
+          "general-maps",
+          "main-catalog-split-09",
+          "main-catalog"
+        ],
+        "hassegments": false,
+        "id": "http://www.loc.gov/item/78693710/",
+        "image_url": [
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004092.gif",
+          "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004092.gif#h=150&w=251",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004092/full/pct:12.5/0/default.jpg#h=674&w=1130",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004092/full/pct:25/0/default.jpg#h=1348&w=2260"
+        ],
+        "index": 8,
+        "item": {
+          "call_number": [
+            "G4144.S4A3 1888  .M3"
+          ],
+          "contributors": [
+            "Marr & Richards Engraving Co.",
+            "Baker, Collins & Co."
+          ],
+          "created_published": [
+            "St. Paul : Baker, Collins & Co., 1888, c1887."
+          ],
+          "date": "1888",
+          "digital_id": [
+            "http://hdl.loc.gov/loc.gmd/g4144s.pm004092"
+          ],
+          "format": [
+            "cartographic"
+          ],
+          "language": [
+            "eng"
+          ],
+          "location": [
+            "Saint Paul (Minn.)"
+          ],
+          "medium": [
+            "1 map ; 34 x 71 cm."
+          ],
+          "notes": [
+            "Perspective map not drawn to scale.",
+            "Bird's-eye-view.",
+            "LC Panoramic maps (2nd ed.), 409.2",
+            "Available also through the Library of Congress Web site as a raster image.",
+            "AACR2: 651/1"
+          ],
+          "number_former_id": [
+            "https://www.loc.gov/item/78693710",
+            "https://www.loc.gov/item/5443077"
+          ],
+          "repository": [
+            "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+          ],
+          "subjects": [
+            "Saint Paul (Minn.)--Aerial views",
+            "United States--Minnesota--Saint Paul"
+          ],
+          "title": "St. Paul, Minn. : ice palace and winter carnival souvenir"
+        },
+        "language": [
+          "english"
+        ],
+        "location": [
+          "united states",
+          "saint paul",
+          "minnesota"
+        ],
+        "location_city": [
+          "saint paul"
+        ],
+        "location_country": [
+          "united states"
+        ],
+        "location_state": [
+          "minnesota"
+        ],
+        "mime_type": [
+          "image/gif",
+          "image/tiff",
+          "image/jpeg",
+          "image/jp2"
+        ],
+        "number": [
+          "http://www.loc.gov/item/78693710",
+          "http://www.loc.gov/item/5443077",
+          "2002-12-14t18:45:29",
+          "78693710"
+        ],
+        "number_former_id": [
+          "http://www.loc.gov/item/78693710",
+          "http://www.loc.gov/item/5443077"
+        ],
+        "number_lccn": [
+          "78693710"
+        ],
+        "number_source_modified": [
+          "2002-12-14t18:45:29"
+        ],
+        "online_format": [
+          "image"
+        ],
+        "original_format": [
+          "map"
+        ],
+        "partof": [
+          "american memory",
+          "catalog",
+          "geography and map division",
+          "panoramic maps",
+          "cities and towns"
+        ],
+        "resources": [
+          {
+            "files": 1,
+            "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004092.gif",
+            "url": "https://www.loc.gov/resource/g4144s.pm004092/"
+          }
+        ],
+        "shelf_id": "G4144.S4A3 1888  .M3",
+        "site": [
+          "ammem",
+          "catalog"
+        ],
+        "subject": [
+          "saint paul",
+          "aerial views",
+          "saint paul (minn.)",
+          "minnesota",
+          "united states"
+        ],
+        "timestamp": "2022-12-10T05:55:15.877Z",
+        "title": "St. Paul, Minn. : ice palace and winter carnival souvenir",
+        "type": [
+          "cartographic"
+        ],
+        "url": "https://www.loc.gov/item/78693710/"
+      }
+    ],
+    "slug": "",
+    "title": "Collection Items",
+    "url": "https://www.loc.gov/collections/panoramic-maps/"
+  },
+  "digitized": 1500,
+  "expert_resources": [
+    {
+      "title": "Geography and Map Reading Room",
+      "url": "https://www.loc.gov/research-centers/geography-and-map"
+    },
+    {
+      "title": "Geography and Map Reading Room, Guide to the Collections",
+      "url": "/maps/collections/"
+    },
+    {
+      "title": "How to Order Reproductions",
+      "url": "https://www.loc.gov/duplicationservices/collections-guide/#loctoggler=2"
+    },
+    {
+      "title": "Geography and Map Ask a Librarian",
+      "url": "https://ask.loc.gov/map-geography/"
+    },
+    {
+      "title": "Collections with Photos",
+      "url": "/photos/collections/"
+    }
+  ],
+  "facet_trail": [
+    {
+      "facet": "Part of",
+      "field": "partof",
+      "superset": "https://www.loc.gov/search/?c=50&fo=json&q=saint+paul+minnesota&sp=1",
+      "value": "panoramic maps"
+    },
+    {
+      "facet": "searchTerms",
+      "field": "searchTerms",
+      "superset": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&sp=1",
+      "value": "saint paul minnesota"
+    },
+    {
+      "facet": "Available Online",
+      "field": "digitized",
+      "superset": "https://www.loc.gov/collections/panoramic-maps/?all=true&c=50&fo=json&q=saint+paul+minnesota&sp=1",
+      "value": "digitized"
+    }
+  ],
+  "facet_views": {
+    "calendar": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&fs=calendar&q=saint+paul+minnesota&sp=1",
+    "chart": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&fs=chart&q=saint+paul+minnesota&sp=1",
+    "current": "list",
+    "list": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&q=saint+paul+minnesota&sp=1"
+  },
+  "facets": [
+    {
+      "filters": [
+        {
+          "count": 8,
+          "not": null,
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&q=saint+paul+minnesota",
+          "title": "true"
+        }
+      ],
+      "title": "Available Online",
+      "type": "digitized"
+    },
+    {
+      "filters": [
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=original-format!:map&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=original-format:map&fo=json&q=saint+paul+minnesota",
+          "title": "map"
+        }
+      ],
+      "title": "Original Format",
+      "type": "original-format"
+    },
+    {
+      "filters": [
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=online-format!:image&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=online-format:image&fo=json&q=saint+paul+minnesota",
+          "title": "image"
+        }
+      ],
+      "title": "Online Format",
+      "type": "online-format"
+    },
+    {
+      "filters": [
+        {
+          "count": 1,
+          "not": null,
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&dates=1900/1999&fo=json&q=saint+paul+minnesota",
+          "term": "1900-01-01T00:00:00Z",
+          "title": "1900 to 1999"
+        },
+        {
+          "count": 7,
+          "not": null,
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&dates=1800/1899&fo=json&q=saint+paul+minnesota",
+          "term": "1800-01-01T00:00:00Z",
+          "title": "1800 to 1899"
+        }
+      ],
+      "title": "Date",
+      "type": "dates"
+    },
+    {
+      "filters": [
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=location!:minnesota&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=location:minnesota&fo=json&q=saint+paul+minnesota",
+          "title": "minnesota"
+        },
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=location!:saint+paul&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=location:saint+paul&fo=json&q=saint+paul+minnesota",
+          "title": "saint paul"
+        },
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=location!:united+states&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=location:united+states&fo=json&q=saint+paul+minnesota",
+          "title": "united states"
+        }
+      ],
+      "title": "Location",
+      "type": "location"
+    },
+    {
+      "filters": [
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=partof!:american+memory&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=partof:american+memory&fo=json&q=saint+paul+minnesota",
+          "title": "american memory"
+        },
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=partof!:catalog&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=partof:catalog&fo=json&q=saint+paul+minnesota",
+          "title": "catalog"
+        },
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=partof!:cities+and+towns&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=partof:cities+and+towns&fo=json&q=saint+paul+minnesota",
+          "title": "cities and towns"
+        },
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=partof!:geography+and+map+division&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=partof:geography+and+map+division&fo=json&q=saint+paul+minnesota",
+          "title": "geography and map division"
+        },
+        {
+          "count": 8,
+          "not": null,
+          "off": "https://www.loc.gov/search/?c=50&fo=json&q=saint+paul+minnesota",
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&q=saint+paul+minnesota",
+          "title": "panoramic maps"
+        }
+      ],
+      "title": "Part of",
+      "type": "partof"
+    },
+    {
+      "filters": [
+        {
+          "count": 1,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor!:%5Bellsbury,+geo.+h.%5D&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor:%5Bellsbury,+geo.+h.%5D&fo=json&q=saint+paul+minnesota",
+          "title": "[ellsbury, geo. h.]"
+        },
+        {
+          "count": 1,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor!:baker,+collins+%26+co&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor:baker,+collins+%26+co&fo=json&q=saint+paul+minnesota",
+          "title": "baker, collins & co"
+        },
+        {
+          "count": 1,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor!:beck+%26+pauli&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor:beck+%26+pauli&fo=json&q=saint+paul+minnesota",
+          "title": "beck & pauli"
+        },
+        {
+          "count": 1,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor!:brosius,+h.&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor:brosius,+h.&fo=json&q=saint+paul+minnesota",
+          "title": "brosius, h."
+        },
+        {
+          "count": 1,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor!:brown,+treacy+%26+co.+%28saint+paul,+minn.%29&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor:brown,+treacy+%26+co.+%28saint+paul,+minn.%29&fo=json&q=saint+paul+minnesota",
+          "title": "brown, treacy & co. (saint paul, minn.)"
+        },
+        {
+          "count": 1,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor!:chicago+lithographing+co&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor:chicago+lithographing+co&fo=json&q=saint+paul+minnesota",
+          "title": "chicago lithographing co"
+        },
+        {
+          "count": 1,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor!:green,+vernon&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor:green,+vernon&fo=json&q=saint+paul+minnesota",
+          "title": "green, vernon"
+        },
+        {
+          "count": 1,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor!:hageboeck,+august&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor:hageboeck,+august&fo=json&q=saint+paul+minnesota",
+          "title": "hageboeck, august"
+        },
+        {
+          "count": 1,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor!:marr+%26+richards+engraving+co&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor:marr+%26+richards+engraving+co&fo=json&q=saint+paul+minnesota",
+          "title": "marr & richards engraving co"
+        },
+        {
+          "count": 1,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor!:queen,+james&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=contributor:queen,+james&fo=json&q=saint+paul+minnesota",
+          "title": "queen, james"
+        }
+      ],
+      "index": "https://www.loc.gov/collections/panoramic-maps/index/contributor/?c=50&fo=json&q=saint+paul+minnesota&sp=1",
+      "title": "Contributor",
+      "type": "contributor"
+    },
+    {
+      "filters": [
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=subject!:aerial+views&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=subject:aerial+views&fo=json&q=saint+paul+minnesota",
+          "title": "aerial views"
+        },
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=subject!:minnesota&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=subject:minnesota&fo=json&q=saint+paul+minnesota",
+          "title": "minnesota"
+        },
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=subject!:saint+paul&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=subject:saint+paul&fo=json&q=saint+paul+minnesota",
+          "title": "saint paul"
+        },
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=subject!:saint+paul+%28minn.%29&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=subject:saint+paul+%28minn.%29&fo=json&q=saint+paul+minnesota",
+          "title": "saint paul (minn.)"
+        },
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=subject!:united+states&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=subject:united+states&fo=json&q=saint+paul+minnesota",
+          "title": "united states"
+        }
+      ],
+      "title": "Subject",
+      "type": "subject"
+    },
+    {
+      "filters": [
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=language!:english&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=language:english&fo=json&q=saint+paul+minnesota",
+          "title": "english"
+        }
+      ],
+      "title": "Language",
+      "type": "language"
+    },
+    {
+      "filters": [
+        {
+          "count": 8,
+          "not": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=access-restricted!:false&fo=json&q=saint+paul+minnesota",
+          "off": null,
+          "on": "https://www.loc.gov/collections/panoramic-maps/?c=50&fa=access-restricted:false&fo=json&q=saint+paul+minnesota",
+          "title": "false"
+        }
+      ],
+      "title": "Access Condition",
+      "type": "access-restricted"
+    }
+  ],
+  "featured_items": [
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm006150.jpg",
+      "title": "Aero view of Peekskill, New York 1911.",
+      "url": "/item/75694832"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm010410.jpg",
+      "title": "Madison, State capital of Wisconsin, county seat of Dane County 1885.",
+      "url": "/item/75696712"
+    },
+    {
+      "description": "Pennsylvania 1896.",
+      "image": "/static/collections/panoramic-maps/images/pm007520.jpg",
+      "title": "Clarion, Clarion County",
+      "url": "/item/75694956"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm004420.jpg",
+      "title": "The panorama of St. Louis.",
+      "url": "/item/75694660"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm002434.jpg",
+      "title": "Bridgton, Maine, U.S.A. : 1888",
+      "url": "/item/83694327"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm003100.jpg",
+      "title": "Merrimac, Mass.",
+      "url": "/item/75694590"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm004473.jpg",
+      "title": "World's Fair, St Louis, 1904.",
+      "url": "/item/98687180"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm002941.jpg",
+      "title": "View of Greenfield, Mass.",
+      "url": "/item/76695252"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm001140.jpg",
+      "title": "Jacksonville, Florida.",
+      "url": "/item/75693182"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm001142.jpg",
+      "title": "Bird's eye view of Key West, Fla., Key West Island, C.S. Monroe Co., 1884",
+      "url": "/item/83693954"
+    },
+    {
+      "description": "York River, Hampton Roads, Chesapeake entrance.",
+      "image": "/static/collections/panoramic-maps/images/pm005950.jpg",
+      "title": "The city of New York.",
+      "url": "/item/75694809"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm005521.jpg",
+      "title": "Bird's eye view Coney Island.",
+      "url": "/item/98687100"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm002000.jpg",
+      "title": "Bird's eye view of the city of Peru, Miami Co., Indiana 1868.",
+      "url": "/item/73693386"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm006010.jpg",
+      "title": "The city of New York.",
+      "url": "/item/75694820"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm020440.jpg",
+      "title": "Arlington, Massachusetts, 1884.",
+      "url": "/item/2011589045"
+    },
+    {
+      "description": "'The Queen of the Prairies,' county seat of Tarrant County 1886.",
+      "image": "/static/collections/panoramic-maps/images/pm009100.jpg",
+      "title": "Fort Worth, Tex.,",
+      "url": "/item/75696591"
+    },
+    {
+      "description": "Knox County, Ohio 1870.",
+      "image": "/static/collections/panoramic-maps/images/pm007010.jpg",
+      "title": "Bird's eye view of the city of Mount Vernon",
+      "url": "/item/73694512"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm003520.jpg",
+      "title": "Hudson, Lenawee Co., Michigan 1868.",
+      "url": "/item/73693430"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm020460.jpg",
+      "title": "Plymouth, Mass., 1882.",
+      "url": "/item/2011589144"
+    },
+    {
+      "description": "",
+      "image": "/static/collections/panoramic-maps/images/pm001552.jpg",
+      "title": "Chicago, central business section.",
+      "url": "/item/87690504"
+    }
+  ],
+  "form_facets": {},
+  "next": {
+    "active": false,
+    "children": [
+      {
+        "content": "articles-and-essays/panoramic-mapping/index.html",
+        "dates": [
+          "1872/1892"
+        ],
+        "image_url": [
+          "/static/collections/panoramic-maps/images/rindx.gif"
+        ],
+        "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/panoramic-mapping/",
+        "locations": [
+          "Baltimore",
+          "St. Louis",
+          "Morrisville",
+          "Pennsylvania",
+          "Norfolk",
+          "Virginia"
+        ],
+        "slug": "panoramic-mapping",
+        "subjects": [
+          "Panoramic maps",
+          "Renaissance Europe",
+          "Merian, Mathias",
+          "Braun, George",
+          "Hogenberg, Franz",
+          "Victorian America",
+          "printing",
+          "Pictorial St. Louis: The Great Metropolis of the Mississippi Valley",
+          "Fowler, Thaddeus M.",
+          "Bailey, Oakley H.",
+          "Burleigh, Lucien R.",
+          "Ruger, Albert"
+        ],
+        "title": "Panoramic Mapping",
+        "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/panoramic-mapping/"
+      },
+      {
+        "content": "articles-and-essays/panoramic-artists-and-publishers/index.html",
+        "dates": [
+          "1829/1917"
+        ],
+        "image_url": [
+          "/static/collections/panoramic-maps/images/ruger.gif"
+        ],
+        "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/panoramic-artists-and-publishers/",
+        "locations": [
+          "Michigan",
+          "Stewart",
+          "Ohio",
+          "Pennsylvania",
+          "West Virginia",
+          "Allentown",
+          "Middletown",
+          "New York",
+          "New England",
+          "Chicago",
+          "Milwuakee"
+        ],
+        "slug": "panoramic-artists-and-publishers",
+        "subjects": [
+          "Ruger, Albert",
+          "Fowler, Thaddeus Mortimer",
+          "Burleigh, Lucien R.",
+          "Wellge, Henry",
+          "Bailey, Oakley H."
+        ],
+        "title": "Panoramic Artists and Publishers",
+        "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/panoramic-artists-and-publishers/"
+      },
+      {
+        "content": "articles-and-essays/browse-by-state/state-map.html",
+        "dates": [
+          "1847/1929"
+        ],
+        "description": [
+          "Select states on the map to browse items."
+        ],
+        "image_url": [
+          "/static/collections/panoramic-maps/images/us.jpg"
+        ],
+        "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/browse-maps-by-state/",
+        "locations": [
+          "Michigan",
+          "Stewart",
+          "Ohio",
+          "Pennsylvania",
+          "West Virginia",
+          "Allentown",
+          "Middletown",
+          "New York",
+          "New England",
+          "Chicago",
+          "Milwuakee"
+        ],
+        "slug": "browse-maps-by-state",
+        "subjects": [
+          "Panoramic maps",
+          "Renaissance Europe",
+          "Merian, Mathias",
+          "Braun, George",
+          "Hogenberg, Franz",
+          "Victorian America",
+          "printing",
+          "Pictorial St. Louis: The Great Metropolis of the Mississippi Valley",
+          "Fowler, Thaddeus M.",
+          "Bailey, Oakley H.",
+          "Burleigh, Lucien R.",
+          "Ruger, Albert"
+        ],
+        "title": "Browse Maps by State",
+        "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/browse-maps-by-state/"
+      },
+      {
+        "content": "articles-and-essays/topographical-survey-of-st-louis/st-louis-map.html",
+        "dates": [
+          "1847/1929"
+        ],
+        "description": [
+          "Select a numbered tile to view a detailed panoramic map"
+        ],
+        "image_url": [
+          "/static/collections/panoramic-maps/images/stlouis.jpg"
+        ],
+        "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/topographical-survey-of-st-louis/",
+        "locations": [
+          "St. Louis",
+          "Missouri",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "slug": "topographical-survey-of-st-louis",
+        "subjects": [
+          "Panoramic maps",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Pictorial St. Louis: The Great Metropolis of the Mississippi Valley",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "title": "Topographical Survey of St. Louis Missouri",
+        "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/topographical-survey-of-st-louis/"
+      }
+    ],
+    "content": "$children",
+    "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/",
+    "pagination": "3 of 3",
+    "slug": "articles-and-essays",
+    "title": "Articles and Essays",
+    "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/"
+  },
+  "next_sibling": {
+    "active": false,
+    "children": [
+      {
+        "content": "articles-and-essays/panoramic-mapping/index.html",
+        "dates": [
+          "1872/1892"
+        ],
+        "image_url": [
+          "/static/collections/panoramic-maps/images/rindx.gif"
+        ],
+        "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/panoramic-mapping/",
+        "locations": [
+          "Baltimore",
+          "St. Louis",
+          "Morrisville",
+          "Pennsylvania",
+          "Norfolk",
+          "Virginia"
+        ],
+        "slug": "panoramic-mapping",
+        "subjects": [
+          "Panoramic maps",
+          "Renaissance Europe",
+          "Merian, Mathias",
+          "Braun, George",
+          "Hogenberg, Franz",
+          "Victorian America",
+          "printing",
+          "Pictorial St. Louis: The Great Metropolis of the Mississippi Valley",
+          "Fowler, Thaddeus M.",
+          "Bailey, Oakley H.",
+          "Burleigh, Lucien R.",
+          "Ruger, Albert"
+        ],
+        "title": "Panoramic Mapping",
+        "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/panoramic-mapping/"
+      },
+      {
+        "content": "articles-and-essays/panoramic-artists-and-publishers/index.html",
+        "dates": [
+          "1829/1917"
+        ],
+        "image_url": [
+          "/static/collections/panoramic-maps/images/ruger.gif"
+        ],
+        "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/panoramic-artists-and-publishers/",
+        "locations": [
+          "Michigan",
+          "Stewart",
+          "Ohio",
+          "Pennsylvania",
+          "West Virginia",
+          "Allentown",
+          "Middletown",
+          "New York",
+          "New England",
+          "Chicago",
+          "Milwuakee"
+        ],
+        "slug": "panoramic-artists-and-publishers",
+        "subjects": [
+          "Ruger, Albert",
+          "Fowler, Thaddeus Mortimer",
+          "Burleigh, Lucien R.",
+          "Wellge, Henry",
+          "Bailey, Oakley H."
+        ],
+        "title": "Panoramic Artists and Publishers",
+        "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/panoramic-artists-and-publishers/"
+      },
+      {
+        "content": "articles-and-essays/browse-by-state/state-map.html",
+        "dates": [
+          "1847/1929"
+        ],
+        "description": [
+          "Select states on the map to browse items."
+        ],
+        "image_url": [
+          "/static/collections/panoramic-maps/images/us.jpg"
+        ],
+        "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/browse-maps-by-state/",
+        "locations": [
+          "Michigan",
+          "Stewart",
+          "Ohio",
+          "Pennsylvania",
+          "West Virginia",
+          "Allentown",
+          "Middletown",
+          "New York",
+          "New England",
+          "Chicago",
+          "Milwuakee"
+        ],
+        "slug": "browse-maps-by-state",
+        "subjects": [
+          "Panoramic maps",
+          "Renaissance Europe",
+          "Merian, Mathias",
+          "Braun, George",
+          "Hogenberg, Franz",
+          "Victorian America",
+          "printing",
+          "Pictorial St. Louis: The Great Metropolis of the Mississippi Valley",
+          "Fowler, Thaddeus M.",
+          "Bailey, Oakley H.",
+          "Burleigh, Lucien R.",
+          "Ruger, Albert"
+        ],
+        "title": "Browse Maps by State",
+        "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/browse-maps-by-state/"
+      },
+      {
+        "content": "articles-and-essays/topographical-survey-of-st-louis/st-louis-map.html",
+        "dates": [
+          "1847/1929"
+        ],
+        "description": [
+          "Select a numbered tile to view a detailed panoramic map"
+        ],
+        "image_url": [
+          "/static/collections/panoramic-maps/images/stlouis.jpg"
+        ],
+        "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/topographical-survey-of-st-louis/",
+        "locations": [
+          "St. Louis",
+          "Missouri",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "slug": "topographical-survey-of-st-louis",
+        "subjects": [
+          "Panoramic maps",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Pictorial St. Louis: The Great Metropolis of the Mississippi Valley",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "title": "Topographical Survey of St. Louis Missouri",
+        "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/topographical-survey-of-st-louis/"
+      }
+    ],
+    "content": "$children",
+    "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/",
+    "pagination": "3 of 3",
+    "slug": "articles-and-essays",
+    "title": "Articles and Essays",
+    "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/"
+  },
+  "options": {
+    "access_group": [
+      ""
+    ],
+    "access_group_raw": "",
+    "all": null,
+    "api_version": "1",
+    "app_context": null,
+    "application_version": "$Revision$",
+    "attribute": null,
+    "attribute!": null,
+    "attribute_map": null,
+    "cache_tags": [
+      "gmd.mar",
+      "catalog-split-10",
+      "catalog",
+      "general-maps",
+      "main-catalog-split-10",
+      "main-catalog",
+      "catalog-split-01",
+      "main-catalog-split-01",
+      "catalog-split-07",
+      "main-catalog-split-07",
+      "catalog-split-02",
+      "main-catalog-split-02",
+      "catalog-split-00",
+      "main-catalog-split-00",
+      "catalog-split-09",
+      "main-catalog-split-09"
+    ],
+    "callback": null,
+    "clip": null,
+    "clip_image_width": null,
+    "clip_rotation": null,
+    "content_filter": null,
+    "content_replacement": "",
+    "count": 50,
+    "dates": null,
+    "default_count": 25,
+    "delimiter": null,
+    "digital_id": null,
+    "display_level": null,
+    "distance": null,
+    "downloadOption": null,
+    "duration": 0.14308929443359375,
+    "embed": [],
+    "embed!": [],
+    "error_response_status": null,
+    "excludeTerms": null,
+    "facetLimits": "",
+    "facetPrefix": null,
+    "facet_count": null,
+    "facet_style": null,
+    "field": null,
+    "format": "json",
+    "hits": 8,
+    "host": "www.loc.gov",
+    "ical": false,
+    "id": null,
+    "iiif": false,
+    "in": "partof:panoramic maps",
+    "index": null,
+    "inputEncoding": "UTF-8",
+    "item": null,
+    "items": null,
+    "keys": null,
+    "language": null,
+    "latlong": null,
+    "method": "GET",
+    "newSearch": null,
+    "new_clip_url": false,
+    "onsite": false,
+    "operator": null,
+    "outputEncoding": "UTF-8",
+    "page_campaigns": [],
+    "path_info": "/collections/panoramic-maps/",
+    "port": "443",
+    "proxypath": null,
+    "query": "saint paul minnesota",
+    "query_string": "c=50&fo=json&q=Saint+Paul+Minnesota&sp=1",
+    "redirect_proxy": false,
+    "redirect_to_item": null,
+    "referer": "",
+    "region": "",
+    "release_id": 123456789,
+    "request_host": "www.loc.gov",
+    "request_params": {
+      "c": [
+        "50"
+      ],
+      "fo": [
+        "json"
+      ],
+      "q": "Saint Paul Minnesota",
+      "sp": [
+        "1"
+      ]
+    },
+    "request_url": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&q=Saint+Paul+Minnesota&sp=1",
+    "resource": "",
+    "resource_sequence": null,
+    "scheme": "https",
+    "searchIn": "partof:panoramic maps",
+    "searchTerms": "saint paul minnesota",
+    "segments": null,
+    "site_id": "panoramic-maps",
+    "site_type": "collections",
+    "solrQuery": "",
+    "sortBy": null,
+    "sortOrder": null,
+    "startPage": 1,
+    "style": null,
+    "suggested": null,
+    "target": null,
+    "template": "search/base",
+    "timestamp": 1763952595.175803,
+    "type": "search",
+    "tz_aware": null,
+    "unionFacets": "",
+    "url": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&q=saint+paul+minnesota&sp=1",
+    "webcast_permalink": null
+  },
+  "original_formats": [
+    "map",
+    "photo, print, drawing"
+  ],
+  "pages": [
+    {
+      "active": false,
+      "children": [
+        {
+          "content": "about-this-collection/how-to-view-maps.html",
+          "link": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/how-to-view-maps/",
+          "slug": "how-to-view-maps",
+          "title": "How to View Maps",
+          "url": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/how-to-view-maps/"
+        },
+        {
+          "content": "about-this-collection/bibliography.html",
+          "link": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/related-resources/",
+          "slug": "related-resources",
+          "title": "Related Resources",
+          "url": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/related-resources/"
+        },
+        {
+          "content": "../rights-and-access/geography-and-map.html",
+          "description": [
+            "The content of the Library of Congress Geography and Map Division digitized collections are free to use and reuse unless stated otherwise."
+          ],
+          "link": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/rights-and-access/",
+          "slug": "rights-and-access",
+          "title": "Rights and Access",
+          "url": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/rights-and-access/"
+        }
+      ],
+      "content": "about-this-collection/overview.html",
+      "dates": [
+        "1847/1929"
+      ],
+      "link": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/",
+      "locations": [
+        "United States",
+        "Canada"
+      ],
+      "pagination": "1 of 3",
+      "slug": "about-this-collection",
+      "subjects": [
+        "Panoramic maps",
+        "Panoramic Maps of Cities in the United States and Canada",
+        "Ruger, Albert",
+        "Fowler, Thaddeus Mortimer",
+        "Burleigh, Lucien R.",
+        "Wellge, Henry",
+        "Bailey, Oakley H."
+      ],
+      "title": "About this Collection",
+      "url": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/"
+    },
+    {
+      "active": true,
+      "children": [
+        {
+          "active": true,
+          "image_url": [
+            "/static/collections/panoramic-maps/500_500.jpg"
+          ],
+          "link": "https://www.loc.gov/collections/panoramic-maps/",
+          "pagination": "2 of 3",
+          "partof": [],
+          "results": [
+            {
+              "access_restricted": false,
+              "aka": [
+                "http://www.loc.gov/resource/g4144s.pm004070/",
+                "http://www.loc.gov/item/73693464/",
+                "https://hdl.loc.gov/loc.gmd/g4144s.pm004070",
+                "http://lccn.loc.gov/73693464"
+              ],
+              "campaigns": [],
+              "contributor": [
+                "ruger, a.",
+                "chicago lithographing co"
+              ],
+              "date": "1867-01-01",
+              "dates": [
+                "1867"
+              ],
+              "description": [
+                "Perspective map not drawn to scale. Bird's-eye view. LC Panoramic maps (2nd ed.), 407 Available also through the Library of Congress Web site as a raster image. Indexed for points of interest. Vault AACR2: 100; 651/1; 710/1"
+              ],
+              "digitized": true,
+              "extract_timestamp": "2021-10-29T23:00:40.111Z",
+              "group": [
+                "gmd.mar",
+                "catalog-split-10",
+                "catalog",
+                "general-maps",
+                "main-catalog-split-10",
+                "main-catalog"
+              ],
+              "hassegments": false,
+              "id": "http://www.loc.gov/item/73693464/",
+              "image_url": [
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004070.gif",
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004070.gif#h=150&w=192",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004070/full/pct:12.5/0/default.jpg#h=865&w=1109",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004070/full/pct:25/0/default.jpg#h=1730&w=2219"
+              ],
+              "index": 1,
+              "item": {
+                "call_number": [
+                  "G4144.S4A3 1867 .R8"
+                ],
+                "contributors": [
+                  "Ruger, A.",
+                  "Chicago Lithographing Co."
+                ],
+                "created_published": [
+                  "Chicago, Chicago Lithographing Co. [1867]"
+                ],
+                "date": "1867",
+                "digital_id": [
+                  "http://hdl.loc.gov/loc.gmd/g4144s.pm004070"
+                ],
+                "format": [
+                  "cartographic"
+                ],
+                "language": [
+                  "eng"
+                ],
+                "location": [
+                  "Saint Paul (Minn.)"
+                ],
+                "medium": [
+                  "col. map 52 x 71 cm."
+                ],
+                "notes": [
+                  "Perspective map not drawn to scale.",
+                  "Bird's-eye view.",
+                  "LC Panoramic maps (2nd ed.), 407",
+                  "Available also through the Library of Congress Web site as a raster image.",
+                  "Indexed for points of interest.",
+                  "Vault",
+                  "AACR2: 100; 651/1; 710/1"
+                ],
+                "number_former_id": [
+                  "https://www.loc.gov/item/73693464",
+                  "https://www.loc.gov/item/5411229"
+                ],
+                "repository": [
+                  "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+                ],
+                "subjects": [
+                  "Saint Paul (Minn.)--Aerial views",
+                  "United States--Minnesota--Saint Paul"
+                ],
+                "title": "Saint Paul, Minnesota 1867."
+              },
+              "language": [
+                "english"
+              ],
+              "location": [
+                "united states",
+                "saint paul",
+                "minnesota"
+              ],
+              "location_city": [
+                "saint paul"
+              ],
+              "location_country": [
+                "united states"
+              ],
+              "location_state": [
+                "minnesota"
+              ],
+              "mime_type": [
+                "image/gif",
+                "image/tiff",
+                "image/jpeg",
+                "image/jp2"
+              ],
+              "number": [
+                "2005-01-05t12:17:34",
+                "73693464",
+                "http://www.loc.gov/item/5411229",
+                "http://www.loc.gov/item/73693464"
+              ],
+              "number_former_id": [
+                "http://www.loc.gov/item/73693464",
+                "http://www.loc.gov/item/5411229"
+              ],
+              "number_lccn": [
+                "73693464"
+              ],
+              "number_source_modified": [
+                "2005-01-05t12:17:34"
+              ],
+              "online_format": [
+                "image"
+              ],
+              "original_format": [
+                "map"
+              ],
+              "partof": [
+                "american memory",
+                "catalog",
+                "geography and map division",
+                "panoramic maps",
+                "cities and towns"
+              ],
+              "resources": [
+                {
+                  "files": 1,
+                  "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004070.gif",
+                  "url": "https://www.loc.gov/resource/g4144s.pm004070/"
+                }
+              ],
+              "shelf_id": "G4144.S4A3 1867 .R8",
+              "site": [
+                "ammem",
+                "catalog"
+              ],
+              "subject": [
+                "saint paul",
+                "aerial views",
+                "saint paul (minn.)",
+                "minnesota",
+                "united states"
+              ],
+              "timestamp": "2022-12-10T05:50:11.007Z",
+              "title": "Saint Paul, Minnesota 1867.",
+              "type": [
+                "cartographic"
+              ],
+              "url": "https://www.loc.gov/item/73693464/"
+            },
+            {
+              "access_restricted": false,
+              "aka": [
+                "https://hdl.loc.gov/loc.gmd/g4144s.pm004090",
+                "http://www.loc.gov/resource/g4144s.pm004090/",
+                "http://www.loc.gov/item/75694648/",
+                "http://lccn.loc.gov/75694648"
+              ],
+              "campaigns": [],
+              "contributor": [
+                "green, vernon",
+                "[ellsbury, geo. h.]"
+              ],
+              "date": "1874-01-01",
+              "dates": [
+                "1874"
+              ],
+              "description": [
+                "LC Panoramic maps (2nd ed.), 409 Available also through the Library of Congress Web site as a raster image. AACR2: 100; 651/1"
+              ],
+              "digitized": true,
+              "extract_timestamp": "2021-10-30T01:24:28.395Z",
+              "group": [
+                "gmd.mar",
+                "catalog-split-01",
+                "catalog",
+                "general-maps",
+                "main-catalog-split-01",
+                "main-catalog"
+              ],
+              "hassegments": false,
+              "id": "http://www.loc.gov/item/75694648/",
+              "image_url": [
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004090.gif",
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004090.gif#h=150&w=287",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004090/full/pct:12.5/0/default.jpg#h=614&w=1176",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004090/full/pct:25/0/default.jpg#h=1228&w=2352"
+              ],
+              "index": 2,
+              "item": {
+                "call_number": [
+                  "G4144.S4A35 1874  .E5"
+                ],
+                "contributors": [
+                  "[Ellsbury, Geo. H.]",
+                  "Green, Vernon, joint author."
+                ],
+                "created_published": [
+                  "n.p., 1874]"
+                ],
+                "date": "1874",
+                "digital_id": [
+                  "http://hdl.loc.gov/loc.gmd/g4144s.pm004090"
+                ],
+                "format": [
+                  "cartographic"
+                ],
+                "language": [
+                  "eng"
+                ],
+                "location": [
+                  "Saint Paul (Minn.)"
+                ],
+                "medium": [
+                  "col. view on sheet 41 x 80 cm."
+                ],
+                "notes": [
+                  "LC Panoramic maps (2nd ed.), 409",
+                  "Available also through the Library of Congress Web site as a raster image.",
+                  "AACR2: 100; 651/1"
+                ],
+                "number_former_id": [
+                  "https://www.loc.gov/item/75694648",
+                  "https://www.loc.gov/item/5423897"
+                ],
+                "repository": [
+                  "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+                ],
+                "subjects": [
+                  "Saint Paul (Minn.)--Aerial views",
+                  "United States--Minnesota--Saint Paul"
+                ],
+                "title": "[View of St. Paul, Minnesota."
+              },
+              "language": [
+                "english"
+              ],
+              "location": [
+                "united states",
+                "saint paul",
+                "minnesota"
+              ],
+              "location_city": [
+                "saint paul"
+              ],
+              "location_country": [
+                "united states"
+              ],
+              "location_state": [
+                "minnesota"
+              ],
+              "mime_type": [
+                "image/gif",
+                "image/tiff",
+                "image/jpeg",
+                "image/jp2"
+              ],
+              "number": [
+                "2002-12-14t18:41:07",
+                "http://www.loc.gov/item/75694648",
+                "http://www.loc.gov/item/5423897",
+                "75694648"
+              ],
+              "number_former_id": [
+                "http://www.loc.gov/item/75694648",
+                "http://www.loc.gov/item/5423897"
+              ],
+              "number_lccn": [
+                "75694648"
+              ],
+              "number_source_modified": [
+                "2002-12-14t18:41:07"
+              ],
+              "online_format": [
+                "image"
+              ],
+              "original_format": [
+                "map"
+              ],
+              "partof": [
+                "american memory",
+                "catalog",
+                "geography and map division",
+                "panoramic maps",
+                "cities and towns"
+              ],
+              "resources": [
+                {
+                  "files": 1,
+                  "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004090.gif",
+                  "url": "https://www.loc.gov/resource/g4144s.pm004090/"
+                }
+              ],
+              "shelf_id": "G4144.S4A35 1874  .E5",
+              "site": [
+                "ammem",
+                "catalog"
+              ],
+              "subject": [
+                "saint paul",
+                "aerial views",
+                "saint paul (minn.)",
+                "minnesota",
+                "united states"
+              ],
+              "timestamp": "2022-12-10T05:53:25.542Z",
+              "title": "[View of St. Paul, Minnesota.",
+              "type": [
+                "cartographic"
+              ],
+              "url": "https://www.loc.gov/item/75694648/"
+            },
+            {
+              "access_restricted": false,
+              "aka": [
+                "http://www.loc.gov/item/78693711/",
+                "http://www.loc.gov/resource/g4144s.pm004061/",
+                "https://hdl.loc.gov/loc.gmd/g4144s.pm004061",
+                "http://lccn.loc.gov/78693711"
+              ],
+              "campaigns": [],
+              "contributor": [
+                "queen, james",
+                "strobel, max",
+                "ritchie, thompson"
+              ],
+              "date": "1853-01-01",
+              "dates": [
+                "1853"
+              ],
+              "description": [
+                "Panorama. \"Entered according to Act of Congress in the year 1853, by Thompson Ritchie, in the Clerk's Office of the District Court of the Eastern District of Penna.\" LC Panoramic maps (2nd ed.), 406.1 Available also through the Library of Congress Web site as a raster image. AACR2: 651/1; 700/1"
+              ],
+              "digitized": true,
+              "extract_timestamp": "2021-10-30T01:53:11.013Z",
+              "group": [
+                "gmd.mar",
+                "catalog-split-10",
+                "catalog",
+                "general-maps",
+                "main-catalog-split-10",
+                "main-catalog"
+              ],
+              "hassegments": false,
+              "id": "http://www.loc.gov/item/78693711/",
+              "image_url": [
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004061.gif",
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004061.gif#h=150&w=205",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004061/full/pct:12.5/0/default.jpg#h=604&w=826",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004061/full/pct:25/0/default.jpg#h=1208&w=1652"
+              ],
+              "index": 3,
+              "item": {
+                "call_number": [
+                  "G4144.S4A35 1853 .R5"
+                ],
+                "contributors": [
+                  "Ritchie, Thompson.",
+                  "Strobel, Max.",
+                  "Queen, James, 1824-approximately 1877."
+                ],
+                "created_published": [
+                  "[Philadelphia?] : Ritchie, [1853]"
+                ],
+                "date": "1853",
+                "digital_id": [
+                  "http://hdl.loc.gov/loc.gmd/g4144s.pm004061"
+                ],
+                "format": [
+                  "cartographic"
+                ],
+                "language": [
+                  "eng"
+                ],
+                "location": [
+                  "Saint Paul (Minn.)"
+                ],
+                "medium": [
+                  "1 view : col. ; 30 x 50 cm."
+                ],
+                "notes": [
+                  "Panorama.",
+                  "\"Entered according to Act of Congress in the year 1853, by Thompson Ritchie, in the Clerk's Office of the District Court of the Eastern District of Penna.\"",
+                  "LC Panoramic maps (2nd ed.), 406.1",
+                  "Available also through the Library of Congress Web site as a raster image.",
+                  "AACR2: 651/1; 700/1"
+                ],
+                "number_former_id": [
+                  "https://www.loc.gov/item/78693711",
+                  "https://www.loc.gov/item/5443078"
+                ],
+                "repository": [
+                  "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+                ],
+                "subjects": [
+                  "Saint Paul (Minn.)--Aerial views",
+                  "United States--Minnesota--Saint Paul"
+                ],
+                "title": "City of St. Paul, capital of Minnesota"
+              },
+              "language": [
+                "english"
+              ],
+              "location": [
+                "united states",
+                "saint paul",
+                "minnesota"
+              ],
+              "location_city": [
+                "saint paul"
+              ],
+              "location_country": [
+                "united states"
+              ],
+              "location_state": [
+                "minnesota"
+              ],
+              "mime_type": [
+                "image/gif",
+                "image/tiff",
+                "image/jpeg",
+                "image/jp2"
+              ],
+              "number": [
+                "78693711",
+                "http://www.loc.gov/item/78693711",
+                "http://www.loc.gov/item/5443078",
+                "2013-05-01t10:57:31"
+              ],
+              "number_former_id": [
+                "http://www.loc.gov/item/78693711",
+                "http://www.loc.gov/item/5443078"
+              ],
+              "number_lccn": [
+                "78693711"
+              ],
+              "number_source_modified": [
+                "2013-05-01t10:57:31"
+              ],
+              "online_format": [
+                "image"
+              ],
+              "original_format": [
+                "map"
+              ],
+              "partof": [
+                "american memory",
+                "catalog",
+                "geography and map division",
+                "panoramic maps",
+                "cities and towns"
+              ],
+              "resources": [
+                {
+                  "files": 1,
+                  "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004061.gif",
+                  "url": "https://www.loc.gov/resource/g4144s.pm004061/"
+                }
+              ],
+              "shelf_id": "G4144.S4A35 1853 .R5",
+              "site": [
+                "ammem",
+                "catalog"
+              ],
+              "subject": [
+                "saint paul",
+                "aerial views",
+                "saint paul (minn.)",
+                "minnesota",
+                "united states"
+              ],
+              "timestamp": "2022-12-10T05:55:27.244Z",
+              "title": "City of St. Paul, capital of Minnesota",
+              "type": [
+                "cartographic"
+              ],
+              "url": "https://www.loc.gov/item/78693711/"
+            },
+            {
+              "access_restricted": false,
+              "aka": [
+                "http://lccn.loc.gov/84690615",
+                "http://www.loc.gov/item/84690615/",
+                "https://search.catalog.loc.gov/instances/22c6b6a1-904e-52e1-860b-539f7a79b8e9",
+                "https://hdl.loc.gov/loc.gmd/g4144s.pm004091",
+                "http://www.loc.gov/resource/g4144s.pm004091/"
+              ],
+              "campaigns": [],
+              "contributor": [
+                "wellge, h. (henry)",
+                "beck & pauli",
+                "brosius, h.",
+                "stoner, j. j."
+              ],
+              "date": "1883",
+              "dates": [
+                "1883"
+              ],
+              "description": [
+                "Bird's-eye view. \"H. Brosius, del.\" appears on most of the illustrations. Includes ill. of buildings, index to points of interest, and inset \"Extension of Fort [i.e., West Seventh] Street.\" LC Panoramic maps (2nd ed.), 409.1 Available also through the Library of Congress Web site as a raster image. Conserved; 002667.12 1976 Library of Congress Conservation Division. For treatment information, contact the Preservation Directorate. https://ask.loc.gov/preservation pda Transfer from P&P, 11/17/81."
+              ],
+              "digitized": true,
+              "extract_timestamp": "2025-09-30T15:26:21.562Z",
+              "group": [
+                "catalog-split-07",
+                "catalog",
+                "gmd.mar",
+                "main-catalog-split-07",
+                "general-maps"
+              ],
+              "hassegments": false,
+              "id": "http://www.loc.gov/item/84690615/",
+              "image_url": [
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004091.gif",
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004091.gif#h=150&w=228",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004091/full/pct:12.5/0/default.jpg#h=1020&w=1548",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004091/full/pct:25/0/default.jpg#h=2040&w=3096"
+              ],
+              "index": 4,
+              "item": {
+                "call_number": [
+                  "G4144.S4A3 1883 .W4"
+                ],
+                "contributors": [
+                  "Wellge, H. (Henry)",
+                  "Stoner, J. J.",
+                  "Brosius, H.",
+                  "Beck & Pauli"
+                ],
+                "created_published": [
+                  "Madison, Wis. : J.J. Stoner, c1883"
+                ],
+                "date": "1883",
+                "digital_id": [
+                  "http://hdl.loc.gov/loc.gmd/g4144s.pm004091"
+                ],
+                "format": [
+                  "cartographic"
+                ],
+                "language": [
+                  "eng"
+                ],
+                "location": [
+                  "Saint Paul (Minn.)"
+                ],
+                "medium": [
+                  "1 view : col. ; 55 x 100 cm., on sheet 73 x 109 cm."
+                ],
+                "notes": [
+                  "Bird's-eye view.",
+                  "\"H. Brosius, del.\" appears on most of the illustrations.",
+                  "Includes ill. of buildings, index to points of interest, and inset \"Extension of Fort [i.e., West Seventh] Street.\"",
+                  "LC Panoramic maps (2nd ed.), 409.1",
+                  "Available also through the Library of Congress Web site as a raster image.",
+                  "Conserved; 002667.12 1976 Library of Congress Conservation Division. For treatment information, contact the Preservation Directorate. https://ask.loc.gov/preservation pda",
+                  "Transfer from P&P, 11/17/81."
+                ],
+                "repository": [
+                  "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+                ],
+                "subjects": [
+                  "Saint Paul (Minn.)--Aerial views",
+                  "United States--Minnesota--Saint Paul"
+                ],
+                "title": "St. Paul, Minnesota 1883 : state capital and county seat of Ramsey Co"
+              },
+              "language": [
+                "english"
+              ],
+              "location": [
+                "united states",
+                "saint paul",
+                "minnesota"
+              ],
+              "location_city": [
+                "saint paul"
+              ],
+              "location_country": [
+                "united states"
+              ],
+              "location_state": [
+                "minnesota"
+              ],
+              "mime_type": [
+                "image/gif",
+                "image/tiff",
+                "image/jpeg",
+                "image/jp2"
+              ],
+              "number": [
+                "2002-12-14t18:46:43",
+                "2025-07-23t15:24:27.100000",
+                "http://www.loc.gov/item/84690615",
+                "84690615",
+                "http://www.loc.gov/item/5471600"
+              ],
+              "number_former_id": [
+                "http://www.loc.gov/item/84690615",
+                "http://www.loc.gov/item/5471600"
+              ],
+              "number_lccn": [
+                "84690615"
+              ],
+              "number_source_modified": [
+                "2025-07-23t15:24:27.100000",
+                "2002-12-14t18:46:43"
+              ],
+              "online_format": [
+                "image"
+              ],
+              "original_format": [
+                "map"
+              ],
+              "partof": [
+                "american memory",
+                "catalog",
+                "geography and map division",
+                "panoramic maps",
+                "cities and towns"
+              ],
+              "resources": [
+                {
+                  "files": 1,
+                  "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004091.gif",
+                  "url": "https://www.loc.gov/resource/g4144s.pm004091/"
+                }
+              ],
+              "shelf_id": "G4144.S4A3 1883 .W4",
+              "site": [
+                "catalog",
+                "ammem"
+              ],
+              "subject": [
+                "saint paul",
+                "aerial views",
+                "saint paul (minn.)",
+                "minnesota",
+                "united states"
+              ],
+              "timestamp": "2025-09-30T17:15:21.577Z",
+              "title": "St. Paul, Minnesota 1883 : state capital and county seat of Ramsey Co",
+              "type": [
+                "cartographic"
+              ],
+              "url": "https://www.loc.gov/item/84690615/"
+            },
+            {
+              "access_restricted": false,
+              "aka": [
+                "http://www.loc.gov/item/75694650/",
+                "http://www.loc.gov/resource/g4144s.pm004110/",
+                "https://hdl.loc.gov/loc.gmd/g4144s.pm004110",
+                "http://lccn.loc.gov/75694650"
+              ],
+              "campaigns": [],
+              "contributor": [
+                "saint, robert m."
+              ],
+              "date": "1906-01-01",
+              "dates": [
+                "1906"
+              ],
+              "description": [
+                "Perspective map not drawn to scale. Bird's-eye-view. LC Panoramic maps (2nd ed.), 411 Available also through the Library of Congress Web site as a raster image. AACR2: 651"
+              ],
+              "digitized": true,
+              "extract_timestamp": "2021-10-29T21:49:23.563Z",
+              "group": [
+                "gmd.mar",
+                "catalog-split-10",
+                "catalog",
+                "general-maps",
+                "main-catalog-split-10",
+                "main-catalog"
+              ],
+              "hassegments": false,
+              "id": "http://www.loc.gov/item/75694650/",
+              "image_url": [
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004110.gif",
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004110.gif#h=150&w=265",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004110/full/pct:12.5/0/default.jpg#h=700&w=1236",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004110/full/pct:25/0/default.jpg#h=1400&w=2472"
+              ],
+              "index": 5,
+              "item": {
+                "call_number": [
+                  "G4144.S4A3 1906  .S3"
+                ],
+                "contributors": [
+                  "Saint, Robert M."
+                ],
+                "created_published": [
+                  "St. Paul, c1906."
+                ],
+                "date": "1906",
+                "digital_id": [
+                  "http://hdl.loc.gov/loc.gmd/g4144s.pm004110"
+                ],
+                "format": [
+                  "cartographic"
+                ],
+                "language": [
+                  "eng"
+                ],
+                "location": [
+                  "Saint Paul (Minn.)"
+                ],
+                "medium": [
+                  "map 38 x 77 cm."
+                ],
+                "notes": [
+                  "Perspective map not drawn to scale.",
+                  "Bird's-eye-view.",
+                  "LC Panoramic maps (2nd ed.), 411",
+                  "Available also through the Library of Congress Web site as a raster image.",
+                  "AACR2: 651"
+                ],
+                "number_former_id": [
+                  "https://www.loc.gov/item/75694650",
+                  "https://www.loc.gov/item/5423899"
+                ],
+                "repository": [
+                  "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+                ],
+                "subjects": [
+                  "Saint Paul (Minn.)--Aerial views",
+                  "United States--Minnesota--Saint Paul"
+                ],
+                "title": "St. Paul, Minn."
+              },
+              "language": [
+                "english"
+              ],
+              "location": [
+                "united states",
+                "saint paul",
+                "minnesota"
+              ],
+              "location_city": [
+                "saint paul"
+              ],
+              "location_country": [
+                "united states"
+              ],
+              "location_state": [
+                "minnesota"
+              ],
+              "mime_type": [
+                "image/gif",
+                "image/tiff",
+                "image/jpeg",
+                "image/jp2"
+              ],
+              "number": [
+                "http://www.loc.gov/item/75694650",
+                "2002-12-14t18:41:08",
+                "75694650",
+                "http://www.loc.gov/item/5423899"
+              ],
+              "number_former_id": [
+                "http://www.loc.gov/item/75694650",
+                "http://www.loc.gov/item/5423899"
+              ],
+              "number_lccn": [
+                "75694650"
+              ],
+              "number_source_modified": [
+                "2002-12-14t18:41:08"
+              ],
+              "online_format": [
+                "image"
+              ],
+              "original_format": [
+                "map"
+              ],
+              "partof": [
+                "american memory",
+                "catalog",
+                "geography and map division",
+                "panoramic maps",
+                "cities and towns"
+              ],
+              "resources": [
+                {
+                  "files": 1,
+                  "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004110.gif",
+                  "url": "https://www.loc.gov/resource/g4144s.pm004110/"
+                }
+              ],
+              "shelf_id": "G4144.S4A3 1906  .S3",
+              "site": [
+                "ammem",
+                "catalog"
+              ],
+              "subject": [
+                "saint paul",
+                "aerial views",
+                "saint paul (minn.)",
+                "minnesota",
+                "united states"
+              ],
+              "timestamp": "2022-12-10T05:53:25.542Z",
+              "title": "St. Paul, Minn.",
+              "type": [
+                "cartographic"
+              ],
+              "url": "https://www.loc.gov/item/75694650/"
+            },
+            {
+              "access_restricted": false,
+              "aka": [
+                "http://www.loc.gov/item/75694649/",
+                "https://hdl.loc.gov/loc.gmd/g4144s.pm004080",
+                "http://www.loc.gov/resource/g4144s.pm004080/",
+                "http://lccn.loc.gov/75694649"
+              ],
+              "campaigns": [],
+              "contributor": [
+                "hageboeck, august"
+              ],
+              "date": "1873-01-01",
+              "dates": [
+                "1873"
+              ],
+              "description": [
+                "LC Panoramic maps (2nd ed.), 408 Available also through the Library of Congress Web site as a raster image. AACR2: 651/1"
+              ],
+              "digitized": true,
+              "extract_timestamp": "2021-10-30T01:51:17.764Z",
+              "group": [
+                "gmd.mar",
+                "catalog-split-02",
+                "catalog",
+                "general-maps",
+                "main-catalog-split-02",
+                "main-catalog"
+              ],
+              "hassegments": false,
+              "id": "http://www.loc.gov/item/75694649/",
+              "image_url": [
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004080.gif",
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004080.gif#h=150&w=425",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004080/full/pct:12.5/0/default.jpg#h=354&w=1002",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004080/full/pct:25/0/default.jpg#h=708&w=2004"
+              ],
+              "index": 6,
+              "item": {
+                "call_number": [
+                  "G4144.S4A35 1873  .H3"
+                ],
+                "contributors": [
+                  "Hageboeck, August."
+                ],
+                "created_published": [
+                  "Davenport, Iowa, 1873."
+                ],
+                "date": "1873",
+                "digital_id": [
+                  "http://hdl.loc.gov/loc.gmd/g4144s.pm004080"
+                ],
+                "format": [
+                  "cartographic"
+                ],
+                "language": [
+                  "eng"
+                ],
+                "location": [
+                  "Saint Paul (Minn.)"
+                ],
+                "medium": [
+                  "col. view 17 x 62 cm."
+                ],
+                "notes": [
+                  "LC Panoramic maps (2nd ed.), 408",
+                  "Available also through the Library of Congress Web site as a raster image.",
+                  "AACR2: 651/1"
+                ],
+                "number_former_id": [
+                  "https://www.loc.gov/item/75694649",
+                  "https://www.loc.gov/item/5423898"
+                ],
+                "repository": [
+                  "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+                ],
+                "subjects": [
+                  "Saint Paul (Minn.)--Aerial views",
+                  "United States--Minnesota--Saint Paul"
+                ],
+                "title": "Panorama of St. Paul, Minn."
+              },
+              "language": [
+                "english"
+              ],
+              "location": [
+                "united states",
+                "saint paul",
+                "minnesota"
+              ],
+              "location_city": [
+                "saint paul"
+              ],
+              "location_country": [
+                "united states"
+              ],
+              "location_state": [
+                "minnesota"
+              ],
+              "mime_type": [
+                "image/gif",
+                "image/tiff",
+                "image/jpeg",
+                "image/jp2"
+              ],
+              "number": [
+                "75694649",
+                "2002-12-14t18:41:07",
+                "http://www.loc.gov/item/75694649",
+                "http://www.loc.gov/item/5423898"
+              ],
+              "number_former_id": [
+                "http://www.loc.gov/item/75694649",
+                "http://www.loc.gov/item/5423898"
+              ],
+              "number_lccn": [
+                "75694649"
+              ],
+              "number_source_modified": [
+                "2002-12-14t18:41:07"
+              ],
+              "online_format": [
+                "image"
+              ],
+              "original_format": [
+                "map"
+              ],
+              "partof": [
+                "american memory",
+                "catalog",
+                "geography and map division",
+                "panoramic maps",
+                "cities and towns"
+              ],
+              "resources": [
+                {
+                  "files": 1,
+                  "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004080.gif",
+                  "url": "https://www.loc.gov/resource/g4144s.pm004080/"
+                }
+              ],
+              "shelf_id": "G4144.S4A35 1873  .H3",
+              "site": [
+                "ammem",
+                "catalog"
+              ],
+              "subject": [
+                "saint paul",
+                "aerial views",
+                "saint paul (minn.)",
+                "minnesota",
+                "united states"
+              ],
+              "timestamp": "2022-12-10T05:53:25.542Z",
+              "title": "Panorama of St. Paul, Minn.",
+              "type": [
+                "cartographic"
+              ],
+              "url": "https://www.loc.gov/item/75694649/"
+            },
+            {
+              "access_restricted": false,
+              "aka": [
+                "http://www.loc.gov/resource/g4144s.pm004100/",
+                "http://www.loc.gov/item/75694647/",
+                "https://hdl.loc.gov/loc.gmd/g4144s.pm004100",
+                "http://lccn.loc.gov/75694647"
+              ],
+              "campaigns": [],
+              "contributor": [
+                "brown, treacy & co. (saint paul, minn.)"
+              ],
+              "date": "1893-01-01",
+              "dates": [
+                "1893"
+              ],
+              "description": [
+                "Perspective map not drawn to scale. LC Panoramic maps (2nd ed.), 410 Available also through the Library of Congress Web site as a raster image. AACR2"
+              ],
+              "digitized": true,
+              "extract_timestamp": "2021-10-29T22:30:27.551Z",
+              "group": [
+                "gmd.mar",
+                "catalog-split-00",
+                "catalog",
+                "general-maps",
+                "main-catalog-split-00",
+                "main-catalog"
+              ],
+              "hassegments": false,
+              "id": "http://www.loc.gov/item/75694647/",
+              "image_url": [
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004100.gif",
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004100.gif#h=150&w=195",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004100/full/pct:12.5/0/default.jpg#h=319&w=414",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004100/full/pct:25/0/default.jpg#h=638&w=828"
+              ],
+              "index": 7,
+              "item": {
+                "call_number": [
+                  "G4144.S4A3 1893  .B7"
+                ],
+                "contributors": [
+                  "Brown, Treacy & Co. (Saint Paul, Minn.)"
+                ],
+                "created_published": [
+                  "[n.p.] c1893."
+                ],
+                "date": "1893",
+                "digital_id": [
+                  "http://hdl.loc.gov/loc.gmd/g4144s.pm004100"
+                ],
+                "format": [
+                  "cartographic"
+                ],
+                "language": [
+                  "eng"
+                ],
+                "location": [
+                  "Saint Paul (Minn.)"
+                ],
+                "medium": [
+                  "col. map 19 x 26 cm."
+                ],
+                "notes": [
+                  "Perspective map not drawn to scale.",
+                  "LC Panoramic maps (2nd ed.), 410",
+                  "Available also through the Library of Congress Web site as a raster image.",
+                  "AACR2"
+                ],
+                "number_former_id": [
+                  "https://www.loc.gov/item/75694647",
+                  "https://www.loc.gov/item/5423896"
+                ],
+                "repository": [
+                  "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+                ],
+                "subjects": [
+                  "Saint Paul (Minn.)--Aerial views",
+                  "United States--Minnesota--Saint Paul"
+                ],
+                "title": "Bird's-eye view of St. Paul, looking west from Dayton's Bluff."
+              },
+              "language": [
+                "english"
+              ],
+              "location": [
+                "united states",
+                "saint paul",
+                "minnesota"
+              ],
+              "location_city": [
+                "saint paul"
+              ],
+              "location_country": [
+                "united states"
+              ],
+              "location_state": [
+                "minnesota"
+              ],
+              "mime_type": [
+                "image/gif",
+                "image/tiff",
+                "image/jpeg",
+                "image/jp2"
+              ],
+              "number": [
+                "http://www.loc.gov/item/5423896",
+                "75694647",
+                "http://www.loc.gov/item/75694647",
+                "2002-12-14t18:41:06"
+              ],
+              "number_former_id": [
+                "http://www.loc.gov/item/75694647",
+                "http://www.loc.gov/item/5423896"
+              ],
+              "number_lccn": [
+                "75694647"
+              ],
+              "number_source_modified": [
+                "2002-12-14t18:41:06"
+              ],
+              "online_format": [
+                "image"
+              ],
+              "original_format": [
+                "map"
+              ],
+              "partof": [
+                "american memory",
+                "catalog",
+                "geography and map division",
+                "panoramic maps",
+                "cities and towns"
+              ],
+              "resources": [
+                {
+                  "files": 1,
+                  "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004100.gif",
+                  "url": "https://www.loc.gov/resource/g4144s.pm004100/"
+                }
+              ],
+              "shelf_id": "G4144.S4A3 1893  .B7",
+              "site": [
+                "ammem",
+                "catalog"
+              ],
+              "subject": [
+                "saint paul",
+                "aerial views",
+                "saint paul (minn.)",
+                "minnesota",
+                "united states"
+              ],
+              "timestamp": "2022-12-10T05:53:25.542Z",
+              "title": "Bird's-eye view of St. Paul, looking west from Dayton's Bluff.",
+              "type": [
+                "cartographic"
+              ],
+              "url": "https://www.loc.gov/item/75694647/"
+            },
+            {
+              "access_restricted": false,
+              "aka": [
+                "http://www.loc.gov/item/78693710/",
+                "http://www.loc.gov/resource/g4144s.pm004092/",
+                "https://hdl.loc.gov/loc.gmd/g4144s.pm004092",
+                "http://lccn.loc.gov/78693710"
+              ],
+              "campaigns": [],
+              "contributor": [
+                "baker, collins & co",
+                "marr & richards engraving co"
+              ],
+              "date": "1888-01-01",
+              "dates": [
+                "1888"
+              ],
+              "description": [
+                "Perspective map not drawn to scale. Bird's-eye-view. LC Panoramic maps (2nd ed.), 409.2 Available also through the Library of Congress Web site as a raster image. AACR2: 651/1"
+              ],
+              "digitized": true,
+              "extract_timestamp": "2021-10-29T21:23:55.645Z",
+              "group": [
+                "gmd.mar",
+                "catalog-split-09",
+                "catalog",
+                "general-maps",
+                "main-catalog-split-09",
+                "main-catalog"
+              ],
+              "hassegments": false,
+              "id": "http://www.loc.gov/item/78693710/",
+              "image_url": [
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004092.gif",
+                "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004092.gif#h=150&w=251",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004092/full/pct:12.5/0/default.jpg#h=674&w=1130",
+                "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004092/full/pct:25/0/default.jpg#h=1348&w=2260"
+              ],
+              "index": 8,
+              "item": {
+                "call_number": [
+                  "G4144.S4A3 1888  .M3"
+                ],
+                "contributors": [
+                  "Marr & Richards Engraving Co.",
+                  "Baker, Collins & Co."
+                ],
+                "created_published": [
+                  "St. Paul : Baker, Collins & Co., 1888, c1887."
+                ],
+                "date": "1888",
+                "digital_id": [
+                  "http://hdl.loc.gov/loc.gmd/g4144s.pm004092"
+                ],
+                "format": [
+                  "cartographic"
+                ],
+                "language": [
+                  "eng"
+                ],
+                "location": [
+                  "Saint Paul (Minn.)"
+                ],
+                "medium": [
+                  "1 map ; 34 x 71 cm."
+                ],
+                "notes": [
+                  "Perspective map not drawn to scale.",
+                  "Bird's-eye-view.",
+                  "LC Panoramic maps (2nd ed.), 409.2",
+                  "Available also through the Library of Congress Web site as a raster image.",
+                  "AACR2: 651/1"
+                ],
+                "number_former_id": [
+                  "https://www.loc.gov/item/78693710",
+                  "https://www.loc.gov/item/5443077"
+                ],
+                "repository": [
+                  "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+                ],
+                "subjects": [
+                  "Saint Paul (Minn.)--Aerial views",
+                  "United States--Minnesota--Saint Paul"
+                ],
+                "title": "St. Paul, Minn. : ice palace and winter carnival souvenir"
+              },
+              "language": [
+                "english"
+              ],
+              "location": [
+                "united states",
+                "saint paul",
+                "minnesota"
+              ],
+              "location_city": [
+                "saint paul"
+              ],
+              "location_country": [
+                "united states"
+              ],
+              "location_state": [
+                "minnesota"
+              ],
+              "mime_type": [
+                "image/gif",
+                "image/tiff",
+                "image/jpeg",
+                "image/jp2"
+              ],
+              "number": [
+                "http://www.loc.gov/item/78693710",
+                "http://www.loc.gov/item/5443077",
+                "2002-12-14t18:45:29",
+                "78693710"
+              ],
+              "number_former_id": [
+                "http://www.loc.gov/item/78693710",
+                "http://www.loc.gov/item/5443077"
+              ],
+              "number_lccn": [
+                "78693710"
+              ],
+              "number_source_modified": [
+                "2002-12-14t18:45:29"
+              ],
+              "online_format": [
+                "image"
+              ],
+              "original_format": [
+                "map"
+              ],
+              "partof": [
+                "american memory",
+                "catalog",
+                "geography and map division",
+                "panoramic maps",
+                "cities and towns"
+              ],
+              "resources": [
+                {
+                  "files": 1,
+                  "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004092.gif",
+                  "url": "https://www.loc.gov/resource/g4144s.pm004092/"
+                }
+              ],
+              "shelf_id": "G4144.S4A3 1888  .M3",
+              "site": [
+                "ammem",
+                "catalog"
+              ],
+              "subject": [
+                "saint paul",
+                "aerial views",
+                "saint paul (minn.)",
+                "minnesota",
+                "united states"
+              ],
+              "timestamp": "2022-12-10T05:55:15.877Z",
+              "title": "St. Paul, Minn. : ice palace and winter carnival souvenir",
+              "type": [
+                "cartographic"
+              ],
+              "url": "https://www.loc.gov/item/78693710/"
+            }
+          ],
+          "slug": "",
+          "title": "Collection Items",
+          "url": "https://www.loc.gov/collections/panoramic-maps/"
+        }
+      ],
+      "content": "$search_default|partof:panoramic maps",
+      "link": "https://www.loc.gov/collections/panoramic-maps/",
+      "pagination": "2 of 3",
+      "slug": "",
+      "title": "Collection Items",
+      "url": "https://www.loc.gov/collections/panoramic-maps/"
+    },
+    {
+      "active": false,
+      "children": [
+        {
+          "content": "articles-and-essays/panoramic-mapping/index.html",
+          "dates": [
+            "1872/1892"
+          ],
+          "image_url": [
+            "/static/collections/panoramic-maps/images/rindx.gif"
+          ],
+          "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/panoramic-mapping/",
+          "locations": [
+            "Baltimore",
+            "St. Louis",
+            "Morrisville",
+            "Pennsylvania",
+            "Norfolk",
+            "Virginia"
+          ],
+          "slug": "panoramic-mapping",
+          "subjects": [
+            "Panoramic maps",
+            "Renaissance Europe",
+            "Merian, Mathias",
+            "Braun, George",
+            "Hogenberg, Franz",
+            "Victorian America",
+            "printing",
+            "Pictorial St. Louis: The Great Metropolis of the Mississippi Valley",
+            "Fowler, Thaddeus M.",
+            "Bailey, Oakley H.",
+            "Burleigh, Lucien R.",
+            "Ruger, Albert"
+          ],
+          "title": "Panoramic Mapping",
+          "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/panoramic-mapping/"
+        },
+        {
+          "content": "articles-and-essays/panoramic-artists-and-publishers/index.html",
+          "dates": [
+            "1829/1917"
+          ],
+          "image_url": [
+            "/static/collections/panoramic-maps/images/ruger.gif"
+          ],
+          "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/panoramic-artists-and-publishers/",
+          "locations": [
+            "Michigan",
+            "Stewart",
+            "Ohio",
+            "Pennsylvania",
+            "West Virginia",
+            "Allentown",
+            "Middletown",
+            "New York",
+            "New England",
+            "Chicago",
+            "Milwuakee"
+          ],
+          "slug": "panoramic-artists-and-publishers",
+          "subjects": [
+            "Ruger, Albert",
+            "Fowler, Thaddeus Mortimer",
+            "Burleigh, Lucien R.",
+            "Wellge, Henry",
+            "Bailey, Oakley H."
+          ],
+          "title": "Panoramic Artists and Publishers",
+          "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/panoramic-artists-and-publishers/"
+        },
+        {
+          "content": "articles-and-essays/browse-by-state/state-map.html",
+          "dates": [
+            "1847/1929"
+          ],
+          "description": [
+            "Select states on the map to browse items."
+          ],
+          "image_url": [
+            "/static/collections/panoramic-maps/images/us.jpg"
+          ],
+          "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/browse-maps-by-state/",
+          "locations": [
+            "Michigan",
+            "Stewart",
+            "Ohio",
+            "Pennsylvania",
+            "West Virginia",
+            "Allentown",
+            "Middletown",
+            "New York",
+            "New England",
+            "Chicago",
+            "Milwuakee"
+          ],
+          "slug": "browse-maps-by-state",
+          "subjects": [
+            "Panoramic maps",
+            "Renaissance Europe",
+            "Merian, Mathias",
+            "Braun, George",
+            "Hogenberg, Franz",
+            "Victorian America",
+            "printing",
+            "Pictorial St. Louis: The Great Metropolis of the Mississippi Valley",
+            "Fowler, Thaddeus M.",
+            "Bailey, Oakley H.",
+            "Burleigh, Lucien R.",
+            "Ruger, Albert"
+          ],
+          "title": "Browse Maps by State",
+          "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/browse-maps-by-state/"
+        },
+        {
+          "content": "articles-and-essays/topographical-survey-of-st-louis/st-louis-map.html",
+          "dates": [
+            "1847/1929"
+          ],
+          "description": [
+            "Select a numbered tile to view a detailed panoramic map"
+          ],
+          "image_url": [
+            "/static/collections/panoramic-maps/images/stlouis.jpg"
+          ],
+          "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/topographical-survey-of-st-louis/",
+          "locations": [
+            "St. Louis",
+            "Missouri",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "slug": "topographical-survey-of-st-louis",
+          "subjects": [
+            "Panoramic maps",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Pictorial St. Louis: The Great Metropolis of the Mississippi Valley",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "title": "Topographical Survey of St. Louis Missouri",
+          "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/topographical-survey-of-st-louis/"
+        }
+      ],
+      "content": "$children",
+      "link": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/",
+      "pagination": "3 of 3",
+      "slug": "articles-and-essays",
+      "title": "Articles and Essays",
+      "url": "https://www.loc.gov/collections/panoramic-maps/articles-and-essays/"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "first": null,
+    "from": 1,
+    "last": null,
+    "next": null,
+    "of": 8,
+    "page_list": [
+      {
+        "number": 1,
+        "url": null
+      }
+    ],
+    "perpage": 50,
+    "perpage_options": [
+      25,
+      50,
+      100,
+      150
+    ],
+    "previous": null,
+    "results": "1 - 8",
+    "to": 8,
+    "total": 1
+  },
+  "partof": [
+    "Geography and Map Division"
+  ],
+  "previous": {
+    "content": "../rights-and-access/geography-and-map.html",
+    "description": [
+      "The content of the Library of Congress Geography and Map Division digitized collections are free to use and reuse unless stated otherwise."
+    ],
+    "link": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/rights-and-access/",
+    "slug": "rights-and-access",
+    "title": "Rights and Access",
+    "url": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/rights-and-access/"
+  },
+  "previous_sibling": {
+    "active": false,
+    "children": [
+      {
+        "content": "about-this-collection/how-to-view-maps.html",
+        "link": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/how-to-view-maps/",
+        "slug": "how-to-view-maps",
+        "title": "How to View Maps",
+        "url": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/how-to-view-maps/"
+      },
+      {
+        "content": "about-this-collection/bibliography.html",
+        "link": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/related-resources/",
+        "slug": "related-resources",
+        "title": "Related Resources",
+        "url": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/related-resources/"
+      },
+      {
+        "content": "../rights-and-access/geography-and-map.html",
+        "description": [
+          "The content of the Library of Congress Geography and Map Division digitized collections are free to use and reuse unless stated otherwise."
+        ],
+        "link": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/rights-and-access/",
+        "slug": "rights-and-access",
+        "title": "Rights and Access",
+        "url": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/rights-and-access/"
+      }
+    ],
+    "content": "about-this-collection/overview.html",
+    "dates": [
+      "1847/1929"
+    ],
+    "link": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/",
+    "locations": [
+      "United States",
+      "Canada"
+    ],
+    "pagination": "1 of 3",
+    "slug": "about-this-collection",
+    "subjects": [
+      "Panoramic maps",
+      "Panoramic Maps of Cities in the United States and Canada",
+      "Ruger, Albert",
+      "Fowler, Thaddeus Mortimer",
+      "Burleigh, Lucien R.",
+      "Wellge, Henry",
+      "Bailey, Oakley H."
+    ],
+    "title": "About this Collection",
+    "url": "https://www.loc.gov/collections/panoramic-maps/about-this-collection/"
+  },
+  "research-centers": [
+    "geography-and-map"
+  ],
+  "results": [
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/resource/g4144s.pm004070/",
+        "http://www.loc.gov/item/73693464/",
+        "https://hdl.loc.gov/loc.gmd/g4144s.pm004070",
+        "http://lccn.loc.gov/73693464"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "ruger, a.",
+        "chicago lithographing co"
+      ],
+      "date": "1867-01-01",
+      "dates": [
+        "1867"
+      ],
+      "description": [
+        "Perspective map not drawn to scale. Bird's-eye view. LC Panoramic maps (2nd ed.), 407 Available also through the Library of Congress Web site as a raster image. Indexed for points of interest. Vault AACR2: 100; 651/1; 710/1"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2021-10-29T23:00:40.111Z",
+      "group": [
+        "gmd.mar",
+        "catalog-split-10",
+        "catalog",
+        "general-maps",
+        "main-catalog-split-10",
+        "main-catalog"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/73693464/",
+      "image_url": [
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004070.gif",
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004070.gif#h=150&w=192",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004070/full/pct:12.5/0/default.jpg#h=865&w=1109",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004070/full/pct:25/0/default.jpg#h=1730&w=2219"
+      ],
+      "index": 1,
+      "item": {
+        "call_number": [
+          "G4144.S4A3 1867 .R8"
+        ],
+        "contributors": [
+          "Ruger, A.",
+          "Chicago Lithographing Co."
+        ],
+        "created_published": [
+          "Chicago, Chicago Lithographing Co. [1867]"
+        ],
+        "date": "1867",
+        "digital_id": [
+          "http://hdl.loc.gov/loc.gmd/g4144s.pm004070"
+        ],
+        "format": [
+          "cartographic"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "Saint Paul (Minn.)"
+        ],
+        "medium": [
+          "col. map 52 x 71 cm."
+        ],
+        "notes": [
+          "Perspective map not drawn to scale.",
+          "Bird's-eye view.",
+          "LC Panoramic maps (2nd ed.), 407",
+          "Available also through the Library of Congress Web site as a raster image.",
+          "Indexed for points of interest.",
+          "Vault",
+          "AACR2: 100; 651/1; 710/1"
+        ],
+        "number_former_id": [
+          "https://www.loc.gov/item/73693464",
+          "https://www.loc.gov/item/5411229"
+        ],
+        "repository": [
+          "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+        ],
+        "subjects": [
+          "Saint Paul (Minn.)--Aerial views",
+          "United States--Minnesota--Saint Paul"
+        ],
+        "title": "Saint Paul, Minnesota 1867."
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states",
+        "saint paul",
+        "minnesota"
+      ],
+      "location_city": [
+        "saint paul"
+      ],
+      "location_country": [
+        "united states"
+      ],
+      "location_state": [
+        "minnesota"
+      ],
+      "mime_type": [
+        "image/gif",
+        "image/tiff",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "number": [
+        "2005-01-05t12:17:34",
+        "73693464",
+        "http://www.loc.gov/item/5411229",
+        "http://www.loc.gov/item/73693464"
+      ],
+      "number_former_id": [
+        "http://www.loc.gov/item/73693464",
+        "http://www.loc.gov/item/5411229"
+      ],
+      "number_lccn": [
+        "73693464"
+      ],
+      "number_source_modified": [
+        "2005-01-05t12:17:34"
+      ],
+      "online_format": [
+        "image"
+      ],
+      "original_format": [
+        "map"
+      ],
+      "partof": [
+        "american memory",
+        "catalog",
+        "geography and map division",
+        "panoramic maps",
+        "cities and towns"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004070.gif",
+          "url": "https://www.loc.gov/resource/g4144s.pm004070/"
+        }
+      ],
+      "shelf_id": "G4144.S4A3 1867 .R8",
+      "site": [
+        "ammem",
+        "catalog"
+      ],
+      "subject": [
+        "saint paul",
+        "aerial views",
+        "saint paul (minn.)",
+        "minnesota",
+        "united states"
+      ],
+      "timestamp": "2022-12-10T05:50:11.007Z",
+      "title": "Saint Paul, Minnesota 1867.",
+      "type": [
+        "cartographic"
+      ],
+      "url": "https://www.loc.gov/item/73693464/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "https://hdl.loc.gov/loc.gmd/g4144s.pm004090",
+        "http://www.loc.gov/resource/g4144s.pm004090/",
+        "http://www.loc.gov/item/75694648/",
+        "http://lccn.loc.gov/75694648"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "green, vernon",
+        "[ellsbury, geo. h.]"
+      ],
+      "date": "1874-01-01",
+      "dates": [
+        "1874"
+      ],
+      "description": [
+        "LC Panoramic maps (2nd ed.), 409 Available also through the Library of Congress Web site as a raster image. AACR2: 100; 651/1"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2021-10-30T01:24:28.395Z",
+      "group": [
+        "gmd.mar",
+        "catalog-split-01",
+        "catalog",
+        "general-maps",
+        "main-catalog-split-01",
+        "main-catalog"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/75694648/",
+      "image_url": [
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004090.gif",
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004090.gif#h=150&w=287",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004090/full/pct:12.5/0/default.jpg#h=614&w=1176",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004090/full/pct:25/0/default.jpg#h=1228&w=2352"
+      ],
+      "index": 2,
+      "item": {
+        "call_number": [
+          "G4144.S4A35 1874  .E5"
+        ],
+        "contributors": [
+          "[Ellsbury, Geo. H.]",
+          "Green, Vernon, joint author."
+        ],
+        "created_published": [
+          "n.p., 1874]"
+        ],
+        "date": "1874",
+        "digital_id": [
+          "http://hdl.loc.gov/loc.gmd/g4144s.pm004090"
+        ],
+        "format": [
+          "cartographic"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "Saint Paul (Minn.)"
+        ],
+        "medium": [
+          "col. view on sheet 41 x 80 cm."
+        ],
+        "notes": [
+          "LC Panoramic maps (2nd ed.), 409",
+          "Available also through the Library of Congress Web site as a raster image.",
+          "AACR2: 100; 651/1"
+        ],
+        "number_former_id": [
+          "https://www.loc.gov/item/75694648",
+          "https://www.loc.gov/item/5423897"
+        ],
+        "repository": [
+          "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+        ],
+        "subjects": [
+          "Saint Paul (Minn.)--Aerial views",
+          "United States--Minnesota--Saint Paul"
+        ],
+        "title": "[View of St. Paul, Minnesota."
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states",
+        "saint paul",
+        "minnesota"
+      ],
+      "location_city": [
+        "saint paul"
+      ],
+      "location_country": [
+        "united states"
+      ],
+      "location_state": [
+        "minnesota"
+      ],
+      "mime_type": [
+        "image/gif",
+        "image/tiff",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "number": [
+        "2002-12-14t18:41:07",
+        "http://www.loc.gov/item/75694648",
+        "http://www.loc.gov/item/5423897",
+        "75694648"
+      ],
+      "number_former_id": [
+        "http://www.loc.gov/item/75694648",
+        "http://www.loc.gov/item/5423897"
+      ],
+      "number_lccn": [
+        "75694648"
+      ],
+      "number_source_modified": [
+        "2002-12-14t18:41:07"
+      ],
+      "online_format": [
+        "image"
+      ],
+      "original_format": [
+        "map"
+      ],
+      "partof": [
+        "american memory",
+        "catalog",
+        "geography and map division",
+        "panoramic maps",
+        "cities and towns"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004090.gif",
+          "url": "https://www.loc.gov/resource/g4144s.pm004090/"
+        }
+      ],
+      "shelf_id": "G4144.S4A35 1874  .E5",
+      "site": [
+        "ammem",
+        "catalog"
+      ],
+      "subject": [
+        "saint paul",
+        "aerial views",
+        "saint paul (minn.)",
+        "minnesota",
+        "united states"
+      ],
+      "timestamp": "2022-12-10T05:53:25.542Z",
+      "title": "[View of St. Paul, Minnesota.",
+      "type": [
+        "cartographic"
+      ],
+      "url": "https://www.loc.gov/item/75694648/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/78693711/",
+        "http://www.loc.gov/resource/g4144s.pm004061/",
+        "https://hdl.loc.gov/loc.gmd/g4144s.pm004061",
+        "http://lccn.loc.gov/78693711"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "queen, james",
+        "strobel, max",
+        "ritchie, thompson"
+      ],
+      "date": "1853-01-01",
+      "dates": [
+        "1853"
+      ],
+      "description": [
+        "Panorama. \"Entered according to Act of Congress in the year 1853, by Thompson Ritchie, in the Clerk's Office of the District Court of the Eastern District of Penna.\" LC Panoramic maps (2nd ed.), 406.1 Available also through the Library of Congress Web site as a raster image. AACR2: 651/1; 700/1"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2021-10-30T01:53:11.013Z",
+      "group": [
+        "gmd.mar",
+        "catalog-split-10",
+        "catalog",
+        "general-maps",
+        "main-catalog-split-10",
+        "main-catalog"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/78693711/",
+      "image_url": [
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004061.gif",
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004061.gif#h=150&w=205",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004061/full/pct:12.5/0/default.jpg#h=604&w=826",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004061/full/pct:25/0/default.jpg#h=1208&w=1652"
+      ],
+      "index": 3,
+      "item": {
+        "call_number": [
+          "G4144.S4A35 1853 .R5"
+        ],
+        "contributors": [
+          "Ritchie, Thompson.",
+          "Strobel, Max.",
+          "Queen, James, 1824-approximately 1877."
+        ],
+        "created_published": [
+          "[Philadelphia?] : Ritchie, [1853]"
+        ],
+        "date": "1853",
+        "digital_id": [
+          "http://hdl.loc.gov/loc.gmd/g4144s.pm004061"
+        ],
+        "format": [
+          "cartographic"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "Saint Paul (Minn.)"
+        ],
+        "medium": [
+          "1 view : col. ; 30 x 50 cm."
+        ],
+        "notes": [
+          "Panorama.",
+          "\"Entered according to Act of Congress in the year 1853, by Thompson Ritchie, in the Clerk's Office of the District Court of the Eastern District of Penna.\"",
+          "LC Panoramic maps (2nd ed.), 406.1",
+          "Available also through the Library of Congress Web site as a raster image.",
+          "AACR2: 651/1; 700/1"
+        ],
+        "number_former_id": [
+          "https://www.loc.gov/item/78693711",
+          "https://www.loc.gov/item/5443078"
+        ],
+        "repository": [
+          "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+        ],
+        "subjects": [
+          "Saint Paul (Minn.)--Aerial views",
+          "United States--Minnesota--Saint Paul"
+        ],
+        "title": "City of St. Paul, capital of Minnesota"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states",
+        "saint paul",
+        "minnesota"
+      ],
+      "location_city": [
+        "saint paul"
+      ],
+      "location_country": [
+        "united states"
+      ],
+      "location_state": [
+        "minnesota"
+      ],
+      "mime_type": [
+        "image/gif",
+        "image/tiff",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "number": [
+        "78693711",
+        "http://www.loc.gov/item/78693711",
+        "http://www.loc.gov/item/5443078",
+        "2013-05-01t10:57:31"
+      ],
+      "number_former_id": [
+        "http://www.loc.gov/item/78693711",
+        "http://www.loc.gov/item/5443078"
+      ],
+      "number_lccn": [
+        "78693711"
+      ],
+      "number_source_modified": [
+        "2013-05-01t10:57:31"
+      ],
+      "online_format": [
+        "image"
+      ],
+      "original_format": [
+        "map"
+      ],
+      "partof": [
+        "american memory",
+        "catalog",
+        "geography and map division",
+        "panoramic maps",
+        "cities and towns"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004061.gif",
+          "url": "https://www.loc.gov/resource/g4144s.pm004061/"
+        }
+      ],
+      "shelf_id": "G4144.S4A35 1853 .R5",
+      "site": [
+        "ammem",
+        "catalog"
+      ],
+      "subject": [
+        "saint paul",
+        "aerial views",
+        "saint paul (minn.)",
+        "minnesota",
+        "united states"
+      ],
+      "timestamp": "2022-12-10T05:55:27.244Z",
+      "title": "City of St. Paul, capital of Minnesota",
+      "type": [
+        "cartographic"
+      ],
+      "url": "https://www.loc.gov/item/78693711/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://lccn.loc.gov/84690615",
+        "http://www.loc.gov/item/84690615/",
+        "https://search.catalog.loc.gov/instances/22c6b6a1-904e-52e1-860b-539f7a79b8e9",
+        "https://hdl.loc.gov/loc.gmd/g4144s.pm004091",
+        "http://www.loc.gov/resource/g4144s.pm004091/"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "wellge, h. (henry)",
+        "beck & pauli",
+        "brosius, h.",
+        "stoner, j. j."
+      ],
+      "date": "1883",
+      "dates": [
+        "1883"
+      ],
+      "description": [
+        "Bird's-eye view. \"H. Brosius, del.\" appears on most of the illustrations. Includes ill. of buildings, index to points of interest, and inset \"Extension of Fort [i.e., West Seventh] Street.\" LC Panoramic maps (2nd ed.), 409.1 Available also through the Library of Congress Web site as a raster image. Conserved; 002667.12 1976 Library of Congress Conservation Division. For treatment information, contact the Preservation Directorate. https://ask.loc.gov/preservation pda Transfer from P&P, 11/17/81."
+      ],
+      "digitized": true,
+      "extract_timestamp": "2025-09-30T15:26:21.562Z",
+      "group": [
+        "catalog-split-07",
+        "catalog",
+        "gmd.mar",
+        "main-catalog-split-07",
+        "general-maps"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/84690615/",
+      "image_url": [
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004091.gif",
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004091.gif#h=150&w=228",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004091/full/pct:12.5/0/default.jpg#h=1020&w=1548",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004091/full/pct:25/0/default.jpg#h=2040&w=3096"
+      ],
+      "index": 4,
+      "item": {
+        "call_number": [
+          "G4144.S4A3 1883 .W4"
+        ],
+        "contributors": [
+          "Wellge, H. (Henry)",
+          "Stoner, J. J.",
+          "Brosius, H.",
+          "Beck & Pauli"
+        ],
+        "created_published": [
+          "Madison, Wis. : J.J. Stoner, c1883"
+        ],
+        "date": "1883",
+        "digital_id": [
+          "http://hdl.loc.gov/loc.gmd/g4144s.pm004091"
+        ],
+        "format": [
+          "cartographic"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "Saint Paul (Minn.)"
+        ],
+        "medium": [
+          "1 view : col. ; 55 x 100 cm., on sheet 73 x 109 cm."
+        ],
+        "notes": [
+          "Bird's-eye view.",
+          "\"H. Brosius, del.\" appears on most of the illustrations.",
+          "Includes ill. of buildings, index to points of interest, and inset \"Extension of Fort [i.e., West Seventh] Street.\"",
+          "LC Panoramic maps (2nd ed.), 409.1",
+          "Available also through the Library of Congress Web site as a raster image.",
+          "Conserved; 002667.12 1976 Library of Congress Conservation Division. For treatment information, contact the Preservation Directorate. https://ask.loc.gov/preservation pda",
+          "Transfer from P&P, 11/17/81."
+        ],
+        "repository": [
+          "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+        ],
+        "subjects": [
+          "Saint Paul (Minn.)--Aerial views",
+          "United States--Minnesota--Saint Paul"
+        ],
+        "title": "St. Paul, Minnesota 1883 : state capital and county seat of Ramsey Co"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states",
+        "saint paul",
+        "minnesota"
+      ],
+      "location_city": [
+        "saint paul"
+      ],
+      "location_country": [
+        "united states"
+      ],
+      "location_state": [
+        "minnesota"
+      ],
+      "mime_type": [
+        "image/gif",
+        "image/tiff",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "number": [
+        "2002-12-14t18:46:43",
+        "2025-07-23t15:24:27.100000",
+        "http://www.loc.gov/item/84690615",
+        "84690615",
+        "http://www.loc.gov/item/5471600"
+      ],
+      "number_former_id": [
+        "http://www.loc.gov/item/84690615",
+        "http://www.loc.gov/item/5471600"
+      ],
+      "number_lccn": [
+        "84690615"
+      ],
+      "number_source_modified": [
+        "2025-07-23t15:24:27.100000",
+        "2002-12-14t18:46:43"
+      ],
+      "online_format": [
+        "image"
+      ],
+      "original_format": [
+        "map"
+      ],
+      "partof": [
+        "american memory",
+        "catalog",
+        "geography and map division",
+        "panoramic maps",
+        "cities and towns"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004091.gif",
+          "url": "https://www.loc.gov/resource/g4144s.pm004091/"
+        }
+      ],
+      "shelf_id": "G4144.S4A3 1883 .W4",
+      "site": [
+        "catalog",
+        "ammem"
+      ],
+      "subject": [
+        "saint paul",
+        "aerial views",
+        "saint paul (minn.)",
+        "minnesota",
+        "united states"
+      ],
+      "timestamp": "2025-09-30T17:15:21.577Z",
+      "title": "St. Paul, Minnesota 1883 : state capital and county seat of Ramsey Co",
+      "type": [
+        "cartographic"
+      ],
+      "url": "https://www.loc.gov/item/84690615/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/75694650/",
+        "http://www.loc.gov/resource/g4144s.pm004110/",
+        "https://hdl.loc.gov/loc.gmd/g4144s.pm004110",
+        "http://lccn.loc.gov/75694650"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "saint, robert m."
+      ],
+      "date": "1906-01-01",
+      "dates": [
+        "1906"
+      ],
+      "description": [
+        "Perspective map not drawn to scale. Bird's-eye-view. LC Panoramic maps (2nd ed.), 411 Available also through the Library of Congress Web site as a raster image. AACR2: 651"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2021-10-29T21:49:23.563Z",
+      "group": [
+        "gmd.mar",
+        "catalog-split-10",
+        "catalog",
+        "general-maps",
+        "main-catalog-split-10",
+        "main-catalog"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/75694650/",
+      "image_url": [
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004110.gif",
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004110.gif#h=150&w=265",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004110/full/pct:12.5/0/default.jpg#h=700&w=1236",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004110/full/pct:25/0/default.jpg#h=1400&w=2472"
+      ],
+      "index": 5,
+      "item": {
+        "call_number": [
+          "G4144.S4A3 1906  .S3"
+        ],
+        "contributors": [
+          "Saint, Robert M."
+        ],
+        "created_published": [
+          "St. Paul, c1906."
+        ],
+        "date": "1906",
+        "digital_id": [
+          "http://hdl.loc.gov/loc.gmd/g4144s.pm004110"
+        ],
+        "format": [
+          "cartographic"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "Saint Paul (Minn.)"
+        ],
+        "medium": [
+          "map 38 x 77 cm."
+        ],
+        "notes": [
+          "Perspective map not drawn to scale.",
+          "Bird's-eye-view.",
+          "LC Panoramic maps (2nd ed.), 411",
+          "Available also through the Library of Congress Web site as a raster image.",
+          "AACR2: 651"
+        ],
+        "number_former_id": [
+          "https://www.loc.gov/item/75694650",
+          "https://www.loc.gov/item/5423899"
+        ],
+        "repository": [
+          "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+        ],
+        "subjects": [
+          "Saint Paul (Minn.)--Aerial views",
+          "United States--Minnesota--Saint Paul"
+        ],
+        "title": "St. Paul, Minn."
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states",
+        "saint paul",
+        "minnesota"
+      ],
+      "location_city": [
+        "saint paul"
+      ],
+      "location_country": [
+        "united states"
+      ],
+      "location_state": [
+        "minnesota"
+      ],
+      "mime_type": [
+        "image/gif",
+        "image/tiff",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "number": [
+        "http://www.loc.gov/item/75694650",
+        "2002-12-14t18:41:08",
+        "75694650",
+        "http://www.loc.gov/item/5423899"
+      ],
+      "number_former_id": [
+        "http://www.loc.gov/item/75694650",
+        "http://www.loc.gov/item/5423899"
+      ],
+      "number_lccn": [
+        "75694650"
+      ],
+      "number_source_modified": [
+        "2002-12-14t18:41:08"
+      ],
+      "online_format": [
+        "image"
+      ],
+      "original_format": [
+        "map"
+      ],
+      "partof": [
+        "american memory",
+        "catalog",
+        "geography and map division",
+        "panoramic maps",
+        "cities and towns"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004110.gif",
+          "url": "https://www.loc.gov/resource/g4144s.pm004110/"
+        }
+      ],
+      "shelf_id": "G4144.S4A3 1906  .S3",
+      "site": [
+        "ammem",
+        "catalog"
+      ],
+      "subject": [
+        "saint paul",
+        "aerial views",
+        "saint paul (minn.)",
+        "minnesota",
+        "united states"
+      ],
+      "timestamp": "2022-12-10T05:53:25.542Z",
+      "title": "St. Paul, Minn.",
+      "type": [
+        "cartographic"
+      ],
+      "url": "https://www.loc.gov/item/75694650/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/75694649/",
+        "https://hdl.loc.gov/loc.gmd/g4144s.pm004080",
+        "http://www.loc.gov/resource/g4144s.pm004080/",
+        "http://lccn.loc.gov/75694649"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "hageboeck, august"
+      ],
+      "date": "1873-01-01",
+      "dates": [
+        "1873"
+      ],
+      "description": [
+        "LC Panoramic maps (2nd ed.), 408 Available also through the Library of Congress Web site as a raster image. AACR2: 651/1"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2021-10-30T01:51:17.764Z",
+      "group": [
+        "gmd.mar",
+        "catalog-split-02",
+        "catalog",
+        "general-maps",
+        "main-catalog-split-02",
+        "main-catalog"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/75694649/",
+      "image_url": [
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004080.gif",
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004080.gif#h=150&w=425",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004080/full/pct:12.5/0/default.jpg#h=354&w=1002",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004080/full/pct:25/0/default.jpg#h=708&w=2004"
+      ],
+      "index": 6,
+      "item": {
+        "call_number": [
+          "G4144.S4A35 1873  .H3"
+        ],
+        "contributors": [
+          "Hageboeck, August."
+        ],
+        "created_published": [
+          "Davenport, Iowa, 1873."
+        ],
+        "date": "1873",
+        "digital_id": [
+          "http://hdl.loc.gov/loc.gmd/g4144s.pm004080"
+        ],
+        "format": [
+          "cartographic"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "Saint Paul (Minn.)"
+        ],
+        "medium": [
+          "col. view 17 x 62 cm."
+        ],
+        "notes": [
+          "LC Panoramic maps (2nd ed.), 408",
+          "Available also through the Library of Congress Web site as a raster image.",
+          "AACR2: 651/1"
+        ],
+        "number_former_id": [
+          "https://www.loc.gov/item/75694649",
+          "https://www.loc.gov/item/5423898"
+        ],
+        "repository": [
+          "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+        ],
+        "subjects": [
+          "Saint Paul (Minn.)--Aerial views",
+          "United States--Minnesota--Saint Paul"
+        ],
+        "title": "Panorama of St. Paul, Minn."
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states",
+        "saint paul",
+        "minnesota"
+      ],
+      "location_city": [
+        "saint paul"
+      ],
+      "location_country": [
+        "united states"
+      ],
+      "location_state": [
+        "minnesota"
+      ],
+      "mime_type": [
+        "image/gif",
+        "image/tiff",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "number": [
+        "75694649",
+        "2002-12-14t18:41:07",
+        "http://www.loc.gov/item/75694649",
+        "http://www.loc.gov/item/5423898"
+      ],
+      "number_former_id": [
+        "http://www.loc.gov/item/75694649",
+        "http://www.loc.gov/item/5423898"
+      ],
+      "number_lccn": [
+        "75694649"
+      ],
+      "number_source_modified": [
+        "2002-12-14t18:41:07"
+      ],
+      "online_format": [
+        "image"
+      ],
+      "original_format": [
+        "map"
+      ],
+      "partof": [
+        "american memory",
+        "catalog",
+        "geography and map division",
+        "panoramic maps",
+        "cities and towns"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004080.gif",
+          "url": "https://www.loc.gov/resource/g4144s.pm004080/"
+        }
+      ],
+      "shelf_id": "G4144.S4A35 1873  .H3",
+      "site": [
+        "ammem",
+        "catalog"
+      ],
+      "subject": [
+        "saint paul",
+        "aerial views",
+        "saint paul (minn.)",
+        "minnesota",
+        "united states"
+      ],
+      "timestamp": "2022-12-10T05:53:25.542Z",
+      "title": "Panorama of St. Paul, Minn.",
+      "type": [
+        "cartographic"
+      ],
+      "url": "https://www.loc.gov/item/75694649/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/resource/g4144s.pm004100/",
+        "http://www.loc.gov/item/75694647/",
+        "https://hdl.loc.gov/loc.gmd/g4144s.pm004100",
+        "http://lccn.loc.gov/75694647"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "brown, treacy & co. (saint paul, minn.)"
+      ],
+      "date": "1893-01-01",
+      "dates": [
+        "1893"
+      ],
+      "description": [
+        "Perspective map not drawn to scale. LC Panoramic maps (2nd ed.), 410 Available also through the Library of Congress Web site as a raster image. AACR2"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2021-10-29T22:30:27.551Z",
+      "group": [
+        "gmd.mar",
+        "catalog-split-00",
+        "catalog",
+        "general-maps",
+        "main-catalog-split-00",
+        "main-catalog"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/75694647/",
+      "image_url": [
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004100.gif",
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004100.gif#h=150&w=195",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004100/full/pct:12.5/0/default.jpg#h=319&w=414",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004100/full/pct:25/0/default.jpg#h=638&w=828"
+      ],
+      "index": 7,
+      "item": {
+        "call_number": [
+          "G4144.S4A3 1893  .B7"
+        ],
+        "contributors": [
+          "Brown, Treacy & Co. (Saint Paul, Minn.)"
+        ],
+        "created_published": [
+          "[n.p.] c1893."
+        ],
+        "date": "1893",
+        "digital_id": [
+          "http://hdl.loc.gov/loc.gmd/g4144s.pm004100"
+        ],
+        "format": [
+          "cartographic"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "Saint Paul (Minn.)"
+        ],
+        "medium": [
+          "col. map 19 x 26 cm."
+        ],
+        "notes": [
+          "Perspective map not drawn to scale.",
+          "LC Panoramic maps (2nd ed.), 410",
+          "Available also through the Library of Congress Web site as a raster image.",
+          "AACR2"
+        ],
+        "number_former_id": [
+          "https://www.loc.gov/item/75694647",
+          "https://www.loc.gov/item/5423896"
+        ],
+        "repository": [
+          "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+        ],
+        "subjects": [
+          "Saint Paul (Minn.)--Aerial views",
+          "United States--Minnesota--Saint Paul"
+        ],
+        "title": "Bird's-eye view of St. Paul, looking west from Dayton's Bluff."
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states",
+        "saint paul",
+        "minnesota"
+      ],
+      "location_city": [
+        "saint paul"
+      ],
+      "location_country": [
+        "united states"
+      ],
+      "location_state": [
+        "minnesota"
+      ],
+      "mime_type": [
+        "image/gif",
+        "image/tiff",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "number": [
+        "http://www.loc.gov/item/5423896",
+        "75694647",
+        "http://www.loc.gov/item/75694647",
+        "2002-12-14t18:41:06"
+      ],
+      "number_former_id": [
+        "http://www.loc.gov/item/75694647",
+        "http://www.loc.gov/item/5423896"
+      ],
+      "number_lccn": [
+        "75694647"
+      ],
+      "number_source_modified": [
+        "2002-12-14t18:41:06"
+      ],
+      "online_format": [
+        "image"
+      ],
+      "original_format": [
+        "map"
+      ],
+      "partof": [
+        "american memory",
+        "catalog",
+        "geography and map division",
+        "panoramic maps",
+        "cities and towns"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004100.gif",
+          "url": "https://www.loc.gov/resource/g4144s.pm004100/"
+        }
+      ],
+      "shelf_id": "G4144.S4A3 1893  .B7",
+      "site": [
+        "ammem",
+        "catalog"
+      ],
+      "subject": [
+        "saint paul",
+        "aerial views",
+        "saint paul (minn.)",
+        "minnesota",
+        "united states"
+      ],
+      "timestamp": "2022-12-10T05:53:25.542Z",
+      "title": "Bird's-eye view of St. Paul, looking west from Dayton's Bluff.",
+      "type": [
+        "cartographic"
+      ],
+      "url": "https://www.loc.gov/item/75694647/"
+    },
+    {
+      "access_restricted": false,
+      "aka": [
+        "http://www.loc.gov/item/78693710/",
+        "http://www.loc.gov/resource/g4144s.pm004092/",
+        "https://hdl.loc.gov/loc.gmd/g4144s.pm004092",
+        "http://lccn.loc.gov/78693710"
+      ],
+      "campaigns": [],
+      "contributor": [
+        "baker, collins & co",
+        "marr & richards engraving co"
+      ],
+      "date": "1888-01-01",
+      "dates": [
+        "1888"
+      ],
+      "description": [
+        "Perspective map not drawn to scale. Bird's-eye-view. LC Panoramic maps (2nd ed.), 409.2 Available also through the Library of Congress Web site as a raster image. AACR2: 651/1"
+      ],
+      "digitized": true,
+      "extract_timestamp": "2021-10-29T21:23:55.645Z",
+      "group": [
+        "gmd.mar",
+        "catalog-split-09",
+        "catalog",
+        "general-maps",
+        "main-catalog-split-09",
+        "main-catalog"
+      ],
+      "hassegments": false,
+      "id": "http://www.loc.gov/item/78693710/",
+      "image_url": [
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004092.gif",
+        "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004092.gif#h=150&w=251",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004092/full/pct:12.5/0/default.jpg#h=674&w=1130",
+        "https://tile.loc.gov/image-services/iiif/service:gmd:gmd414:g4144:g4144s:pm004092/full/pct:25/0/default.jpg#h=1348&w=2260"
+      ],
+      "index": 8,
+      "item": {
+        "call_number": [
+          "G4144.S4A3 1888  .M3"
+        ],
+        "contributors": [
+          "Marr & Richards Engraving Co.",
+          "Baker, Collins & Co."
+        ],
+        "created_published": [
+          "St. Paul : Baker, Collins & Co., 1888, c1887."
+        ],
+        "date": "1888",
+        "digital_id": [
+          "http://hdl.loc.gov/loc.gmd/g4144s.pm004092"
+        ],
+        "format": [
+          "cartographic"
+        ],
+        "language": [
+          "eng"
+        ],
+        "location": [
+          "Saint Paul (Minn.)"
+        ],
+        "medium": [
+          "1 map ; 34 x 71 cm."
+        ],
+        "notes": [
+          "Perspective map not drawn to scale.",
+          "Bird's-eye-view.",
+          "LC Panoramic maps (2nd ed.), 409.2",
+          "Available also through the Library of Congress Web site as a raster image.",
+          "AACR2: 651/1"
+        ],
+        "number_former_id": [
+          "https://www.loc.gov/item/78693710",
+          "https://www.loc.gov/item/5443077"
+        ],
+        "repository": [
+          "Library of Congress Geography and Map Division Washington, D.C. 20540-4650 USA dcu"
+        ],
+        "subjects": [
+          "Saint Paul (Minn.)--Aerial views",
+          "United States--Minnesota--Saint Paul"
+        ],
+        "title": "St. Paul, Minn. : ice palace and winter carnival souvenir"
+      },
+      "language": [
+        "english"
+      ],
+      "location": [
+        "united states",
+        "saint paul",
+        "minnesota"
+      ],
+      "location_city": [
+        "saint paul"
+      ],
+      "location_country": [
+        "united states"
+      ],
+      "location_state": [
+        "minnesota"
+      ],
+      "mime_type": [
+        "image/gif",
+        "image/tiff",
+        "image/jpeg",
+        "image/jp2"
+      ],
+      "number": [
+        "http://www.loc.gov/item/78693710",
+        "http://www.loc.gov/item/5443077",
+        "2002-12-14t18:45:29",
+        "78693710"
+      ],
+      "number_former_id": [
+        "http://www.loc.gov/item/78693710",
+        "http://www.loc.gov/item/5443077"
+      ],
+      "number_lccn": [
+        "78693710"
+      ],
+      "number_source_modified": [
+        "2002-12-14t18:45:29"
+      ],
+      "online_format": [
+        "image"
+      ],
+      "original_format": [
+        "map"
+      ],
+      "partof": [
+        "american memory",
+        "catalog",
+        "geography and map division",
+        "panoramic maps",
+        "cities and towns"
+      ],
+      "resources": [
+        {
+          "files": 1,
+          "image": "https://tile.loc.gov/storage-services/service/gmd/gmd414/g4144/g4144s/pm004092.gif",
+          "url": "https://www.loc.gov/resource/g4144s.pm004092/"
+        }
+      ],
+      "shelf_id": "G4144.S4A3 1888  .M3",
+      "site": [
+        "ammem",
+        "catalog"
+      ],
+      "subject": [
+        "saint paul",
+        "aerial views",
+        "saint paul (minn.)",
+        "minnesota",
+        "united states"
+      ],
+      "timestamp": "2022-12-10T05:55:15.877Z",
+      "title": "St. Paul, Minn. : ice palace and winter carnival souvenir",
+      "type": [
+        "cartographic"
+      ],
+      "url": "https://www.loc.gov/item/78693710/"
+    }
+  ],
+  "search": {
+    "dates": null,
+    "facet_limits": "",
+    "field": null,
+    "hits": 8,
+    "in": "partof:panoramic maps",
+    "query": "saint paul minnesota",
+    "recommended": 0,
+    "site": {},
+    "sort_by": null,
+    "type": "search",
+    "union_facets": "",
+    "url": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&q=saint+paul+minnesota&sp=1"
+  },
+  "shards": [
+    "01"
+  ],
+  "site_type": "collections",
+  "subjects": [
+    "American History and Civilization",
+    "American History",
+    "Progressive Era to New Era, 1900-1929",
+    "Maps & Geography",
+    "Rise of Industrial America, 1877-1900"
+  ],
+  "timestamp": 1763952595319,
+  "title": "Panoramic Maps",
+  "topics": [
+    "American History",
+    "Geography & Places",
+    "Local History & Folklife"
+  ],
+  "total": 1500,
+  "views": {
+    "brief": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&q=saint+paul+minnesota&sp=1&st=brief",
+    "current": "list",
+    "gallery": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&q=saint+paul+minnesota&sp=1&st=gallery",
+    "grid": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&q=saint+paul+minnesota&sp=1&st=grid",
+    "list": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&q=saint+paul+minnesota&sp=1",
+    "slideshow": "https://www.loc.gov/collections/panoramic-maps/?c=50&fo=json&q=saint+paul+minnesota&sp=1&st=slideshow"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "St. Paul Pioneer Press",
+  "founded": 1849,
+  "originalName": "Minnesota Pioneer",
+  "nameHistory": [
+    {
+      "year": 1849,
+      "name": "Minnesota Pioneer"
+    },
+    {
+      "year": 1854,
+      "name": "Daily Minnesotan"
+    },
+    {
+      "year": 1858,
+      "name": "Minnesota Pioneer and Democrat"
+    },
+    {
+      "year": 1875,
+      "name": "St. Paul Pioneer Press"
+    },
+    {
+      "year": 1985,
+      "name": "St. Paul Pioneer Press Dispatch"
+    },
+    {
+      "year": 1998,
+      "name": "St. Paul Pioneer Press"
+    }
+  ],
+  "significance": "Oldest continuously published newspaper in Minnesota",
+  "notableEvents": [
+    "First newspaper in Minnesota Territory (1849)",
+    "Covered Dakota War of 1862",
+    "Documented railroad expansion era",
+    "Prohibition and gangster era coverage (1920s-1930s)",
+    "Civil rights movement coverage (1960s)"
+  ],
+  "digitalArchives": {
+    "newspaperscom": "https://www.newspapers.com/title/st-paul-pioneer-press/",
+    "proquest": "Available through ProQuest Historical Newspapers"
+  }
+}

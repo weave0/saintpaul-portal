@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-11-24T02:49:53.525Z",
+  "sources": [
+    {
+      "name": "LOC Photos & Prints",
+      "count": 100,
+      "file": "loc_photos_stpaul.json",
+      "status": "success"
+    },
+    {
+      "name": "LOC Historic Maps",
+      "count": 0,
+      "file": "loc_maps_stpaul.json",
+      "status": "success"
+    },
+    {
+      "name": "LOC Panoramic Maps",
+      "count": 8,
+      "file": "loc_panoramic_maps.json",
+      "status": "success"
+    },
+    {
+      "name": "HABS Buildings",
+      "count": 58,
+      "file": "loc_habs_stpaul.json",
+      "status": "success"
+    },
+    {
+      "name": "LOC General Collections",
+      "count": 100,
+      "file": "loc_general_stpaul.json",
+      "status": "success"
+    }
+  ],
+  "totalRecords": 266
+}

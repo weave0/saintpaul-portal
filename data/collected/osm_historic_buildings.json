@@ -1,0 +1,4218 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.8 e802775f",
+  "osm3s": {
+    "timestamp_osm_base": "2025-11-24T02:49:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 367067863,
+      "lat": 44.9610767,
+      "lon": -93.1379982,
+      "tags": {
+        "addr:state": "MN",
+        "ele": "280",
+        "end_date": "1967",
+        "gnis:feature_id": "645253",
+        "historic": "yes",
+        "name": "House of the Good Shepherd",
+        "source": "USGS Geonames"
+      }
+    },
+    {
+      "type": "node",
+      "id": 462085274,
+      "lat": 44.9417563,
+      "lon": -93.1985178,
+      "tags": {
+        "access": "yes",
+        "description": "Erected by the St. Paul Chapter of the Daughters of the American Revolution to honor the men and women\nfrom St. Paul and Ramsey County who died in service during World War I.",
+        "height": "10.97",
+        "historic": "monument",
+        "inscription": "In memory of the men and women of Saint Paul and Ramsey County who sacrificed their lives in the world war.\n\n\"Greater love hath no man than this.\"",
+        "material": "granite",
+        "name": "Daughters of the American Revolution World War I Monument",
+        "source": "National Park Service National Register of Historic Places Registration Form, West Summit Avenue Historic District. Minnesota Historical Society. Section 7, item 274, page 53. https://www.stpaul.gov/sites/default/files/2022-08/1993%20West%20Summit.pdf",
+        "start_date": "1923-11-11"
+      }
+    },
+    {
+      "type": "node",
+      "id": 562572773,
+      "lat": 44.9460658,
+      "lon": -93.0578087,
+      "tags": {
+        "aeroway": "navigationaid",
+        "height": "33.5",
+        "historic": "yes",
+        "man_made": "tower",
+        "name": "Indian Mounds Park Airway Beacon",
+        "tower:construction": "lattice",
+        "tower:type": "lighting"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1332666726,
+      "lat": 44.9517902,
+      "lon": -93.1003565,
+      "tags": {
+        "historic": "memorial",
+        "inscription": "Blessed are the peacemakers, for they shall be called the children of God. Matthew 5:9",
+        "material": "stone",
+        "memorial": "stone",
+        "name": "Peace Officers Memorial"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1332666733,
+      "lat": 44.9520782,
+      "lon": -93.1022331,
+      "tags": {
+        "historic": "memorial",
+        "material": "stone",
+        "memorial": "war_memorial",
+        "name": "World War II Memorial"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1332666799,
+      "lat": 44.9525235,
+      "lon": -93.1004451,
+      "tags": {
+        "artist_name": "Craig David;Mark Wickstrom",
+        "historic": "memorial",
+        "name": "Minnesota Workers Memorial",
+        "start_date": "2010-08-03"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1332673485,
+      "lat": 44.9529585,
+      "lon": -93.1035201,
+      "tags": {
+        "artist_name": "Paul T. Granlund",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Charles Lindbergh Memorial",
+        "start_date": "1985"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1332673498,
+      "lat": 44.9543884,
+      "lon": -93.1035011,
+      "tags": {
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Floyd Olson"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1474810411,
+      "lat": 44.9666276,
+      "lon": -93.1653452,
+      "tags": {
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Bishop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1546120646,
+      "lat": 44.9480547,
+      "lon": -93.10742,
+      "tags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1739257783,
+      "lat": 44.9544911,
+      "lon": -93.102117,
+      "tags": {
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Knute Nelson",
+        "wikidata": "Q104954021"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1739257787,
+      "lat": 44.9544949,
+      "lon": -93.1023262,
+      "tags": {
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "John Johnson"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2093047029,
+      "lat": 44.9532597,
+      "lon": -93.1032334,
+      "tags": {
+        "artist_name": "Jeff and Anna Koh Varilla",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Hubert H. Humphrey Memorial",
+        "start_date": "2012-08-04"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2093047030,
+      "lat": 44.9518379,
+      "lon": -93.1038451,
+      "tags": {
+        "artist_name": "Douglas O. Freeman",
+        "historic": "memorial",
+        "memorial": "sculpture",
+        "name": "Fallen Firefighters Memorial",
+        "start_date": "2012-09-30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2096432079,
+      "lat": 44.9514925,
+      "lon": -93.1036671,
+      "tags": {
+        "historic": "memorial",
+        "name": "Pearl Harbor Memorial"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3238101468,
+      "lat": 44.945369,
+      "lon": -93.0551929,
+      "tags": {
+        "archaeological_site": "tumulus",
+        "historic": "archaeological_site",
+        "name": "Mound 2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3238101486,
+      "lat": 44.9460202,
+      "lon": -93.0572568,
+      "tags": {
+        "archaeological_site": "tumulus",
+        "historic": "archaeological_site",
+        "name": "Mound 12"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3238101509,
+      "lat": 44.94578,
+      "lon": -93.0562753,
+      "tags": {
+        "archaeological_site": "tumulus",
+        "historic": "archaeological_site",
+        "name": "Mound 7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3238101516,
+      "lat": 44.9458444,
+      "lon": -93.056672,
+      "tags": {
+        "archaeological_site": "tumulus",
+        "historic": "archaeological_site",
+        "name": "Mound 9"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3238101521,
+      "lat": 44.9454014,
+      "lon": -93.0554665,
+      "tags": {
+        "archaeological_site": "tumulus",
+        "historic": "archaeological_site",
+        "name": "Mound 3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3238101525,
+      "lat": 44.9458842,
+      "lon": -93.0570106,
+      "tags": {
+        "archaeological_site": "tumulus",
+        "historic": "archaeological_site",
+        "name": "Mound 10"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3845263983,
+      "lat": 44.9798073,
+      "lon": -93.1461528,
+      "tags": {
+        "historic": "memorial",
+        "name": "Ibsen Monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3845263988,
+      "lat": 44.9802153,
+      "lon": -93.1464552,
+      "tags": {
+        "historic": "memorial",
+        "name": "Mannheimer Memorial"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4248460963,
+      "lat": 44.9482584,
+      "lon": -93.2049139,
+      "tags": {
+        "historic": "stone",
+        "inscription": "WPA 1938"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7096653952,
+      "lat": 44.9812238,
+      "lon": -93.1448808,
+      "tags": {
+        "historic": "monument",
+        "name": "The Gates Ajar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7241138561,
+      "lat": 45,
+      "lon": -93.186984,
+      "tags": {
+        "historic": "memorial",
+        "inscription": "The forty-fifth parallel of north latitude on the Earth runs through this boulder.",
+        "material": "metal",
+        "memorial": "plaque"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7995594372,
+      "lat": 44.9522023,
+      "lon": -93.1034449,
+      "tags": {
+        "artist_name": "Marjorie Pitz",
+        "historic": "memorial",
+        "memorial": "war_memorial",
+        "name": "Special Forces in Laos Memorial",
+        "start_date": "2016-06-11"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7995594373,
+      "lat": 44.9519646,
+      "lon": -93.1033883,
+      "tags": {
+        "artist_name": "Theodore Lee",
+        "historic": "memorial",
+        "memorial": "war_memorial",
+        "name": "Gold Star Table",
+        "start_date": "2015-06-13",
+        "website": "https://militaryfamilytribute.org/?page_id=54"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8933633149,
+      "lat": 44.9513019,
+      "lon": -93.1021335,
+      "tags": {
+        "historic": "monument",
+        "name": "Liberty Bell replica",
+        "start_date": "1950"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9140805234,
+      "lat": 44.9486962,
+      "lon": -93.1479817,
+      "tags": {
+        "historic": "memorial",
+        "inscription": "Central High School",
+        "material": "concrete",
+        "memorial": "plaque",
+        "name": "Central High School Sign"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9725567029,
+      "lat": 44.9364443,
+      "lon": -93.0545213,
+      "tags": {
+        "historic": "memorial",
+        "name": "Charles W. \"Speed\" Holman"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11206824507,
+      "lat": 44.9055717,
+      "lon": -93.1997232,
+      "tags": {
+        "access": "yes",
+        "historic": "monument",
+        "inscription": "Minneapolis: City of Lakes",
+        "name": "Minneapolis: City of Lakes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11218875039,
+      "lat": 44.896171,
+      "lon": -93.1795807,
+      "tags": {
+        "access": "private",
+        "historic": "monument",
+        "inscription": "Saint Paul",
+        "name": "Saint Paul"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11218875048,
+      "lat": 44.9195086,
+      "lon": -93.0809166,
+      "tags": {
+        "access": "yes",
+        "historic": "monument",
+        "inscription": "Welcome to West St.Paul and Dakota County",
+        "name": "West St. Paul"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11218875082,
+      "lat": 44.9886738,
+      "lon": -93.1666851,
+      "tags": {
+        "access": "yes",
+        "historic": "monument",
+        "inscription": "Falcon Heights",
+        "name": "Falcon Heights"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11619160448,
+      "lat": 44.9164155,
+      "lon": -93.1016113,
+      "tags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12672298428,
+      "lat": 44.9518856,
+      "lon": -93.1023308,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12672298429,
+      "lat": 44.9519429,
+      "lon": -93.1023645,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12672298430,
+      "lat": 44.951998,
+      "lon": -93.1023803,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12672298431,
+      "lat": 44.9520546,
+      "lon": -93.102395,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12672298432,
+      "lat": 44.952106,
+      "lon": -93.1023856,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12672298433,
+      "lat": 44.9521618,
+      "lon": -93.1023656,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12672298434,
+      "lat": 44.9518223,
+      "lon": -93.1022393,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12672298435,
+      "lat": 44.9518893,
+      "lon": -93.1021351,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12672298436,
+      "lat": 44.951937,
+      "lon": -93.1021099,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12672298437,
+      "lat": 44.9519943,
+      "lon": -93.1020962,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12672298438,
+      "lat": 44.9520553,
+      "lon": -93.1020773,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12672298439,
+      "lat": 44.9521112,
+      "lon": -93.1020878,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12672298440,
+      "lat": 44.9521678,
+      "lon": -93.1020972,
+      "tags": {
+        "historic": "monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12967015353,
+      "lat": 44.9553752,
+      "lon": -93.2139494,
+      "tags": {
+        "historic": "memorial",
+        "memorial": "ghost_bike",
+        "noname": "yes",
+        "panoramax": "5998b1c9-8117-49a7-b59d-6ca6fb5037a7",
+        "panoramax:0": "d8eb47c8-6f80-4b4e-8933-3659648c0f31"
+      }
+    },
+    {
+      "type": "way",
+      "id": 18214633,
+      "nodes": [
+        187900567,
+        1461966260
+      ],
+      "tags": {
+        "alt_name": "North Robert Street",
+        "bridge": "viaduct",
+        "bridge:name": "Robert Street Bridge",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "highway": "secondary",
+        "historic": "bridge",
+        "lanes": "5",
+        "lanes:backward": "3",
+        "lanes:forward": "2",
+        "layer": "2",
+        "maxspeed": "35 mph",
+        "name": "Robert Street North",
+        "name:etymology:wikidata": "Q16875099",
+        "old_ref": "US 52",
+        "oneway": "no",
+        "ref": "MN 3",
+        "ref:nrhp": "89001846",
+        "sidewalk:both": "separate",
+        "start_date": "1926",
+        "surface": "asphalt",
+        "tiger:county": "Ramsey, MN",
+        "tiger:zip_left": "55101",
+        "tiger:zip_right": "55101",
+        "turn:lanes:backward": "left|none|none",
+        "wikidata": "Q7350122",
+        "wikipedia": "en:Robert Street Bridge"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43385471,
+      "nodes": [
+        546514790,
+        2418393537,
+        2418393538,
+        2418393539,
+        546514792,
+        546514796,
+        2458401369,
+        2418393540,
+        546514798,
+        2458401373,
+        546514799,
+        2418393541,
+        2418393542,
+        2418393545,
+        2418393543,
+        546514800,
+        546514802,
+        546514807,
+        546514810,
+        546514812,
+        546514815,
+        546514816,
+        2418393536,
+        2418393533,
+        546514819,
+        2418393534,
+        2418393535,
+        546514823,
+        546514825,
+        546514829,
+        546514790
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "240",
+        "addr:postcode": "55102",
+        "addr:state": "MN",
+        "addr:street": "Summit Avenue",
+        "boundary": "protected_area",
+        "building": "yes",
+        "ele": "278",
+        "gnis:feature_id": "2478006",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "historic": "building",
+        "name": "James J. Hill House",
+        "nrhp:criteria": "(A)",
+        "nrhp:inscription_date": "November 5, 1961",
+        "nrhp:nhl": "yes",
+        "operator": "Minnesota Historical Society",
+        "protection_title": "protected_site",
+        "ref:nrhp": "66000405",
+        "source": "USGS Geonames",
+        "wikidata": "Q6136691",
+        "wikipedia": "en:James J. Hill House"
+      }
+    },
+    {
+      "type": "way",
+      "id": 61913086,
+      "nodes": [
+        3301175583,
+        3887893013
+      ],
+      "tags": {
+        "bridge": "yes",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "highway": "primary",
+        "historic": "bridge",
+        "lanes": "4",
+        "layer": "1",
+        "maxspeed": "30 mph",
+        "name": "East 46th Street",
+        "oneway": "no",
+        "ref": "CR 46",
+        "ref:nrhp": "89001838",
+        "sidewalk:both": "separate",
+        "start_date": "1927",
+        "surface": "concrete",
+        "tiger:cfcc": "A41",
+        "wikidata": "Q1665940",
+        "wikipedia": "en:Intercity Bridge"
+      }
+    },
+    {
+      "type": "way",
+      "id": 118489948,
+      "nodes": [
+        1332611678,
+        1332611693,
+        1332611680,
+        1332611692,
+        1332611678
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "36",
+        "addr:postcode": "55102",
+        "addr:state": "MN",
+        "addr:street": "7th Street West",
+        "amenity": "fast_food",
+        "building": "yes",
+        "building:colour": "#CBC5AA",
+        "building:levels": "1",
+        "building:material": "metal",
+        "cuisine": "diner",
+        "delivery": "no",
+        "drive_through": "no",
+        "historic": "monument",
+        "name": "Mickey's Diner",
+        "name_1": "Mickey's Dining Car",
+        "note": "on National Historic Register",
+        "opening_hours": "24/7",
+        "phone": "+1-651-698-0259",
+        "ref:nrhp": "83000936",
+        "roof:colour": "darkgrey",
+        "roof:levels": "0",
+        "roof:material": "metal",
+        "smoking": "no",
+        "takeaway": "no",
+        "wikidata": "Q6838530",
+        "wikipedia": "en:Mickey's Diner"
+      }
+    },
+    {
+      "type": "way",
+      "id": 118498685,
+      "nodes": [
+        1332666750,
+        1543252619,
+        1332666808,
+        1332666748,
+        1332666772,
+        1543252661,
+        1332666750
+      ],
+      "tags": {
+        "alt_name": "Spiral for Justice",
+        "artist_name": "Curtis Patterson",
+        "artwork_type": "sculpture",
+        "historic": "memorial",
+        "name": "Roy Wilkins Memorial",
+        "start_date": "1995-11",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "way",
+      "id": 140161192,
+      "nodes": [
+        1535575661,
+        1535575662,
+        1535575656,
+        1535575655,
+        8050661856,
+        12623924059,
+        5857042996,
+        7195928867,
+        5857042999,
+        1535575652,
+        1535575654,
+        8050661854,
+        1535575639,
+        1535575638,
+        1535575636,
+        1535575635,
+        1535575625,
+        1535575627,
+        1535575630,
+        1535575631,
+        1535575632,
+        1535575633,
+        1535575628,
+        1535575629,
+        1535575617,
+        1535575616,
+        1535575612,
+        1535575610,
+        1535575605,
+        1535575606,
+        1535575604,
+        1535575603,
+        1535575602,
+        1535575600,
+        1535575607,
+        1535575609,
+        1535575614,
+        1535575613,
+        1535575622,
+        1535575624,
+        1535575640,
+        1535575642,
+        1535575651,
+        1535575649,
+        1535575648,
+        1535575643,
+        1535575657,
+        1391896525,
+        1391896538,
+        1391896539,
+        1535575658,
+        1535575659,
+        1535575660,
+        1535575661
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "755",
+        "addr:postcode": "55104",
+        "addr:state": "MN",
+        "addr:street": "North Prior Avenue",
+        "building": "industrial",
+        "building:levels": "3",
+        "building:levels:underground": "1",
+        "building:material": "brick",
+        "building:use": "multipurpose",
+        "description": "Built in 1889, this former canning factory produced billions of tins for brands like Hormel and Hershey. It closed in 2007 and was redeveloped in 2013 into a mixed-use creative hub with breweries, arts spaces, and nonprofits.",
+        "height": "14",
+        "historic": "industrial",
+        "name": "Prior Works Building",
+        "operator": "Orten (as of 2013)",
+        "roof:levels": "1",
+        "roof:shape": "flat",
+        "short_name": "Prior Works",
+        "smoking": "outside",
+        "source": "bing",
+        "source:geometry": "bing",
+        "start_date": "1889",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 156094172,
+      "nodes": [
+        1683936606,
+        1683936587,
+        1683936577,
+        1683936553,
+        1683936509,
+        1683936477,
+        1683936470,
+        1683936450,
+        1683936447,
+        1683936440,
+        1683936438,
+        1683936443,
+        1683936449,
+        1683936468,
+        1683936478,
+        1683936507,
+        1683936544,
+        1683936572,
+        1683936584,
+        1683936601,
+        1683936606
+      ],
+      "tags": {
+        "historic": "memorial",
+        "inscription": "Global Harmony Labyrinth, Dedicated August 21st in recognition of the 50th Anniversary of the Saint Paul / Nagasaki Sister City relationship, in memory of Karen S. Kunzman. She had a Japanese Heart",
+        "leisure": "maze",
+        "maze": "labyrinth",
+        "name": "Global Harmony Labyrinth",
+        "note": "A place for quiet meditation",
+        "website": "http://www.cpinternet.com/~msp06001/#"
+      }
+    },
+    {
+      "type": "way",
+      "id": 199292665,
+      "nodes": [
+        2093047016,
+        2093047024,
+        2093047017,
+        2093047028,
+        2093047021,
+        2093047022,
+        2093047020,
+        2093047018,
+        2093047027,
+        2093047026,
+        2093047025,
+        2093047023,
+        2093047019,
+        2093047016
+      ],
+      "tags": {
+        "historic": "memorial",
+        "leisure": "garden",
+        "name": "Minnesota Women's Suffrage Memorial Garden",
+        "start_date": "2000",
+        "wikipedia": "Minnesota_Woman_Suffrage_Memorial"
+      }
+    },
+    {
+      "type": "way",
+      "id": 203125911,
+      "nodes": [
+        2130954709,
+        2130954704,
+        2130954759,
+        2130954708,
+        2130954758,
+        2130954697,
+        2130954700,
+        2130954707,
+        2130954706,
+        2130954725,
+        2130954731,
+        2130954753,
+        2130954727,
+        2096432106,
+        2130954732,
+        2130954719,
+        2130954728,
+        2130954742,
+        2130954735,
+        2130954741,
+        2130954720,
+        2130954740,
+        2130954713,
+        2130973898,
+        2130973897,
+        2130973899,
+        2130973896,
+        2130954695,
+        2130954701,
+        2130954756,
+        2130954747,
+        2130954743,
+        2130954712,
+        2130954752,
+        2130954703,
+        2130954696,
+        2130954748,
+        2130954744,
+        2130954717,
+        2130954705,
+        2130954710,
+        2130954699,
+        2130954739,
+        2130954722,
+        2130954724,
+        2130954726,
+        2130954711,
+        2130954716,
+        2130954745,
+        2130954734,
+        2130954751,
+        2130954757,
+        2130954718,
+        2130954714,
+        3810373257,
+        3810372456,
+        3810372455,
+        2130973895,
+        2130954709
+      ],
+      "tags": {
+        "architect": "Rich Laffin",
+        "artist_name": "Nina Ackerberg;Stanton Sears;Jake Castillo",
+        "historic": "monument",
+        "memorial": "war_memorial",
+        "name": "Vietnam War Memorial",
+        "start_date": "1992-09-26"
+      }
+    },
+    {
+      "type": "way",
+      "id": 203128854,
+      "nodes": [
+        2131005457,
+        2131005464,
+        2131005474,
+        2131005462,
+        2131005475,
+        2131005460,
+        2131005461,
+        2131005476,
+        2131005463,
+        2131005466,
+        2131005471,
+        2131005472,
+        2131005469,
+        2131005478,
+        2131005458,
+        2131005468,
+        2131005477,
+        2131005470,
+        2131005459,
+        2131005465,
+        1153130809,
+        2131005467,
+        2131005457
+      ],
+      "tags": {
+        "artist_name": "Art Norby",
+        "historic": "memorial",
+        "memorial": "war_memorial",
+        "name": "Korean War Memorial",
+        "start_date": "1998-09-18"
+      }
+    },
+    {
+      "type": "way",
+      "id": 234203154,
+      "nodes": [
+        2424956931,
+        2424956913,
+        2424956914,
+        2424956924,
+        2424956943,
+        2424956942,
+        2424956982,
+        2424956983,
+        2424956997,
+        2424956998,
+        2424957019,
+        2424957020,
+        2424956993,
+        2424956994,
+        2424956945,
+        2424956944,
+        2424956931
+      ],
+      "tags": {
+        "addr:housenumber": "319",
+        "addr:street": "Ramsey Street",
+        "building": "house",
+        "historic": "house",
+        "name": "The Arth House",
+        "note": "built in 1886"
+      }
+    },
+    {
+      "type": "way",
+      "id": 300954210,
+      "nodes": [
+        3050618769,
+        3050618771,
+        3050618770,
+        3050618766,
+        3050618767,
+        3050618769
+      ],
+      "tags": {
+        "building": "yes",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "historic": "yes",
+        "name": "Saint Paul Municipal Grain Terminal",
+        "ref:nrhp": "04000721",
+        "wikidata": "Q14693023",
+        "wikipedia": "en:Saint Paul Municipal Grain Terminal"
+      }
+    },
+    {
+      "type": "way",
+      "id": 300954211,
+      "nodes": [
+        3050618770,
+        3050618771,
+        3050618786,
+        3050618782,
+        3050618780,
+        3050618768,
+        3050618770
+      ],
+      "tags": {
+        "building": "yes",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "historic": "yes",
+        "name": "Saint Paul Municipal Grain Terminal",
+        "ref:nrhp": "04000721",
+        "wikidata": "Q14693023",
+        "wikipedia": "en:Saint Paul Municipal Grain Terminal"
+      }
+    },
+    {
+      "type": "way",
+      "id": 385443775,
+      "nodes": [
+        3887893013,
+        320305498
+      ],
+      "tags": {
+        "bridge": "yes",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "highway": "primary",
+        "historic": "bridge",
+        "lanes": "4",
+        "layer": "1",
+        "maxspeed": "30 mph",
+        "name": "Ford Parkway",
+        "name:etymology:wikidata": "Q44294",
+        "oneway": "no",
+        "ref": "CH 42",
+        "ref:nrhp": "89001838",
+        "shoulder": "yes",
+        "shoulder:width": "1.5",
+        "sidewalk:both": "separate",
+        "start_date": "1927",
+        "surface": "concrete",
+        "wikidata": "Q1665940",
+        "wikipedia": "en:Intercity Bridge"
+      }
+    },
+    {
+      "type": "way",
+      "id": 483374606,
+      "nodes": [
+        4761202543,
+        4761202542
+      ],
+      "tags": {
+        "bridge": "yes",
+        "bridge:name": "Seventh Street Improvement Arches",
+        "highway": "primary",
+        "historic": "yes",
+        "lanes": "4",
+        "maxspeed": "30 mph",
+        "name": "7th Street East",
+        "name_1": "Fort Rd",
+        "ref": "MN 5",
+        "ref:nrhp": "89001828",
+        "sidewalk:both": "separate",
+        "tiger:cfcc": "A21:A41",
+        "tiger:county": "Ramsey, MN",
+        "tiger:name_base": "7th:Fort",
+        "tiger:name_base_1": "7th:State Highway 5",
+        "tiger:name_base_2": "State Highway 5:United States Highway 61",
+        "tiger:name_base_3": "United States Highway 61",
+        "tiger:name_direction_prefix": "E",
+        "tiger:name_direction_prefix_1": "E",
+        "tiger:name_direction_suffix": "E",
+        "tiger:name_type": "Rd:St",
+        "tiger:name_type_1": "St",
+        "tiger:zip_left": "55106:55119",
+        "tiger:zip_right": "55106:55119",
+        "wikidata": "Q7457747",
+        "wikipedia": "en:Seventh Street Improvement Arches"
+      }
+    },
+    {
+      "type": "way",
+      "id": 490000277,
+      "nodes": [
+        4821927540,
+        4821927541,
+        4821927542,
+        4821927543,
+        4821927544,
+        4821927545,
+        4821927546,
+        4821927547,
+        4821927540
+      ],
+      "tags": {
+        "addr:housenumber": "1237",
+        "addr:street": "North Earl Street",
+        "building": "yes",
+        "historic": "church",
+        "name": "Amazing Grace Assemly of God"
+      }
+    },
+    {
+      "type": "way",
+      "id": 623274253,
+      "nodes": [
+        5886366455,
+        5886366465,
+        5886366463,
+        5886366464,
+        5886366461,
+        5886366462,
+        5886366455
+      ],
+      "tags": {
+        "building": "house",
+        "historic": "yes",
+        "name": "Montrose Moderne",
+        "tourism": "hotel",
+        "website": "https://www.montrosemoderne.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 628866492,
+      "nodes": [
+        716319384,
+        1551145378,
+        6546032822,
+        695049799,
+        2458482458,
+        2458482479,
+        689781430,
+        2939753932,
+        716319384
+      ],
+      "tags": {
+        "historic": "yes",
+        "name": "Rondo",
+        "note": "approximates historic boundary--neighborhood was cut in two by I-94 and other development",
+        "place": "neighbourhood",
+        "wikidata": "Q48977178",
+        "wikipedia": "en:Rondo neighborhood"
+      }
+    },
+    {
+      "type": "way",
+      "id": 720897007,
+      "nodes": [
+        6763940710,
+        6763940711,
+        6763940712,
+        6763940713,
+        6763940714,
+        6763940715
+      ],
+      "tags": {
+        "bridge": "yes",
+        "bridge:name": "Franklin Avenue Bridge",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "hgv": "designated",
+        "highway": "tertiary",
+        "historic": "yes",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "30 mph",
+        "name": "Southeast Franklin Avenue",
+        "name_1": "County Road 5",
+        "ref": "CR 5",
+        "ref:nrhp": "78001537",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:name_base": "Franklin",
+        "tiger:name_base_1": "County Road 5",
+        "tiger:name_direction_prefix": "E",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no",
+        "wikidata": "Q1445163",
+        "wikipedia": "en:Franklin Avenue Bridge"
+      }
+    },
+    {
+      "type": "way",
+      "id": 720899816,
+      "nodes": [
+        6763940710,
+        6764002403,
+        6764002404,
+        6764002405
+      ],
+      "tags": {
+        "bridge": "yes",
+        "bridge:name": "Franklin Avenue Bridge",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "hgv": "designated",
+        "highway": "tertiary",
+        "historic": "yes",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "30 mph",
+        "name": "Southeast Franklin Avenue",
+        "name_1": "County Road 5",
+        "ref": "CR 5",
+        "ref:nrhp": "78001537",
+        "sidewalk:both": "separate",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:name_base": "Franklin",
+        "tiger:name_base_1": "County Road 5",
+        "tiger:name_direction_prefix": "E",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no",
+        "wikidata": "Q1445163",
+        "wikipedia": "en:Franklin Avenue Bridge"
+      }
+    },
+    {
+      "type": "way",
+      "id": 720899818,
+      "nodes": [
+        6764002412,
+        6764002413,
+        6764002414,
+        6764002415,
+        6764002405
+      ],
+      "tags": {
+        "bridge": "yes",
+        "bridge:name": "Franklin Avenue Bridge",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "hgv": "designated",
+        "highway": "tertiary",
+        "historic": "yes",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "30 mph",
+        "name": "Southeast Franklin Avenue",
+        "name_1": "County Road 5",
+        "oneway": "yes",
+        "ref": "CR 5",
+        "ref:nrhp": "78001537",
+        "sidewalk:both": "separate",
+        "surface": "paved",
+        "tiger:cfcc": "A41",
+        "tiger:name_base": "Franklin",
+        "tiger:name_base_1": "County Road 5",
+        "tiger:name_direction_prefix": "E",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no",
+        "wikidata": "Q1445163",
+        "wikipedia": "en:Franklin Avenue Bridge"
+      }
+    },
+    {
+      "type": "way",
+      "id": 768704672,
+      "nodes": [
+        1461966260,
+        7176657529,
+        7176657545
+      ],
+      "tags": {
+        "bridge": "viaduct",
+        "bridge:name": "Robert Street Bridge",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "highway": "secondary",
+        "historic": "bridge",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "layer": "2",
+        "maxspeed": "35 mph",
+        "name": "Robert Street North",
+        "name:etymology:wikidata": "Q16875099",
+        "old_ref": "US 52",
+        "oneway": "no",
+        "ref": "MN 3",
+        "ref:nrhp": "89001846",
+        "sidewalk:both": "separate",
+        "start_date": "1926",
+        "surface": "asphalt",
+        "tiger:county": "Ramsey, MN",
+        "tiger:zip_left": "55101",
+        "tiger:zip_right": "55101",
+        "wikidata": "Q7350122",
+        "wikipedia": "en:Robert Street Bridge"
+      }
+    },
+    {
+      "type": "way",
+      "id": 768704676,
+      "nodes": [
+        7176657545,
+        7176657540,
+        415356616
+      ],
+      "tags": {
+        "bridge": "viaduct",
+        "bridge:name": "Robert Street Bridge",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "highway": "secondary",
+        "historic": "bridge",
+        "lanes": "5",
+        "lanes:backward": "2",
+        "lanes:forward": "3",
+        "layer": "2",
+        "maxspeed": "35 mph",
+        "name": "Robert Street North",
+        "name:etymology:wikidata": "Q16875099",
+        "old_ref": "US 52",
+        "oneway": "no",
+        "ref": "MN 3",
+        "ref:nrhp": "89001846",
+        "sidewalk:both": "separate",
+        "start_date": "1926",
+        "surface": "asphalt",
+        "tiger:county": "Ramsey, MN",
+        "tiger:zip_left": "55101",
+        "tiger:zip_right": "55101",
+        "wikidata": "Q7350122",
+        "wikipedia": "en:Robert Street Bridge"
+      }
+    },
+    {
+      "type": "way",
+      "id": 865100014,
+      "nodes": [
+        6764002405,
+        6764002416,
+        6764002417,
+        6764002418,
+        6764002419,
+        6764002421
+      ],
+      "tags": {
+        "bridge": "yes",
+        "bridge:name": "Franklin Avenue Bridge",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "hgv": "designated",
+        "highway": "tertiary",
+        "historic": "yes",
+        "lanes": "1",
+        "layer": "1",
+        "maxspeed": "30 mph",
+        "name": "Southeast Franklin Avenue",
+        "name_1": "County Road 5",
+        "oneway": "yes",
+        "ref": "CR 5",
+        "ref:nrhp": "78001537",
+        "sidewalk:both": "separate",
+        "surface": "paved",
+        "tiger:cfcc": "A41",
+        "tiger:name_base": "Franklin",
+        "tiger:name_base_1": "County Road 5",
+        "tiger:name_direction_prefix": "E",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no",
+        "wikidata": "Q1445163",
+        "wikipedia": "en:Franklin Avenue Bridge"
+      }
+    },
+    {
+      "type": "way",
+      "id": 965699839,
+      "nodes": [
+        8933708210,
+        8933708211,
+        8933708212,
+        8933708213,
+        8933708214,
+        8933708215,
+        8933708216,
+        8933708417,
+        8933708210
+      ],
+      "tags": {
+        "historic": "monument",
+        "memorial": "war_memorial",
+        "name": "Military Family Tribute: Story Stones",
+        "website": "https://militaryfamilytribute.org/?page_id=49"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1002417523,
+      "nodes": [
+        9251446119,
+        9251446118,
+        9251446117,
+        9251403516,
+        9251403515,
+        9251403514,
+        9251403513,
+        9251403512,
+        9251403511,
+        9251403510,
+        9251446119
+      ],
+      "tags": {
+        "addr:housenumber": "1212",
+        "addr:street": "North Earl Street",
+        "building": "yes",
+        "denomination": "lutheran",
+        "historic": "church",
+        "name": "Eastside Community Lutheran Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1212112371,
+      "nodes": [
+        11229793471,
+        11229793472,
+        11229793473,
+        11229793474,
+        11229793471
+      ],
+      "tags": {
+        "historic": "memorial",
+        "memorial": "sculpture",
+        "name": "Philando Castile Memorial"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1347387140,
+      "nodes": [
+        12463569875,
+        12463569876,
+        12463569877,
+        12743422745,
+        12743422744,
+        12743422743,
+        12743422742,
+        12463569878,
+        12463569875
+      ],
+      "tags": {
+        "description": "This lock and dam was built in 1906 and abandoned/demolished in 1912.",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "heritage:website": "https://www.nps.gov/subjects/nationalregister/index.htm",
+        "historic": "maritime",
+        "name": "Meeker Island Lock",
+        "natural": "water",
+        "nrhp:criteria": "(A)",
+        "nrhp:inscription_date": "2003-06-13",
+        "protection_title": "U.S. Army Corps of Engineers",
+        "ref:nrhp": "03000522",
+        "source_ref": "https://catalog.archives.gov/id/93201927",
+        "start_date": "1906",
+        "status": "abandoned",
+        "water": "lock"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1376335001,
+      "nodes": [
+        12463569876,
+        12743422729,
+        12743422730,
+        12743422731,
+        12743422732,
+        12743422733,
+        12743422734,
+        12743422735,
+        12743422736,
+        12743422737,
+        12743422738,
+        12743422739,
+        12743422740,
+        12743422741,
+        12463569875,
+        12463569876
+      ],
+      "tags": {
+        "area": "yes",
+        "description": "This lock and dam was built in 1906 and abandoned/demolished in 1912.",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "heritage:website": "https://www.nps.gov/subjects/nationalregister/index.htm",
+        "historic": "maritime",
+        "name": "Riverward Lock Wall",
+        "natural": "reef",
+        "nrhp:criteria": "(A)",
+        "nrhp:inscription_date": "2003-06-13",
+        "protection_title": "U.S. Army Corps of Engineers",
+        "reef": "rock",
+        "ref:nrhp": "03000522",
+        "seamark:obstruction:category": "reef",
+        "seamark:obstruction:water_level": "submerged",
+        "seamark:type": "obstruction",
+        "source_ref": "https://catalog.archives.gov/id/93201927",
+        "start_date": "1906"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1376335002,
+      "nodes": [
+        12743422714,
+        12463569878,
+        12743422742,
+        12743422743,
+        12743422744,
+        12743422745,
+        12463569877,
+        12743422746,
+        12743422721,
+        246908766,
+        12743422718,
+        12743422747,
+        546133502,
+        12743422720,
+        12743422714
+      ],
+      "tags": {
+        "area": "yes",
+        "description": "This lock and dam was built in 1906 and abandoned/demolished in 1912.",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "heritage:website": "https://www.nps.gov/subjects/nationalregister/index.htm",
+        "historic": "maritime",
+        "name": "Main Lock Wall",
+        "natural": "reef",
+        "nrhp:criteria": "(A)",
+        "nrhp:inscription_date": "2003-06-13",
+        "protection_title": "U.S. Army Corps of Engineers",
+        "reef": "rock",
+        "ref:nrhp": "03000522",
+        "seamark:obstruction:category": "reef",
+        "seamark:obstruction:water_level": "submerged",
+        "seamark:type": "obstruction",
+        "source_ref": "https://catalog.archives.gov/id/93201927",
+        "start_date": "1906"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1376339756,
+      "nodes": [
+        12743427252,
+        12743427253,
+        12743427254,
+        12743427255,
+        12743427256,
+        12743427257,
+        12743427258,
+        12743427259,
+        12743427260,
+        12743427261,
+        12743427262,
+        12743427263,
+        12743427252
+      ],
+      "tags": {
+        "alt_name": "Meeker Island Lock & Dam",
+        "area": "yes",
+        "boundary": "protected_area",
+        "description": "This lock and dam was built in 1906 and abandoned/demolished in 1912.",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "heritage:website": "https://www.nps.gov/subjects/nationalregister/index.htm",
+        "historic": "maritime",
+        "name": "Lock & Dam No. 2",
+        "nrhp:criteria": "(A)",
+        "nrhp:inscription_date": "2003-06-13",
+        "protect_class": "22",
+        "protection_title": "U.S. Army Corps of Engineers",
+        "ref:nrhp": "03000522",
+        "source_ref": "https://catalog.archives.gov/id/93201927",
+        "start_date": "1906"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 6894450,
+      "members": [
+        {
+          "type": "way",
+          "ref": 141862560,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 141862558,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 155094077,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "214",
+        "addr:postcode": "55101",
+        "addr:state": "MN",
+        "addr:street": "East 4th Street",
+        "building": "yes",
+        "building:levels": "3",
+        "historic": "building",
+        "layer": "2",
+        "name": "Union Depot",
+        "phone": "+1-651-202-2700",
+        "type": "multipolygon",
+        "website": "https://www.uniondepot.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6763940710,
+      "lat": 44.9637703,
+      "lon": -93.2228404
+    },
+    {
+      "type": "node",
+      "id": 6763940711,
+      "lat": 44.9639103,
+      "lon": -93.2226057
+    },
+    {
+      "type": "node",
+      "id": 6763940712,
+      "lat": 44.964096,
+      "lon": -93.2222973
+    },
+    {
+      "type": "node",
+      "id": 6763940713,
+      "lat": 44.9642479,
+      "lon": -93.2220513
+    },
+    {
+      "type": "node",
+      "id": 6763940714,
+      "lat": 44.9644178,
+      "lon": -93.2217664
+    },
+    {
+      "type": "node",
+      "id": 6763940715,
+      "lat": 44.9646037,
+      "lon": -93.2214494
+    },
+    {
+      "type": "node",
+      "id": 6764002403,
+      "lat": 44.9635398,
+      "lon": -93.223237
+    },
+    {
+      "type": "node",
+      "id": 6764002404,
+      "lat": 44.9632507,
+      "lon": -93.2237266
+    },
+    {
+      "type": "node",
+      "id": 6764002405,
+      "lat": 44.9629146,
+      "lon": -93.2243047
+    },
+    {
+      "type": "node",
+      "id": 6764002412,
+      "lat": 44.96273,
+      "lon": -93.2245673
+    },
+    {
+      "type": "node",
+      "id": 6764002413,
+      "lat": 44.9627548,
+      "lon": -93.2245275
+    },
+    {
+      "type": "node",
+      "id": 6764002414,
+      "lat": 44.9627854,
+      "lon": -93.2244792
+    },
+    {
+      "type": "node",
+      "id": 6764002415,
+      "lat": 44.962834,
+      "lon": -93.2243955
+    },
+    {
+      "type": "node",
+      "id": 6764002416,
+      "lat": 44.9628679,
+      "lon": -93.2244175
+    },
+    {
+      "type": "node",
+      "id": 6764002417,
+      "lat": 44.9628427,
+      "lon": -93.2244653
+    },
+    {
+      "type": "node",
+      "id": 6764002418,
+      "lat": 44.9628066,
+      "lon": -93.2245228
+    },
+    {
+      "type": "node",
+      "id": 6764002419,
+      "lat": 44.9627824,
+      "lon": -93.2245672
+    },
+    {
+      "type": "node",
+      "id": 6764002421,
+      "lat": 44.9627632,
+      "lon": -93.2245988
+    },
+    {
+      "type": "node",
+      "id": 3301175583,
+      "lat": 44.917865,
+      "lon": -93.2041653
+    },
+    {
+      "type": "node",
+      "id": 3887893013,
+      "lat": 44.9178831,
+      "lon": -93.2015172
+    },
+    {
+      "type": "node",
+      "id": 320305498,
+      "lat": 44.9178896,
+      "lon": -93.1983295
+    },
+    {
+      "type": "node",
+      "id": 5886366455,
+      "lat": 44.9474739,
+      "lon": -93.196418
+    },
+    {
+      "type": "node",
+      "id": 5886366461,
+      "lat": 44.9475441,
+      "lon": -93.1964898
+    },
+    {
+      "type": "node",
+      "id": 5886366462,
+      "lat": 44.9475508,
+      "lon": -93.1964376
+    },
+    {
+      "type": "node",
+      "id": 5886366463,
+      "lat": 44.9475306,
+      "lon": -93.1965432
+    },
+    {
+      "type": "node",
+      "id": 5886366464,
+      "lat": 44.9475376,
+      "lon": -93.1964881
+    },
+    {
+      "type": "node",
+      "id": 5886366465,
+      "lat": 44.9474601,
+      "lon": -93.1965252
+    },
+    {
+      "type": "node",
+      "id": 2424956914,
+      "lat": 44.9414904,
+      "lon": -93.113564
+    },
+    {
+      "type": "node",
+      "id": 2424956924,
+      "lat": 44.9415054,
+      "lon": -93.1135798
+    },
+    {
+      "type": "node",
+      "id": 2424956942,
+      "lat": 44.9415495,
+      "lon": -93.1135928
+    },
+    {
+      "type": "node",
+      "id": 2424956943,
+      "lat": 44.9415496,
+      "lon": -93.1135804
+    },
+    {
+      "type": "node",
+      "id": 2424956982,
+      "lat": 44.9416047,
+      "lon": -93.1135936
+    },
+    {
+      "type": "node",
+      "id": 2424956983,
+      "lat": 44.9416048,
+      "lon": -93.1135802
+    },
+    {
+      "type": "node",
+      "id": 2424956997,
+      "lat": 44.941663,
+      "lon": -93.113581
+    },
+    {
+      "type": "node",
+      "id": 2424956998,
+      "lat": 44.9416632,
+      "lon": -93.1135577
+    },
+    {
+      "type": "node",
+      "id": 2424957019,
+      "lat": 44.9416956,
+      "lon": -93.1135582
+    },
+    {
+      "type": "node",
+      "id": 246908766,
+      "lat": 44.9537979,
+      "lon": -93.2069115
+    },
+    {
+      "type": "node",
+      "id": 546133502,
+      "lat": 44.9541932,
+      "lon": -93.2077909
+    },
+    {
+      "type": "node",
+      "id": 12463569875,
+      "lat": 44.954193,
+      "lon": -93.2084032
+    },
+    {
+      "type": "node",
+      "id": 12463569876,
+      "lat": 44.9535072,
+      "lon": -93.2069948
+    },
+    {
+      "type": "node",
+      "id": 12463569877,
+      "lat": 44.9536975,
+      "lon": -93.2068192
+    },
+    {
+      "type": "node",
+      "id": 12463569878,
+      "lat": 44.9543692,
+      "lon": -93.2082269
+    },
+    {
+      "type": "node",
+      "id": 12743422714,
+      "lat": 44.9544211,
+      "lon": -93.2081692
+    },
+    {
+      "type": "node",
+      "id": 12743422718,
+      "lat": 44.9538193,
+      "lon": -93.2069571
+    },
+    {
+      "type": "node",
+      "id": 12743422720,
+      "lat": 44.9543272,
+      "lon": -93.2080014
+    },
+    {
+      "type": "node",
+      "id": 12743422721,
+      "lat": 44.9537907,
+      "lon": -93.2067901
+    },
+    {
+      "type": "node",
+      "id": 12743422729,
+      "lat": 44.9534536,
+      "lon": -93.2070441
+    },
+    {
+      "type": "node",
+      "id": 12743422730,
+      "lat": 44.953465,
+      "lon": -93.2070853
+    },
+    {
+      "type": "node",
+      "id": 12743422731,
+      "lat": 44.9534814,
+      "lon": -93.2070826
+    },
+    {
+      "type": "node",
+      "id": 12743422732,
+      "lat": 44.9534947,
+      "lon": -93.2071318
+    },
+    {
+      "type": "node",
+      "id": 12743422733,
+      "lat": 44.9535124,
+      "lon": -93.2071595
+    },
+    {
+      "type": "node",
+      "id": 12743422734,
+      "lat": 44.9535371,
+      "lon": -93.2071774
+    },
+    {
+      "type": "node",
+      "id": 12743422735,
+      "lat": 44.9535878,
+      "lon": -93.2072338
+    },
+    {
+      "type": "node",
+      "id": 12743422736,
+      "lat": 44.9536144,
+      "lon": -93.2072597
+    },
+    {
+      "type": "node",
+      "id": 12743422737,
+      "lat": 44.9540487,
+      "lon": -93.2081589
+    },
+    {
+      "type": "node",
+      "id": 12743422738,
+      "lat": 44.9540614,
+      "lon": -93.2082001
+    },
+    {
+      "type": "node",
+      "id": 12743422739,
+      "lat": 44.9541158,
+      "lon": -93.2083155
+    },
+    {
+      "type": "node",
+      "id": 12743422740,
+      "lat": 44.9541412,
+      "lon": -93.2083486
+    },
+    {
+      "type": "node",
+      "id": 12743422741,
+      "lat": 44.9541801,
+      "lon": -93.2084161
+    },
+    {
+      "type": "node",
+      "id": 12743422742,
+      "lat": 44.9538524,
+      "lon": -93.2071568
+    },
+    {
+      "type": "node",
+      "id": 12743422743,
+      "lat": 44.9538069,
+      "lon": -93.2070647
+    },
+    {
+      "type": "node",
+      "id": 12743422744,
+      "lat": 44.9537955,
+      "lon": -93.2070298
+    },
+    {
+      "type": "node",
+      "id": 12743422745,
+      "lat": 44.9537557,
+      "lon": -93.2069295
+    },
+    {
+      "type": "node",
+      "id": 12743422746,
+      "lat": 44.9537812,
+      "lon": -93.2067461
+    },
+    {
+      "type": "node",
+      "id": 12743422747,
+      "lat": 44.9538585,
+      "lon": -93.2071246
+    },
+    {
+      "type": "node",
+      "id": 12743427259,
+      "lat": 44.9542122,
+      "lon": -93.2068284
+    },
+    {
+      "type": "node",
+      "id": 12743427260,
+      "lat": 44.9540319,
+      "lon": -93.2062692
+    },
+    {
+      "type": "node",
+      "id": 12743427262,
+      "lat": 44.9527446,
+      "lon": -93.210819
+    },
+    {
+      "type": "node",
+      "id": 12743427263,
+      "lat": 44.9531906,
+      "lon": -93.2115083
+    },
+    {
+      "type": "node",
+      "id": 12743427252,
+      "lat": 44.9563672,
+      "lon": -93.2105602
+    },
+    {
+      "type": "node",
+      "id": 12743427253,
+      "lat": 44.9556799,
+      "lon": -93.2090899
+    },
+    {
+      "type": "node",
+      "id": 12743427254,
+      "lat": 44.9553317,
+      "lon": -93.2083927
+    },
+    {
+      "type": "node",
+      "id": 12743427255,
+      "lat": 44.9551063,
+      "lon": -93.2080848
+    },
+    {
+      "type": "node",
+      "id": 12743427256,
+      "lat": 44.9548934,
+      "lon": -93.207922
+    },
+    {
+      "type": "node",
+      "id": 12743427257,
+      "lat": 44.954628,
+      "lon": -93.2076211
+    },
+    {
+      "type": "node",
+      "id": 12743427258,
+      "lat": 44.9544576,
+      "lon": -93.2073486
+    },
+    {
+      "type": "node",
+      "id": 12743427261,
+      "lat": 44.9536742,
+      "lon": -93.2052507
+    },
+    {
+      "type": "node",
+      "id": 1391896525,
+      "lat": 44.9660858,
+      "lon": -93.1835259
+    },
+    {
+      "type": "node",
+      "id": 1391896538,
+      "lat": 44.9660862,
+      "lon": -93.1834709
+    },
+    {
+      "type": "node",
+      "id": 1391896539,
+      "lat": 44.9660866,
+      "lon": -93.1833999
+    },
+    {
+      "type": "node",
+      "id": 1535575600,
+      "lat": 44.9632155,
+      "lon": -93.1835473
+    },
+    {
+      "type": "node",
+      "id": 1535575602,
+      "lat": 44.9632189,
+      "lon": -93.1830007
+    },
+    {
+      "type": "node",
+      "id": 1535575603,
+      "lat": 44.9632436,
+      "lon": -93.183001
+    },
+    {
+      "type": "node",
+      "id": 1535575604,
+      "lat": 44.9632462,
+      "lon": -93.1825777
+    },
+    {
+      "type": "node",
+      "id": 1535575605,
+      "lat": 44.9633614,
+      "lon": -93.1829978
+    },
+    {
+      "type": "node",
+      "id": 1535575606,
+      "lat": 44.963364,
+      "lon": -93.1825792
+    },
+    {
+      "type": "node",
+      "id": 1535575607,
+      "lat": 44.96358,
+      "lon": -93.1835518
+    },
+    {
+      "type": "node",
+      "id": 1535575609,
+      "lat": 44.9635803,
+      "lon": -93.1834923
+    },
+    {
+      "type": "node",
+      "id": 1535575610,
+      "lat": 44.9635829,
+      "lon": -93.1830005
+    },
+    {
+      "type": "node",
+      "id": 1535575612,
+      "lat": 44.9635832,
+      "lon": -93.1829565
+    },
+    {
+      "type": "node",
+      "id": 1535575613,
+      "lat": 44.9636642,
+      "lon": -93.1835889
+    },
+    {
+      "type": "node",
+      "id": 1535575614,
+      "lat": 44.9636648,
+      "lon": -93.1834934
+    },
+    {
+      "type": "node",
+      "id": 1535575616,
+      "lat": 44.963674,
+      "lon": -93.1829576
+    },
+    {
+      "type": "node",
+      "id": 1535575617,
+      "lat": 44.9636772,
+      "lon": -93.1824434
+    },
+    {
+      "type": "node",
+      "id": 1535575622,
+      "lat": 44.9638117,
+      "lon": -93.1835907
+    },
+    {
+      "type": "node",
+      "id": 1535575624,
+      "lat": 44.9638124,
+      "lon": -93.183481
+    },
+    {
+      "type": "node",
+      "id": 1535575625,
+      "lat": 44.9639492,
+      "lon": -93.1829568
+    },
+    {
+      "type": "node",
+      "id": 1535575627,
+      "lat": 44.9639503,
+      "lon": -93.1827938
+    },
+    {
+      "type": "node",
+      "id": 1535575628,
+      "lat": 44.9639788,
+      "lon": -93.1825556
+    },
+    {
+      "type": "node",
+      "id": 1535575629,
+      "lat": 44.9639794,
+      "lon": -93.1824471
+    },
+    {
+      "type": "node",
+      "id": 1535575630,
+      "lat": 44.9639884,
+      "lon": -93.1827943
+    },
+    {
+      "type": "node",
+      "id": 1535575631,
+      "lat": 44.9639887,
+      "lon": -93.1827467
+    },
+    {
+      "type": "node",
+      "id": 1535575632,
+      "lat": 44.9640819,
+      "lon": -93.1827479
+    },
+    {
+      "type": "node",
+      "id": 1535575633,
+      "lat": 44.964083,
+      "lon": -93.1825569
+    },
+    {
+      "type": "node",
+      "id": 1535575635,
+      "lat": 44.9641754,
+      "lon": -93.1829596
+    },
+    {
+      "type": "node",
+      "id": 1535575636,
+      "lat": 44.9641763,
+      "lon": -93.182805
+    },
+    {
+      "type": "node",
+      "id": 1535575638,
+      "lat": 44.964303,
+      "lon": -93.1828065
+    },
+    {
+      "type": "node",
+      "id": 1535575639,
+      "lat": 44.9643051,
+      "lon": -93.1824726
+    },
+    {
+      "type": "node",
+      "id": 1535575640,
+      "lat": 44.9643066,
+      "lon": -93.1834871
+    },
+    {
+      "type": "node",
+      "id": 1535575642,
+      "lat": 44.9643072,
+      "lon": -93.1833894
+    },
+    {
+      "type": "node",
+      "id": 1535575643,
+      "lat": 44.9643397,
+      "lon": -93.1835685
+    },
+    {
+      "type": "node",
+      "id": 1535575648,
+      "lat": 44.9643401,
+      "lon": -93.1834989
+    },
+    {
+      "type": "node",
+      "id": 1535575649,
+      "lat": 44.9643728,
+      "lon": -93.1834993
+    },
+    {
+      "type": "node",
+      "id": 1535575651,
+      "lat": 44.9643735,
+      "lon": -93.1833903
+    },
+    {
+      "type": "node",
+      "id": 1535575652,
+      "lat": 44.9646912,
+      "lon": -93.1826508
+    },
+    {
+      "type": "node",
+      "id": 1535575654,
+      "lat": 44.9646923,
+      "lon": -93.1824774
+    },
+    {
+      "type": "node",
+      "id": 1535575655,
+      "lat": 44.9660824,
+      "lon": -93.1826681
+    },
+    {
+      "type": "node",
+      "id": 1535575656,
+      "lat": 44.9660825,
+      "lon": -93.1826441
+    },
+    {
+      "type": "node",
+      "id": 1535575657,
+      "lat": 44.9660854,
+      "lon": -93.1835902
+    },
+    {
+      "type": "node",
+      "id": 1535575658,
+      "lat": 44.9660868,
+      "lon": -93.1833677
+    },
+    {
+      "type": "node",
+      "id": 1535575659,
+      "lat": 44.96615,
+      "lon": -93.1833684
+    },
+    {
+      "type": "node",
+      "id": 1535575660,
+      "lat": 44.9661528,
+      "lon": -93.1829242
+    },
+    {
+      "type": "node",
+      "id": 1535575661,
+      "lat": 44.9662745,
+      "lon": -93.1829257
+    },
+    {
+      "type": "node",
+      "id": 1535575662,
+      "lat": 44.9662763,
+      "lon": -93.1826465
+    },
+    {
+      "type": "node",
+      "id": 5857042996,
+      "lat": 44.9656604,
+      "lon": -93.1826629
+    },
+    {
+      "type": "node",
+      "id": 5857042999,
+      "lat": 44.9647089,
+      "lon": -93.182651
+    },
+    {
+      "type": "node",
+      "id": 7195928867,
+      "lat": 44.965498,
+      "lon": -93.1826609
+    },
+    {
+      "type": "node",
+      "id": 8050661854,
+      "lat": 44.9644135,
+      "lon": -93.1824739
+    },
+    {
+      "type": "node",
+      "id": 8050661856,
+      "lat": 44.9659562,
+      "lon": -93.1826665
+    },
+    {
+      "type": "node",
+      "id": 12623924059,
+      "lat": 44.9658427,
+      "lon": -93.1826651
+    },
+    {
+      "type": "node",
+      "id": 11229793471,
+      "lat": 44.9915944,
+      "lon": -93.1711329
+    },
+    {
+      "type": "node",
+      "id": 11229793472,
+      "lat": 44.9915299,
+      "lon": -93.1711329
+    },
+    {
+      "type": "node",
+      "id": 11229793473,
+      "lat": 44.9915309,
+      "lon": -93.1708821
+    },
+    {
+      "type": "node",
+      "id": 11229793474,
+      "lat": 44.9915954,
+      "lon": -93.1708848
+    },
+    {
+      "type": "node",
+      "id": 689781430,
+      "lat": 44.9485599,
+      "lon": -93.1465778
+    },
+    {
+      "type": "node",
+      "id": 2939753932,
+      "lat": 44.9486779,
+      "lon": -93.1465775
+    },
+    {
+      "type": "node",
+      "id": 716319384,
+      "lat": 44.9556338,
+      "lon": -93.1465617
+    },
+    {
+      "type": "node",
+      "id": 2458482479,
+      "lat": 44.9483278,
+      "lon": -93.1161474
+    },
+    {
+      "type": "node",
+      "id": 1683936438,
+      "lat": 44.9805177,
+      "lon": -93.1457761
+    },
+    {
+      "type": "node",
+      "id": 1683936440,
+      "lat": 44.9805191,
+      "lon": -93.1457548
+    },
+    {
+      "type": "node",
+      "id": 1683936443,
+      "lat": 44.9805214,
+      "lon": -93.1458112
+    },
+    {
+      "type": "node",
+      "id": 1683936447,
+      "lat": 44.9805245,
+      "lon": -93.1457295
+    },
+    {
+      "type": "node",
+      "id": 1683936449,
+      "lat": 44.9805336,
+      "lon": -93.1458459
+    },
+    {
+      "type": "node",
+      "id": 1683936450,
+      "lat": 44.9805367,
+      "lon": -93.1457012
+    },
+    {
+      "type": "node",
+      "id": 1683936468,
+      "lat": 44.9805541,
+      "lon": -93.1458743
+    },
+    {
+      "type": "node",
+      "id": 1683936470,
+      "lat": 44.9805584,
+      "lon": -93.1456746
+    },
+    {
+      "type": "node",
+      "id": 1683936477,
+      "lat": 44.9805813,
+      "lon": -93.1456611
+    },
+    {
+      "type": "node",
+      "id": 1683936478,
+      "lat": 44.9805832,
+      "lon": -93.1458923
+    },
+    {
+      "type": "node",
+      "id": 1683936507,
+      "lat": 44.9806129,
+      "lon": -93.1458942
+    },
+    {
+      "type": "node",
+      "id": 1683936509,
+      "lat": 44.9806156,
+      "lon": -93.1456591
+    },
+    {
+      "type": "node",
+      "id": 1683936544,
+      "lat": 44.9806409,
+      "lon": -93.1458816
+    },
+    {
+      "type": "node",
+      "id": 1683936553,
+      "lat": 44.9806467,
+      "lon": -93.1456759
+    },
+    {
+      "type": "node",
+      "id": 1683936572,
+      "lat": 44.9806653,
+      "lon": -93.1458542
+    },
+    {
+      "type": "node",
+      "id": 1683936577,
+      "lat": 44.9806679,
+      "lon": -93.145703
+    },
+    {
+      "type": "node",
+      "id": 1683936584,
+      "lat": 44.9806767,
+      "lon": -93.1458304
+    },
+    {
+      "type": "node",
+      "id": 1683936587,
+      "lat": 44.9806814,
+      "lon": -93.1457381
+    },
+    {
+      "type": "node",
+      "id": 1683936601,
+      "lat": 44.9806833,
+      "lon": -93.1458053
+    },
+    {
+      "type": "node",
+      "id": 1683936606,
+      "lat": 44.9806858,
+      "lon": -93.1457747
+    },
+    {
+      "type": "node",
+      "id": 546514790,
+      "lat": 44.9450441,
+      "lon": -93.1092774
+    },
+    {
+      "type": "node",
+      "id": 546514792,
+      "lat": 44.9451261,
+      "lon": -93.1091262
+    },
+    {
+      "type": "node",
+      "id": 546514796,
+      "lat": 44.9451473,
+      "lon": -93.1090969
+    },
+    {
+      "type": "node",
+      "id": 546514798,
+      "lat": 44.9452354,
+      "lon": -93.1091062
+    },
+    {
+      "type": "node",
+      "id": 546514799,
+      "lat": 44.9451838,
+      "lon": -93.1090313
+    },
+    {
+      "type": "node",
+      "id": 546514800,
+      "lat": 44.9453131,
+      "lon": -93.1089069
+    },
+    {
+      "type": "node",
+      "id": 546514802,
+      "lat": 44.9452523,
+      "lon": -93.1088187
+    },
+    {
+      "type": "node",
+      "id": 546514807,
+      "lat": 44.9453115,
+      "lon": -93.1087373
+    },
+    {
+      "type": "node",
+      "id": 546514810,
+      "lat": 44.9452295,
+      "lon": -93.1086184
+    },
+    {
+      "type": "node",
+      "id": 546514812,
+      "lat": 44.9451838,
+      "lon": -93.1086814
+    },
+    {
+      "type": "node",
+      "id": 546514815,
+      "lat": 44.9451275,
+      "lon": -93.1085998
+    },
+    {
+      "type": "node",
+      "id": 546514816,
+      "lat": 44.9449926,
+      "lon": -93.1087855
+    },
+    {
+      "type": "node",
+      "id": 546514819,
+      "lat": 44.9448833,
+      "lon": -93.1090325
+    },
+    {
+      "type": "node",
+      "id": 546514823,
+      "lat": 44.9448872,
+      "lon": -93.1091401
+    },
+    {
+      "type": "node",
+      "id": 546514825,
+      "lat": 44.9450044,
+      "lon": -93.10931
+    },
+    {
+      "type": "node",
+      "id": 546514829,
+      "lat": 44.9450363,
+      "lon": -93.1092661
+    },
+    {
+      "type": "node",
+      "id": 2418393533,
+      "lat": 44.9448585,
+      "lon": -93.1089966
+    },
+    {
+      "type": "node",
+      "id": 2418393534,
+      "lat": 44.9448632,
+      "lon": -93.1090601
+    },
+    {
+      "type": "node",
+      "id": 2418393535,
+      "lat": 44.9449032,
+      "lon": -93.1091182
+    },
+    {
+      "type": "node",
+      "id": 2418393536,
+      "lat": 44.945002,
+      "lon": -93.1087991
+    },
+    {
+      "type": "node",
+      "id": 2418393537,
+      "lat": 44.9450696,
+      "lon": -93.1092423
+    },
+    {
+      "type": "node",
+      "id": 2418393538,
+      "lat": 44.9450759,
+      "lon": -93.1092513
+    },
+    {
+      "type": "node",
+      "id": 2418393539,
+      "lat": 44.9451459,
+      "lon": -93.109155
+    },
+    {
+      "type": "node",
+      "id": 2418393540,
+      "lat": 44.9451935,
+      "lon": -93.1091639
+    },
+    {
+      "type": "node",
+      "id": 2418393541,
+      "lat": 44.9451955,
+      "lon": -93.1090152
+    },
+    {
+      "type": "node",
+      "id": 2418393542,
+      "lat": 44.9452196,
+      "lon": -93.1090502
+    },
+    {
+      "type": "node",
+      "id": 2418393543,
+      "lat": 44.9452801,
+      "lon": -93.1089524
+    },
+    {
+      "type": "node",
+      "id": 2418393545,
+      "lat": 44.9452852,
+      "lon": -93.1089599
+    },
+    {
+      "type": "node",
+      "id": 2424956913,
+      "lat": 44.9414897,
+      "lon": -93.1134825
+    },
+    {
+      "type": "node",
+      "id": 2424956931,
+      "lat": 44.9415146,
+      "lon": -93.1134505
+    },
+    {
+      "type": "node",
+      "id": 2424956944,
+      "lat": 44.9415523,
+      "lon": -93.1134511
+    },
+    {
+      "type": "node",
+      "id": 2424956945,
+      "lat": 44.9415524,
+      "lon": -93.1134355
+    },
+    {
+      "type": "node",
+      "id": 2424956993,
+      "lat": 44.9416597,
+      "lon": -93.1134883
+    },
+    {
+      "type": "node",
+      "id": 2424956994,
+      "lat": 44.9416601,
+      "lon": -93.113437
+    },
+    {
+      "type": "node",
+      "id": 2424957020,
+      "lat": 44.9416961,
+      "lon": -93.1134888
+    },
+    {
+      "type": "node",
+      "id": 2458401369,
+      "lat": 44.9451728,
+      "lon": -93.1091338
+    },
+    {
+      "type": "node",
+      "id": 2458401373,
+      "lat": 44.9452141,
+      "lon": -93.1090753
+    },
+    {
+      "type": "node",
+      "id": 3050618766,
+      "lat": 44.9387832,
+      "lon": -93.0999775
+    },
+    {
+      "type": "node",
+      "id": 3050618767,
+      "lat": 44.9387989,
+      "lon": -93.100002
+    },
+    {
+      "type": "node",
+      "id": 3050618768,
+      "lat": 44.9388654,
+      "lon": -93.0998276
+    },
+    {
+      "type": "node",
+      "id": 3050618769,
+      "lat": 44.9388684,
+      "lon": -93.1001091
+    },
+    {
+      "type": "node",
+      "id": 3050618770,
+      "lat": 44.9388809,
+      "lon": -93.0998514
+    },
+    {
+      "type": "node",
+      "id": 3050618771,
+      "lat": 44.938966,
+      "lon": -93.099983
+    },
+    {
+      "type": "node",
+      "id": 3050618780,
+      "lat": 44.9391168,
+      "lon": -93.0995028
+    },
+    {
+      "type": "node",
+      "id": 3050618782,
+      "lat": 44.939156,
+      "lon": -93.0995621
+    },
+    {
+      "type": "node",
+      "id": 3050618786,
+      "lat": 44.9392174,
+      "lon": -93.0996582
+    },
+    {
+      "type": "node",
+      "id": 1332611678,
+      "lat": 44.9473864,
+      "lon": -93.0981934
+    },
+    {
+      "type": "node",
+      "id": 1332611680,
+      "lat": 44.9474749,
+      "lon": -93.098059
+    },
+    {
+      "type": "node",
+      "id": 1332611692,
+      "lat": 44.9474134,
+      "lon": -93.0982147
+    },
+    {
+      "type": "node",
+      "id": 1332611693,
+      "lat": 44.9474479,
+      "lon": -93.0980377
+    },
+    {
+      "type": "node",
+      "id": 415356616,
+      "lat": 44.9451623,
+      "lon": -93.0886432
+    },
+    {
+      "type": "node",
+      "id": 7176657540,
+      "lat": 44.9447541,
+      "lon": -93.0882558
+    },
+    {
+      "type": "node",
+      "id": 187866379,
+      "lat": 44.9473795,
+      "lon": -93.0860736
+    },
+    {
+      "type": "node",
+      "id": 187900567,
+      "lat": 44.9414489,
+      "lon": -93.085124
+    },
+    {
+      "type": "node",
+      "id": 1378039166,
+      "lat": 44.9476796,
+      "lon": -93.086747
+    },
+    {
+      "type": "node",
+      "id": 1378039168,
+      "lat": 44.9474753,
+      "lon": -93.0861664
+    },
+    {
+      "type": "node",
+      "id": 1378039169,
+      "lat": 44.9471471,
+      "lon": -93.0862029
+    },
+    {
+      "type": "node",
+      "id": 1378039170,
+      "lat": 44.9472643,
+      "lon": -93.0859618
+    },
+    {
+      "type": "node",
+      "id": 1378039171,
+      "lat": 44.9466725,
+      "lon": -93.0849105
+    },
+    {
+      "type": "node",
+      "id": 1378039172,
+      "lat": 44.9476043,
+      "lon": -93.086902
+    },
+    {
+      "type": "node",
+      "id": 1378039173,
+      "lat": 44.9477327,
+      "lon": -93.0856365
+    },
+    {
+      "type": "node",
+      "id": 1378039174,
+      "lat": 44.9474738,
+      "lon": -93.0855318
+    },
+    {
+      "type": "node",
+      "id": 1378039175,
+      "lat": 44.9476842,
+      "lon": -93.0857364
+    },
+    {
+      "type": "node",
+      "id": 1378039178,
+      "lat": 44.9472737,
+      "lon": -93.0865814
+    },
+    {
+      "type": "node",
+      "id": 1378039181,
+      "lat": 44.9465496,
+      "lon": -93.0851632
+    },
+    {
+      "type": "node",
+      "id": 1378039183,
+      "lat": 44.947706,
+      "lon": -93.0867726
+    },
+    {
+      "type": "node",
+      "id": 1399971955,
+      "lat": 44.947587,
+      "lon": -93.0856422
+    },
+    {
+      "type": "node",
+      "id": 1461966260,
+      "lat": 44.9419694,
+      "lon": -93.0855555
+    },
+    {
+      "type": "node",
+      "id": 1503598773,
+      "lat": 44.9474493,
+      "lon": -93.0867518
+    },
+    {
+      "type": "node",
+      "id": 1552865488,
+      "lat": 44.9477481,
+      "lon": -93.0866858
+    },
+    {
+      "type": "node",
+      "id": 1552865506,
+      "lat": 44.9478473,
+      "lon": -93.0864817
+    },
+    {
+      "type": "node",
+      "id": 1675269908,
+      "lat": 44.9466388,
+      "lon": -93.0848812
+    },
+    {
+      "type": "node",
+      "id": 1675269910,
+      "lat": 44.9466558,
+      "lon": -93.0849456
+    },
+    {
+      "type": "node",
+      "id": 1675269914,
+      "lat": 44.946837,
+      "lon": -93.0844316
+    },
+    {
+      "type": "node",
+      "id": 1675269920,
+      "lat": 44.9471473,
+      "lon": -93.0853474
+    },
+    {
+      "type": "node",
+      "id": 1675269921,
+      "lat": 44.9472073,
+      "lon": -93.0854052
+    },
+    {
+      "type": "node",
+      "id": 1675269924,
+      "lat": 44.9473372,
+      "lon": -93.0855284
+    },
+    {
+      "type": "node",
+      "id": 1675269934,
+      "lat": 44.9476442,
+      "lon": -93.0849033
+    },
+    {
+      "type": "node",
+      "id": 1675269935,
+      "lat": 44.9477374,
+      "lon": -93.0849895
+    },
+    {
+      "type": "node",
+      "id": 1676103870,
+      "lat": 44.9469484,
+      "lon": -93.0851524
+    },
+    {
+      "type": "node",
+      "id": 1676103876,
+      "lat": 44.9470057,
+      "lon": -93.0852104
+    },
+    {
+      "type": "node",
+      "id": 1831411327,
+      "lat": 44.9474426,
+      "lon": -93.0861355
+    },
+    {
+      "type": "node",
+      "id": 1831411352,
+      "lat": 44.9476507,
+      "lon": -93.0857048
+    },
+    {
+      "type": "node",
+      "id": 1894091148,
+      "lat": 44.9470472,
+      "lon": -93.0861059
+    },
+    {
+      "type": "node",
+      "id": 1894091149,
+      "lat": 44.9471991,
+      "lon": -93.0857932
+    },
+    {
+      "type": "node",
+      "id": 2053875086,
+      "lat": 44.9473462,
+      "lon": -93.0866518
+    },
+    {
+      "type": "node",
+      "id": 2057000751,
+      "lat": 44.9465718,
+      "lon": -93.0848671
+    },
+    {
+      "type": "node",
+      "id": 2057000754,
+      "lat": 44.9468152,
+      "lon": -93.084409
+    },
+    {
+      "type": "node",
+      "id": 2843966909,
+      "lat": 44.9476378,
+      "lon": -93.0851966
+    },
+    {
+      "type": "node",
+      "id": 2843999644,
+      "lat": 44.9467892,
+      "lon": -93.0850001
+    },
+    {
+      "type": "node",
+      "id": 2843999645,
+      "lat": 44.9469143,
+      "lon": -93.0851187
+    },
+    {
+      "type": "node",
+      "id": 3393330643,
+      "lat": 44.9466782,
+      "lon": -93.0852879
+    },
+    {
+      "type": "node",
+      "id": 3393331828,
+      "lat": 44.946884,
+      "lon": -93.0854892
+    },
+    {
+      "type": "node",
+      "id": 3508410061,
+      "lat": 44.9465767,
+      "lon": -93.0849
+    },
+    {
+      "type": "node",
+      "id": 3508410062,
+      "lat": 44.9465864,
+      "lon": -93.0848801
+    },
+    {
+      "type": "node",
+      "id": 3508410063,
+      "lat": 44.9465992,
+      "lon": -93.0849204
+    },
+    {
+      "type": "node",
+      "id": 3508410064,
+      "lat": 44.9466085,
+      "lon": -93.0849018
+    },
+    {
+      "type": "node",
+      "id": 3508410066,
+      "lat": 44.946671,
+      "lon": -93.0846629
+    },
+    {
+      "type": "node",
+      "id": 3508410067,
+      "lat": 44.9466817,
+      "lon": -93.0848948
+    },
+    {
+      "type": "node",
+      "id": 3508410068,
+      "lat": 44.9467027,
+      "lon": -93.084597
+    },
+    {
+      "type": "node",
+      "id": 3508410069,
+      "lat": 44.9467267,
+      "lon": -93.0845938
+    },
+    {
+      "type": "node",
+      "id": 3508410070,
+      "lat": 44.946748,
+      "lon": -93.0846139
+    },
+    {
+      "type": "node",
+      "id": 3508410071,
+      "lat": 44.946753,
+      "lon": -93.0846391
+    },
+    {
+      "type": "node",
+      "id": 3508410072,
+      "lat": 44.9467546,
+      "lon": -93.0846472
+    },
+    {
+      "type": "node",
+      "id": 3508410073,
+      "lat": 44.9468074,
+      "lon": -93.0850165
+    },
+    {
+      "type": "node",
+      "id": 3508410083,
+      "lat": 44.9470504,
+      "lon": -93.0856497
+    },
+    {
+      "type": "node",
+      "id": 3508410084,
+      "lat": 44.9470954,
+      "lon": -93.0856932
+    },
+    {
+      "type": "node",
+      "id": 3508410087,
+      "lat": 44.9472264,
+      "lon": -93.085424
+    },
+    {
+      "type": "node",
+      "id": 3508410091,
+      "lat": 44.9473321,
+      "lon": -93.0855235
+    },
+    {
+      "type": "node",
+      "id": 3508410197,
+      "lat": 44.9476535,
+      "lon": -93.0849119
+    },
+    {
+      "type": "node",
+      "id": 7176657529,
+      "lat": 44.9420805,
+      "lon": -93.0856585
+    },
+    {
+      "type": "node",
+      "id": 7176657545,
+      "lat": 44.9424192,
+      "lon": -93.0859864
+    },
+    {
+      "type": "node",
+      "id": 12344896532,
+      "lat": 44.946745,
+      "lon": -93.0849568
+    },
+    {
+      "type": "node",
+      "id": 12344896533,
+      "lat": 44.9466116,
+      "lon": -93.0852233
+    },
+    {
+      "type": "node",
+      "id": 2458482458,
+      "lat": 44.9482662,
+      "lon": -93.1080783
+    },
+    {
+      "type": "node",
+      "id": 695049799,
+      "lat": 44.9505027,
+      "lon": -93.1061891
+    },
+    {
+      "type": "node",
+      "id": 1153130809,
+      "lat": 44.9520455,
+      "lon": -93.1013259
+    },
+    {
+      "type": "node",
+      "id": 1332666748,
+      "lat": 44.95251,
+      "lon": -93.1036297
+    },
+    {
+      "type": "node",
+      "id": 1332666750,
+      "lat": 44.9524131,
+      "lon": -93.1039358
+    },
+    {
+      "type": "node",
+      "id": 1332666772,
+      "lat": 44.9525786,
+      "lon": -93.1038019
+    },
+    {
+      "type": "node",
+      "id": 1332666808,
+      "lat": 44.9523407,
+      "lon": -93.1037671
+    },
+    {
+      "type": "node",
+      "id": 1543252619,
+      "lat": 44.9523592,
+      "lon": -93.1038104
+    },
+    {
+      "type": "node",
+      "id": 1543252661,
+      "lat": 44.9525025,
+      "lon": -93.1038634
+    },
+    {
+      "type": "node",
+      "id": 2093047016,
+      "lat": 44.9532238,
+      "lon": -93.1014978
+    },
+    {
+      "type": "node",
+      "id": 2093047017,
+      "lat": 44.9534478,
+      "lon": -93.1010204
+    },
+    {
+      "type": "node",
+      "id": 2093047018,
+      "lat": 44.9531232,
+      "lon": -93.1006609
+    },
+    {
+      "type": "node",
+      "id": 2093047019,
+      "lat": 44.9528613,
+      "lon": -93.1012322
+    },
+    {
+      "type": "node",
+      "id": 2093047020,
+      "lat": 44.9532029,
+      "lon": -93.1005939
+    },
+    {
+      "type": "node",
+      "id": 2093047021,
+      "lat": 44.9534801,
+      "lon": -93.1009184
+    },
+    {
+      "type": "node",
+      "id": 2093047022,
+      "lat": 44.9534649,
+      "lon": -93.1008755
+    },
+    {
+      "type": "node",
+      "id": 2093047023,
+      "lat": 44.952996,
+      "lon": -93.1009989
+    },
+    {
+      "type": "node",
+      "id": 2093047024,
+      "lat": 44.953351,
+      "lon": -93.1012081
+    },
+    {
+      "type": "node",
+      "id": 2093047025,
+      "lat": 44.9530207,
+      "lon": -93.1009023
+    },
+    {
+      "type": "node",
+      "id": 2093047026,
+      "lat": 44.9530701,
+      "lon": -93.1008058
+    },
+    {
+      "type": "node",
+      "id": 2093047027,
+      "lat": 44.9530928,
+      "lon": -93.1007253
+    },
+    {
+      "type": "node",
+      "id": 2093047028,
+      "lat": 44.9534706,
+      "lon": -93.1009613
+    },
+    {
+      "type": "node",
+      "id": 2096432106,
+      "lat": 44.9522932,
+      "lon": -93.1030193
+    },
+    {
+      "type": "node",
+      "id": 2130954695,
+      "lat": 44.9523865,
+      "lon": -93.1030328
+    },
+    {
+      "type": "node",
+      "id": 2130954696,
+      "lat": 44.9523943,
+      "lon": -93.1029304
+    },
+    {
+      "type": "node",
+      "id": 2130954697,
+      "lat": 44.9524642,
+      "lon": -93.1031148
+    },
+    {
+      "type": "node",
+      "id": 2130954699,
+      "lat": 44.9523898,
+      "lon": -93.1028473
+    },
+    {
+      "type": "node",
+      "id": 2130954700,
+      "lat": 44.9524641,
+      "lon": -93.103133
+    },
+    {
+      "type": "node",
+      "id": 2130954701,
+      "lat": 44.9523862,
+      "lon": -93.1030217
+    },
+    {
+      "type": "node",
+      "id": 2130954703,
+      "lat": 44.9523943,
+      "lon": -93.1029507
+    },
+    {
+      "type": "node",
+      "id": 2130954704,
+      "lat": 44.9524365,
+      "lon": -93.1030156
+    },
+    {
+      "type": "node",
+      "id": 2130954705,
+      "lat": 44.9523961,
+      "lon": -93.102866
+    },
+    {
+      "type": "node",
+      "id": 2130954706,
+      "lat": 44.9524518,
+      "lon": -93.1032003
+    },
+    {
+      "type": "node",
+      "id": 2130954707,
+      "lat": 44.9524518,
+      "lon": -93.1031331
+    },
+    {
+      "type": "node",
+      "id": 2130954708,
+      "lat": 44.952449,
+      "lon": -93.1030778
+    },
+    {
+      "type": "node",
+      "id": 2130954709,
+      "lat": 44.952438,
+      "lon": -93.1029888
+    },
+    {
+      "type": "node",
+      "id": 2130954710,
+      "lat": 44.9523897,
+      "lon": -93.1028602
+    },
+    {
+      "type": "node",
+      "id": 2130954711,
+      "lat": 44.9524213,
+      "lon": -93.1028579
+    },
+    {
+      "type": "node",
+      "id": 2130954712,
+      "lat": 44.9524068,
+      "lon": -93.1029462
+    },
+    {
+      "type": "node",
+      "id": 2130954713,
+      "lat": 44.9523549,
+      "lon": -93.1030471
+    },
+    {
+      "type": "node",
+      "id": 2130954714,
+      "lat": 44.9524524,
+      "lon": -93.1029567
+    },
+    {
+      "type": "node",
+      "id": 2130954716,
+      "lat": 44.9524311,
+      "lon": -93.1028562
+    },
+    {
+      "type": "node",
+      "id": 2130954717,
+      "lat": 44.952392,
+      "lon": -93.1028908
+    },
+    {
+      "type": "node",
+      "id": 2130954718,
+      "lat": 44.952459,
+      "lon": -93.1029496
+    },
+    {
+      "type": "node",
+      "id": 2130954719,
+      "lat": 44.9523037,
+      "lon": -93.1029995
+    },
+    {
+      "type": "node",
+      "id": 2130954720,
+      "lat": 44.9523426,
+      "lon": -93.1030445
+    },
+    {
+      "type": "node",
+      "id": 2130954722,
+      "lat": 44.9524085,
+      "lon": -93.1028391
+    },
+    {
+      "type": "node",
+      "id": 2130954724,
+      "lat": 44.9524089,
+      "lon": -93.1028491
+    },
+    {
+      "type": "node",
+      "id": 2130954725,
+      "lat": 44.9523415,
+      "lon": -93.1032008
+    },
+    {
+      "type": "node",
+      "id": 2130954726,
+      "lat": 44.9524187,
+      "lon": -93.1028504
+    },
+    {
+      "type": "node",
+      "id": 2130954727,
+      "lat": 44.9522916,
+      "lon": -93.103085
+    },
+    {
+      "type": "node",
+      "id": 2130954728,
+      "lat": 44.9523141,
+      "lon": -93.1030036
+    },
+    {
+      "type": "node",
+      "id": 2130954731,
+      "lat": 44.9523415,
+      "lon": -93.1031691
+    },
+    {
+      "type": "node",
+      "id": 2130954732,
+      "lat": 44.9522937,
+      "lon": -93.1029989
+    },
+    {
+      "type": "node",
+      "id": 2130954734,
+      "lat": 44.95243,
+      "lon": -93.102885
+    },
+    {
+      "type": "node",
+      "id": 2130954735,
+      "lat": 44.9523293,
+      "lon": -93.103025
+    },
+    {
+      "type": "node",
+      "id": 2130954739,
+      "lat": 44.9524,
+      "lon": -93.1028407
+    },
+    {
+      "type": "node",
+      "id": 2130954740,
+      "lat": 44.9523502,
+      "lon": -93.1030418
+    },
+    {
+      "type": "node",
+      "id": 2130954741,
+      "lat": 44.9523355,
+      "lon": -93.1030378
+    },
+    {
+      "type": "node",
+      "id": 2130954742,
+      "lat": 44.9523226,
+      "lon": -93.1030123
+    },
+    {
+      "type": "node",
+      "id": 2130954743,
+      "lat": 44.9524088,
+      "lon": -93.1029497
+    },
+    {
+      "type": "node",
+      "id": 2130954744,
+      "lat": 44.9523864,
+      "lon": -93.1028979
+    },
+    {
+      "type": "node",
+      "id": 2130954745,
+      "lat": 44.9524368,
+      "lon": -93.1028697
+    },
+    {
+      "type": "node",
+      "id": 2130954747,
+      "lat": 44.95239,
+      "lon": -93.1029756
+    },
+    {
+      "type": "node",
+      "id": 2130954748,
+      "lat": 44.9523871,
+      "lon": -93.1029216
+    },
+    {
+      "type": "node",
+      "id": 2130954751,
+      "lat": 44.9524543,
+      "lon": -93.1029036
+    },
+    {
+      "type": "node",
+      "id": 2130954752,
+      "lat": 44.9523994,
+      "lon": -93.1029561
+    },
+    {
+      "type": "node",
+      "id": 2130954753,
+      "lat": 44.9522918,
+      "lon": -93.1031705
+    },
+    {
+      "type": "node",
+      "id": 2130954756,
+      "lat": 44.9523816,
+      "lon": -93.1030036
+    },
+    {
+      "type": "node",
+      "id": 2130954757,
+      "lat": 44.9524518,
+      "lon": -93.1029267
+    },
+    {
+      "type": "node",
+      "id": 2130954758,
+      "lat": 44.9524496,
+      "lon": -93.1031016
+    },
+    {
+      "type": "node",
+      "id": 2130954759,
+      "lat": 44.9524427,
+      "lon": -93.1030485
+    },
+    {
+      "type": "node",
+      "id": 2130973895,
+      "lat": 44.952434,
+      "lon": -93.1029762
+    },
+    {
+      "type": "node",
+      "id": 2130973896,
+      "lat": 44.9523808,
+      "lon": -93.1030339
+    },
+    {
+      "type": "node",
+      "id": 2130973897,
+      "lat": 44.9523661,
+      "lon": -93.1030493
+    },
+    {
+      "type": "node",
+      "id": 2130973898,
+      "lat": 44.9523604,
+      "lon": -93.103054
+    },
+    {
+      "type": "node",
+      "id": 2130973899,
+      "lat": 44.9523708,
+      "lon": -93.1030352
+    },
+    {
+      "type": "node",
+      "id": 2131005457,
+      "lat": 44.9521479,
+      "lon": -93.1013797
+    },
+    {
+      "type": "node",
+      "id": 2131005458,
+      "lat": 44.9522203,
+      "lon": -93.1012744
+    },
+    {
+      "type": "node",
+      "id": 2131005459,
+      "lat": 44.9521564,
+      "lon": -93.101321
+    },
+    {
+      "type": "node",
+      "id": 2131005460,
+      "lat": 44.9522162,
+      "lon": -93.1014613
+    },
+    {
+      "type": "node",
+      "id": 2131005461,
+      "lat": 44.9522476,
+      "lon": -93.101449
+    },
+    {
+      "type": "node",
+      "id": 2131005462,
+      "lat": 44.9521829,
+      "lon": -93.1014497
+    },
+    {
+      "type": "node",
+      "id": 2131005463,
+      "lat": 44.9522721,
+      "lon": -93.1014147
+    },
+    {
+      "type": "node",
+      "id": 2131005464,
+      "lat": 44.9521569,
+      "lon": -93.1014133
+    },
+    {
+      "type": "node",
+      "id": 2131005465,
+      "lat": 44.9520539,
+      "lon": -93.1012895
+    },
+    {
+      "type": "node",
+      "id": 2131005466,
+      "lat": 44.95228,
+      "lon": -93.1013842
+    },
+    {
+      "type": "node",
+      "id": 2131005467,
+      "lat": 44.9520417,
+      "lon": -93.1013504
+    },
+    {
+      "type": "node",
+      "id": 2131005468,
+      "lat": 44.9521908,
+      "lon": -93.1012804
+    },
+    {
+      "type": "node",
+      "id": 2131005469,
+      "lat": 44.9522536,
+      "lon": -93.1012918
+    },
+    {
+      "type": "node",
+      "id": 2131005470,
+      "lat": 44.9521602,
+      "lon": -93.1013118
+    },
+    {
+      "type": "node",
+      "id": 2131005471,
+      "lat": 44.952281,
+      "lon": -93.1013648
+    },
+    {
+      "type": "node",
+      "id": 2131005472,
+      "lat": 44.952273,
+      "lon": -93.1013231
+    },
+    {
+      "type": "node",
+      "id": 2131005474,
+      "lat": 44.9521715,
+      "lon": -93.1014385
+    },
+    {
+      "type": "node",
+      "id": 2131005475,
+      "lat": 44.9522047,
+      "lon": -93.1014602
+    },
+    {
+      "type": "node",
+      "id": 2131005476,
+      "lat": 44.9522653,
+      "lon": -93.1014282
+    },
+    {
+      "type": "node",
+      "id": 2131005477,
+      "lat": 44.9521711,
+      "lon": -93.1012973
+    },
+    {
+      "type": "node",
+      "id": 2131005478,
+      "lat": 44.9522329,
+      "lon": -93.1012777
+    },
+    {
+      "type": "node",
+      "id": 3810372455,
+      "lat": 44.9524327,
+      "lon": -93.1029682
+    },
+    {
+      "type": "node",
+      "id": 3810372456,
+      "lat": 44.9524333,
+      "lon": -93.102961
+    },
+    {
+      "type": "node",
+      "id": 3810373257,
+      "lat": 44.9524471,
+      "lon": -93.1029491
+    },
+    {
+      "type": "node",
+      "id": 6546032822,
+      "lat": 44.951645,
+      "lon": -93.1060161
+    },
+    {
+      "type": "node",
+      "id": 8933708210,
+      "lat": 44.9518078,
+      "lon": -93.1015756
+    },
+    {
+      "type": "node",
+      "id": 8933708211,
+      "lat": 44.9518467,
+      "lon": -93.1012846
+    },
+    {
+      "type": "node",
+      "id": 8933708212,
+      "lat": 44.9519074,
+      "lon": -93.1010016
+    },
+    {
+      "type": "node",
+      "id": 8933708213,
+      "lat": 44.951971,
+      "lon": -93.1007736
+    },
+    {
+      "type": "node",
+      "id": 8933708214,
+      "lat": 44.952101,
+      "lon": -93.1008997
+    },
+    {
+      "type": "node",
+      "id": 8933708215,
+      "lat": 44.9519957,
+      "lon": -93.1010714
+    },
+    {
+      "type": "node",
+      "id": 8933708216,
+      "lat": 44.9519093,
+      "lon": -93.1012578
+    },
+    {
+      "type": "node",
+      "id": 8933708417,
+      "lat": 44.9518505,
+      "lon": -93.1014187
+    },
+    {
+      "type": "node",
+      "id": 1551145378,
+      "lat": 44.9556494,
+      "lon": -93.1060455
+    },
+    {
+      "type": "node",
+      "id": 1378039177,
+      "lat": 44.9480057,
+      "lon": -93.0861557
+    },
+    {
+      "type": "node",
+      "id": 1378039180,
+      "lat": 44.9479839,
+      "lon": -93.0861346
+    },
+    {
+      "type": "node",
+      "id": 1378039182,
+      "lat": 44.9480679,
+      "lon": -93.0859616
+    },
+    {
+      "type": "node",
+      "id": 1552865514,
+      "lat": 44.9479459,
+      "lon": -93.0862787
+    },
+    {
+      "type": "node",
+      "id": 4761202542,
+      "lat": 44.9567508,
+      "lon": -93.076585
+    },
+    {
+      "type": "node",
+      "id": 4761202543,
+      "lat": 44.9562934,
+      "lon": -93.0775264
+    },
+    {
+      "type": "node",
+      "id": 4821927540,
+      "lat": 44.9787313,
+      "lon": -93.0559533
+    },
+    {
+      "type": "node",
+      "id": 4821927541,
+      "lat": 44.9785959,
+      "lon": -93.0559528
+    },
+    {
+      "type": "node",
+      "id": 4821927542,
+      "lat": 44.9785957,
+      "lon": -93.0560219
+    },
+    {
+      "type": "node",
+      "id": 4821927543,
+      "lat": 44.9786046,
+      "lon": -93.0560219
+    },
+    {
+      "type": "node",
+      "id": 4821927544,
+      "lat": 44.9786043,
+      "lon": -93.0561732
+    },
+    {
+      "type": "node",
+      "id": 4821927545,
+      "lat": 44.9785955,
+      "lon": -93.0561731
+    },
+    {
+      "type": "node",
+      "id": 4821927546,
+      "lat": 44.9785953,
+      "lon": -93.0562479
+    },
+    {
+      "type": "node",
+      "id": 4821927547,
+      "lat": 44.9787308,
+      "lon": -93.0562483
+    },
+    {
+      "type": "node",
+      "id": 9251403510,
+      "lat": 44.977805,
+      "lon": -93.0553567
+    },
+    {
+      "type": "node",
+      "id": 9251403511,
+      "lat": 44.9778064,
+      "lon": -93.0555583
+    },
+    {
+      "type": "node",
+      "id": 9251403512,
+      "lat": 44.9777031,
+      "lon": -93.0555598
+    },
+    {
+      "type": "node",
+      "id": 9251403513,
+      "lat": 44.9777014,
+      "lon": -93.0553243
+    },
+    {
+      "type": "node",
+      "id": 9251403514,
+      "lat": 44.9776854,
+      "lon": -93.0553246
+    },
+    {
+      "type": "node",
+      "id": 9251403515,
+      "lat": 44.977685,
+      "lon": -93.0552629
+    },
+    {
+      "type": "node",
+      "id": 9251403516,
+      "lat": 44.9777119,
+      "lon": -93.0552625
+    },
+    {
+      "type": "node",
+      "id": 9251446117,
+      "lat": 44.9777116,
+      "lon": -93.0552266
+    },
+    {
+      "type": "node",
+      "id": 9251446118,
+      "lat": 44.9780002,
+      "lon": -93.0552224
+    },
+    {
+      "type": "node",
+      "id": 9251446119,
+      "lat": 44.9780011,
+      "lon": -93.0553538
+    },
+    {
+      "type": "way",
+      "id": 141862558,
+      "nodes": [
+        1378039175,
+        1378039173,
+        1378039182,
+        1378039180,
+        1378039177,
+        1552865514,
+        1552865506,
+        1552865488,
+        1378039183,
+        1378039166,
+        1378039172,
+        1503598773,
+        2053875086,
+        1378039178,
+        1378039168,
+        1378039175
+      ]
+    },
+    {
+      "type": "way",
+      "id": 141862560,
+      "nodes": [
+        1378039174,
+        1399971955,
+        1831411352,
+        1378039175,
+        1378039168,
+        1831411327,
+        187866379,
+        1378039170,
+        1378039169,
+        1894091148,
+        1894091149,
+        3508410084,
+        3508410083,
+        3393331828,
+        3393330643,
+        12344896533,
+        1378039181,
+        1675269910,
+        1378039171,
+        3508410067,
+        12344896532,
+        2843999644,
+        3508410073,
+        2843999645,
+        1676103870,
+        1676103876,
+        1675269920,
+        1675269921,
+        3508410087,
+        3508410091,
+        1675269924,
+        1675269934,
+        3508410197,
+        1675269935,
+        2843966909,
+        1378039174
+      ]
+    },
+    {
+      "type": "way",
+      "id": 155094077,
+      "nodes": [
+        1675269910,
+        3508410064,
+        3508410063,
+        3508410061,
+        3508410062,
+        2057000751,
+        3508410066,
+        3508410068,
+        3508410069,
+        2057000754,
+        1675269914,
+        3508410070,
+        3508410071,
+        3508410072,
+        1675269908,
+        1378039171,
+        1675269910
+      ]
+    }
+  ]
+}

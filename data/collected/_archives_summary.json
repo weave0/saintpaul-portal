@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-11-24T02:50:03.979Z",
+  "sources": [
+    {
+      "name": "Internet Archive",
+      "count": 100,
+      "file": "internet_archive_stpaul.json",
+      "status": "success"
+    },
+    {
+      "name": "Digital Public Library of America",
+      "status": "requires_api_key",
+      "error": "API key required - get free key at pro.dp.la",
+      "note": "Get free API key at https://pro.dp.la/developers/api-key-registration"
+    },
+    {
+      "name": "HathiTrust Digital Library",
+      "status": "failed",
+      "error": "Request failed with status code 400"
+    },
+    {
+      "name": "University of Minnesota Digital",
+      "status": "failed",
+      "error": "Request failed with status code 404"
+    },
+    {
+      "name": "Flickr Commons",
+      "status": "requires_api_key",
+      "error": "API key required",
+      "note": "Get free API key at https://www.flickr.com/services/api/"
+    }
+  ],
+  "totalRecords": 100
+}

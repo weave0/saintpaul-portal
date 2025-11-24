@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-11-24T02:49:43.571Z",
+  "sources": [
+    {
+      "name": "MNHS Collections",
+      "status": "failed",
+      "error": "Request failed with status code 404"
+    },
+    {
+      "name": "Minnesota Reflections",
+      "status": "failed",
+      "error": "Request failed with status code 403"
+    },
+    {
+      "name": "MNHS Library Catalog",
+      "status": "failed",
+      "error": "getaddrinfo ENOTFOUND librarysearch.mnhs.org"
+    }
+  ],
+  "totalRecords": 0
+}

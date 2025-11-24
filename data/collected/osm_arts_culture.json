@@ -1,0 +1,6938 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.8 e802775f",
+  "osm3s": {
+    "timestamp_osm_base": "2025-11-24T02:49:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 546885175,
+      "lat": 44.9477142,
+      "lon": -93.0969043,
+      "tags": {
+        "fee": "yes",
+        "name": "Minnesota Children's Museum",
+        "tourism": "museum",
+        "website": "https://mcm.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 588286103,
+      "lat": 44.9925468,
+      "lon": -93.1886745,
+      "tags": {
+        "fee": "yes",
+        "name": "Gibb's Museum",
+        "tourism": "museum",
+        "website": "https://rchs.com/gibbs-farm/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1326559673,
+      "lat": 44.9176417,
+      "lon": -93.1829884,
+      "tags": {
+        "amenity": "library",
+        "name": "Highland Park Library",
+        "opening_hours": "Mo-Th 10:00-20:00; Fr,Sa 10:00-17:30; Su 13:00-17:00",
+        "operator": "Saint Paul Public Library",
+        "website": "https://www.sppl.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1332469147,
+      "lat": 44.9451112,
+      "lon": -93.0943781,
+      "tags": {
+        "amenity": "theatre",
+        "name": "Lowry Lab Theatre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2167144379,
+      "lat": 44.9468314,
+      "lon": -93.0966618,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:country": "US",
+        "addr:housenumber": "20",
+        "addr:postcode": "55102",
+        "addr:street": "7th Place W",
+        "amenity": "theatre",
+        "name": "Park Square Theatre",
+        "opening_hours": "\"theater - open only for events\"",
+        "phone": "+16512917005",
+        "website": "https://www.parksquaretheatre.org/",
+        "wikidata": "Q42817188"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3095001959,
+      "lat": 44.9242907,
+      "lon": -93.1320736,
+      "tags": {
+        "check_date:opening_hours": "2025-09-30",
+        "fee": "no",
+        "name": "Great River Gallery",
+        "opening_hours:signed": "no",
+        "tourism": "gallery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3159277536,
+      "lat": 44.9952765,
+      "lon": -93.22828,
+      "tags": {
+        "amenity": "theatre",
+        "name": "Nimbus Theater"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3258596409,
+      "lat": 44.9772721,
+      "lon": -93.0731955,
+      "tags": {
+        "amenity": "library",
+        "name": "Arlington Hills Library",
+        "opening_hours": "Mo-Th 10:00-20:00; Fr,Sa 10:00-17:30; Su 13:00-17:00",
+        "operator": "Saint Paul Public Library"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4343628176,
+      "lat": 44.985359,
+      "lon": -93.1835001,
+      "tags": {
+        "name": "Goldstein Museum of Design",
+        "name:etymology": "Harriet and Vetta Goldstein",
+        "opening_hours": "Tu-Su 10:00-16:30",
+        "tourism": "museum",
+        "website": "https://design.umn.edu/goldstein-museum-design",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5101235772,
+      "lat": 44.9445748,
+      "lon": -93.0981808,
+      "tags": {
+        "amenity": "theatre",
+        "name": "Music Theatre",
+        "operator": "Ordway Center for the Performing Arts",
+        "theatre:genre": "musical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5101235773,
+      "lat": 44.9449745,
+      "lon": -93.0980212,
+      "tags": {
+        "amenity": "theatre",
+        "check_date": "2024-03-31",
+        "name": "Concert Hall",
+        "operator": "Ordway Center for the Performing Arts",
+        "theatre:genre": "philharmonic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6262946715,
+      "lat": 44.9645303,
+      "lon": -93.197747,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "761",
+        "addr:postcode": "55114",
+        "addr:state": "MN",
+        "addr:street": "Raymond Avenue",
+        "check_date": "2024-11-10",
+        "name": "Raymond Avenue Gallery",
+        "opening_hours": "Mo-Fr 10:00-16:00",
+        "phone": "+1-651-644-9200",
+        "tourism": "gallery",
+        "website": "https://www.raymondavenuegallery.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6264952644,
+      "lat": 44.9644226,
+      "lon": -93.1977675,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "759",
+        "addr:postcode": "55114",
+        "addr:state": "MN",
+        "addr:street": "Raymond Avenue",
+        "name": "Raymond Avenue Gallery",
+        "tourism": "gallery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6277537550,
+      "lat": 44.9634279,
+      "lon": -93.211778,
+      "tags": {
+        "addr:city": "Minneapolis",
+        "addr:housenumber": "130",
+        "addr:postcode": "55414",
+        "addr:state": "MN",
+        "addr:street": "Southeast Warwick Street",
+        "fee": "no",
+        "name": "Signature Arts",
+        "opening_hours": "\"by appointment\"",
+        "tourism": "gallery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6332183213,
+      "lat": 44.9683781,
+      "lon": -93.2099948,
+      "tags": {
+        "addr:city": "Minneapolis",
+        "addr:housenumber": "3338",
+        "addr:postcode": "55414",
+        "addr:state": "MN",
+        "addr:street": "University Avenue Southeast",
+        "amenity": "theatre",
+        "check_date": "2024-06-08",
+        "name": "Youth Performance Company",
+        "operator": "Performing arts group",
+        "phone": "+1-612-623-9080",
+        "website": "https://youthperformanceco.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6332183224,
+      "lat": 44.9704938,
+      "lon": -93.2145804,
+      "tags": {
+        "addr:city": "55414",
+        "addr:housenumber": "3000",
+        "addr:state": "MN",
+        "addr:street": "University Avenue Southeast",
+        "addr:unit": "#100",
+        "amenity": "arts_centre",
+        "name": "Textile Center",
+        "opening_hours": "Tu-We 10:00-16:00; Th 10:00-19:00; Fr-Sa 10:00-16:00",
+        "operator:type": "private_nonprofit",
+        "phone": "+1-612-436-0464",
+        "website": "https://textilecentermn.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6386661108,
+      "lat": 44.9471334,
+      "lon": -93.0967302,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "17",
+        "addr:postcode": "55102",
+        "addr:state": "MN",
+        "addr:street": "West 7th Place",
+        "amenity": "theatre",
+        "check_date": "2024-04-13",
+        "name": "Palace Theatre",
+        "website": "https://first-avenue.com/venue/palace-theatre/",
+        "wikidata": "Q30600856",
+        "wikipedia": "en:Palace Theatre (St. Paul)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6463431203,
+      "lat": 44.949378,
+      "lon": -93.1231063,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "270",
+        "addr:postcode": "55102",
+        "addr:street": "Kent Street",
+        "amenity": "theatre",
+        "name": "Penumbra Theatre",
+        "phone": "+1-651-224-3180",
+        "website": "https://penumbratheatre.org/",
+        "wikidata": "Q7165353",
+        "wikipedia": "en:Penumbra Theatre Company"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6781878128,
+      "lat": 44.9751576,
+      "lon": -93.2275652,
+      "tags": {
+        "level": "0",
+        "name": "Heritage Gallery",
+        "tourism": "museum",
+        "website": "https://mac-events.org/about/heritagegallery.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7152738744,
+      "lat": 44.9616836,
+      "lon": -93.1927666,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "2242",
+        "addr:postcode": "55114",
+        "addr:state": "MN",
+        "addr:street": "University Avenue West",
+        "name": "Dow Art Gallery and Picture Framing",
+        "opening_hours": "Mo-Fr 10:00-17:30; Sa 11:00-16:00",
+        "phone": "+1-612-607-9203",
+        "tourism": "gallery",
+        "website": "https://www.dowartgallery.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7176539521,
+      "lat": 44.9572236,
+      "lon": -93.1909209,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "550",
+        "addr:postcode": "55114",
+        "addr:state": "MN",
+        "addr:street": "Vandalia Street",
+        "addr:unit": "#177",
+        "amenity": "theatre",
+        "check_date": "2025-09-12",
+        "description": "Free Parking is available in the huge lot on Wabash Avenue near the water tower. Enter via the double doors in the Annex building next to the brewery.",
+        "name": "Gremlin Theatre",
+        "website": "https://gremlintheatre.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7182279854,
+      "lat": 44.9877276,
+      "lon": -93.2299944,
+      "tags": {
+        "addr:street": "Southeast Como Avenue",
+        "tourism": "gallery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7192306902,
+      "lat": 44.9608348,
+      "lon": -93.185557,
+      "tags": {
+        "addr:city": "55114",
+        "addr:housenumber": "668",
+        "addr:state": "MN",
+        "addr:street": "Transfer Road",
+        "addr:unit": "#8",
+        "fee": "yes",
+        "museum": "model railroad",
+        "name": "Twin City Model Railroad Museum",
+        "opening_hours": "Mo 10:00-15:00; Fr 10:00-15:00; Sa 10:00-17:00, 18:00-21:00; Su 12:00-17:00",
+        "phone": "+1-651-647-9628",
+        "tourism": "museum",
+        "website": "https://www.tcmrm.org/",
+        "wikidata": "Q22073678",
+        "wikipedia": "en:Twin City Model Railroad Museum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7196019063,
+      "lat": 44.96439,
+      "lon": -93.1828466,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "755",
+        "addr:postcode": "55104",
+        "addr:state": "MN",
+        "addr:street": "North Prior Avenue",
+        "addr:unit": "#107",
+        "amenity": "theatre",
+        "name": "Theater Mu",
+        "phone": "+1-651-789-1012",
+        "website": "https://www.theatermu.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7196417954,
+      "lat": 44.9619208,
+      "lon": -93.18013,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "1860",
+        "addr:postcode": "55104",
+        "addr:state": "MN",
+        "addr:street": "Minnehaha Avenue",
+        "amenity": "arts_centre",
+        "name": "Interact Cener for the Visual and Performing Arts",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "phone": "+1-651-209-3575",
+        "website": "https://interactcenter.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7196417960,
+      "lat": 44.9609908,
+      "lon": -93.1779308,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "641",
+        "addr:postcode": "55104",
+        "addr:state": "MN",
+        "addr:street": "Fairview Avenue North",
+        "addr:unit": "#191",
+        "amenity": "theatre",
+        "name": "Youth Performance Company",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "phone": "+1-612-623-9080",
+        "website": "https://youthperformanceco.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7236131064,
+      "lat": 44.9599641,
+      "lon": -93.1667206,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "1564",
+        "addr:postcode": "55104",
+        "addr:state": "MN",
+        "addr:street": "Lafond Avenue",
+        "amenity": "arts_centre",
+        "check_date": "2025-06-11",
+        "name": "Mosaic on a Stick",
+        "phone": "+1-651-645-6600",
+        "website": "https://www.mosaiconastick.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8508385218,
+      "lat": 44.9462252,
+      "lon": -93.1672434,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "161",
+        "addr:postcode": "55104",
+        "addr:state": "MN",
+        "addr:street": "Snelling Avenue",
+        "name": "Whimsical Alternative Coalition Political Awareness Consortium",
+        "tourism": "gallery",
+        "website": "https://www.thewacpac.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9679240649,
+      "lat": 44.9438693,
+      "lon": -93.0970943,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:country": "US",
+        "addr:housenumber": "90",
+        "addr:postcode": "55102",
+        "addr:state": "MN",
+        "addr:street": "West 4th Street",
+        "amenity": "library",
+        "ele": "239",
+        "gnis:feature_id": "2478059",
+        "name": "George Latimer Central Library",
+        "name1": "Saint Paul Public Library",
+        "operator:wikidata": "Q7591265",
+        "operator:wikipedia": "en:Saint Paul Public Library",
+        "source": "USGS Geonames",
+        "website": "https://www.sppl.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9687213752,
+      "lat": 44.9499678,
+      "lon": -93.0977918,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "30",
+        "addr:postcode": "55101",
+        "addr:state": "MN",
+        "addr:street": "East 10th Street",
+        "amenity": "theatre",
+        "gnis:feature_id": "2477913",
+        "name": "History Theatre",
+        "old_name": "Arts and Science Center",
+        "opening_hours": "Tu-Fr 12:00-17:00",
+        "wikidata": "Q79956125"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9805338039,
+      "lat": 44.9493146,
+      "lon": -93.0837636,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "308",
+        "addr:postcode": "55101",
+        "addr:state": "MN",
+        "addr:street": "East Prince Street",
+        "addr:unit": "130",
+        "check_date": "2024-06-05",
+        "name": "AZ Gallery",
+        "opening_hours": "Sa-Su 10:00-16:00",
+        "phone": "+16512243757",
+        "tourism": "gallery",
+        "website": "http://theazgallery.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11149067584,
+      "lat": 44.9480991,
+      "lon": -93.2154307,
+      "tags": {
+        "addr:city": "Minneapolis",
+        "addr:housenumber": "3004",
+        "addr:postcode": "55406",
+        "addr:state": "MN",
+        "addr:street": "40th Avenue South",
+        "email": "pinkslipmpls@gmail.com",
+        "name": "Pink Slip Gallery",
+        "phone": "+1-612-616-6948",
+        "tourism": "gallery",
+        "website": "https://www.pinkslipmpls.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11756655232,
+      "lat": 44.9589951,
+      "lon": -93.156996,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "591",
+        "addr:postcode": "55104",
+        "addr:state": "MN",
+        "addr:street": "Hamline Avenue North",
+        "name": "Viewpoint Gallery",
+        "tourism": "gallery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11959212744,
+      "lat": 44.9470268,
+      "lon": -93.0902172,
+      "tags": {
+        "addr:housenumber": "350",
+        "addr:street": "Robert Street North",
+        "check_date": "2024-06-05",
+        "museum": "art",
+        "name": "Minnesota Museum Of American Art",
+        "opening_hours": "Mo-We off; Th-Su 10:00-16:00",
+        "source": "survey",
+        "tourism": "museum",
+        "website": "https://mmaa.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13078410732,
+      "lat": 44.9714815,
+      "lon": -93.2122543,
+      "tags": {
+        "addr:city": "Minneapolis",
+        "addr:housenumber": "2",
+        "addr:postcode": "55414",
+        "addr:state": "MN",
+        "addr:street": "Malcolm Ave SE",
+        "amenity": "arts_centre",
+        "name": "Leonardo's Basement",
+        "website": "https://leonardosbasement.org/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 39662492,
+      "nodes": [
+        475493334,
+        2131057628,
+        2131057582,
+        2131057646,
+        1543715327,
+        2131057594,
+        1543715328,
+        1543715347,
+        1543715345,
+        1546120650,
+        1543715355,
+        1543715357,
+        1543715371,
+        2131057626,
+        1543715369,
+        2131057639,
+        2131057637,
+        2131057631,
+        475493335,
+        2131057592,
+        1543715372,
+        1543715374,
+        1543715368,
+        1543715363,
+        1543715361,
+        1543715364,
+        1543715350,
+        1543715349,
+        2131057591,
+        475493336,
+        2131057677,
+        2131057643,
+        475493337,
+        475493340,
+        1543715339,
+        475493349,
+        1543715342,
+        1543715340,
+        2096865333,
+        475493354,
+        1543715329,
+        2096865335,
+        1543715332,
+        2096865330,
+        475493356,
+        2131057576,
+        2131057668,
+        475493358,
+        475493361,
+        2131057609,
+        2131057675,
+        2131057673,
+        2131057627,
+        475493364,
+        2131057616,
+        1543715325,
+        2131057633,
+        2131057650,
+        2131057597,
+        1543715323,
+        2131057580,
+        2131057642,
+        475493334
+      ],
+      "tags": {
+        "addr:city": "St. Paul",
+        "addr:housenumber": "345",
+        "addr:postcode": "55102",
+        "addr:state": "MN",
+        "addr:street": "West Kellogg Blvd",
+        "building": "yes",
+        "check_date:opening_hours": "2023-05-03",
+        "ele": "257",
+        "fee": "yes",
+        "fee:conditional": "no @ (age < 5)",
+        "gnis:feature_id": "2478007",
+        "museum": "history",
+        "name": "Minnesota History Center",
+        "opening_hours": "We-Sa 10:00-16:00; Th 10:00-20:00; Su 11:00-16:00; Dec 26-29 10:00-16:00; Dec 31 11:00-16:00; PH off",
+        "source": "USGS Geonames",
+        "tourism": "museum",
+        "wheelchair": "yes",
+        "wikidata": "Q6868300"
+      }
+    },
+    {
+      "type": "way",
+      "id": 41424572,
+      "nodes": [
+        506656578,
+        506656579,
+        1779494522,
+        1779494520,
+        506656583,
+        1779494515,
+        1779494498,
+        506656587,
+        1779494495,
+        1779494491,
+        506656590,
+        506656592,
+        1474297631,
+        506656594,
+        1779494487,
+        1779494488,
+        1779494489,
+        1779494493,
+        1779494497,
+        1779494500,
+        1779494513,
+        1779494517,
+        1779494519,
+        1779494521,
+        506656578
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:country": "US",
+        "addr:housenumber": "1984",
+        "addr:postcode": "55108",
+        "addr:state": "MN",
+        "addr:street": "Buford Avenue",
+        "amenity": "library",
+        "building": "yes",
+        "layer": "1",
+        "name": "Magrath Library",
+        "name:etymology:wikidata": "Q5006767",
+        "official_name": "C Peter Magrath Library",
+        "operator": "University of Minnesota",
+        "short_name": "MagrathLib",
+        "source": "UMN Final Data.xlsx 2014-03-07",
+        "start_date": "1951",
+        "umn:BuildingCenterXYLatitude": "44.98407",
+        "umn:BuildingCenterXYLongitude": "-93.183598",
+        "umn:BuildingNumber": "373",
+        "umn:CampusNumber": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43222704,
+      "nodes": [
+        542000087,
+        1896780450,
+        1896780447,
+        1896780442,
+        1896780440,
+        1896780422,
+        1896780424,
+        1896780393,
+        1896780395,
+        542000088,
+        542000089,
+        542000090,
+        542000091,
+        542000092,
+        1896780360,
+        1896780362,
+        542000093,
+        542000094,
+        1896780454,
+        542000095,
+        542000096,
+        542000097,
+        542000087
+      ],
+      "tags": {
+        "addr:city": "Roseville",
+        "addr:housenumber": "2180",
+        "addr:postcode": "55113",
+        "addr:state": "MN",
+        "addr:street": "Hamline Avenue North",
+        "amenity": "library",
+        "building": "commercial",
+        "check_date": "2024-01-04",
+        "name": "Ramsey County Library Roseville",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr-Sa 10:00-17:00; Su 12:00-17:00",
+        "operator": "Ramsey County Libraries",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43385779,
+      "nodes": [
+        546517199,
+        546517200,
+        3399103366,
+        3399103370,
+        3399103368,
+        3399103371,
+        3399103372,
+        546517201,
+        546517202,
+        3399103375,
+        3399103374,
+        3399103376,
+        3399103373,
+        13201126459,
+        546517203,
+        13201126460,
+        546517204,
+        2564975057,
+        2564975061,
+        3399103369,
+        546517205,
+        546517206,
+        3399103367,
+        3399103364,
+        3399103365,
+        3399103363,
+        3399103362,
+        546517207,
+        546517208,
+        546517209,
+        546517210,
+        546517211,
+        13201126457,
+        3399103361,
+        546517212,
+        3399103359,
+        3399103360,
+        3399103358,
+        3399103357,
+        546517213,
+        3399103356,
+        13201126458,
+        546517214,
+        546517215,
+        3399103355,
+        546517216,
+        546517217,
+        3399103354,
+        546517218,
+        3399103351,
+        3399103352,
+        3399103350,
+        546517219,
+        546517220,
+        546517221,
+        546517222,
+        546517223,
+        546517224,
+        3399103353,
+        546517225,
+        546517226,
+        546517227,
+        546517228,
+        546517230,
+        546517199
+      ],
+      "tags": {
+        "addr:state": "MN",
+        "amenity": "arts_centre",
+        "building": "yes",
+        "ele": "240",
+        "gnis:feature_id": "2478022",
+        "name": "Ordway Center for Performing Arts",
+        "source": "USGS Geonames",
+        "website": "https://ordway.org/",
+        "wikidata": "Q7100951",
+        "wikipedia": "en:Ordway Center for the Performing Arts"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43386059,
+      "nodes": [
+        546517375,
+        546517376,
+        546517378,
+        546517379,
+        546517384,
+        546517391,
+        546517396,
+        546517402,
+        546517411,
+        546517421,
+        1690333766,
+        1690333770,
+        1690333771,
+        1690333768,
+        546517424,
+        546517428,
+        546517431,
+        546517433,
+        546517434,
+        546517435,
+        546517436,
+        546517439,
+        546517443,
+        546517448,
+        546517375
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "75",
+        "addr:postcode": "55102",
+        "addr:state": "MN",
+        "addr:street": "West 5th Street",
+        "amenity": "arts_centre",
+        "building": "yes",
+        "check_date": "2024-03-31",
+        "ele": "241",
+        "gnis:feature_id": "2477969",
+        "name": "Landmark Center",
+        "source": "USGS Geonames",
+        "website": "https://www.landmarkcenter.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q6484761",
+        "wikipedia": "en:Landmark Center (St. Paul)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43401939,
+      "nodes": [
+        546886696,
+        546886704,
+        546886713,
+        546886718,
+        546886723,
+        1690354453,
+        546886731,
+        546886778,
+        1690354454,
+        1153054050,
+        546886793,
+        546886806,
+        546886812,
+        1690354433,
+        546886814,
+        546886696
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "10",
+        "addr:postcode": "55102",
+        "addr:state": "MN",
+        "addr:street": "7th Street West",
+        "building": "yes",
+        "fee": "yes",
+        "name": "Minnesota Children's Museum",
+        "tourism": "museum",
+        "website": "https://mcm.org/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 44336056,
+      "nodes": [
+        5998235245,
+        563365156,
+        5998235242,
+        5998235241,
+        5998235235,
+        5998235229,
+        563365163,
+        5998235224,
+        5998235222,
+        1881786672,
+        1881786695,
+        1881786697,
+        1881786673,
+        1881786675,
+        1881786691,
+        1881786693,
+        1881786677,
+        563365165,
+        5998235194,
+        5998235191,
+        5998235188,
+        5998235185,
+        5998234882,
+        5998234879,
+        5998234878,
+        5998234876,
+        563365149,
+        5998234872,
+        5998234870,
+        5998234868,
+        5998234866,
+        5998234863,
+        5998235245
+      ],
+      "tags": {
+        "addr:housenumber": "1831",
+        "addr:street": "Marshall Avenue",
+        "air_conditioning": "yes",
+        "amenity": "library",
+        "building": "public",
+        "building:colour": "brown",
+        "building:levels": "1",
+        "building:material": "brick",
+        "internet_access": "wlan",
+        "name": "Merriam Park Library",
+        "opening_hours": "Mo-Th 10:00-20:00; Fr,Sa 10:00-17:30; Su 13:00-17:00",
+        "phone": "+16516420385",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "website": "https://sppl.org/locations/me/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 45055904,
+      "nodes": [
+        5998413012,
+        5998412998,
+        571342108,
+        1400035313,
+        1400035347,
+        1400035306,
+        1400035372,
+        1400035304,
+        1400035387,
+        1400035348,
+        1400035295,
+        1400035403,
+        1400035328,
+        1400035367,
+        5998413023,
+        5998413022,
+        1400035263,
+        5998413021,
+        5998413020,
+        1400035384,
+        1400035343,
+        571342112,
+        571342110,
+        1400035330,
+        1400035352,
+        1400035341,
+        1400035206,
+        1400035319,
+        1400035318,
+        1400035332,
+        1400035222,
+        5998413019,
+        1400035312,
+        5998413018,
+        1400035378,
+        1400035217,
+        571342109,
+        1400035360,
+        5998413017,
+        1400035327,
+        5998413016,
+        5998413015,
+        5998413014,
+        5998413013,
+        1400035345,
+        1400035393,
+        5998413012
+      ],
+      "tags": {
+        "amenity": "library",
+        "building": "university",
+        "internet_access": "yes",
+        "name": "Dewitt Wallace LIbrary",
+        "operator": "Macalester College",
+        "wheelchair": "yes",
+        "wikidata": "Q14692807",
+        "wikipedia": "en:Macalester College Observatory"
+      }
+    },
+    {
+      "type": "way",
+      "id": 48665499,
+      "nodes": [
+        617923536,
+        1697177010,
+        1697177020,
+        1697177031,
+        1697176997,
+        1697176999,
+        1697176995,
+        1697176979,
+        617923534,
+        1697176975,
+        1697176972,
+        1697176969,
+        1697176961,
+        1697176953,
+        1697176948,
+        617923533,
+        1697176945,
+        1697176950,
+        1697176951,
+        1697176959,
+        1697176967,
+        1697176970,
+        617923532,
+        1697177001,
+        1697176955,
+        1697176957,
+        617923529,
+        617923528,
+        617923536
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "2245",
+        "addr:postcode": "55108",
+        "addr:state": "MN",
+        "addr:street": "Como Avenue",
+        "amenity": "library",
+        "building": "yes",
+        "ele": "291",
+        "email": "saintanthonypark@ci.stpaul.mn.us",
+        "gnis:feature_id": "2478042",
+        "internet_access": "wlan",
+        "name": "Saint Anthony Park Library",
+        "opening_hours": "Mo, We 12:00-20:00; Tu, Th 10:00-20:00; Fr-Sa 10:00-17:30",
+        "operator": "Saint Paul Public Library",
+        "phone": "+1 651 642 0411",
+        "source": "USGS Geonames",
+        "website": "https://sppl.org/locations/sa/",
+        "wikidata": "Q7587100",
+        "wikipedia": "en:St. Anthony Park Branch Library"
+      }
+    },
+    {
+      "type": "way",
+      "id": 54581755,
+      "nodes": [
+        687155009,
+        687154728,
+        687154632,
+        1765366273,
+        1765366272,
+        687154668,
+        687154927,
+        687154621,
+        1765366270,
+        687154807,
+        687154895,
+        1765366269,
+        1765366268,
+        687154714,
+        1765366267,
+        1765366266,
+        687154653,
+        687154891,
+        687154970,
+        687154772,
+        1765366262,
+        687154850,
+        1765366261,
+        1765366260,
+        687154697,
+        1765366259,
+        687154750,
+        2458502207,
+        687154677,
+        1765366263,
+        2097453441,
+        687154940,
+        687154627,
+        687154829,
+        687154906,
+        687154720,
+        1231458464,
+        1231458507,
+        687154662,
+        687154725,
+        687154681,
+        687154991,
+        687155009
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "120",
+        "addr:postcode": "55102",
+        "addr:state": "MN",
+        "addr:street": "West Kellogg Boulevard",
+        "building": "yes",
+        "check_date:opening_hours": "2023-05-03",
+        "ele": "220",
+        "fee": "yes",
+        "fee:conditional": "no @ (age < 4)",
+        "gnis:feature_id": "2478061",
+        "layer": "1",
+        "name": "Science Museum of Minnesota",
+        "opening_hours": "Mo-Su 10:00-17:00; Fr,Sa 10:00-20:00",
+        "source": "USGS Geonames",
+        "tourism": "museum",
+        "website": "https://new.smm.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q3777245",
+        "wikipedia": "en:Science Museum of Minnesota"
+      }
+    },
+    {
+      "type": "way",
+      "id": 60783642,
+      "nodes": [
+        729433215,
+        729433167,
+        729433208,
+        729433162,
+        760760938,
+        729433215
+      ],
+      "tags": {
+        "amenity": "library",
+        "building": "yes",
+        "name": "Learning Commons"
+      }
+    },
+    {
+      "type": "way",
+      "id": 60783643,
+      "nodes": [
+        729433256,
+        729433208,
+        729433167,
+        729433125,
+        729433077,
+        729433033,
+        9461636959,
+        729433256
+      ],
+      "tags": {
+        "amenity": "library",
+        "building": "yes",
+        "name": "St. Kate's Library"
+      }
+    },
+    {
+      "type": "way",
+      "id": 60783644,
+      "nodes": [
+        729432959,
+        760760915,
+        729432911,
+        729432871,
+        9461603985,
+        9461603984,
+        729433279,
+        729433230,
+        729433183,
+        729433138,
+        729433094,
+        729433049,
+        729433200,
+        9461756650,
+        729433155,
+        9461756651,
+        729433112,
+        729433065,
+        729433020,
+        729432975,
+        729432927,
+        729432884,
+        729433103,
+        729433056,
+        729433011,
+        760760926,
+        729432919,
+        729432959
+      ],
+      "tags": {
+        "amenity": "theatre",
+        "building": "yes",
+        "name": "The O'Shaughnessy"
+      }
+    },
+    {
+      "type": "way",
+      "id": 60783647,
+      "nodes": [
+        729433239,
+        729433192,
+        729433147,
+        729432903,
+        9461603983,
+        729433239
+      ],
+      "tags": {
+        "amenity": "theatre",
+        "building": "yes",
+        "name": "Frey Theater"
+      }
+    },
+    {
+      "type": "way",
+      "id": 60783652,
+      "nodes": [
+        760760941,
+        760760908,
+        729433076,
+        9461727502,
+        729433204,
+        760760941
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Catherine G. Murphy Gallery",
+        "tourism": "gallery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 70079148,
+      "nodes": [
+        837119139,
+        837119086,
+        837119181,
+        837118777,
+        837119311,
+        837118823,
+        837119259,
+        837118888,
+        1732294324,
+        1732294306,
+        1732294284,
+        1732294334,
+        837119139
+      ],
+      "tags": {
+        "addr:city": "St Paul",
+        "addr:housenumber": "2115",
+        "addr:postcode": "55105",
+        "addr:state": "MN",
+        "addr:street": "Summit Avenue",
+        "amenity": "library",
+        "building": "university",
+        "name": "OSF Library"
+      }
+    },
+    {
+      "type": "way",
+      "id": 70079166,
+      "nodes": [
+        837119397,
+        837119173,
+        837118910,
+        837119345,
+        837119273,
+        837119188,
+        837118855,
+        837118894,
+        837119436,
+        837119397
+      ],
+      "tags": {
+        "amenity": "library",
+        "building": "university",
+        "name": "Archbishop Ireland Memorial Library"
+      }
+    },
+    {
+      "type": "way",
+      "id": 85585148,
+      "nodes": [
+        992817315,
+        992817340,
+        992817360,
+        992817382,
+        992817411,
+        992817439,
+        992817461,
+        992817486,
+        992817491,
+        992817496,
+        992817500,
+        1690333633,
+        1690333632,
+        1690333631,
+        1690333630,
+        992817506,
+        13201126436,
+        992817510,
+        992817515,
+        992817519,
+        1504513650,
+        992817533,
+        992817315
+      ],
+      "tags": {
+        "amenity": "theatre",
+        "building": "yes",
+        "name": "Roy Wilkins Auditorium",
+        "name:etymology:wikidata": "Q2738344",
+        "wikidata": "Q7373495",
+        "wikipedia": "en:Roy Wilkins Auditorium"
+      }
+    },
+    {
+      "type": "way",
+      "id": 85857312,
+      "nodes": [
+        996564359,
+        996564342,
+        996564339,
+        996564335,
+        996564340,
+        996564338,
+        996564333,
+        996564362,
+        996564336,
+        996564313,
+        996564360,
+        996564358,
+        996595377,
+        996564359
+      ],
+      "tags": {
+        "amenity": "theatre",
+        "area": "yes",
+        "name": "Sparky Ampitheater",
+        "theatre:type": "open_air"
+      }
+    },
+    {
+      "type": "way",
+      "id": 92433706,
+      "nodes": [
+        1073085578,
+        1073085579,
+        2097453378,
+        2097453379,
+        2097453383,
+        2097453381,
+        1073085590,
+        1073085594,
+        1073085598,
+        1073085602,
+        2097453375,
+        2097453369,
+        2097453357,
+        2097453358,
+        1073085578
+      ],
+      "tags": {
+        "addr:housenumber": "265",
+        "addr:postcode": "55102",
+        "addr:street": "Exchange Street South",
+        "building": "yes",
+        "name": "Alexander Ramsey House",
+        "operator": "Minnesota Historical Society",
+        "phone": "+1 651 296 8760",
+        "tourism": "museum",
+        "website": "https://www.mnhs.org/ramseyhouse",
+        "wikidata": "Q4719914"
+      }
+    },
+    {
+      "type": "way",
+      "id": 94058638,
+      "nodes": [
+        1093415697,
+        8685845296,
+        2128028554,
+        8685845295,
+        2128028551,
+        1093415752,
+        2128028531,
+        1093415722,
+        2128028534,
+        8685845298,
+        8685845297,
+        2128028541,
+        1093415746,
+        1093415662,
+        1093415697
+      ],
+      "tags": {
+        "addr:city": "Minneapolis",
+        "addr:housenumber": "5100",
+        "addr:postcode": "55417",
+        "addr:street": "34th Avenue South",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Nokomis Library",
+        "opening_hours": "Tu,We,Fr,Sa 09:00-17:00; Th 12:00-20:00",
+        "operator": "Hennepin County Library",
+        "operator:short": "HCL",
+        "operator:type": "public",
+        "operator:wikidata": "Q530512",
+        "phone": "+1 612-543-6800",
+        "start_date": "1969",
+        "website": "https://www.hclib.org/AgenciesAction.cfm?agency=Nk"
+      }
+    },
+    {
+      "type": "way",
+      "id": 95605574,
+      "nodes": [
+        1108599574,
+        1108599556,
+        1108599608,
+        1108599619,
+        1108599577,
+        1108599575,
+        1108599617,
+        1108599637,
+        1108599531,
+        1108599538,
+        1108599541,
+        1108599539,
+        1108599628,
+        1108599612,
+        1108599553,
+        1108599624,
+        1108599554,
+        1108599562,
+        1108599629,
+        1108599559,
+        1108599574
+      ],
+      "tags": {
+        "amenity": "library",
+        "building": "yes",
+        "name": "Bush Memorial Library"
+      }
+    },
+    {
+      "type": "way",
+      "id": 97193853,
+      "nodes": [
+        1125918148,
+        3361923359,
+        1125918145,
+        1125918143,
+        1125918144,
+        1125918146,
+        1125918147,
+        1125918148
+      ],
+      "tags": {
+        "addr:city": "St Paul",
+        "addr:housenumber": "461",
+        "addr:postcode": "55103",
+        "addr:state": "MN",
+        "addr:street": "N Dale Street",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Rondo Community Outreach Library",
+        "operator": "Saint Paul Public Library",
+        "website": "https://sppl.org/locations/rd/",
+        "wikidata": "Q69859334"
+      }
+    },
+    {
+      "type": "way",
+      "id": 101470446,
+      "nodes": [
+        1171632643,
+        1171632645,
+        1171632640,
+        1171632657,
+        1171632659,
+        1171632639,
+        1171632650,
+        1171632654,
+        1171632643
+      ],
+      "tags": {
+        "addr:city": "Minneapolis",
+        "addr:housename": "4901",
+        "addr:street": "South Minnehaha Park Drive",
+        "building": "yes",
+        "name": "John H. Stevens House Museum",
+        "operator": "Minneapolis Park and Recreeation Board",
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 101470447,
+      "nodes": [
+        1171632651,
+        1171632653,
+        1171632652,
+        1171632648,
+        1171632641,
+        1171632644,
+        1847413605,
+        1847413599,
+        1171632642,
+        1171632646,
+        1171632651
+      ],
+      "tags": {
+        "addr:housenumber": "4900",
+        "addr:street": "South Minnehaha Park Drive",
+        "alt_name": "Princess Depot",
+        "building": "yes",
+        "name": "Minnehaha Depot",
+        "operator": "Minnesota Transportation Museum",
+        "owner": "Minnesota Historical Society",
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 136154013,
+      "nodes": [
+        1494012717,
+        1494012718,
+        1494012735,
+        1494012736,
+        3799743010,
+        3799743011,
+        3799743013,
+        3799743012,
+        1494012774,
+        1494012773,
+        1494012733,
+        1494012734,
+        1494012717
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:country": "US",
+        "addr:housenumber": "793",
+        "addr:postcode": "55102",
+        "addr:state": "MN",
+        "addr:street": "Armstrong Avenue",
+        "amenity": "theatre",
+        "building": "yes",
+        "email": "contactarthousenorth@gmail.com",
+        "name": "Art House North",
+        "note": "former church converted to theatre venue",
+        "source": "image",
+        "website": "https://www.arthousenorth.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 141905575,
+      "nodes": [
+        546890858,
+        1553265118,
+        1553265121,
+        1553265124,
+        1553265128,
+        1553265131,
+        1553265132,
+        9687225276,
+        1553265155,
+        1553265153,
+        1553265159,
+        9687225290,
+        1553265133,
+        546890858
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "10",
+        "addr:postcode": "55101",
+        "addr:state": "MN",
+        "addr:street": "East Exchange Street",
+        "amenity": "theatre",
+        "building": "yes",
+        "name": "Fitzgerald Theater",
+        "website": "https://fitzgeraldtheater.publicradio.org/",
+        "wikidata": "Q5455616"
+      }
+    },
+    {
+      "type": "way",
+      "id": 143516839,
+      "nodes": [
+        1073564538,
+        1570451331,
+        1570451329,
+        1570451336,
+        1570451338,
+        1570451284,
+        1570451333,
+        1570451292,
+        1570451291,
+        1570451334,
+        1570451298,
+        1570451320,
+        1570451339,
+        1570451300,
+        1570451283,
+        1570451311,
+        1570451299,
+        1570451323,
+        1570451317,
+        1570451337,
+        1570451301,
+        1570451344,
+        1570451315,
+        1570451312,
+        1570451289,
+        1570451335,
+        1570451316,
+        1570451340,
+        1570451322,
+        1570451286,
+        1570451310,
+        1570451313,
+        1570451326,
+        1570451330,
+        1570451288,
+        1570451303,
+        1570451342,
+        1570451314,
+        1570451318,
+        1073564538
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:city": "West St Paul",
+        "addr:country": "US",
+        "addr:housenumber": "199",
+        "addr:postcode": "55118",
+        "addr:state": "MN",
+        "addr:street": "Wentworth Avenue East",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Wentworth Library",
+        "operator": "Dakota County"
+      }
+    },
+    {
+      "type": "way",
+      "id": 146154936,
+      "nodes": [
+        1594216101,
+        1594216123,
+        1594216083,
+        1594216069,
+        1594216140,
+        1594216101
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Longfellow House",
+        "tourism": "museum",
+        "wikidata": "Q6673788"
+      }
+    },
+    {
+      "type": "way",
+      "id": 156800090,
+      "nodes": [
+        1690354387,
+        1690354396,
+        1690354428,
+        1690354426,
+        1690354402,
+        1690354391,
+        1690354387
+      ],
+      "tags": {
+        "amenity": "theatre",
+        "building": "yes",
+        "name": "Palace Theatre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173393113,
+      "nodes": [
+        1842178948,
+        1842178954,
+        1842178966,
+        1842178983,
+        1842178965,
+        1842178981,
+        1842178959,
+        1842178961,
+        1842178955,
+        1842178953,
+        1842178946,
+        1842178944,
+        1842178936,
+        1842178921,
+        1842178930,
+        1842178923,
+        1842178929,
+        1842178924,
+        1842178916,
+        1842178912,
+        1842178907,
+        1842178911,
+        1842178906,
+        1842178915,
+        1842178910,
+        1842178948
+      ],
+      "tags": {
+        "addr:housenumber": "700",
+        "addr:street": "7th Street East",
+        "amenity": "library",
+        "building": "yes",
+        "check_date": "2024-11-09",
+        "name": "Metropolitan State University Library/ Dayton's Bluff Saint Paul Public Library",
+        "opening_hours": "Mo,We 12:00-20:00; Tu,Th 10:00-20:00; Fr-Sa 10:00-17:30"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173393115,
+      "nodes": [
+        1842178985,
+        1842178991,
+        1842178980,
+        1842178968,
+        1842178985
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "677",
+        "addr:postcode": "55106",
+        "addr:state": "MN",
+        "addr:street": "East 7th Street",
+        "amenity": "arts_centre",
+        "building": "yes",
+        "name": "Fine Arts Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 179069959,
+      "nodes": [
+        1894091223,
+        1894091225,
+        1894091222,
+        1894091219,
+        1894091223
+      ],
+      "tags": {
+        "amenity": "theatre",
+        "name:signed": "no",
+        "shelter_type": "roof",
+        "theatre:type": "amphi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 199924520,
+      "nodes": [
+        2099144768,
+        2099144767,
+        2099144770,
+        2099144772,
+        2099144783,
+        2099144784,
+        2099144794,
+        2099144791,
+        2099144795,
+        2099144796,
+        2099144781,
+        2099144782,
+        2099144778,
+        2099144777,
+        2099144769,
+        2099144771,
+        2099144765,
+        2099144766,
+        2099144763,
+        2100753414,
+        2100753411,
+        2099144764,
+        2100753418,
+        2100753417,
+        2099144768
+      ],
+      "tags": {
+        "amenity": "library",
+        "building": "yes",
+        "name": "Rice Street Branch Public Library",
+        "opening_hours": "Mo 12:00-20:00;Tu 10:00-17:30;We 12:00-20:00;Th-Fr 10:00-17:30;Sa 11:30-17:00;Su 13:00-17:00",
+        "operator": "Saint Paul Public Library",
+        "website": "https://www.sppl.org/about/locations/rice-street",
+        "wikidata": "Q69859303"
+      }
+    },
+    {
+      "type": "way",
+      "id": 230055185,
+      "nodes": [
+        2385801528,
+        2385801524,
+        2385801527,
+        2385801529,
+        2385801521,
+        2385801528
+      ],
+      "tags": {
+        "amenity": "theatre",
+        "name": "Minnesota Centennial Showboat",
+        "operator": "University of Minnesota",
+        "phone": "+1 612 625 6699",
+        "website": "https://theatre.umn.edu/showboat/",
+        "wikidata": "Q17108530"
+      }
+    },
+    {
+      "type": "way",
+      "id": 241063623,
+      "nodes": [
+        2487509754,
+        2487509647,
+        2487509648,
+        2487509756,
+        2487509752,
+        2487509765,
+        2487509763,
+        2487509758,
+        2487509754
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "1",
+        "addr:postcode": "55107",
+        "addr:state": "MN",
+        "addr:street": "East George Street",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Riverview Library",
+        "operator": "St Paul Public Library",
+        "toilets": "yes",
+        "toilets:access": "permissive"
+      }
+    },
+    {
+      "type": "way",
+      "id": 248773802,
+      "nodes": [
+        2555137678,
+        2555137679,
+        2555137676,
+        1554891639,
+        1554891638,
+        1554891629,
+        9088550472,
+        2555137672,
+        9088550506,
+        9088550505,
+        2555137669,
+        2555137667,
+        2555137666,
+        2555137668,
+        2555137670,
+        2555137671,
+        2555137674,
+        2555137677,
+        1800157176,
+        1800157172,
+        1800157171,
+        1800157182,
+        2555137683,
+        2555137682,
+        2555137681,
+        2555137680,
+        2555137678
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "193",
+        "addr:postcode": "55130",
+        "addr:state": "MN",
+        "addr:street": "Pennsylvania Avenue",
+        "check_date:opening_hours": "2023-05-03",
+        "ele": "258",
+        "fee": "yes",
+        "gnis:feature_id": "2478011",
+        "name": "Minnesota Transportation Museum",
+        "opening_hours": "We 10:00-16:00; Sa 10:00-16:00",
+        "source": "USGS Geonames",
+        "tourism": "museum",
+        "website": "https://transportationmuseum.org/",
+        "wikidata": "Q6868587"
+      }
+    },
+    {
+      "type": "way",
+      "id": 319445600,
+      "nodes": [
+        3258596410,
+        3258596415,
+        3258596412,
+        3258596408,
+        3258596423,
+        3258596411,
+        3258596407,
+        3258596418,
+        3258596410
+      ],
+      "tags": {
+        "addr:housenumber": "1105",
+        "addr:street": "Greenbrier Street",
+        "amenity": "library",
+        "building": "yes",
+        "check_date": "2024-04-30",
+        "name": "East Side Freedom Library",
+        "opening_hours": "Tu-Th 10:00-15:00",
+        "website": "https://eastsidefreedomlibrary.org/",
+        "wikidata": "Q96376898",
+        "wikipedia": "en:East Side Freedom Library"
+      }
+    },
+    {
+      "type": "way",
+      "id": 323168055,
+      "nodes": [
+        3299621005,
+        3299621004,
+        3299621003,
+        3299621006,
+        3299621009,
+        3299621014,
+        3299621019,
+        3299621021,
+        3299621023,
+        3299621026,
+        3299621029,
+        3299621031,
+        3299621033,
+        3299621036,
+        3299621034,
+        3299621039,
+        3299621044,
+        3299621046,
+        3299621040,
+        3299621035,
+        3299621032,
+        3299621030,
+        3299621028,
+        3299621005
+      ],
+      "tags": {
+        "amenity": "theatre",
+        "theatre:type": "amphi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410678391,
+      "nodes": [
+        4124763200,
+        4124763199,
+        4124763161,
+        4124763162,
+        4124763168,
+        4124763167,
+        4124763191,
+        4124763190,
+        4124763200
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "66",
+        "addr:postcode": "55105",
+        "addr:state": "MN",
+        "addr:street": "Saint Albans Street",
+        "building": "yes",
+        "name": "Julian H Sleeper House",
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 580258639,
+      "nodes": [
+        5555279264,
+        5555279265,
+        5555279266,
+        5555279267,
+        5555279268,
+        5555279269,
+        5555279270,
+        5555279271,
+        5555279272,
+        5555279273,
+        5555279274,
+        5555279275,
+        5555279276,
+        5555279277,
+        5555279278,
+        5555279279,
+        5555279264
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "2088",
+        "addr:postcode": "55113",
+        "addr:state": "MN",
+        "addr:street": "Larpenteur Avenue West",
+        "building": "yes",
+        "name": "Bell Museum",
+        "opening_hours": "We-Su 10:00-16:00",
+        "phone": "+1 612 626 9660",
+        "short_name": "BELLMUSE",
+        "tourism": "museum",
+        "umn:BuildingNumber": "489",
+        "umn:CampusNumber": "2",
+        "website": "https://www.bellmuseum.umn.edu/",
+        "wikidata": "Q4883219"
+      }
+    },
+    {
+      "type": "way",
+      "id": 598978877,
+      "nodes": [
+        1185493777,
+        5699970311,
+        5699970307,
+        5699970301,
+        6719094806,
+        5699971021,
+        1185493763,
+        1185493679,
+        1185493829,
+        1185493817,
+        1185493563,
+        1185493777
+      ],
+      "tags": {
+        "amenity": "theatre",
+        "building": "yes",
+        "name": "Huss Center for the Performing Arts",
+        "operator": "St. Paul Academy and Summit School",
+        "website": "https://www.spa.edu/page.cfm?p=670"
+      }
+    },
+    {
+      "type": "way",
+      "id": 654074379,
+      "nodes": [
+        6129432128,
+        6129432129,
+        6129432132,
+        13171224876,
+        6129432128
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "1029",
+        "addr:postcode": "55106",
+        "addr:state": "MN",
+        "addr:street": "Hudson Road",
+        "amenity": "theatre",
+        "building": "yes",
+        "name": "Mounds Theatre",
+        "wikidata": "Q42817114"
+      }
+    },
+    {
+      "type": "way",
+      "id": 770783587,
+      "nodes": [
+        2685161370,
+        7194569623,
+        2685161366,
+        2685161359,
+        2685161357,
+        8050661857,
+        2685161358,
+        7194569620,
+        7194569621,
+        2685161368,
+        2685161369,
+        2685161371,
+        2685161370
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "836",
+        "addr:postcode": "55114",
+        "addr:state": "MN",
+        "addr:street": "North Prior Avenue",
+        "amenity": "theatre",
+        "building": "yes",
+        "name": "Celtic Junction Arts Center",
+        "opening_hours": "Mo-Th 16:00-21:30; Fr-Sa 19:00-22:30",
+        "phone": "+1-612-703-2147",
+        "website": "https://celticjunction.org/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 995434479,
+      "nodes": [
+        9191921562,
+        9191921561,
+        9191921560,
+        9191921563,
+        9191921564,
+        9191921562
+      ],
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "977",
+        "addr:postcode": "55130",
+        "addr:state": "MN",
+        "addr:street": "Payne Avenue",
+        "amenity": "arts_centre",
+        "building": "yes",
+        "name": "East Side Arts Council"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1093415662,
+      "lat": 44.9103772,
+      "lon": -93.2234526
+    },
+    {
+      "type": "node",
+      "id": 1093415697,
+      "lat": 44.9105673,
+      "lon": -93.2234537
+    },
+    {
+      "type": "node",
+      "id": 1093415722,
+      "lat": 44.9107087,
+      "lon": -93.223
+    },
+    {
+      "type": "node",
+      "id": 1093415746,
+      "lat": 44.9103772,
+      "lon": -93.2230416
+    },
+    {
+      "type": "node",
+      "id": 1093415752,
+      "lat": 44.9107101,
+      "lon": -93.2234875
+    },
+    {
+      "type": "node",
+      "id": 2128028531,
+      "lat": 44.9107315,
+      "lon": -93.2232454
+    },
+    {
+      "type": "node",
+      "id": 2128028534,
+      "lat": 44.910636,
+      "lon": -93.222998
+    },
+    {
+      "type": "node",
+      "id": 2128028541,
+      "lat": 44.9105648,
+      "lon": -93.2230403
+    },
+    {
+      "type": "node",
+      "id": 2128028551,
+      "lat": 44.9106403,
+      "lon": -93.2234902
+    },
+    {
+      "type": "node",
+      "id": 2128028554,
+      "lat": 44.9106085,
+      "lon": -93.2234386
+    },
+    {
+      "type": "node",
+      "id": 8685845295,
+      "lat": 44.9106166,
+      "lon": -93.2234325
+    },
+    {
+      "type": "node",
+      "id": 8685845296,
+      "lat": 44.9105705,
+      "lon": -93.2234392
+    },
+    {
+      "type": "node",
+      "id": 8685845297,
+      "lat": 44.910571,
+      "lon": -93.223051
+    },
+    {
+      "type": "node",
+      "id": 8685845298,
+      "lat": 44.9106166,
+      "lon": -93.223049
+    },
+    {
+      "type": "node",
+      "id": 1171632639,
+      "lat": 44.9138505,
+      "lon": -93.2097781
+    },
+    {
+      "type": "node",
+      "id": 1171632640,
+      "lat": 44.9138947,
+      "lon": -93.2097282
+    },
+    {
+      "type": "node",
+      "id": 1171632641,
+      "lat": 44.9141094,
+      "lon": -93.2112049
+    },
+    {
+      "type": "node",
+      "id": 1171632642,
+      "lat": 44.9141739,
+      "lon": -93.2114141
+    },
+    {
+      "type": "node",
+      "id": 1171632643,
+      "lat": 44.9139777,
+      "lon": -93.2097727
+    },
+    {
+      "type": "node",
+      "id": 1171632644,
+      "lat": 44.9140704,
+      "lon": -93.2112705
+    },
+    {
+      "type": "node",
+      "id": 1171632645,
+      "lat": 44.9139683,
+      "lon": -93.2097071
+    },
+    {
+      "type": "node",
+      "id": 1171632646,
+      "lat": 44.9141841,
+      "lon": -93.2113969
+    },
+    {
+      "type": "node",
+      "id": 1171632648,
+      "lat": 44.914151,
+      "lon": -93.2112542
+    },
+    {
+      "type": "node",
+      "id": 1171632650,
+      "lat": 44.9138806,
+      "lon": -93.2097695
+    },
+    {
+      "type": "node",
+      "id": 1171632651,
+      "lat": 44.9142247,
+      "lon": -93.2114451
+    },
+    {
+      "type": "node",
+      "id": 1171632652,
+      "lat": 44.9141621,
+      "lon": -93.2112355
+    },
+    {
+      "type": "node",
+      "id": 1171632653,
+      "lat": 44.9142719,
+      "lon": -93.2113659
+    },
+    {
+      "type": "node",
+      "id": 1171632654,
+      "lat": 44.9138849,
+      "lon": -93.2097993
+    },
+    {
+      "type": "node",
+      "id": 1171632657,
+      "lat": 44.91389,
+      "lon": -93.2096958
+    },
+    {
+      "type": "node",
+      "id": 1171632659,
+      "lat": 44.9138407,
+      "lon": -93.2097099
+    },
+    {
+      "type": "node",
+      "id": 1847413599,
+      "lat": 44.9141143,
+      "lon": -93.2113434
+    },
+    {
+      "type": "node",
+      "id": 1847413605,
+      "lat": 44.9141216,
+      "lon": -93.2113312
+    },
+    {
+      "type": "node",
+      "id": 1594216069,
+      "lat": 44.9159398,
+      "lon": -93.2136841
+    },
+    {
+      "type": "node",
+      "id": 1594216083,
+      "lat": 44.9158916,
+      "lon": -93.2137731
+    },
+    {
+      "type": "node",
+      "id": 1594216101,
+      "lat": 44.9160726,
+      "lon": -93.2138295
+    },
+    {
+      "type": "node",
+      "id": 1594216123,
+      "lat": 44.9160251,
+      "lon": -93.2139172
+    },
+    {
+      "type": "node",
+      "id": 1594216140,
+      "lat": 44.9160003,
+      "lon": -93.2137504
+    },
+    {
+      "type": "node",
+      "id": 837118855,
+      "lat": 44.9395598,
+      "lon": -93.1966438
+    },
+    {
+      "type": "node",
+      "id": 837118894,
+      "lat": 44.939666,
+      "lon": -93.1966438
+    },
+    {
+      "type": "node",
+      "id": 837118910,
+      "lat": 44.9395135,
+      "lon": -93.1962952
+    },
+    {
+      "type": "node",
+      "id": 837119173,
+      "lat": 44.9397963,
+      "lon": -93.1962952
+    },
+    {
+      "type": "node",
+      "id": 837119188,
+      "lat": 44.9395598,
+      "lon": -93.1965079
+    },
+    {
+      "type": "node",
+      "id": 837119273,
+      "lat": 44.9395598,
+      "lon": -93.196455
+    },
+    {
+      "type": "node",
+      "id": 837119345,
+      "lat": 44.9395135,
+      "lon": -93.196455
+    },
+    {
+      "type": "node",
+      "id": 837119397,
+      "lat": 44.9397963,
+      "lon": -93.196455
+    },
+    {
+      "type": "node",
+      "id": 837119436,
+      "lat": 44.939666,
+      "lon": -93.196455
+    },
+    {
+      "type": "node",
+      "id": 729432871,
+      "lat": 44.9260772,
+      "lon": -93.1815224
+    },
+    {
+      "type": "node",
+      "id": 729432884,
+      "lat": 44.9257172,
+      "lon": -93.1819497
+    },
+    {
+      "type": "node",
+      "id": 729432903,
+      "lat": 44.9262086,
+      "lon": -93.1817323
+    },
+    {
+      "type": "node",
+      "id": 729432911,
+      "lat": 44.9260762,
+      "lon": -93.1814759
+    },
+    {
+      "type": "node",
+      "id": 729432919,
+      "lat": 44.925759,
+      "lon": -93.1817518
+    },
+    {
+      "type": "node",
+      "id": 729432927,
+      "lat": 44.9257032,
+      "lon": -93.1819899
+    },
+    {
+      "type": "node",
+      "id": 729432959,
+      "lat": 44.9257592,
+      "lon": -93.1814985
+    },
+    {
+      "type": "node",
+      "id": 729432975,
+      "lat": 44.925712,
+      "lon": -93.1820056
+    },
+    {
+      "type": "node",
+      "id": 729433011,
+      "lat": 44.925783,
+      "lon": -93.181805
+    },
+    {
+      "type": "node",
+      "id": 729433020,
+      "lat": 44.9256771,
+      "lon": -93.1820974
+    },
+    {
+      "type": "node",
+      "id": 729433033,
+      "lat": 44.9240809,
+      "lon": -93.183857
+    },
+    {
+      "type": "node",
+      "id": 729433049,
+      "lat": 44.9261382,
+      "lon": -93.1819883
+    },
+    {
+      "type": "node",
+      "id": 729433056,
+      "lat": 44.9257751,
+      "lon": -93.1818051
+    },
+    {
+      "type": "node",
+      "id": 729433065,
+      "lat": 44.9258132,
+      "lon": -93.1822008
+    },
+    {
+      "type": "node",
+      "id": 729433076,
+      "lat": 44.9266029,
+      "lon": -93.1828287
+    },
+    {
+      "type": "node",
+      "id": 729433077,
+      "lat": 44.924081,
+      "lon": -93.18432
+    },
+    {
+      "type": "node",
+      "id": 729433094,
+      "lat": 44.9261247,
+      "lon": -93.1819474
+    },
+    {
+      "type": "node",
+      "id": 729433103,
+      "lat": 44.9257311,
+      "lon": -93.1819498
+    },
+    {
+      "type": "node",
+      "id": 729433112,
+      "lat": 44.9260271,
+      "lon": -93.1822023
+    },
+    {
+      "type": "node",
+      "id": 729433125,
+      "lat": 44.9246562,
+      "lon": -93.1843198
+    },
+    {
+      "type": "node",
+      "id": 729433138,
+      "lat": 44.9261136,
+      "lon": -93.1819466
+    },
+    {
+      "type": "node",
+      "id": 729433147,
+      "lat": 44.9264849,
+      "lon": -93.1817311
+    },
+    {
+      "type": "node",
+      "id": 729433155,
+      "lat": 44.9261608,
+      "lon": -93.1820953
+    },
+    {
+      "type": "node",
+      "id": 729433162,
+      "lat": 44.924698,
+      "lon": -93.1838667
+    },
+    {
+      "type": "node",
+      "id": 729433167,
+      "lat": 44.9246562,
+      "lon": -93.1842331
+    },
+    {
+      "type": "node",
+      "id": 729433183,
+      "lat": 44.9260674,
+      "lon": -93.1817979
+    },
+    {
+      "type": "node",
+      "id": 729433192,
+      "lat": 44.9264843,
+      "lon": -93.1814961
+    },
+    {
+      "type": "node",
+      "id": 729433200,
+      "lat": 44.9261323,
+      "lon": -93.1820009
+    },
+    {
+      "type": "node",
+      "id": 729433204,
+      "lat": 44.9268312,
+      "lon": -93.1828267
+    },
+    {
+      "type": "node",
+      "id": 729433208,
+      "lat": 44.9246561,
+      "lon": -93.1838667
+    },
+    {
+      "type": "node",
+      "id": 729433215,
+      "lat": 44.9247766,
+      "lon": -93.1842332
+    },
+    {
+      "type": "node",
+      "id": 729433230,
+      "lat": 44.926061,
+      "lon": -93.181798
+    },
+    {
+      "type": "node",
+      "id": 729433239,
+      "lat": 44.9262081,
+      "lon": -93.1814974
+    },
+    {
+      "type": "node",
+      "id": 729433256,
+      "lat": 44.9246561,
+      "lon": -93.1838569
+    },
+    {
+      "type": "node",
+      "id": 729433279,
+      "lat": 44.926061,
+      "lon": -93.1817756
+    },
+    {
+      "type": "node",
+      "id": 760760908,
+      "lat": 44.9266046,
+      "lon": -93.1830898
+    },
+    {
+      "type": "node",
+      "id": 760760915,
+      "lat": 44.9257583,
+      "lon": -93.1814815
+    },
+    {
+      "type": "node",
+      "id": 760760926,
+      "lat": 44.9257825,
+      "lon": -93.1817514
+    },
+    {
+      "type": "node",
+      "id": 760760938,
+      "lat": 44.9247767,
+      "lon": -93.1838667
+    },
+    {
+      "type": "node",
+      "id": 760760941,
+      "lat": 44.9268319,
+      "lon": -93.1830877
+    },
+    {
+      "type": "node",
+      "id": 9461603983,
+      "lat": 44.9262081,
+      "lon": -93.181535
+    },
+    {
+      "type": "node",
+      "id": 9461603984,
+      "lat": 44.9260597,
+      "lon": -93.1815947
+    },
+    {
+      "type": "node",
+      "id": 9461603985,
+      "lat": 44.9260778,
+      "lon": -93.1815944
+    },
+    {
+      "type": "node",
+      "id": 9461636959,
+      "lat": 44.9244579,
+      "lon": -93.1838569
+    },
+    {
+      "type": "node",
+      "id": 9461727502,
+      "lat": 44.9266874,
+      "lon": -93.182828
+    },
+    {
+      "type": "node",
+      "id": 9461756650,
+      "lat": 44.9261425,
+      "lon": -93.1820345
+    },
+    {
+      "type": "node",
+      "id": 9461756651,
+      "lat": 44.9261419,
+      "lon": -93.1821104
+    },
+    {
+      "type": "node",
+      "id": 1185493563,
+      "lat": 44.926505,
+      "lon": -93.1737988
+    },
+    {
+      "type": "node",
+      "id": 1185493679,
+      "lat": 44.9262502,
+      "lon": -93.1736253
+    },
+    {
+      "type": "node",
+      "id": 1185493763,
+      "lat": 44.9261887,
+      "lon": -93.1736253
+    },
+    {
+      "type": "node",
+      "id": 1185493777,
+      "lat": 44.9267619,
+      "lon": -93.173799
+    },
+    {
+      "type": "node",
+      "id": 1185493817,
+      "lat": 44.926505,
+      "lon": -93.1737485
+    },
+    {
+      "type": "node",
+      "id": 1185493829,
+      "lat": 44.9262502,
+      "lon": -93.1737483
+    },
+    {
+      "type": "node",
+      "id": 5699970301,
+      "lat": 44.9266151,
+      "lon": -93.1743302
+    },
+    {
+      "type": "node",
+      "id": 5699970307,
+      "lat": 44.9266151,
+      "lon": -93.1744804
+    },
+    {
+      "type": "node",
+      "id": 5699970311,
+      "lat": 44.9267575,
+      "lon": -93.1744831
+    },
+    {
+      "type": "node",
+      "id": 5699971021,
+      "lat": 44.9261916,
+      "lon": -93.1743248
+    },
+    {
+      "type": "node",
+      "id": 6719094806,
+      "lat": 44.9262069,
+      "lon": -93.1743265
+    },
+    {
+      "type": "node",
+      "id": 837118777,
+      "lat": 44.9423611,
+      "lon": -93.1880702
+    },
+    {
+      "type": "node",
+      "id": 837118823,
+      "lat": 44.9424615,
+      "lon": -93.1883715
+    },
+    {
+      "type": "node",
+      "id": 837118888,
+      "lat": 44.9424217,
+      "lon": -93.1884848
+    },
+    {
+      "type": "node",
+      "id": 837119086,
+      "lat": 44.9428634,
+      "lon": -93.1879375
+    },
+    {
+      "type": "node",
+      "id": 837119139,
+      "lat": 44.9428603,
+      "lon": -93.1884897
+    },
+    {
+      "type": "node",
+      "id": 837119181,
+      "lat": 44.9423619,
+      "lon": -93.1879319
+    },
+    {
+      "type": "node",
+      "id": 837119259,
+      "lat": 44.9424223,
+      "lon": -93.1883711
+    },
+    {
+      "type": "node",
+      "id": 837119311,
+      "lat": 44.9424632,
+      "lon": -93.1880713
+    },
+    {
+      "type": "node",
+      "id": 1732294284,
+      "lat": 44.9426065,
+      "lon": -93.1885757
+    },
+    {
+      "type": "node",
+      "id": 1732294306,
+      "lat": 44.9424566,
+      "lon": -93.1885813
+    },
+    {
+      "type": "node",
+      "id": 1732294324,
+      "lat": 44.9424534,
+      "lon": -93.1884852
+    },
+    {
+      "type": "node",
+      "id": 1732294334,
+      "lat": 44.9426129,
+      "lon": -93.1884869
+    },
+    {
+      "type": "node",
+      "id": 571342108,
+      "lat": 44.9386635,
+      "lon": -93.16834
+    },
+    {
+      "type": "node",
+      "id": 571342109,
+      "lat": 44.9383315,
+      "lon": -93.1683513
+    },
+    {
+      "type": "node",
+      "id": 571342110,
+      "lat": 44.9383024,
+      "lon": -93.1679219
+    },
+    {
+      "type": "node",
+      "id": 571342112,
+      "lat": 44.9386624,
+      "lon": -93.1679189
+    },
+    {
+      "type": "node",
+      "id": 1400035206,
+      "lat": 44.9382913,
+      "lon": -93.1682334
+    },
+    {
+      "type": "node",
+      "id": 1400035217,
+      "lat": 44.9383169,
+      "lon": -93.1683488
+    },
+    {
+      "type": "node",
+      "id": 1400035222,
+      "lat": 44.9382993,
+      "lon": -93.1682925
+    },
+    {
+      "type": "node",
+      "id": 1400035263,
+      "lat": 44.9387024,
+      "lon": -93.167934
+    },
+    {
+      "type": "node",
+      "id": 1400035295,
+      "lat": 44.9387256,
+      "lon": -93.1680495
+    },
+    {
+      "type": "node",
+      "id": 1400035304,
+      "lat": 44.938726,
+      "lon": -93.1681398
+    },
+    {
+      "type": "node",
+      "id": 1400035306,
+      "lat": 44.9386989,
+      "lon": -93.1682761
+    },
+    {
+      "type": "node",
+      "id": 1400035312,
+      "lat": 44.9382968,
+      "lon": -93.1683188
+    },
+    {
+      "type": "node",
+      "id": 1400035313,
+      "lat": 44.9386635,
+      "lon": -93.1683234
+    },
+    {
+      "type": "node",
+      "id": 1400035318,
+      "lat": 44.9383142,
+      "lon": -93.1682702
+    },
+    {
+      "type": "node",
+      "id": 1400035319,
+      "lat": 44.9382908,
+      "lon": -93.1682707
+    },
+    {
+      "type": "node",
+      "id": 1400035327,
+      "lat": 44.9383508,
+      "lon": -93.1683633
+    },
+    {
+      "type": "node",
+      "id": 1400035328,
+      "lat": 44.9387049,
+      "lon": -93.1680089
+    },
+    {
+      "type": "node",
+      "id": 1400035330,
+      "lat": 44.9383034,
+      "lon": -93.1681375
+    },
+    {
+      "type": "node",
+      "id": 1400035332,
+      "lat": 44.9383009,
+      "lon": -93.1682857
+    },
+    {
+      "type": "node",
+      "id": 1400035341,
+      "lat": 44.9382637,
+      "lon": -93.1682336
+    },
+    {
+      "type": "node",
+      "id": 1400035343,
+      "lat": 44.9386625,
+      "lon": -93.1679444
+    },
+    {
+      "type": "node",
+      "id": 1400035345,
+      "lat": 44.9384781,
+      "lon": -93.1683665
+    },
+    {
+      "type": "node",
+      "id": 1400035347,
+      "lat": 44.9386991,
+      "lon": -93.1683231
+    },
+    {
+      "type": "node",
+      "id": 1400035348,
+      "lat": 44.9387537,
+      "lon": -93.1680493
+    },
+    {
+      "type": "node",
+      "id": 1400035352,
+      "lat": 44.9382633,
+      "lon": -93.1681378
+    },
+    {
+      "type": "node",
+      "id": 1400035360,
+      "lat": 44.9383437,
+      "lon": -93.1683453
+    },
+    {
+      "type": "node",
+      "id": 1400035367,
+      "lat": 44.9387173,
+      "lon": -93.1679797
+    },
+    {
+      "type": "node",
+      "id": 1400035372,
+      "lat": 44.9387265,
+      "lon": -93.1682758
+    },
+    {
+      "type": "node",
+      "id": 1400035378,
+      "lat": 44.9383087,
+      "lon": -93.1683417
+    },
+    {
+      "type": "node",
+      "id": 1400035384,
+      "lat": 44.9386759,
+      "lon": -93.1679329
+    },
+    {
+      "type": "node",
+      "id": 1400035387,
+      "lat": 44.9387541,
+      "lon": -93.1681396
+    },
+    {
+      "type": "node",
+      "id": 1400035393,
+      "lat": 44.938478,
+      "lon": -93.16834
+    },
+    {
+      "type": "node",
+      "id": 1400035403,
+      "lat": 44.9387254,
+      "lon": -93.1680072
+    },
+    {
+      "type": "node",
+      "id": 5998412998,
+      "lat": 44.9385963,
+      "lon": -93.16834
+    },
+    {
+      "type": "node",
+      "id": 5998413012,
+      "lat": 44.9385432,
+      "lon": -93.16834
+    },
+    {
+      "type": "node",
+      "id": 5998413013,
+      "lat": 44.9384488,
+      "lon": -93.1683667
+    },
+    {
+      "type": "node",
+      "id": 5998413014,
+      "lat": 44.938449,
+      "lon": -93.1683995
+    },
+    {
+      "type": "node",
+      "id": 5998413015,
+      "lat": 44.9383797,
+      "lon": -93.1684001
+    },
+    {
+      "type": "node",
+      "id": 5998413016,
+      "lat": 44.9383796,
+      "lon": -93.168363
+    },
+    {
+      "type": "node",
+      "id": 5998413017,
+      "lat": 44.9383507,
+      "lon": -93.1683389
+    },
+    {
+      "type": "node",
+      "id": 5998413018,
+      "lat": 44.9383003,
+      "lon": -93.1683305
+    },
+    {
+      "type": "node",
+      "id": 5998413019,
+      "lat": 44.9382969,
+      "lon": -93.1683068
+    },
+    {
+      "type": "node",
+      "id": 5998413020,
+      "lat": 44.9386861,
+      "lon": -93.1679284
+    },
+    {
+      "type": "node",
+      "id": 5998413021,
+      "lat": 44.9386934,
+      "lon": -93.1679293
+    },
+    {
+      "type": "node",
+      "id": 5998413022,
+      "lat": 44.9387091,
+      "lon": -93.1679424
+    },
+    {
+      "type": "node",
+      "id": 5998413023,
+      "lat": 44.938716,
+      "lon": -93.1679544
+    },
+    {
+      "type": "node",
+      "id": 1494012717,
+      "lat": 44.925171,
+      "lon": -93.1333708
+    },
+    {
+      "type": "node",
+      "id": 1494012718,
+      "lat": 44.9251714,
+      "lon": -93.1334608
+    },
+    {
+      "type": "node",
+      "id": 1494012733,
+      "lat": 44.9251618,
+      "lon": -93.1333017
+    },
+    {
+      "type": "node",
+      "id": 1494012734,
+      "lat": 44.9251621,
+      "lon": -93.1333709
+    },
+    {
+      "type": "node",
+      "id": 1494012735,
+      "lat": 44.9252056,
+      "lon": -93.1334605
+    },
+    {
+      "type": "node",
+      "id": 1494012736,
+      "lat": 44.9252058,
+      "lon": -93.1335
+    },
+    {
+      "type": "node",
+      "id": 1494012773,
+      "lat": 44.9253097,
+      "lon": -93.1333004
+    },
+    {
+      "type": "node",
+      "id": 1494012774,
+      "lat": 44.9253106,
+      "lon": -93.1334974
+    },
+    {
+      "type": "node",
+      "id": 3799743010,
+      "lat": 44.925226,
+      "lon": -93.1334998
+    },
+    {
+      "type": "node",
+      "id": 3799743011,
+      "lat": 44.9252262,
+      "lon": -93.1335349
+    },
+    {
+      "type": "node",
+      "id": 3799743012,
+      "lat": 44.9252854,
+      "lon": -93.1334977
+    },
+    {
+      "type": "node",
+      "id": 3799743013,
+      "lat": 44.9252855,
+      "lon": -93.1335344
+    },
+    {
+      "type": "node",
+      "id": 4124763161,
+      "lat": 44.9392538,
+      "lon": -93.1286284
+    },
+    {
+      "type": "node",
+      "id": 4124763162,
+      "lat": 44.939254,
+      "lon": -93.128479
+    },
+    {
+      "type": "node",
+      "id": 4124763167,
+      "lat": 44.9392805,
+      "lon": -93.128436
+    },
+    {
+      "type": "node",
+      "id": 4124763168,
+      "lat": 44.9392805,
+      "lon": -93.128479
+    },
+    {
+      "type": "node",
+      "id": 4124763190,
+      "lat": 44.9393345,
+      "lon": -93.1285051
+    },
+    {
+      "type": "node",
+      "id": 4124763191,
+      "lat": 44.9393346,
+      "lon": -93.1284362
+    },
+    {
+      "type": "node",
+      "id": 4124763199,
+      "lat": 44.9393511,
+      "lon": -93.1286287
+    },
+    {
+      "type": "node",
+      "id": 4124763200,
+      "lat": 44.9393513,
+      "lon": -93.1285052
+    },
+    {
+      "type": "node",
+      "id": 563365149,
+      "lat": 44.9489113,
+      "lon": -93.1777406
+    },
+    {
+      "type": "node",
+      "id": 563365156,
+      "lat": 44.9488933,
+      "lon": -93.1773476
+    },
+    {
+      "type": "node",
+      "id": 563365163,
+      "lat": 44.9486015,
+      "lon": -93.1773464
+    },
+    {
+      "type": "node",
+      "id": 563365165,
+      "lat": 44.9486243,
+      "lon": -93.1777358
+    },
+    {
+      "type": "node",
+      "id": 1881786672,
+      "lat": 44.9486042,
+      "lon": -93.1774703
+    },
+    {
+      "type": "node",
+      "id": 1881786673,
+      "lat": 44.9486134,
+      "lon": -93.1775015
+    },
+    {
+      "type": "node",
+      "id": 1881786675,
+      "lat": 44.948613,
+      "lon": -93.1775672
+    },
+    {
+      "type": "node",
+      "id": 1881786677,
+      "lat": 44.9486252,
+      "lon": -93.1775997
+    },
+    {
+      "type": "node",
+      "id": 1881786691,
+      "lat": 44.948636,
+      "lon": -93.1775675
+    },
+    {
+      "type": "node",
+      "id": 1881786693,
+      "lat": 44.9486358,
+      "lon": -93.1775998
+    },
+    {
+      "type": "node",
+      "id": 1881786695,
+      "lat": 44.9486348,
+      "lon": -93.1774707
+    },
+    {
+      "type": "node",
+      "id": 1881786697,
+      "lat": 44.9486346,
+      "lon": -93.1775018
+    },
+    {
+      "type": "node",
+      "id": 5998234863,
+      "lat": 44.9489138,
+      "lon": -93.1773374
+    },
+    {
+      "type": "node",
+      "id": 5998234866,
+      "lat": 44.9489136,
+      "lon": -93.1773748
+    },
+    {
+      "type": "node",
+      "id": 5998234868,
+      "lat": 44.9489097,
+      "lon": -93.1773748
+    },
+    {
+      "type": "node",
+      "id": 5998234870,
+      "lat": 44.9489076,
+      "lon": -93.1777024
+    },
+    {
+      "type": "node",
+      "id": 5998234872,
+      "lat": 44.9489116,
+      "lon": -93.1777024
+    },
+    {
+      "type": "node",
+      "id": 5998234876,
+      "lat": 44.9488757,
+      "lon": -93.1777401
+    },
+    {
+      "type": "node",
+      "id": 5998234878,
+      "lat": 44.9488742,
+      "lon": -93.1778302
+    },
+    {
+      "type": "node",
+      "id": 5998234879,
+      "lat": 44.9488436,
+      "lon": -93.1778307
+    },
+    {
+      "type": "node",
+      "id": 5998234882,
+      "lat": 44.9488433,
+      "lon": -93.1777397
+    },
+    {
+      "type": "node",
+      "id": 5998235185,
+      "lat": 44.9488135,
+      "lon": -93.1777393
+    },
+    {
+      "type": "node",
+      "id": 5998235188,
+      "lat": 44.9488136,
+      "lon": -93.1777323
+    },
+    {
+      "type": "node",
+      "id": 5998235191,
+      "lat": 44.9487553,
+      "lon": -93.1777315
+    },
+    {
+      "type": "node",
+      "id": 5998235194,
+      "lat": 44.9487552,
+      "lon": -93.1777375
+    },
+    {
+      "type": "node",
+      "id": 5998235222,
+      "lat": 44.9486043,
+      "lon": -93.1774634
+    },
+    {
+      "type": "node",
+      "id": 5998235224,
+      "lat": 44.9486008,
+      "lon": -93.1774634
+    },
+    {
+      "type": "node",
+      "id": 5998235229,
+      "lat": 44.9486066,
+      "lon": -93.1773465
+    },
+    {
+      "type": "node",
+      "id": 5998235235,
+      "lat": 44.9486067,
+      "lon": -93.1773388
+    },
+    {
+      "type": "node",
+      "id": 5998235241,
+      "lat": 44.9486695,
+      "lon": -93.1773396
+    },
+    {
+      "type": "node",
+      "id": 5998235242,
+      "lat": 44.9486695,
+      "lon": -93.1773447
+    },
+    {
+      "type": "node",
+      "id": 5998235245,
+      "lat": 44.9488934,
+      "lon": -93.1773372
+    },
+    {
+      "type": "node",
+      "id": 2685161357,
+      "lat": 44.9660668,
+      "lon": -93.1821631
+    },
+    {
+      "type": "node",
+      "id": 2685161358,
+      "lat": 44.966066,
+      "lon": -93.1818637
+    },
+    {
+      "type": "node",
+      "id": 2685161359,
+      "lat": 44.9661757,
+      "lon": -93.1821625
+    },
+    {
+      "type": "node",
+      "id": 2685161366,
+      "lat": 44.9662846,
+      "lon": -93.1821622
+    },
+    {
+      "type": "node",
+      "id": 2685161368,
+      "lat": 44.9663717,
+      "lon": -93.1818587
+    },
+    {
+      "type": "node",
+      "id": 2685161369,
+      "lat": 44.9663717,
+      "lon": -93.1819233
+    },
+    {
+      "type": "node",
+      "id": 2685161370,
+      "lat": 44.9664791,
+      "lon": -93.1820965
+    },
+    {
+      "type": "node",
+      "id": 2685161371,
+      "lat": 44.9664792,
+      "lon": -93.1819233
+    },
+    {
+      "type": "node",
+      "id": 7194569620,
+      "lat": 44.9661749,
+      "lon": -93.1818631
+    },
+    {
+      "type": "node",
+      "id": 7194569621,
+      "lat": 44.9661755,
+      "lon": -93.1818587
+    },
+    {
+      "type": "node",
+      "id": 7194569623,
+      "lat": 44.9662846,
+      "lon": -93.1820964
+    },
+    {
+      "type": "node",
+      "id": 8050661857,
+      "lat": 44.9660664,
+      "lon": -93.182014
+    },
+    {
+      "type": "node",
+      "id": 617923528,
+      "lat": 44.9811203,
+      "lon": -93.1936087
+    },
+    {
+      "type": "node",
+      "id": 617923529,
+      "lat": 44.9809208,
+      "lon": -93.19376
+    },
+    {
+      "type": "node",
+      "id": 617923532,
+      "lat": 44.9808903,
+      "lon": -93.193494
+    },
+    {
+      "type": "node",
+      "id": 617923533,
+      "lat": 44.9808929,
+      "lon": -93.1933589
+    },
+    {
+      "type": "node",
+      "id": 617923534,
+      "lat": 44.9809789,
+      "lon": -93.193395
+    },
+    {
+      "type": "node",
+      "id": 617923536,
+      "lat": 44.9810654,
+      "lon": -93.1934652
+    },
+    {
+      "type": "node",
+      "id": 1697176945,
+      "lat": 44.9808781,
+      "lon": -93.1933786
+    },
+    {
+      "type": "node",
+      "id": 1697176948,
+      "lat": 44.9809115,
+      "lon": -93.1933475
+    },
+    {
+      "type": "node",
+      "id": 1697176950,
+      "lat": 44.980869,
+      "lon": -93.1934043
+    },
+    {
+      "type": "node",
+      "id": 1697176951,
+      "lat": 44.980867,
+      "lon": -93.1934183
+    },
+    {
+      "type": "node",
+      "id": 1697176953,
+      "lat": 44.9809217,
+      "lon": -93.1933454
+    },
+    {
+      "type": "node",
+      "id": 1697176955,
+      "lat": 44.9809289,
+      "lon": -93.1935631
+    },
+    {
+      "type": "node",
+      "id": 1697176957,
+      "lat": 44.9808643,
+      "lon": -93.1936121
+    },
+    {
+      "type": "node",
+      "id": 1697176959,
+      "lat": 44.9808667,
+      "lon": -93.1934327
+    },
+    {
+      "type": "node",
+      "id": 1697176961,
+      "lat": 44.9809419,
+      "lon": -93.1933487
+    },
+    {
+      "type": "node",
+      "id": 1697176967,
+      "lat": 44.9808714,
+      "lon": -93.1934606
+    },
+    {
+      "type": "node",
+      "id": 1697176969,
+      "lat": 44.98096,
+      "lon": -93.1933615
+    },
+    {
+      "type": "node",
+      "id": 1697176970,
+      "lat": 44.9808826,
+      "lon": -93.1934845
+    },
+    {
+      "type": "node",
+      "id": 1697176972,
+      "lat": 44.9809677,
+      "lon": -93.193371
+    },
+    {
+      "type": "node",
+      "id": 1697176975,
+      "lat": 44.980974,
+      "lon": -93.1933823
+    },
+    {
+      "type": "node",
+      "id": 1697176979,
+      "lat": 44.9809821,
+      "lon": -93.1934086
+    },
+    {
+      "type": "node",
+      "id": 1697176995,
+      "lat": 44.9809836,
+      "lon": -93.1934228
+    },
+    {
+      "type": "node",
+      "id": 1697176997,
+      "lat": 44.9810165,
+      "lon": -93.193412
+    },
+    {
+      "type": "node",
+      "id": 1697176999,
+      "lat": 44.9809833,
+      "lon": -93.1934372
+    },
+    {
+      "type": "node",
+      "id": 1697177001,
+      "lat": 44.9809072,
+      "lon": -93.1935063
+    },
+    {
+      "type": "node",
+      "id": 1697177010,
+      "lat": 44.981028,
+      "lon": -93.1934936
+    },
+    {
+      "type": "node",
+      "id": 1697177020,
+      "lat": 44.9810183,
+      "lon": -93.1934681
+    },
+    {
+      "type": "node",
+      "id": 1697177031,
+      "lat": 44.9810335,
+      "lon": -93.1934565
+    },
+    {
+      "type": "node",
+      "id": 506656578,
+      "lat": 44.9842332,
+      "lon": -93.1842393
+    },
+    {
+      "type": "node",
+      "id": 506656579,
+      "lat": 44.9842282,
+      "lon": -93.1833606
+    },
+    {
+      "type": "node",
+      "id": 506656583,
+      "lat": 44.9841657,
+      "lon": -93.1832718
+    },
+    {
+      "type": "node",
+      "id": 506656587,
+      "lat": 44.9841004,
+      "lon": -93.1831859
+    },
+    {
+      "type": "node",
+      "id": 506656590,
+      "lat": 44.9840371,
+      "lon": -93.1830062
+    },
+    {
+      "type": "node",
+      "id": 506656592,
+      "lat": 44.9839405,
+      "lon": -93.1830074
+    },
+    {
+      "type": "node",
+      "id": 506656594,
+      "lat": 44.9839456,
+      "lon": -93.1838934
+    },
+    {
+      "type": "node",
+      "id": 1474297631,
+      "lat": 44.9839288,
+      "lon": -93.1834911
+    },
+    {
+      "type": "node",
+      "id": 1779494487,
+      "lat": 44.984004,
+      "lon": -93.1838928
+    },
+    {
+      "type": "node",
+      "id": 1779494488,
+      "lat": 44.9840373,
+      "lon": -93.1839381
+    },
+    {
+      "type": "node",
+      "id": 1779494489,
+      "lat": 44.9840377,
+      "lon": -93.1840219
+    },
+    {
+      "type": "node",
+      "id": 1779494491,
+      "lat": 44.9840383,
+      "lon": -93.1831328
+    },
+    {
+      "type": "node",
+      "id": 1779494493,
+      "lat": 44.9840689,
+      "lon": -93.1840216
+    },
+    {
+      "type": "node",
+      "id": 1779494495,
+      "lat": 44.9840766,
+      "lon": -93.1831862
+    },
+    {
+      "type": "node",
+      "id": 1779494497,
+      "lat": 44.9841004,
+      "lon": -93.1840604
+    },
+    {
+      "type": "node",
+      "id": 1779494498,
+      "lat": 44.9841006,
+      "lon": -93.1832206
+    },
+    {
+      "type": "node",
+      "id": 1779494500,
+      "lat": 44.9841007,
+      "lon": -93.18411
+    },
+    {
+      "type": "node",
+      "id": 1779494513,
+      "lat": 44.9841312,
+      "lon": -93.1841096
+    },
+    {
+      "type": "node",
+      "id": 1779494515,
+      "lat": 44.9841377,
+      "lon": -93.1832721
+    },
+    {
+      "type": "node",
+      "id": 1779494517,
+      "lat": 44.9841623,
+      "lon": -93.1841513
+    },
+    {
+      "type": "node",
+      "id": 1779494519,
+      "lat": 44.9841626,
+      "lon": -93.1841956
+    },
+    {
+      "type": "node",
+      "id": 1779494520,
+      "lat": 44.984166,
+      "lon": -93.183317
+    },
+    {
+      "type": "node",
+      "id": 1779494521,
+      "lat": 44.9841938,
+      "lon": -93.1841952
+    },
+    {
+      "type": "node",
+      "id": 1779494522,
+      "lat": 44.9841989,
+      "lon": -93.1833609
+    },
+    {
+      "type": "node",
+      "id": 5555279264,
+      "lat": 44.9910747,
+      "lon": -93.1886372
+    },
+    {
+      "type": "node",
+      "id": 5555279265,
+      "lat": 44.9912906,
+      "lon": -93.1885694
+    },
+    {
+      "type": "node",
+      "id": 5555279266,
+      "lat": 44.9912906,
+      "lon": -93.1882473
+    },
+    {
+      "type": "node",
+      "id": 5555279267,
+      "lat": 44.9914224,
+      "lon": -93.1881794
+    },
+    {
+      "type": "node",
+      "id": 5555279268,
+      "lat": 44.9914264,
+      "lon": -93.187976
+    },
+    {
+      "type": "node",
+      "id": 5555279269,
+      "lat": 44.9914944,
+      "lon": -93.187976
+    },
+    {
+      "type": "node",
+      "id": 5555279270,
+      "lat": 44.9914984,
+      "lon": -93.1876143
+    },
+    {
+      "type": "node",
+      "id": 5555279271,
+      "lat": 44.9914304,
+      "lon": -93.1876087
+    },
+    {
+      "type": "node",
+      "id": 5555279272,
+      "lat": 44.9914304,
+      "lon": -93.1874335
+    },
+    {
+      "type": "node",
+      "id": 5555279273,
+      "lat": 44.9912746,
+      "lon": -93.1874278
+    },
+    {
+      "type": "node",
+      "id": 5555279274,
+      "lat": 44.9912786,
+      "lon": -93.18762
+    },
+    {
+      "type": "node",
+      "id": 5555279275,
+      "lat": 44.9910068,
+      "lon": -93.18762
+    },
+    {
+      "type": "node",
+      "id": 5555279276,
+      "lat": 44.9909988,
+      "lon": -93.1875239
+    },
+    {
+      "type": "node",
+      "id": 5555279277,
+      "lat": 44.990743,
+      "lon": -93.1875239
+    },
+    {
+      "type": "node",
+      "id": 5555279278,
+      "lat": 44.990807,
+      "lon": -93.1879704
+    },
+    {
+      "type": "node",
+      "id": 5555279279,
+      "lat": 44.9909788,
+      "lon": -93.187976
+    },
+    {
+      "type": "node",
+      "id": 1108599531,
+      "lat": 44.9659935,
+      "lon": -93.1648282
+    },
+    {
+      "type": "node",
+      "id": 1108599538,
+      "lat": 44.9659945,
+      "lon": -93.1647075
+    },
+    {
+      "type": "node",
+      "id": 1108599539,
+      "lat": 44.9660562,
+      "lon": -93.164682
+    },
+    {
+      "type": "node",
+      "id": 1108599541,
+      "lat": 44.9660562,
+      "lon": -93.1647088
+    },
+    {
+      "type": "node",
+      "id": 1108599553,
+      "lat": 44.9660619,
+      "lon": -93.1645922
+    },
+    {
+      "type": "node",
+      "id": 1108599554,
+      "lat": 44.9660723,
+      "lon": -93.1646056
+    },
+    {
+      "type": "node",
+      "id": 1108599556,
+      "lat": 44.9664215,
+      "lon": -93.1648282
+    },
+    {
+      "type": "node",
+      "id": 1108599559,
+      "lat": 44.9662721,
+      "lon": -93.1639422
+    },
+    {
+      "type": "node",
+      "id": 1108599562,
+      "lat": 44.9660723,
+      "lon": -93.1641268
+    },
+    {
+      "type": "node",
+      "id": 1108599574,
+      "lat": 44.9664243,
+      "lon": -93.1639431
+    },
+    {
+      "type": "node",
+      "id": 1108599575,
+      "lat": 44.9661662,
+      "lon": -93.1648014
+    },
+    {
+      "type": "node",
+      "id": 1108599577,
+      "lat": 44.9661662,
+      "lon": -93.1646941
+    },
+    {
+      "type": "node",
+      "id": 1108599608,
+      "lat": 44.9662697,
+      "lon": -93.1648282
+    },
+    {
+      "type": "node",
+      "id": 1108599612,
+      "lat": 44.9660372,
+      "lon": -93.1645922
+    },
+    {
+      "type": "node",
+      "id": 1108599617,
+      "lat": 44.966059,
+      "lon": -93.1648014
+    },
+    {
+      "type": "node",
+      "id": 1108599619,
+      "lat": 44.9662697,
+      "lon": -93.1646954
+    },
+    {
+      "type": "node",
+      "id": 1108599624,
+      "lat": 44.9660619,
+      "lon": -93.1646056
+    },
+    {
+      "type": "node",
+      "id": 1108599628,
+      "lat": 44.9660372,
+      "lon": -93.164682
+    },
+    {
+      "type": "node",
+      "id": 1108599629,
+      "lat": 44.9662725,
+      "lon": -93.1641268
+    },
+    {
+      "type": "node",
+      "id": 1108599637,
+      "lat": 44.9660581,
+      "lon": -93.1648295
+    },
+    {
+      "type": "node",
+      "id": 1125918144,
+      "lat": 44.9549325,
+      "lon": -93.1274052
+    },
+    {
+      "type": "node",
+      "id": 1125918146,
+      "lat": 44.9552369,
+      "lon": -93.1274035
+    },
+    {
+      "type": "node",
+      "id": 1125918147,
+      "lat": 44.9552361,
+      "lon": -93.1271053
+    },
+    {
+      "type": "node",
+      "id": 1125918148,
+      "lat": 44.9555679,
+      "lon": -93.1271034
+    },
+    {
+      "type": "node",
+      "id": 3361923359,
+      "lat": 44.9555677,
+      "lon": -93.1270229
+    },
+    {
+      "type": "node",
+      "id": 1125918143,
+      "lat": 44.9549298,
+      "lon": -93.1264937
+    },
+    {
+      "type": "node",
+      "id": 1125918145,
+      "lat": 44.9555662,
+      "lon": -93.12649
+    },
+    {
+      "type": "node",
+      "id": 996564313,
+      "lat": 44.9826479,
+      "lon": -93.1532518
+    },
+    {
+      "type": "node",
+      "id": 996564333,
+      "lat": 44.9826467,
+      "lon": -93.153415
+    },
+    {
+      "type": "node",
+      "id": 996564335,
+      "lat": 44.9827283,
+      "lon": -93.1534942
+    },
+    {
+      "type": "node",
+      "id": 996564336,
+      "lat": 44.9826362,
+      "lon": -93.1533062
+    },
+    {
+      "type": "node",
+      "id": 996564338,
+      "lat": 44.9826735,
+      "lon": -93.1534562
+    },
+    {
+      "type": "node",
+      "id": 996564339,
+      "lat": 44.9827726,
+      "lon": -93.1535007
+    },
+    {
+      "type": "node",
+      "id": 996564340,
+      "lat": 44.9826968,
+      "lon": -93.1534826
+    },
+    {
+      "type": "node",
+      "id": 996564342,
+      "lat": 44.9828135,
+      "lon": -93.1534793
+    },
+    {
+      "type": "node",
+      "id": 996564358,
+      "lat": 44.982882,
+      "lon": -93.1533302
+    },
+    {
+      "type": "node",
+      "id": 996564359,
+      "lat": 44.9828473,
+      "lon": -93.1534397
+    },
+    {
+      "type": "node",
+      "id": 996564360,
+      "lat": 44.9826572,
+      "lon": -93.1532122
+    },
+    {
+      "type": "node",
+      "id": 996564362,
+      "lat": 44.9826362,
+      "lon": -93.1533639
+    },
+    {
+      "type": "node",
+      "id": 996595377,
+      "lat": 44.9828673,
+      "lon": -93.1533869
+    },
+    {
+      "type": "node",
+      "id": 542000087,
+      "lat": 45.0077725,
+      "lon": -93.1561348
+    },
+    {
+      "type": "node",
+      "id": 542000088,
+      "lat": 45.0072146,
+      "lon": -93.1561217
+    },
+    {
+      "type": "node",
+      "id": 542000089,
+      "lat": 45.0072168,
+      "lon": -93.1559144
+    },
+    {
+      "type": "node",
+      "id": 542000090,
+      "lat": 45.0073023,
+      "lon": -93.1559162
+    },
+    {
+      "type": "node",
+      "id": 542000091,
+      "lat": 45.0073033,
+      "lon": -93.1558205
+    },
+    {
+      "type": "node",
+      "id": 542000092,
+      "lat": 45.0072081,
+      "lon": -93.1558184
+    },
+    {
+      "type": "node",
+      "id": 542000093,
+      "lat": 45.0072309,
+      "lon": -93.1553507
+    },
+    {
+      "type": "node",
+      "id": 542000094,
+      "lat": 45.0076165,
+      "lon": -93.1553589
+    },
+    {
+      "type": "node",
+      "id": 542000095,
+      "lat": 45.0077047,
+      "lon": -93.1555055
+    },
+    {
+      "type": "node",
+      "id": 542000096,
+      "lat": 45.0077037,
+      "lon": -93.1555965
+    },
+    {
+      "type": "node",
+      "id": 542000097,
+      "lat": 45.0077782,
+      "lon": -93.1555981
+    },
+    {
+      "type": "node",
+      "id": 1896780360,
+      "lat": 45.0072098,
+      "lon": -93.1556539
+    },
+    {
+      "type": "node",
+      "id": 1896780362,
+      "lat": 45.0072277,
+      "lon": -93.1556543
+    },
+    {
+      "type": "node",
+      "id": 1896780393,
+      "lat": 45.0074326,
+      "lon": -93.1561586
+    },
+    {
+      "type": "node",
+      "id": 1896780395,
+      "lat": 45.007433,
+      "lon": -93.1561263
+    },
+    {
+      "type": "node",
+      "id": 1896780422,
+      "lat": 45.007464,
+      "lon": -93.1562306
+    },
+    {
+      "type": "node",
+      "id": 1896780424,
+      "lat": 45.0074648,
+      "lon": -93.1561593
+    },
+    {
+      "type": "node",
+      "id": 1896780440,
+      "lat": 45.0075204,
+      "lon": -93.1562318
+    },
+    {
+      "type": "node",
+      "id": 1896780442,
+      "lat": 45.0075212,
+      "lon": -93.1561607
+    },
+    {
+      "type": "node",
+      "id": 1896780447,
+      "lat": 45.0075566,
+      "lon": -93.1561614
+    },
+    {
+      "type": "node",
+      "id": 1896780450,
+      "lat": 45.007557,
+      "lon": -93.1561302
+    },
+    {
+      "type": "node",
+      "id": 1896780454,
+      "lat": 45.0076149,
+      "lon": -93.1555036
+    },
+    {
+      "type": "node",
+      "id": 1073564538,
+      "lat": 44.8987521,
+      "lon": -93.0770677
+    },
+    {
+      "type": "node",
+      "id": 1570451283,
+      "lat": 44.8982701,
+      "lon": -93.0768195
+    },
+    {
+      "type": "node",
+      "id": 1570451284,
+      "lat": 44.8986267,
+      "lon": -93.0772244
+    },
+    {
+      "type": "node",
+      "id": 1570451286,
+      "lat": 44.898395,
+      "lon": -93.0760969
+    },
+    {
+      "type": "node",
+      "id": 1570451288,
+      "lat": 44.8986648,
+      "lon": -93.0763201
+    },
+    {
+      "type": "node",
+      "id": 1570451289,
+      "lat": 44.8982857,
+      "lon": -93.0761852
+    },
+    {
+      "type": "node",
+      "id": 1570451291,
+      "lat": 44.8984892,
+      "lon": -93.0768435
+    },
+    {
+      "type": "node",
+      "id": 1570451292,
+      "lat": 44.8985969,
+      "lon": -93.0771908
+    },
+    {
+      "type": "node",
+      "id": 1570451298,
+      "lat": 44.8982952,
+      "lon": -93.0769449
+    },
+    {
+      "type": "node",
+      "id": 1570451299,
+      "lat": 44.8982567,
+      "lon": -93.0766892
+    },
+    {
+      "type": "node",
+      "id": 1570451300,
+      "lat": 44.8982519,
+      "lon": -93.0768651
+    },
+    {
+      "type": "node",
+      "id": 1570451301,
+      "lat": 44.8982719,
+      "lon": -93.0764353
+    },
+    {
+      "type": "node",
+      "id": 1570451303,
+      "lat": 44.8986783,
+      "lon": -93.076379
+    },
+    {
+      "type": "node",
+      "id": 1570451310,
+      "lat": 44.8984457,
+      "lon": -93.0762567
+    },
+    {
+      "type": "node",
+      "id": 1570451311,
+      "lat": 44.8982857,
+      "lon": -93.0767988
+    },
+    {
+      "type": "node",
+      "id": 1570451312,
+      "lat": 44.8983145,
+      "lon": -93.0762831
+    },
+    {
+      "type": "node",
+      "id": 1570451313,
+      "lat": 44.8985235,
+      "lon": -93.0762198
+    },
+    {
+      "type": "node",
+      "id": 1570451314,
+      "lat": 44.898651,
+      "lon": -93.0765157
+    },
+    {
+      "type": "node",
+      "id": 1570451315,
+      "lat": 44.8982792,
+      "lon": -93.0763116
+    },
+    {
+      "type": "node",
+      "id": 1570451316,
+      "lat": 44.8983381,
+      "lon": -93.0761073
+    },
+    {
+      "type": "node",
+      "id": 1570451317,
+      "lat": 44.8982637,
+      "lon": -93.0765606
+    },
+    {
+      "type": "node",
+      "id": 1570451318,
+      "lat": 44.8986,
+      "lon": -93.0765628
+    },
+    {
+      "type": "node",
+      "id": 1570451320,
+      "lat": 44.898276,
+      "lon": -93.0769355
+    },
+    {
+      "type": "node",
+      "id": 1570451322,
+      "lat": 44.898379,
+      "lon": -93.0760765
+    },
+    {
+      "type": "node",
+      "id": 1570451323,
+      "lat": 44.8982936,
+      "lon": -93.0766654
+    },
+    {
+      "type": "node",
+      "id": 1570451326,
+      "lat": 44.8985862,
+      "lon": -93.0762194
+    },
+    {
+      "type": "node",
+      "id": 1570451329,
+      "lat": 44.8986748,
+      "lon": -93.0771571
+    },
+    {
+      "type": "node",
+      "id": 1570451330,
+      "lat": 44.8986361,
+      "lon": -93.0762641
+    },
+    {
+      "type": "node",
+      "id": 1570451331,
+      "lat": 44.898668,
+      "lon": -93.0771094
+    },
+    {
+      "type": "node",
+      "id": 1570451333,
+      "lat": 44.8986091,
+      "lon": -93.0772138
+    },
+    {
+      "type": "node",
+      "id": 1570451334,
+      "lat": 44.8983151,
+      "lon": -93.0769437
+    },
+    {
+      "type": "node",
+      "id": 1570451335,
+      "lat": 44.8983407,
+      "lon": -93.0761424
+    },
+    {
+      "type": "node",
+      "id": 1570451336,
+      "lat": 44.8986653,
+      "lon": -93.077195
+    },
+    {
+      "type": "node",
+      "id": 1570451337,
+      "lat": 44.8983025,
+      "lon": -93.0765354
+    },
+    {
+      "type": "node",
+      "id": 1570451338,
+      "lat": 44.8986491,
+      "lon": -93.0772179
+    },
+    {
+      "type": "node",
+      "id": 1570451339,
+      "lat": 44.8982558,
+      "lon": -93.0769055
+    },
+    {
+      "type": "node",
+      "id": 1570451340,
+      "lat": 44.8983579,
+      "lon": -93.0760774
+    },
+    {
+      "type": "node",
+      "id": 1570451342,
+      "lat": 44.898674,
+      "lon": -93.0764473
+    },
+    {
+      "type": "node",
+      "id": 1570451344,
+      "lat": 44.8983094,
+      "lon": -93.0764112
+    },
+    {
+      "type": "node",
+      "id": 1073085578,
+      "lat": 44.9414262,
+      "lon": -93.1042381
+    },
+    {
+      "type": "node",
+      "id": 1073085579,
+      "lat": 44.9415414,
+      "lon": -93.1040906
+    },
+    {
+      "type": "node",
+      "id": 1073085590,
+      "lat": 44.9416614,
+      "lon": -93.1042792
+    },
+    {
+      "type": "node",
+      "id": 1073085594,
+      "lat": 44.9416467,
+      "lon": -93.104298
+    },
+    {
+      "type": "node",
+      "id": 1073085598,
+      "lat": 44.9416994,
+      "lon": -93.1043802
+    },
+    {
+      "type": "node",
+      "id": 1073085602,
+      "lat": 44.941609,
+      "lon": -93.1044959
+    },
+    {
+      "type": "node",
+      "id": 2097453357,
+      "lat": 44.9414333,
+      "lon": -93.1042776
+    },
+    {
+      "type": "node",
+      "id": 2097453358,
+      "lat": 44.9414433,
+      "lon": -93.1042647
+    },
+    {
+      "type": "node",
+      "id": 2097453369,
+      "lat": 44.9415302,
+      "lon": -93.1044288
+    },
+    {
+      "type": "node",
+      "id": 2097453375,
+      "lat": 44.9415498,
+      "lon": -93.1044036
+    },
+    {
+      "type": "node",
+      "id": 2097453378,
+      "lat": 44.9415982,
+      "lon": -93.1041793
+    },
+    {
+      "type": "node",
+      "id": 2097453379,
+      "lat": 44.9416134,
+      "lon": -93.1041598
+    },
+    {
+      "type": "node",
+      "id": 2097453381,
+      "lat": 44.9416514,
+      "lon": -93.1042636
+    },
+    {
+      "type": "node",
+      "id": 2097453383,
+      "lat": 44.9416671,
+      "lon": -93.1042435
+    },
+    {
+      "type": "node",
+      "id": 2385801521,
+      "lat": 44.9396335,
+      "lon": -93.0962665
+    },
+    {
+      "type": "node",
+      "id": 2385801524,
+      "lat": 44.9398228,
+      "lon": -93.095641
+    },
+    {
+      "type": "node",
+      "id": 2385801527,
+      "lat": 44.939744,
+      "lon": -93.095776
+    },
+    {
+      "type": "node",
+      "id": 2385801528,
+      "lat": 44.9399268,
+      "lon": -93.0957707
+    },
+    {
+      "type": "node",
+      "id": 2385801529,
+      "lat": 44.939526,
+      "lon": -93.0961491
+    },
+    {
+      "type": "node",
+      "id": 546517199,
+      "lat": 44.9444641,
+      "lon": -93.0988798
+    },
+    {
+      "type": "node",
+      "id": 546517200,
+      "lat": 44.9448791,
+      "lon": -93.0988001
+    },
+    {
+      "type": "node",
+      "id": 546517201,
+      "lat": 44.9451319,
+      "lon": -93.0985395
+    },
+    {
+      "type": "node",
+      "id": 546517202,
+      "lat": 44.9451205,
+      "lon": -93.0984052
+    },
+    {
+      "type": "node",
+      "id": 546517203,
+      "lat": 44.9450967,
+      "lon": -93.0977711
+    },
+    {
+      "type": "node",
+      "id": 546517204,
+      "lat": 44.9450695,
+      "lon": -93.0976874
+    },
+    {
+      "type": "node",
+      "id": 546517205,
+      "lat": 44.9449218,
+      "lon": -93.097741
+    },
+    {
+      "type": "node",
+      "id": 546517206,
+      "lat": 44.9449116,
+      "lon": -93.097741
+    },
+    {
+      "type": "node",
+      "id": 546517207,
+      "lat": 44.9448007,
+      "lon": -93.097757
+    },
+    {
+      "type": "node",
+      "id": 546517208,
+      "lat": 44.9448043,
+      "lon": -93.0978015
+    },
+    {
+      "type": "node",
+      "id": 546517209,
+      "lat": 44.9447865,
+      "lon": -93.0978008
+    },
+    {
+      "type": "node",
+      "id": 546517210,
+      "lat": 44.9447845,
+      "lon": -93.0977752
+    },
+    {
+      "type": "node",
+      "id": 546517211,
+      "lat": 44.9447333,
+      "lon": -93.0977873
+    },
+    {
+      "type": "node",
+      "id": 546517212,
+      "lat": 44.9447101,
+      "lon": -93.0977385
+    },
+    {
+      "type": "node",
+      "id": 546517213,
+      "lat": 44.9445451,
+      "lon": -93.0977858
+    },
+    {
+      "type": "node",
+      "id": 546517214,
+      "lat": 44.9445301,
+      "lon": -93.0978323
+    },
+    {
+      "type": "node",
+      "id": 546517215,
+      "lat": 44.9444768,
+      "lon": -93.0978388
+    },
+    {
+      "type": "node",
+      "id": 546517216,
+      "lat": 44.9444661,
+      "lon": -93.0978857
+    },
+    {
+      "type": "node",
+      "id": 546517217,
+      "lat": 44.9444213,
+      "lon": -93.0978936
+    },
+    {
+      "type": "node",
+      "id": 546517218,
+      "lat": 44.9444076,
+      "lon": -93.0979389
+    },
+    {
+      "type": "node",
+      "id": 546517219,
+      "lat": 44.9443446,
+      "lon": -93.0979894
+    },
+    {
+      "type": "node",
+      "id": 546517220,
+      "lat": 44.9443532,
+      "lon": -93.0981013
+    },
+    {
+      "type": "node",
+      "id": 546517221,
+      "lat": 44.9443799,
+      "lon": -93.0981351
+    },
+    {
+      "type": "node",
+      "id": 546517222,
+      "lat": 44.9443786,
+      "lon": -93.0981779
+    },
+    {
+      "type": "node",
+      "id": 546517223,
+      "lat": 44.9443817,
+      "lon": -93.0982293
+    },
+    {
+      "type": "node",
+      "id": 546517224,
+      "lat": 44.9443867,
+      "lon": -93.0982776
+    },
+    {
+      "type": "node",
+      "id": 546517225,
+      "lat": 44.9444028,
+      "lon": -93.0983623
+    },
+    {
+      "type": "node",
+      "id": 546517226,
+      "lat": 44.9444159,
+      "lon": -93.0984041
+    },
+    {
+      "type": "node",
+      "id": 546517227,
+      "lat": 44.9443694,
+      "lon": -93.0984105
+    },
+    {
+      "type": "node",
+      "id": 546517228,
+      "lat": 44.9443741,
+      "lon": -93.0984626
+    },
+    {
+      "type": "node",
+      "id": 546517230,
+      "lat": 44.9444182,
+      "lon": -93.0984566
+    },
+    {
+      "type": "node",
+      "id": 546517375,
+      "lat": 44.945235,
+      "lon": -93.0973566
+    },
+    {
+      "type": "node",
+      "id": 546517376,
+      "lat": 44.9453684,
+      "lon": -93.09736
+    },
+    {
+      "type": "node",
+      "id": 546517378,
+      "lat": 44.9453688,
+      "lon": -93.0973271
+    },
+    {
+      "type": "node",
+      "id": 546517379,
+      "lat": 44.9454683,
+      "lon": -93.0973297
+    },
+    {
+      "type": "node",
+      "id": 546517384,
+      "lat": 44.9454679,
+      "lon": -93.0973642
+    },
+    {
+      "type": "node",
+      "id": 546517391,
+      "lat": 44.9455896,
+      "lon": -93.0973673
+    },
+    {
+      "type": "node",
+      "id": 546517396,
+      "lat": 44.9455902,
+      "lon": -93.0973245
+    },
+    {
+      "type": "node",
+      "id": 546517402,
+      "lat": 44.9457243,
+      "lon": -93.097328
+    },
+    {
+      "type": "node",
+      "id": 546517411,
+      "lat": 44.9457249,
+      "lon": -93.097283
+    },
+    {
+      "type": "node",
+      "id": 546517421,
+      "lat": 44.9459822,
+      "lon": -93.0972896
+    },
+    {
+      "type": "node",
+      "id": 546517424,
+      "lat": 44.9459858,
+      "lon": -93.0969849
+    },
+    {
+      "type": "node",
+      "id": 546517428,
+      "lat": 44.9457282,
+      "lon": -93.0969783
+    },
+    {
+      "type": "node",
+      "id": 546517431,
+      "lat": 44.9457288,
+      "lon": -93.0969379
+    },
+    {
+      "type": "node",
+      "id": 546517433,
+      "lat": 44.9455925,
+      "lon": -93.0969345
+    },
+    {
+      "type": "node",
+      "id": 546517434,
+      "lat": 44.945593,
+      "lon": -93.0968944
+    },
+    {
+      "type": "node",
+      "id": 546517435,
+      "lat": 44.9454699,
+      "lon": -93.0968913
+    },
+    {
+      "type": "node",
+      "id": 546517436,
+      "lat": 44.9454695,
+      "lon": -93.0969262
+    },
+    {
+      "type": "node",
+      "id": 546517439,
+      "lat": 44.9453732,
+      "lon": -93.0969237
+    },
+    {
+      "type": "node",
+      "id": 546517443,
+      "lat": 44.9453736,
+      "lon": -93.0968867
+    },
+    {
+      "type": "node",
+      "id": 546517448,
+      "lat": 44.9452411,
+      "lon": -93.0968833
+    },
+    {
+      "type": "node",
+      "id": 546886696,
+      "lat": 44.9475745,
+      "lon": -93.0976166
+    },
+    {
+      "type": "node",
+      "id": 546886704,
+      "lat": 44.9478094,
+      "lon": -93.0971369
+    },
+    {
+      "type": "node",
+      "id": 546886713,
+      "lat": 44.9477968,
+      "lon": -93.0971262
+    },
+    {
+      "type": "node",
+      "id": 546886718,
+      "lat": 44.9478207,
+      "lon": -93.097094
+    },
+    {
+      "type": "node",
+      "id": 546886723,
+      "lat": 44.9478521,
+      "lon": -93.0970555
+    },
+    {
+      "type": "node",
+      "id": 546886793,
+      "lat": 44.9477219,
+      "lon": -93.0965869
+    },
+    {
+      "type": "node",
+      "id": 546886806,
+      "lat": 44.9474993,
+      "lon": -93.0970441
+    },
+    {
+      "type": "node",
+      "id": 546886812,
+      "lat": 44.9476294,
+      "lon": -93.0971697
+    },
+    {
+      "type": "node",
+      "id": 546886814,
+      "lat": 44.9474689,
+      "lon": -93.0975013
+    },
+    {
+      "type": "node",
+      "id": 687154621,
+      "lat": 44.9428056,
+      "lon": -93.0981515
+    },
+    {
+      "type": "node",
+      "id": 687154627,
+      "lat": 44.9423023,
+      "lon": -93.0994189
+    },
+    {
+      "type": "node",
+      "id": 687154632,
+      "lat": 44.9429608,
+      "lon": -93.098784
+    },
+    {
+      "type": "node",
+      "id": 687154653,
+      "lat": 44.9422303,
+      "lon": -93.0982671
+    },
+    {
+      "type": "node",
+      "id": 687154662,
+      "lat": 44.9428777,
+      "lon": -93.0991493
+    },
+    {
+      "type": "node",
+      "id": 687154668,
+      "lat": 44.942854,
+      "lon": -93.0985946
+    },
+    {
+      "type": "node",
+      "id": 687154677,
+      "lat": 44.9421907,
+      "lon": -93.0993932
+    },
+    {
+      "type": "node",
+      "id": 687154681,
+      "lat": 44.9430297,
+      "lon": -93.099019
+    },
+    {
+      "type": "node",
+      "id": 687154697,
+      "lat": 44.9419966,
+      "lon": -93.0990178
+    },
+    {
+      "type": "node",
+      "id": 687154714,
+      "lat": 44.942357,
+      "lon": -93.0981978
+    },
+    {
+      "type": "node",
+      "id": 687154720,
+      "lat": 44.9425904,
+      "lon": -93.0992052
+    },
+    {
+      "type": "node",
+      "id": 687154725,
+      "lat": 44.9428671,
+      "lon": -93.0990499
+    },
+    {
+      "type": "node",
+      "id": 687154728,
+      "lat": 44.9430131,
+      "lon": -93.0988619
+    },
+    {
+      "type": "node",
+      "id": 687154750,
+      "lat": 44.9420317,
+      "lon": -93.0993022
+    },
+    {
+      "type": "node",
+      "id": 687154772,
+      "lat": 44.9421373,
+      "lon": -93.0983247
+    },
+    {
+      "type": "node",
+      "id": 687154807,
+      "lat": 44.9427427,
+      "lon": -93.098134
+    },
+    {
+      "type": "node",
+      "id": 687154829,
+      "lat": 44.9425154,
+      "lon": -93.0995279
+    },
+    {
+      "type": "node",
+      "id": 687154850,
+      "lat": 44.9420848,
+      "lon": -93.0984558
+    },
+    {
+      "type": "node",
+      "id": 687154891,
+      "lat": 44.9422809,
+      "lon": -93.0983426
+    },
+    {
+      "type": "node",
+      "id": 687154895,
+      "lat": 44.9423733,
+      "lon": -93.0981907
+    },
+    {
+      "type": "node",
+      "id": 687154906,
+      "lat": 44.942624,
+      "lon": -93.0995103
+    },
+    {
+      "type": "node",
+      "id": 687154927,
+      "lat": 44.9428207,
+      "lon": -93.0983103
+    },
+    {
+      "type": "node",
+      "id": 687154940,
+      "lat": 44.9422779,
+      "lon": -93.099514
+    },
+    {
+      "type": "node",
+      "id": 687154970,
+      "lat": 44.9422651,
+      "lon": -93.0984023
+    },
+    {
+      "type": "node",
+      "id": 687154991,
+      "lat": 44.9430243,
+      "lon": -93.0989631
+    },
+    {
+      "type": "node",
+      "id": 687155009,
+      "lat": 44.9430759,
+      "lon": -93.0989468
+    },
+    {
+      "type": "node",
+      "id": 992817315,
+      "lat": 44.9452755,
+      "lon": -93.0997922
+    },
+    {
+      "type": "node",
+      "id": 992817340,
+      "lat": 44.9451836,
+      "lon": -93.0988741
+    },
+    {
+      "type": "node",
+      "id": 992817360,
+      "lat": 44.9451691,
+      "lon": -93.0988741
+    },
+    {
+      "type": "node",
+      "id": 992817382,
+      "lat": 44.9451595,
+      "lon": -93.0987968
+    },
+    {
+      "type": "node",
+      "id": 992817411,
+      "lat": 44.9450918,
+      "lon": -93.0988113
+    },
+    {
+      "type": "node",
+      "id": 992817439,
+      "lat": 44.9450725,
+      "lon": -93.0988306
+    },
+    {
+      "type": "node",
+      "id": 992817461,
+      "lat": 44.945058,
+      "lon": -93.0988644
+    },
+    {
+      "type": "node",
+      "id": 992817486,
+      "lat": 44.9450483,
+      "lon": -93.0988934
+    },
+    {
+      "type": "node",
+      "id": 992817491,
+      "lat": 44.9449327,
+      "lon": -93.0989161
+    },
+    {
+      "type": "node",
+      "id": 992817496,
+      "lat": 44.9449263,
+      "lon": -93.0988445
+    },
+    {
+      "type": "node",
+      "id": 992817500,
+      "lat": 44.9448578,
+      "lon": -93.0988596
+    },
+    {
+      "type": "node",
+      "id": 992817506,
+      "lat": 44.9448186,
+      "lon": -93.0989461
+    },
+    {
+      "type": "node",
+      "id": 992817510,
+      "lat": 44.9444338,
+      "lon": -93.0990175
+    },
+    {
+      "type": "node",
+      "id": 992817515,
+      "lat": 44.9444186,
+      "lon": -93.0988484
+    },
+    {
+      "type": "node",
+      "id": 992817519,
+      "lat": 44.9443554,
+      "lon": -93.0988603
+    },
+    {
+      "type": "node",
+      "id": 992817533,
+      "lat": 44.9447431,
+      "lon": -93.0999093
+    },
+    {
+      "type": "node",
+      "id": 1153054050,
+      "lat": 44.9477518,
+      "lon": -93.0966146
+    },
+    {
+      "type": "node",
+      "id": 1231458464,
+      "lat": 44.9426593,
+      "lon": -93.0991976
+    },
+    {
+      "type": "node",
+      "id": 1231458507,
+      "lat": 44.9426855,
+      "lon": -93.0991898
+    },
+    {
+      "type": "node",
+      "id": 1504513650,
+      "lat": 44.9444664,
+      "lon": -93.0999591
+    },
+    {
+      "type": "node",
+      "id": 1690333630,
+      "lat": 44.9448279,
+      "lon": -93.0989318
+    },
+    {
+      "type": "node",
+      "id": 1690333631,
+      "lat": 44.944833,
+      "lon": -93.0989131
+    },
+    {
+      "type": "node",
+      "id": 1690333632,
+      "lat": 44.9448398,
+      "lon": -93.0988905
+    },
+    {
+      "type": "node",
+      "id": 1690333633,
+      "lat": 44.9448459,
+      "lon": -93.098877
+    },
+    {
+      "type": "node",
+      "id": 1690333766,
+      "lat": 44.9459828,
+      "lon": -93.0972392
+    },
+    {
+      "type": "node",
+      "id": 1690333768,
+      "lat": 44.945985,
+      "lon": -93.0970469
+    },
+    {
+      "type": "node",
+      "id": 1690333770,
+      "lat": 44.9459932,
+      "lon": -93.0972395
+    },
+    {
+      "type": "node",
+      "id": 1690333771,
+      "lat": 44.9459957,
+      "lon": -93.0970472
+    },
+    {
+      "type": "node",
+      "id": 1690354387,
+      "lat": 44.9470188,
+      "lon": -93.0973116
+    },
+    {
+      "type": "node",
+      "id": 1690354391,
+      "lat": 44.9471985,
+      "lon": -93.0974893
+    },
+    {
+      "type": "node",
+      "id": 1690354396,
+      "lat": 44.9472719,
+      "lon": -93.0968006
+    },
+    {
+      "type": "node",
+      "id": 1690354402,
+      "lat": 44.9473464,
+      "lon": -93.0971906
+    },
+    {
+      "type": "node",
+      "id": 1690354426,
+      "lat": 44.9474451,
+      "lon": -93.0969913
+    },
+    {
+      "type": "node",
+      "id": 1690354428,
+      "lat": 44.9474516,
+      "lon": -93.0969782
+    },
+    {
+      "type": "node",
+      "id": 1690354433,
+      "lat": 44.9475166,
+      "lon": -93.0974028
+    },
+    {
+      "type": "node",
+      "id": 1690354453,
+      "lat": 44.9478772,
+      "lon": -93.0970218
+    },
+    {
+      "type": "node",
+      "id": 1765366259,
+      "lat": 44.9420058,
+      "lon": -93.0991687
+    },
+    {
+      "type": "node",
+      "id": 1765366260,
+      "lat": 44.9420072,
+      "lon": -93.0988244
+    },
+    {
+      "type": "node",
+      "id": 1765366261,
+      "lat": 44.942033,
+      "lon": -93.0986734
+    },
+    {
+      "type": "node",
+      "id": 1765366262,
+      "lat": 44.9421001,
+      "lon": -93.0984593
+    },
+    {
+      "type": "node",
+      "id": 1765366263,
+      "lat": 44.9421755,
+      "lon": -93.0994578
+    },
+    {
+      "type": "node",
+      "id": 1765366266,
+      "lat": 44.9423459,
+      "lon": -93.0981613
+    },
+    {
+      "type": "node",
+      "id": 1765366267,
+      "lat": 44.9423473,
+      "lon": -93.0981979
+    },
+    {
+      "type": "node",
+      "id": 1765366268,
+      "lat": 44.9423599,
+      "lon": -93.0982472
+    },
+    {
+      "type": "node",
+      "id": 1765366269,
+      "lat": 44.9423766,
+      "lon": -93.0982452
+    },
+    {
+      "type": "node",
+      "id": 1765366270,
+      "lat": 44.9427449,
+      "lon": -93.0981619
+    },
+    {
+      "type": "node",
+      "id": 1765366272,
+      "lat": 44.9428913,
+      "lon": -93.098689
+    },
+    {
+      "type": "node",
+      "id": 1765366273,
+      "lat": 44.9429377,
+      "lon": -93.0987839
+    },
+    {
+      "type": "node",
+      "id": 2097453441,
+      "lat": 44.9422644,
+      "lon": -93.0995066
+    },
+    {
+      "type": "node",
+      "id": 2458502207,
+      "lat": 44.9420805,
+      "lon": -93.0993301
+    },
+    {
+      "type": "node",
+      "id": 2564975057,
+      "lat": 44.9450021,
+      "lon": -93.0977208
+    },
+    {
+      "type": "node",
+      "id": 2564975061,
+      "lat": 44.9450029,
+      "lon": -93.0976887
+    },
+    {
+      "type": "node",
+      "id": 3399103350,
+      "lat": 44.9443629,
+      "lon": -93.0979874
+    },
+    {
+      "type": "node",
+      "id": 3399103351,
+      "lat": 44.9443767,
+      "lon": -93.0979397
+    },
+    {
+      "type": "node",
+      "id": 3399103352,
+      "lat": 44.9443783,
+      "lon": -93.0979636
+    },
+    {
+      "type": "node",
+      "id": 3399103353,
+      "lat": 44.9443941,
+      "lon": -93.0983197
+    },
+    {
+      "type": "node",
+      "id": 3399103354,
+      "lat": 44.9444233,
+      "lon": -93.097913
+    },
+    {
+      "type": "node",
+      "id": 3399103355,
+      "lat": 44.9444785,
+      "lon": -93.0978552
+    },
+    {
+      "type": "node",
+      "id": 3399103356,
+      "lat": 44.9445454,
+      "lon": -93.0978076
+    },
+    {
+      "type": "node",
+      "id": 3399103357,
+      "lat": 44.9446068,
+      "lon": -93.0977758
+    },
+    {
+      "type": "node",
+      "id": 3399103358,
+      "lat": 44.9446088,
+      "lon": -93.0977881
+    },
+    {
+      "type": "node",
+      "id": 3399103359,
+      "lat": 44.9446252,
+      "lon": -93.097752
+    },
+    {
+      "type": "node",
+      "id": 3399103360,
+      "lat": 44.9446272,
+      "lon": -93.0977852
+    },
+    {
+      "type": "node",
+      "id": 3399103361,
+      "lat": 44.9447106,
+      "lon": -93.0977606
+    },
+    {
+      "type": "node",
+      "id": 3399103362,
+      "lat": 44.9448296,
+      "lon": -93.0977505
+    },
+    {
+      "type": "node",
+      "id": 3399103363,
+      "lat": 44.9448357,
+      "lon": -93.0977664
+    },
+    {
+      "type": "node",
+      "id": 3399103364,
+      "lat": 44.9448551,
+      "lon": -93.0977166
+    },
+    {
+      "type": "node",
+      "id": 3399103365,
+      "lat": 44.9448567,
+      "lon": -93.097765
+    },
+    {
+      "type": "node",
+      "id": 3399103366,
+      "lat": 44.9448599,
+      "lon": -93.098597
+    },
+    {
+      "type": "node",
+      "id": 3399103367,
+      "lat": 44.9448996,
+      "lon": -93.0977021
+    },
+    {
+      "type": "node",
+      "id": 3399103368,
+      "lat": 44.9449197,
+      "lon": -93.0985542
+    },
+    {
+      "type": "node",
+      "id": 3399103369,
+      "lat": 44.9449228,
+      "lon": -93.097694
+    },
+    {
+      "type": "node",
+      "id": 3399103370,
+      "lat": 44.9449228,
+      "lon": -93.0985837
+    },
+    {
+      "type": "node",
+      "id": 3399103371,
+      "lat": 44.9450392,
+      "lon": -93.0985347
+    },
+    {
+      "type": "node",
+      "id": 3399103372,
+      "lat": 44.9450417,
+      "lon": -93.0985586
+    },
+    {
+      "type": "node",
+      "id": 3399103373,
+      "lat": 44.945071,
+      "lon": -93.0978013
+    },
+    {
+      "type": "node",
+      "id": 3399103374,
+      "lat": 44.9450891,
+      "lon": -93.0982885
+    },
+    {
+      "type": "node",
+      "id": 3399103375,
+      "lat": 44.9451029,
+      "lon": -93.098408
+    },
+    {
+      "type": "node",
+      "id": 3399103376,
+      "lat": 44.9451202,
+      "lon": -93.0982824
+    },
+    {
+      "type": "node",
+      "id": 13201126436,
+      "lat": 44.9444483,
+      "lon": -93.0990148
+    },
+    {
+      "type": "node",
+      "id": 13201126457,
+      "lat": 44.944725,
+      "lon": -93.0977775
+    },
+    {
+      "type": "node",
+      "id": 13201126458,
+      "lat": 44.9445384,
+      "lon": -93.0978189
+    },
+    {
+      "type": "node",
+      "id": 13201126459,
+      "lat": 44.9450858,
+      "lon": -93.097783
+    },
+    {
+      "type": "node",
+      "id": 13201126460,
+      "lat": 44.9450791,
+      "lon": -93.0977147
+    },
+    {
+      "type": "node",
+      "id": 2487509647,
+      "lat": 44.9298654,
+      "lon": -93.0845711
+    },
+    {
+      "type": "node",
+      "id": 2487509648,
+      "lat": 44.9298663,
+      "lon": -93.0849007
+    },
+    {
+      "type": "node",
+      "id": 2487509752,
+      "lat": 44.9299939,
+      "lon": -93.0848108
+    },
+    {
+      "type": "node",
+      "id": 2487509754,
+      "lat": 44.9299942,
+      "lon": -93.0845704
+    },
+    {
+      "type": "node",
+      "id": 2487509756,
+      "lat": 44.9299942,
+      "lon": -93.0849
+    },
+    {
+      "type": "node",
+      "id": 2487509758,
+      "lat": 44.9299947,
+      "lon": -93.0847556
+    },
+    {
+      "type": "node",
+      "id": 2487509763,
+      "lat": 44.9300261,
+      "lon": -93.0847555
+    },
+    {
+      "type": "node",
+      "id": 2487509765,
+      "lat": 44.9300262,
+      "lon": -93.0848106
+    },
+    {
+      "type": "node",
+      "id": 475493334,
+      "lat": 44.9492044,
+      "lon": -93.1062585
+    },
+    {
+      "type": "node",
+      "id": 475493335,
+      "lat": 44.950084,
+      "lon": -93.1055381
+    },
+    {
+      "type": "node",
+      "id": 475493336,
+      "lat": 44.9495806,
+      "lon": -93.1043011
+    },
+    {
+      "type": "node",
+      "id": 475493337,
+      "lat": 44.9494398,
+      "lon": -93.1043873
+    },
+    {
+      "type": "node",
+      "id": 475493340,
+      "lat": 44.9494681,
+      "lon": -93.1044989
+    },
+    {
+      "type": "node",
+      "id": 475493349,
+      "lat": 44.9493493,
+      "lon": -93.1044899
+    },
+    {
+      "type": "node",
+      "id": 475493354,
+      "lat": 44.9492726,
+      "lon": -93.1046314
+    },
+    {
+      "type": "node",
+      "id": 475493356,
+      "lat": 44.9493582,
+      "lon": -93.1054098
+    },
+    {
+      "type": "node",
+      "id": 475493358,
+      "lat": 44.9489789,
+      "lon": -93.1056318
+    },
+    {
+      "type": "node",
+      "id": 475493361,
+      "lat": 44.9490254,
+      "lon": -93.1057181
+    },
+    {
+      "type": "node",
+      "id": 475493364,
+      "lat": 44.9491788,
+      "lon": -93.1058732
+    },
+    {
+      "type": "node",
+      "id": 1543715323,
+      "lat": 44.9491492,
+      "lon": -93.1061193
+    },
+    {
+      "type": "node",
+      "id": 1543715325,
+      "lat": 44.94924,
+      "lon": -93.106046
+    },
+    {
+      "type": "node",
+      "id": 1543715327,
+      "lat": 44.9492961,
+      "lon": -93.1061803
+    },
+    {
+      "type": "node",
+      "id": 1543715328,
+      "lat": 44.949321,
+      "lon": -93.1062403
+    },
+    {
+      "type": "node",
+      "id": 1543715329,
+      "lat": 44.9494062,
+      "lon": -93.1051483
+    },
+    {
+      "type": "node",
+      "id": 1543715332,
+      "lat": 44.9493004,
+      "lon": -93.1051967
+    },
+    {
+      "type": "node",
+      "id": 1543715339,
+      "lat": 44.9494026,
+      "lon": -93.104489
+    },
+    {
+      "type": "node",
+      "id": 1543715340,
+      "lat": 44.9493244,
+      "lon": -93.1046053
+    },
+    {
+      "type": "node",
+      "id": 1543715342,
+      "lat": 44.9492963,
+      "lon": -93.1045039
+    },
+    {
+      "type": "node",
+      "id": 1543715345,
+      "lat": 44.9496124,
+      "lon": -93.1059155
+    },
+    {
+      "type": "node",
+      "id": 1543715347,
+      "lat": 44.9496316,
+      "lon": -93.1059835
+    },
+    {
+      "type": "node",
+      "id": 1543715349,
+      "lat": 44.9496483,
+      "lon": -93.1044191
+    },
+    {
+      "type": "node",
+      "id": 1543715350,
+      "lat": 44.9496714,
+      "lon": -93.1044023
+    },
+    {
+      "type": "node",
+      "id": 1543715355,
+      "lat": 44.9496915,
+      "lon": -93.1058714
+    },
+    {
+      "type": "node",
+      "id": 1543715357,
+      "lat": 44.9497059,
+      "lon": -93.1059252
+    },
+    {
+      "type": "node",
+      "id": 1543715361,
+      "lat": 44.9498922,
+      "lon": -93.1050432
+    },
+    {
+      "type": "node",
+      "id": 1543715363,
+      "lat": 44.9499195,
+      "lon": -93.1051417
+    },
+    {
+      "type": "node",
+      "id": 1543715364,
+      "lat": 44.9499245,
+      "lon": -93.1050254
+    },
+    {
+      "type": "node",
+      "id": 1543715368,
+      "lat": 44.9499673,
+      "lon": -93.1051224
+    },
+    {
+      "type": "node",
+      "id": 1543715369,
+      "lat": 44.9499955,
+      "lon": -93.1056132
+    },
+    {
+      "type": "node",
+      "id": 1543715371,
+      "lat": 44.9500189,
+      "lon": -93.1056689
+    },
+    {
+      "type": "node",
+      "id": 1543715372,
+      "lat": 44.9500436,
+      "lon": -93.105409
+    },
+    {
+      "type": "node",
+      "id": 1543715374,
+      "lat": 44.9500696,
+      "lon": -93.1053873
+    },
+    {
+      "type": "node",
+      "id": 1546120650,
+      "lat": 44.9496498,
+      "lon": -93.1058974
+    },
+    {
+      "type": "node",
+      "id": 2096865330,
+      "lat": 44.9493507,
+      "lon": -93.1053775
+    },
+    {
+      "type": "node",
+      "id": 2096865333,
+      "lat": 44.9492945,
+      "lon": -93.1046207
+    },
+    {
+      "type": "node",
+      "id": 2096865335,
+      "lat": 44.949391,
+      "lon": -93.1051547
+    },
+    {
+      "type": "node",
+      "id": 2131057576,
+      "lat": 44.9489998,
+      "lon": -93.1056089
+    },
+    {
+      "type": "node",
+      "id": 2131057580,
+      "lat": 44.9491386,
+      "lon": -93.1061292
+    },
+    {
+      "type": "node",
+      "id": 2131057582,
+      "lat": 44.9492956,
+      "lon": -93.1062042
+    },
+    {
+      "type": "node",
+      "id": 2131057591,
+      "lat": 44.9495919,
+      "lon": -93.1042903
+    },
+    {
+      "type": "node",
+      "id": 2131057592,
+      "lat": 44.9500928,
+      "lon": -93.1055315
+    },
+    {
+      "type": "node",
+      "id": 2131057594,
+      "lat": 44.9493087,
+      "lon": -93.1062105
+    },
+    {
+      "type": "node",
+      "id": 2131057597,
+      "lat": 44.9491411,
+      "lon": -93.1061017
+    },
+    {
+      "type": "node",
+      "id": 2131057609,
+      "lat": 44.9490642,
+      "lon": -93.105775
+    },
+    {
+      "type": "node",
+      "id": 2131057616,
+      "lat": 44.9492011,
+      "lon": -93.1059362
+    },
+    {
+      "type": "node",
+      "id": 2131057626,
+      "lat": 44.9500089,
+      "lon": -93.1056451
+    },
+    {
+      "type": "node",
+      "id": 2131057627,
+      "lat": 44.9491538,
+      "lon": -93.1058623
+    },
+    {
+      "type": "node",
+      "id": 2131057628,
+      "lat": 44.9492117,
+      "lon": -93.1062734
+    },
+    {
+      "type": "node",
+      "id": 2131057631,
+      "lat": 44.950091,
+      "lon": -93.1055566
+    },
+    {
+      "type": "node",
+      "id": 2131057633,
+      "lat": 44.9492334,
+      "lon": -93.1060508
+    },
+    {
+      "type": "node",
+      "id": 2131057637,
+      "lat": 44.9500092,
+      "lon": -93.1056217
+    },
+    {
+      "type": "node",
+      "id": 2131057639,
+      "lat": 44.9500019,
+      "lon": -93.1056067
+    },
+    {
+      "type": "node",
+      "id": 2131057642,
+      "lat": 44.9491943,
+      "lon": -93.1062666
+    },
+    {
+      "type": "node",
+      "id": 2131057643,
+      "lat": 44.9494557,
+      "lon": -93.1043752
+    },
+    {
+      "type": "node",
+      "id": 2131057646,
+      "lat": 44.9492885,
+      "lon": -93.1061878
+    },
+    {
+      "type": "node",
+      "id": 2131057650,
+      "lat": 44.9492254,
+      "lon": -93.1060347
+    },
+    {
+      "type": "node",
+      "id": 2131057668,
+      "lat": 44.9490032,
+      "lon": -93.1056188
+    },
+    {
+      "type": "node",
+      "id": 2131057673,
+      "lat": 44.949128,
+      "lon": -93.1058407
+    },
+    {
+      "type": "node",
+      "id": 2131057675,
+      "lat": 44.9490952,
+      "lon": -93.1058101
+    },
+    {
+      "type": "node",
+      "id": 2131057677,
+      "lat": 44.9495735,
+      "lon": -93.1042851
+    },
+    {
+      "type": "node",
+      "id": 546886731,
+      "lat": 44.9478976,
+      "lon": -93.0969904
+    },
+    {
+      "type": "node",
+      "id": 546886778,
+      "lat": 44.9479882,
+      "lon": -93.0968664
+    },
+    {
+      "type": "node",
+      "id": 546890858,
+      "lat": 44.9486899,
+      "lon": -93.0972241
+    },
+    {
+      "type": "node",
+      "id": 1553265118,
+      "lat": 44.9487806,
+      "lon": -93.0971209
+    },
+    {
+      "type": "node",
+      "id": 1553265121,
+      "lat": 44.9488108,
+      "lon": -93.0971498
+    },
+    {
+      "type": "node",
+      "id": 1553265124,
+      "lat": 44.9488828,
+      "lon": -93.0970016
+    },
+    {
+      "type": "node",
+      "id": 1553265128,
+      "lat": 44.9489397,
+      "lon": -93.0969237
+    },
+    {
+      "type": "node",
+      "id": 1553265131,
+      "lat": 44.9489815,
+      "lon": -93.0969639
+    },
+    {
+      "type": "node",
+      "id": 1553265132,
+      "lat": 44.94899,
+      "lon": -93.0969464
+    },
+    {
+      "type": "node",
+      "id": 1553265133,
+      "lat": 44.9490329,
+      "lon": -93.0975587
+    },
+    {
+      "type": "node",
+      "id": 1553265153,
+      "lat": 44.949169,
+      "lon": -93.0972013
+    },
+    {
+      "type": "node",
+      "id": 1553265155,
+      "lat": 44.9491832,
+      "lon": -93.0971786
+    },
+    {
+      "type": "node",
+      "id": 1553265159,
+      "lat": 44.9491921,
+      "lon": -93.0972301
+    },
+    {
+      "type": "node",
+      "id": 1690354454,
+      "lat": 44.9479215,
+      "lon": -93.0967819
+    },
+    {
+      "type": "node",
+      "id": 9687225276,
+      "lat": 44.9490201,
+      "lon": -93.0969836
+    },
+    {
+      "type": "node",
+      "id": 9687225290,
+      "lat": 44.9491015,
+      "lon": -93.0974182
+    },
+    {
+      "type": "node",
+      "id": 1894091219,
+      "lat": 44.9494742,
+      "lon": -93.0881036
+    },
+    {
+      "type": "node",
+      "id": 1894091222,
+      "lat": 44.9495362,
+      "lon": -93.0879716
+    },
+    {
+      "type": "node",
+      "id": 1894091223,
+      "lat": 44.9495568,
+      "lon": -93.0881811
+    },
+    {
+      "type": "node",
+      "id": 1894091225,
+      "lat": 44.9496188,
+      "lon": -93.0880491
+    },
+    {
+      "type": "node",
+      "id": 2099144763,
+      "lat": 44.9715378,
+      "lon": -93.1063212
+    },
+    {
+      "type": "node",
+      "id": 2099144764,
+      "lat": 44.9715303,
+      "lon": -93.1060964
+    },
+    {
+      "type": "node",
+      "id": 2099144765,
+      "lat": 44.9715507,
+      "lon": -93.1063802
+    },
+    {
+      "type": "node",
+      "id": 2099144766,
+      "lat": 44.9715507,
+      "lon": -93.1063212
+    },
+    {
+      "type": "node",
+      "id": 2099144767,
+      "lat": 44.9716381,
+      "lon": -93.1061244
+    },
+    {
+      "type": "node",
+      "id": 2099144768,
+      "lat": 44.9716383,
+      "lon": -93.1061431
+    },
+    {
+      "type": "node",
+      "id": 2099144769,
+      "lat": 44.9716661,
+      "lon": -93.106487
+    },
+    {
+      "type": "node",
+      "id": 2099144770,
+      "lat": 44.971667,
+      "lon": -93.106124
+    },
+    {
+      "type": "node",
+      "id": 2099144771,
+      "lat": 44.9716661,
+      "lon": -93.1063803
+    },
+    {
+      "type": "node",
+      "id": 2099144772,
+      "lat": 44.9716668,
+      "lon": -93.1061026
+    },
+    {
+      "type": "node",
+      "id": 2099144777,
+      "lat": 44.971787,
+      "lon": -93.1064872
+    },
+    {
+      "type": "node",
+      "id": 2099144778,
+      "lat": 44.971787,
+      "lon": -93.1065126
+    },
+    {
+      "type": "node",
+      "id": 2099144781,
+      "lat": 44.9718871,
+      "lon": -93.1064364
+    },
+    {
+      "type": "node",
+      "id": 2099144782,
+      "lat": 44.9718871,
+      "lon": -93.1065128
+    },
+    {
+      "type": "node",
+      "id": 2099144783,
+      "lat": 44.9718906,
+      "lon": -93.1061001
+    },
+    {
+      "type": "node",
+      "id": 2099144784,
+      "lat": 44.9718906,
+      "lon": -93.1061141
+    },
+    {
+      "type": "node",
+      "id": 2099144791,
+      "lat": 44.9719398,
+      "lon": -93.1061865
+    },
+    {
+      "type": "node",
+      "id": 2099144794,
+      "lat": 44.9719493,
+      "lon": -93.1060963
+    },
+    {
+      "type": "node",
+      "id": 2099144795,
+      "lat": 44.9719506,
+      "lon": -93.1061865
+    },
+    {
+      "type": "node",
+      "id": 2099144796,
+      "lat": 44.9719504,
+      "lon": -93.1064365
+    },
+    {
+      "type": "node",
+      "id": 2100753411,
+      "lat": 44.9715303,
+      "lon": -93.1061357
+    },
+    {
+      "type": "node",
+      "id": 2100753414,
+      "lat": 44.971538,
+      "lon": -93.1061357
+    },
+    {
+      "type": "node",
+      "id": 2100753417,
+      "lat": 44.9715692,
+      "lon": -93.1061152
+    },
+    {
+      "type": "node",
+      "id": 2100753418,
+      "lat": 44.9715731,
+      "lon": -93.1060965
+    },
+    {
+      "type": "node",
+      "id": 1554891629,
+      "lat": 44.9628673,
+      "lon": -93.0980879
+    },
+    {
+      "type": "node",
+      "id": 1554891638,
+      "lat": 44.9630315,
+      "lon": -93.0991559
+    },
+    {
+      "type": "node",
+      "id": 1554891639,
+      "lat": 44.9630338,
+      "lon": -93.0992474
+    },
+    {
+      "type": "node",
+      "id": 1800157171,
+      "lat": 44.9630006,
+      "lon": -93.0949243
+    },
+    {
+      "type": "node",
+      "id": 1800157172,
+      "lat": 44.9630044,
+      "lon": -93.0945759
+    },
+    {
+      "type": "node",
+      "id": 1800157176,
+      "lat": 44.963052,
+      "lon": -93.0943705
+    },
+    {
+      "type": "node",
+      "id": 1800157182,
+      "lat": 44.9633225,
+      "lon": -93.0949582
+    },
+    {
+      "type": "node",
+      "id": 2555137666,
+      "lat": 44.9620368,
+      "lon": -93.0956849
+    },
+    {
+      "type": "node",
+      "id": 2555137667,
+      "lat": 44.9620368,
+      "lon": -93.0961225
+    },
+    {
+      "type": "node",
+      "id": 2555137668,
+      "lat": 44.9620605,
+      "lon": -93.0953832
+    },
+    {
+      "type": "node",
+      "id": 2555137669,
+      "lat": 44.9620481,
+      "lon": -93.0978292
+    },
+    {
+      "type": "node",
+      "id": 2555137670,
+      "lat": 44.962207,
+      "lon": -93.0945975
+    },
+    {
+      "type": "node",
+      "id": 2555137671,
+      "lat": 44.9623037,
+      "lon": -93.0939947
+    },
+    {
+      "type": "node",
+      "id": 2555137672,
+      "lat": 44.9627939,
+      "lon": -93.0978235
+    },
+    {
+      "type": "node",
+      "id": 2555137674,
+      "lat": 44.962989,
+      "lon": -93.0939947
+    },
+    {
+      "type": "node",
+      "id": 2555137676,
+      "lat": 44.9630384,
+      "lon": -93.0994977
+    },
+    {
+      "type": "node",
+      "id": 2555137677,
+      "lat": 44.9630519,
+      "lon": -93.0939971
+    },
+    {
+      "type": "node",
+      "id": 2555137678,
+      "lat": 44.9630975,
+      "lon": -93.0977764
+    },
+    {
+      "type": "node",
+      "id": 2555137679,
+      "lat": 44.9631113,
+      "lon": -93.0994977
+    },
+    {
+      "type": "node",
+      "id": 2555137680,
+      "lat": 44.9631269,
+      "lon": -93.0964869
+    },
+    {
+      "type": "node",
+      "id": 2555137681,
+      "lat": 44.9631773,
+      "lon": -93.0960186
+    },
+    {
+      "type": "node",
+      "id": 2555137682,
+      "lat": 44.9632477,
+      "lon": -93.0955505
+    },
+    {
+      "type": "node",
+      "id": 2555137683,
+      "lat": 44.9633884,
+      "lon": -93.0949732
+    },
+    {
+      "type": "node",
+      "id": 9088550472,
+      "lat": 44.9628583,
+      "lon": -93.0980554
+    },
+    {
+      "type": "node",
+      "id": 9088550505,
+      "lat": 44.9620807,
+      "lon": -93.0978421
+    },
+    {
+      "type": "node",
+      "id": 9088550506,
+      "lat": 44.9621305,
+      "lon": -93.0978495
+    },
+    {
+      "type": "node",
+      "id": 1842178906,
+      "lat": 44.9576224,
+      "lon": -93.0753506
+    },
+    {
+      "type": "node",
+      "id": 1842178907,
+      "lat": 44.9576332,
+      "lon": -93.0752288
+    },
+    {
+      "type": "node",
+      "id": 1842178910,
+      "lat": 44.9576646,
+      "lon": -93.0755313
+    },
+    {
+      "type": "node",
+      "id": 1842178911,
+      "lat": 44.9576659,
+      "lon": -93.0752603
+    },
+    {
+      "type": "node",
+      "id": 1842178912,
+      "lat": 44.957673,
+      "lon": -93.0751461
+    },
+    {
+      "type": "node",
+      "id": 1842178915,
+      "lat": 44.9577107,
+      "lon": -93.0754356
+    },
+    {
+      "type": "node",
+      "id": 1842178916,
+      "lat": 44.9577199,
+      "lon": -93.0750487
+    },
+    {
+      "type": "node",
+      "id": 1842178921,
+      "lat": 44.9577422,
+      "lon": -93.0749081
+    },
+    {
+      "type": "node",
+      "id": 1842178923,
+      "lat": 44.9577469,
+      "lon": -93.0750058
+    },
+    {
+      "type": "node",
+      "id": 1842178924,
+      "lat": 44.9577493,
+      "lon": -93.075077
+    },
+    {
+      "type": "node",
+      "id": 1842178929,
+      "lat": 44.9577719,
+      "lon": -93.0750299
+    },
+    {
+      "type": "node",
+      "id": 1842178930,
+      "lat": 44.9577775,
+      "lon": -93.0749421
+    },
+    {
+      "type": "node",
+      "id": 1842178936,
+      "lat": 44.9578224,
+      "lon": -93.0747416
+    },
+    {
+      "type": "node",
+      "id": 1842178944,
+      "lat": 44.9578593,
+      "lon": -93.074777
+    },
+    {
+      "type": "node",
+      "id": 1842178946,
+      "lat": 44.9578932,
+      "lon": -93.0747065
+    },
+    {
+      "type": "node",
+      "id": 1842178948,
+      "lat": 44.9579405,
+      "lon": -93.0757967
+    },
+    {
+      "type": "node",
+      "id": 1842178953,
+      "lat": 44.9579715,
+      "lon": -93.0747818
+    },
+    {
+      "type": "node",
+      "id": 1842178954,
+      "lat": 44.9579875,
+      "lon": -93.0756991
+    },
+    {
+      "type": "node",
+      "id": 1842178955,
+      "lat": 44.9579876,
+      "lon": -93.0747484
+    },
+    {
+      "type": "node",
+      "id": 1842178959,
+      "lat": 44.958024,
+      "lon": -93.0748334
+    },
+    {
+      "type": "node",
+      "id": 1842178961,
+      "lat": 44.9580404,
+      "lon": -93.0747992
+    },
+    {
+      "type": "node",
+      "id": 1842178965,
+      "lat": 44.9580601,
+      "lon": -93.0752497
+    },
+    {
+      "type": "node",
+      "id": 1842178966,
+      "lat": 44.958066,
+      "lon": -93.0757746
+    },
+    {
+      "type": "node",
+      "id": 1842178981,
+      "lat": 44.9581857,
+      "lon": -93.074989
+    },
+    {
+      "type": "node",
+      "id": 1842178983,
+      "lat": 44.958237,
+      "lon": -93.0754198
+    },
+    {
+      "type": "node",
+      "id": 1842178985,
+      "lat": 44.9582831,
+      "lon": -93.0743466
+    },
+    {
+      "type": "node",
+      "id": 1842178991,
+      "lat": 44.958346,
+      "lon": -93.0742274
+    },
+    {
+      "type": "node",
+      "id": 1842178968,
+      "lat": 44.958086,
+      "lon": -93.0741388
+    },
+    {
+      "type": "node",
+      "id": 1842178980,
+      "lat": 44.9581489,
+      "lon": -93.0740196
+    },
+    {
+      "type": "node",
+      "id": 9191921560,
+      "lat": 44.9708793,
+      "lon": -93.0736764
+    },
+    {
+      "type": "node",
+      "id": 9191921561,
+      "lat": 44.9708787,
+      "lon": -93.0739617
+    },
+    {
+      "type": "node",
+      "id": 9191921562,
+      "lat": 44.9708784,
+      "lon": -93.0739829
+    },
+    {
+      "type": "node",
+      "id": 9191921563,
+      "lat": 44.9707438,
+      "lon": -93.073676
+    },
+    {
+      "type": "node",
+      "id": 9191921564,
+      "lat": 44.9707425,
+      "lon": -93.0739817
+    },
+    {
+      "type": "node",
+      "id": 3258596407,
+      "lat": 44.974533,
+      "lon": -93.071451
+    },
+    {
+      "type": "node",
+      "id": 3258596408,
+      "lat": 44.9746199,
+      "lon": -93.0713035
+    },
+    {
+      "type": "node",
+      "id": 3258596410,
+      "lat": 44.9745975,
+      "lon": -93.0715212
+    },
+    {
+      "type": "node",
+      "id": 3258596411,
+      "lat": 44.9743952,
+      "lon": -93.0714471
+    },
+    {
+      "type": "node",
+      "id": 3258596412,
+      "lat": 44.9746177,
+      "lon": -93.0714549
+    },
+    {
+      "type": "node",
+      "id": 3258596415,
+      "lat": 44.9745984,
+      "lon": -93.0714543
+    },
+    {
+      "type": "node",
+      "id": 3258596418,
+      "lat": 44.974532,
+      "lon": -93.0715193
+    },
+    {
+      "type": "node",
+      "id": 3258596423,
+      "lat": 44.9743973,
+      "lon": -93.0712973
+    },
+    {
+      "type": "node",
+      "id": 6129432128,
+      "lat": 44.9526322,
+      "lon": -93.0570649
+    },
+    {
+      "type": "node",
+      "id": 6129432129,
+      "lat": 44.9526337,
+      "lon": -93.0568497
+    },
+    {
+      "type": "node",
+      "id": 6129432132,
+      "lat": 44.9523376,
+      "lon": -93.0568457
+    },
+    {
+      "type": "node",
+      "id": 13171224876,
+      "lat": 44.9523361,
+      "lon": -93.057061
+    },
+    {
+      "type": "node",
+      "id": 3299621003,
+      "lat": 44.989558,
+      "lon": -93.0580299
+    },
+    {
+      "type": "node",
+      "id": 3299621004,
+      "lat": 44.9895585,
+      "lon": -93.0580702
+    },
+    {
+      "type": "node",
+      "id": 3299621005,
+      "lat": 44.9895591,
+      "lon": -93.0581005
+    },
+    {
+      "type": "node",
+      "id": 3299621006,
+      "lat": 44.9895624,
+      "lon": -93.0579873
+    },
+    {
+      "type": "node",
+      "id": 3299621009,
+      "lat": 44.9895744,
+      "lon": -93.0579571
+    },
+    {
+      "type": "node",
+      "id": 3299621014,
+      "lat": 44.9895859,
+      "lon": -93.0579299
+    },
+    {
+      "type": "node",
+      "id": 3299621019,
+      "lat": 44.9896062,
+      "lon": -93.0579059
+    },
+    {
+      "type": "node",
+      "id": 3299621021,
+      "lat": 44.9896287,
+      "lon": -93.0578888
+    },
+    {
+      "type": "node",
+      "id": 3299621023,
+      "lat": 44.9896474,
+      "lon": -93.0578749
+    },
+    {
+      "type": "node",
+      "id": 3299621026,
+      "lat": 44.9896638,
+      "lon": -93.0578648
+    },
+    {
+      "type": "node",
+      "id": 3299621028,
+      "lat": 44.9896698,
+      "lon": -93.0580764
+    },
+    {
+      "type": "node",
+      "id": 3299621029,
+      "lat": 44.989673,
+      "lon": -93.0578599
+    },
+    {
+      "type": "node",
+      "id": 3299621030,
+      "lat": 44.9896764,
+      "lon": -93.0580888
+    },
+    {
+      "type": "node",
+      "id": 3299621031,
+      "lat": 44.9896857,
+      "lon": -93.0578532
+    },
+    {
+      "type": "node",
+      "id": 3299621032,
+      "lat": 44.9896874,
+      "lon": -93.0581028
+    },
+    {
+      "type": "node",
+      "id": 3299621033,
+      "lat": 44.9896956,
+      "lon": -93.0579175
+    },
+    {
+      "type": "node",
+      "id": 3299621034,
+      "lat": 44.9897071,
+      "lon": -93.0580144
+    },
+    {
+      "type": "node",
+      "id": 3299621035,
+      "lat": 44.9897071,
+      "lon": -93.0581036
+    },
+    {
+      "type": "node",
+      "id": 3299621036,
+      "lat": 44.9897077,
+      "lon": -93.0579896
+    },
+    {
+      "type": "node",
+      "id": 3299621039,
+      "lat": 44.9897175,
+      "lon": -93.0580307
+    },
+    {
+      "type": "node",
+      "id": 3299621040,
+      "lat": 44.9897192,
+      "lon": -93.0580958
+    },
+    {
+      "type": "node",
+      "id": 3299621044,
+      "lat": 44.9897258,
+      "lon": -93.0580516
+    },
+    {
+      "type": "node",
+      "id": 3299621046,
+      "lat": 44.9897263,
+      "lon": -93.0580741
+    }
+  ]
+}

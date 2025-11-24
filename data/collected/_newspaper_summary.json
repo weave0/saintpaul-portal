@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-11-24T02:49:48.644Z",
+  "sources": [
+    {
+      "name": "Chronicling America",
+      "status": "failed",
+      "error": "Request failed with status code 404"
+    },
+    {
+      "name": "Minnesota Newspaper Hub",
+      "status": "failed",
+      "error": "Request failed with status code 404"
+    },
+    {
+      "name": "Pioneer Press History",
+      "count": 1,
+      "file": "pioneer_press_history.json",
+      "status": "success"
+    }
+  ],
+  "totalRecords": 1
+}
