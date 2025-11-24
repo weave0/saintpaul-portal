@@ -1,0 +1,7 @@
+{
+  "source": "Ramsey County GIS",
+  "endpoint": "Historic Sites",
+  "timestamp": "2025-11-24T02:42:16.459Z",
+  "error": "getaddrinfo ENOTFOUND gis.co.ramsey.mn.us",
+  "data": null
+}
