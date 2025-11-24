@@ -4,6 +4,12 @@ const BuildingSpec = require('../models/BuildingSpec');
 const mongoose = require('mongoose');
 const { writeLimiter } = require('../middleware/rateLimiter');
 
+/**
+ * @typedef {import('../types').BuildingSpec} BuildingSpec
+ * @typedef {import('../types').BuildingSpecQueryParams} BuildingSpecQueryParams
+ * @typedef {import('../types').PaginatedBuildingSpecResponse} PaginatedBuildingSpecResponse
+ */
+
 // GET all / filtered building specs with pagination, sorting, and field selection
 router.get('/', async (req, res) => {
   try {

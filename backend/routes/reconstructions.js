@@ -5,6 +5,12 @@ const BuildingSpec = require('../models/BuildingSpec');
 const { writeLimiter, heavyLimiter } = require('../middleware/rateLimiter');
 const diffCache = require('../utils/diffCache');
 
+/**
+ * @typedef {import('../types').DiffResponse} DiffResponse
+ * @typedef {import('../types').AutoGenerateParams} AutoGenerateParams
+ * @typedef {import('../types').ReconstructionSnapshot} ReconstructionSnapshot
+ */
+
 // List snapshots (optional year filter)
 router.get('/', async (req, res) => {
   try {
@@ -26,6 +32,7 @@ router.get('/diff', heavyLimiter, async (req, res) => {
     // Check cache first
     const cached = diffCache.get(from, to);
     if (cached) {
+      res.setHeader('X-Diff-Cache', 'HIT');
       return res.json({ ...cached, cached: true });
     }
 
@@ -48,12 +55,18 @@ router.get('/diff', heavyLimiter, async (req, res) => {
       BuildingSpec.find({ _id: { $in: removedIds } }, { name: 1, yearConstructed: 1, yearCompleted: 1, architecturalStyle: 1 }).lean()
     ]);
 
-    // Field-level changes for unchanged specs (subset of fields)
+    // Field-level changes for unchanged specs (expanded set of fields)
     const fieldsToCheck = [
       'architecturalStyle',
       'height.roofHeight_m',
       'height.stories',
-      'status'
+      'status',
+      'dimensions.length_m',
+      'dimensions.width_m',
+      'dimensions.area_m2',
+      'roof.type',
+      'roof.material',
+      'architect'
     ];
     const fromMap = new Map(fromSnap.specRefs.map(s => [String(s._id), s]));
     const toMap = new Map(toSnap.specRefs.map(s => [String(s._id), s]));
@@ -62,13 +75,39 @@ router.get('/diff', heavyLimiter, async (req, res) => {
       const a = fromMap.get(id);
       const b = toMap.get(id);
       const changes = {};
+
+      const getVal = (obj, path) => path.split('.').reduce((acc, part) => acc ? acc[part] : undefined, obj);
       fieldsToCheck.forEach(f => {
-        // drill into dot path
-        const getVal = (obj, path) => path.split('.').reduce((acc, part) => acc ? acc[part] : undefined, obj);
         const va = getVal(a, f);
         const vb = getVal(b, f);
         if (va !== vb) changes[f] = { from: va ?? null, to: vb ?? null };
       });
+
+      // Materials diff (compare material names & percentages)
+      const matA = Array.isArray(a.materials) ? a.materials : [];
+      const matB = Array.isArray(b.materials) ? b.materials : [];
+      const mapA = new Map(matA.map(m => [m.material, m.percentage]));
+      const mapB = new Map(matB.map(m => [m.material, m.percentage]));
+      const materialChanges = [];
+      const allMaterials = new Set([...mapA.keys(), ...mapB.keys()]);
+      allMaterials.forEach(mName => {
+        const pA = mapA.get(mName);
+        const pB = mapB.get(mName);
+        if (pA !== pB) {
+          materialChanges.push({ material: mName, from: pA ?? null, to: pB ?? null });
+        }
+      });
+      if (materialChanges.length) {
+        changes.materials = materialChanges;
+      }
+
+      // Computed footprint area change (if both have dimensions.area_m2 present)
+      const areaA = getVal(a, 'dimensions.area_m2');
+      const areaB = getVal(b, 'dimensions.area_m2');
+      if (areaA !== areaB) {
+        changes['dimensions.area_m2'] = { from: areaA ?? null, to: areaB ?? null };
+      }
+
       if (Object.keys(changes).length) {
         changedSpecs.push({ id, name: b.name, changes });
       }
@@ -92,6 +131,8 @@ router.get('/diff', heavyLimiter, async (req, res) => {
     // Cache the result
     diffCache.set(from, to, result);
 
+    // Set cache status header
+    res.setHeader('X-Diff-Cache', 'MISS');
     res.json(result);
   } catch (e) {
     res.status(500).json({ error: e.message });

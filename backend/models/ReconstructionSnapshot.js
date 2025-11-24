@@ -21,5 +21,7 @@ const ReconstructionSnapshotSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 ReconstructionSnapshotSchema.index({ year: 1 });
+ReconstructionSnapshotSchema.index({ year: 1, label: 1 });
+ReconstructionSnapshotSchema.index({ createdAt: 1 });
 
 module.exports = mongoose.model('ReconstructionSnapshot', ReconstructionSnapshotSchema);

@@ -34,6 +34,12 @@ jobs:
           NODE_ENV: test
         run: npm test -- --runInBand --coverage
 
+      - name: Check coverage thresholds
+        working-directory: backend
+        run: |
+          echo "Checking test coverage thresholds..."
+          npm test -- --runInBand --coverage --coverageThreshold='{"global":{"lines":70,"functions":70,"branches":60,"statements":70}}'
+
   frontend-lint-build:
     runs-on: ubuntu-latest
     steps:

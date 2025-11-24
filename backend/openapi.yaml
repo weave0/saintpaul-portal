@@ -1,0 +1,267 @@
+openapi: 3.1.0
+info:
+  title: Saint Paul Historical API
+  version: 1.0.0
+  description: REST API for historical building specifications and reconstruction snapshots.
+servers:
+  - url: /api
+paths:
+  /health:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: API status
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  message:
+                    type: string
+  /metrics/basic:
+    get:
+      summary: Basic system and data metrics
+      responses:
+        '200':
+          description: Metrics payload
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status: { type: string }
+                  counts:
+                    type: object
+                    properties:
+                      buildingSpecs: { type: integer }
+                      reconstructionSnapshots: { type: integer }
+  /building-specs:
+    get:
+      summary: List building specs with pagination & filters
+      parameters:
+        - in: query
+          name: page
+          schema: { type: integer, minimum: 1 }
+        - in: query
+          name: limit
+          schema: { type: integer, minimum: 1, maximum: 500 }
+        - in: query
+          name: style
+          schema: { type: string }
+      responses:
+        '200':
+          description: Paginated list
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+  /reconstructions:
+    get:
+      summary: List reconstruction snapshots
+      parameters:
+        - in: query
+          name: year
+          schema: { type: integer }
+      responses:
+        '200': { description: Snapshot list }
+    post:
+      summary: Create a snapshot
+      responses:
+        '201': { description: Created }
+  /reconstructions/diff:
+    get:
+      summary: Compute diff between two snapshots
+      parameters:
+        - in: query
+          name: from
+          schema: { type: string }
+          required: true
+        - in: query
+          name: to
+          schema: { type: string }
+          required: true
+      responses:
+        '200':
+          description: Diff result
+          headers:
+            X-Diff-Cache:
+              schema:
+                type: string
+                enum: [HIT, MISS]
+              description: Cache status
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+  /reconstructions/auto-generate:
+    post:
+      summary: Auto-generate a snapshot based on filters
+      parameters:
+        - in: query
+          name: year
+          required: true
+          schema: { type: integer }
+        - in: query
+          name: style
+          schema: { type: string }
+      responses:
+        '201': { description: Snapshot created }
+components:
+  schemas:
+    BuildingSpec:
+      type: object
+      properties:
+        _id: { type: string }
+        name: { type: string }
+        architecturalStyle: { type: string }
+        yearConstructed: { type: integer }
+        yearCompleted: { type: integer }
+    ReconstructionSnapshot:
+      type: object
+      properties:
+        _id: { type: string }
+        year: { type: integer }
+        label: { type: string }
+        specRefs:
+          type: array
+          items: { type: string }
+    
+    # Error Response Schemas
+    ErrorResponse:
+      type: object
+      required:
+        - error
+      properties:
+        error:
+          type: string
+          description: Human-readable error message
+        details:
+          type: string
+          description: Additional error context
+        code:
+          type: integer
+          description: Application-specific error code
+      example:
+        error: "Resource not found"
+        details: "BuildingSpec with id '123' does not exist"
+        code: 404
+
+    ValidationError:
+      type: object
+      required:
+        - error
+        - validation
+      properties:
+        error:
+          type: string
+          example: "Validation failed"
+        validation:
+          type: object
+          properties:
+            field:
+              type: string
+              description: Field that failed validation
+            message:
+              type: string
+              description: Validation failure reason
+            value:
+              description: Invalid value provided
+      example:
+        error: "Validation failed"
+        validation:
+          field: "yearConstructed"
+          message: "Must be between 1600 and current year"
+          value: 1200
+
+    RateLimitError:
+      type: object
+      required:
+        - error
+        - retryAfter
+      properties:
+        error:
+          type: string
+          example: "Rate limit exceeded"
+        retryAfter:
+          type: integer
+          description: Seconds until retry allowed
+        limit:
+          type: integer
+          description: Rate limit threshold
+      example:
+        error: "Rate limit exceeded"
+        retryAfter: 300
+        limit: 100
+
+  responses:
+    BadRequest:
+      description: Invalid request parameters
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    
+    Unauthorized:
+      description: Authentication required
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+          example:
+            error: "Authentication required"
+    
+    NotFound:
+      description: Resource not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+          example:
+            error: "Resource not found"
+    
+    ValidationFailed:
+      description: Validation error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ValidationError'
+    
+    RateLimited:
+      description: Rate limit exceeded
+      headers:
+        Retry-After:
+          schema:
+            type: integer
+          description: Seconds to wait before retrying
+        X-RateLimit-Limit:
+          schema:
+            type: integer
+          description: Request limit per window
+        X-RateLimit-Remaining:
+          schema:
+            type: integer
+          description: Remaining requests in window
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/RateLimitError'
+    
+    InternalServerError:
+      description: Internal server error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+          example:
+            error: "Internal server error"
+            details: "Unexpected condition occurred"
+

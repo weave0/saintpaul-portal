@@ -9,6 +9,23 @@ const api = axios.create({
   },
 });
 
+// Response interceptor for rate limit handling
+api.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    if (error.response && error.response.status === 429) {
+      const retryAfter = error.response.headers['retry-after'];
+      return Promise.reject({
+        rateLimit: true,
+        retryAfter: retryAfter ? parseInt(retryAfter, 10) : null,
+        message: 'Rate limit exceeded. Please retry later.',
+        original: error
+      });
+    }
+    return Promise.reject(error);
+  }
+);
+
 // Locations API
 export const locationsAPI = {
   getAll: (params) => api.get('/locations', { params }),
@@ -70,6 +87,11 @@ export const reconstructionsAPI = {
   delete: (id) => api.delete(`/reconstructions/${id}`),
   getDiff: (fromId, toId) => api.get(`/reconstructions/diff?from=${fromId}&to=${toId}`),
   autoGenerate: (params) => api.post('/reconstructions/auto-generate', null, { params }),
+};
+
+// Metrics API
+export const metricsAPI = {
+  getBasic: () => api.get('/metrics/basic')
 };
 
 export default api;

@@ -93,5 +93,9 @@ BuildingSpecSchema.index({ 'centroid.lat': 1, 'centroid.lon': 1 });
 BuildingSpecSchema.index({ name: 1 });
 // 2dsphere index on GeoJSON footprint for spatial queries
 BuildingSpecSchema.index({ footprintGeo: '2dsphere' });
+// Compound & attribute indexes for common query patterns
+BuildingSpecSchema.index({ architecturalStyle: 1, yearConstructed: 1 });
+BuildingSpecSchema.index({ status: 1 });
+BuildingSpecSchema.index({ 'height.stories': 1 });
 
 module.exports = mongoose.model('BuildingSpec', BuildingSpecSchema);
