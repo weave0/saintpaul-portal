@@ -1,0 +1,204 @@
+{
+  "folders": [
+    {
+      "name": "🏛️ St. Paul History Portal",
+      "path": "."
+    },
+    {
+      "name": "Backend API",
+      "path": "./backend"
+    },
+    {
+      "name": "Frontend App",
+      "path": "./frontend"
+    },
+    {
+      "name": "Documentation",
+      "path": "./docs"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/.git": false,
+      "**/dist": true,
+      "**/.vite": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.vite": true,
+      "**/package-lock.json": true
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.associations": {
+      "*.jsx": "javascriptreact",
+      "*.js": "javascript"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "npm.enableRunFromFolder": true,
+    "npm.packageManager": "npm",
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#1e88e5",
+      "activityBar.foreground": "#ffffff",
+      "titleBar.activeBackground": "#1976d2",
+      "titleBar.activeForeground": "#ffffff"
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "mongodb.mongodb-vscode",
+      "ms-vscode.vscode-typescript-next",
+      "dsznajder.es7-react-js-snippets",
+      "bradlc.vscode-tailwindcss",
+      "formulahendry.auto-rename-tag",
+      "christian-kohler.path-intellisense",
+      "eamodio.gitlens",
+      "github.copilot",
+      "ms-azuretools.vscode-azurestaticwebapps",
+      "ms-azuretools.vscode-cosmosdb"
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "🚀 Launch Backend",
+        "skipFiles": ["<node_internals>/**"],
+        "program": "${workspaceFolder}/backend/server.js",
+        "envFile": "${workspaceFolder}/backend/.env",
+        "console": "integratedTerminal"
+      },
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "🎨 Launch Frontend",
+        "url": "http://localhost:5173",
+        "webRoot": "${workspaceFolder}/frontend/src",
+        "sourceMaps": true
+      }
+    ],
+    "compounds": [
+      {
+        "name": "🏛️ Full Stack",
+        "configurations": ["🚀 Launch Backend", "🎨 Launch Frontend"],
+        "stopAll": true
+      }
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Install All Dependencies",
+        "type": "shell",
+        "command": "cd backend && npm install && cd ../frontend && npm install",
+        "group": "build",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        }
+      },
+      {
+        "label": "Start Backend",
+        "type": "shell",
+        "command": "npm run dev",
+        "options": {
+          "cwd": "${workspaceFolder}/backend"
+        },
+        "isBackground": true,
+        "problemMatcher": {
+          "pattern": {
+            "regexp": "^([^\\s].*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+            "file": 1,
+            "line": 2,
+            "column": 3,
+            "severity": 4,
+            "message": 5
+          },
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "^.*starting.*$",
+            "endsPattern": "^.*Server running.*$"
+          }
+        },
+        "group": "build"
+      },
+      {
+        "label": "Start Frontend",
+        "type": "shell",
+        "command": "npm run dev",
+        "options": {
+          "cwd": "${workspaceFolder}/frontend"
+        },
+        "isBackground": true,
+        "problemMatcher": {
+          "pattern": {
+            "regexp": "^([^\\s].*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+            "file": 1,
+            "line": 2,
+            "column": 3,
+            "severity": 4,
+            "message": 5
+          },
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "^.*VITE.*$",
+            "endsPattern": "^.*Local:.*$"
+          }
+        },
+        "group": "build"
+      },
+      {
+        "label": "Start Full Stack",
+        "dependsOn": ["Start Backend", "Start Frontend"],
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      },
+      {
+        "label": "Run Backend Tests",
+        "type": "shell",
+        "command": "npm test",
+        "options": {
+          "cwd": "${workspaceFolder}/backend"
+        },
+        "group": "test"
+      },
+      {
+        "label": "Build Frontend",
+        "type": "shell",
+        "command": "npm run build",
+        "options": {
+          "cwd": "${workspaceFolder}/frontend"
+        },
+        "group": "build"
+      },
+      {
+        "label": "Deploy to Vercel",
+        "type": "shell",
+        "command": "vercel --prod",
+        "group": "none"
+      }
+    ]
+  }
+}
