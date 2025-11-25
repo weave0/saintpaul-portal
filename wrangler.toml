@@ -1,0 +1,39 @@
+# Cloudflare Pages Deployment
+# Project: St. Paul Mystical Portal
+# Domain: saintpaul.globaldeets.com (Brett Weaver)
+
+name = "saintpaul-portal"
+
+# Production settings
+[env.production]
+vars = { NODE_ENV = "production" }
+
+# Build configuration
+[build]
+command = "npm install && npm run build"
+publish = "dist"
+
+# Page rules
+[[redirects]]
+from = "/api/*"
+to = "https://saintpaul-api.railway.app/:splat"
+status = 200
+
+# Custom headers
+[[headers]]
+for = "/*"
+[headers.values]
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+Referrer-Policy = "strict-origin-when-cross-origin"
+Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# Cache static assets
+[[headers]]
+for = "/assets/*"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+# Custom domain
+[deployment]
+domains = ["saintpaul.globaldeets.com", "stpaul.globaldeets.com"]

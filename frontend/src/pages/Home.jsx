@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import StatusPanel from '../components/StatusPanel';
 import SEO from '../components/SEO';
-import { Link as RouterLink } from 'react-router-dom';
+import { Link as RouterLink, useNavigate } from 'react-router-dom';
 import {
   Container,
   Box,
@@ -10,178 +10,579 @@ import {
   Grid,
   Card,
   CardContent,
-  CardMedia,
-  CardActions,
+  IconButton,
+  Chip,
+  Dialog,
+  DialogContent,
+  DialogTitle,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+  Fade,
+  Collapse,
 } from '@mui/material';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import MapIcon from '@mui/icons-material/Map';
 import TimelineIcon from '@mui/icons-material/Timeline';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
+import ViewInArIcon from '@mui/icons-material/ViewInAr';
+import AutoStoriesIcon from '@mui/icons-material/AutoStories';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import HistoryIcon from '@mui/icons-material/History';
+import ApartmentIcon from '@mui/icons-material/Apartment';
+import MusicNoteIcon from '@mui/icons-material/MusicNote';
+import RestaurantIcon from '@mui/icons-material/Restaurant';
+import StarIcon from '@mui/icons-material/Star';
+import CloseIcon from '@mui/icons-material/Close';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { getMysticalTheme, getGlobalMysticalStyles } from '../theme/mysticalTheme';
 
 const MotionBox = motion(Box);
 const MotionCard = motion(Card);
 
 const Home = () => {
+  const navigate = useNavigate();
+  const theme = getMysticalTheme(2025);
+  const styles = getGlobalMysticalStyles(theme);
+  const [selectedFeature, setSelectedFeature] = useState(null);
+  const [showEraShowcase, setShowEraShowcase] = useState(false);
+
   const features = [
     {
+      id: 'map',
       title: 'Interactive Map',
-      description: 'Explore Saint Paul through an interactive map showcasing historical landmarks, cultural sites, and points of interest. Filter by era, category, and discover hidden stories.',
-      icon: <MapIcon sx={{ fontSize: 60 }} />,
+      subtitle: 'TIME PORTAL',
+      description: 'Navigate through 175 years of history with our mystical temporal map.',
+      icon: <MapIcon sx={{ fontSize: 70 }} />,
       link: '/map',
-      color: '#1a4d7d',
-      badge: 'Start Here',
+      gradient: 'linear-gradient(135deg, #00ffff 0%, #4169e1 100%)',
+      badge: 'START HERE',
+      details: {
+        features: [
+          'Slide through 5 distinct eras (1850-2025)',
+          'Filter by 12 categories: landmarks, cultural sites, music venues, ghost stories',
+          '3D buildings with era-specific styling',
+          'Atmospheric effects & night sky overlay',
+          'Click any location for rich historical context'
+        ],
+        stats: { locations: '500+', buildings: '1,500+', years: 175 }
+      }
     },
     {
+      id: '3d',
+      title: '3D Historical Viewer',
+      subtitle: 'IMMERSIVE PORTAL',
+      description: 'Walk through reconstructed historical Saint Paul in full 3D.',
+      icon: <ViewInArIcon sx={{ fontSize: 70 }} />,
+      link: '/3d-viewer',
+      gradient: 'linear-gradient(135deg, #32cd32 0%, #00ffff 100%)',
+      badge: 'NEW',
+      details: {
+        features: [
+          'First-person navigation through historical downtown',
+          'Accurate building reconstructions from blueprints',
+          'Time-shift between eras and see buildings transform',
+          'Discover hidden ghost story locations',
+          'Immersive ambient sound design'
+        ],
+        stats: { buildings: '200+', 'sq blocks': 12, resolution: '4K' }
+      }
+    },
+    {
+      id: 'timeline',
       title: 'Historical Timeline',
-      description: 'Journey through time and discover the pivotal events that shaped Saint Paul into the vibrant city it is today.',
-      icon: <TimelineIcon sx={{ fontSize: 60 }} />,
+      subtitle: 'CHRONICLES',
+      description: 'Key events, cultural moments, and untold stories across generations.',
+      icon: <TimelineIcon sx={{ fontSize: 70 }} />,
       link: '/timeline',
-      color: '#c8102e',
+      gradient: 'linear-gradient(135deg, #d4af37 0%, #c8102e 100%)',
+      details: {
+        features: [
+          'Major political & infrastructure milestones',
+          'Cultural events: music, food, famous people',
+          'Crime history & prohibition era stories',
+          'Filter by category, decade, or search',
+          'Rich multimedia: photos, documents, audio'
+        ],
+        stats: { events: '1,000+', photos: '500+', decades: 18 }
+      }
     },
     {
-      title: 'Digital Library',
-      description: 'Access a comprehensive collection of historical documents, photographs, stories, and archives.',
-      icon: <LibraryBooksIcon sx={{ fontSize: 60 }} />,
+      id: 'library',
+      title: 'Archives of Time',
+      subtitle: 'DIGITAL LIBRARY',
+      description: 'Photographs, documents, blueprints, oral histories, and more.',
+      icon: <LibraryBooksIcon sx={{ fontSize: 70 }} />,
       link: '/library',
-      color: '#4a7ba7',
+      gradient: 'linear-gradient(135deg, #8b7355 0%, #4169e1 100%)',
+      details: {
+        features: [
+          'Building Specifications: 1,500+ architectural blueprints',
+          'Historic Photographs: 5,000+ images documenting evolution',
+          'Maps & Atlases: 500+ historic maps showing city growth',
+          'Documents & Records: 10,000+ city records & newspapers',
+          'Oral Histories: 200+ personal accounts & stories'
+        ],
+        stats: { items: '17,000+', collections: 7, 'oldest': 1849 }
+      }
     },
   ];
 
-  return (
-    <Container maxWidth="lg" sx={{ py: 8 }}>
-      <SEO title="Saint Paul Historical Library" description="Explore Saint Paul's rich history: interactive map, timeline, 3D viewer, and digital archives." canonical={window.location.href} />
-      <StatusPanel />
-      <MotionBox
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        sx={{ textAlign: 'center', mb: 8 }}
-      >
-        <Typography
-          variant="h1"
-          component="h1"
-          gutterBottom
-          sx={{ fontWeight: 700, color: 'primary.main' }}
-        >
-          Discover Saint Paul
-        </Typography>
-        <Typography variant="h5" color="text.secondary" paragraph>
-          Experience the rich history, vibrant culture, and enduring legacy of Minnesota's capital city
-        </Typography>
-        <Box sx={{ mt: 4 }}>
-          <Button
-            component={RouterLink}
-            to="/map"
-            variant="contained"
-            size="large"
-            sx={{ mr: 2 }}
-          >
-            Explore Map
-          </Button>
-          <Button
-            component={RouterLink}
-            to="/timeline"
-            variant="outlined"
-            size="large"
-          >
-            View Timeline
-          </Button>
-        </Box>
-      </MotionBox>
+  const eras = [
+    { name: 'Pioneer Era', years: '1850-1880', color: '#8b7355', keywords: 'frontier, settlement' },
+    { name: 'Gilded Age', years: '1880-1920', color: '#d4af37', keywords: 'prosperity, industrial' },
+    { name: 'Art Deco', years: '1920-1950', color: '#4169e1', keywords: 'jazz, prohibition' },
+    { name: 'Modern Era', years: '1950-1980', color: '#32cd32', keywords: 'suburbia, highways' },
+    { name: 'Contemporary', years: '1980-2025', color: '#00ffff', keywords: 'technology, diversity' },
+  ];
 
-      <Grid container spacing={4}>
-        {features.map((feature, index) => (
-          <Grid item xs={12} md={4} key={feature.title}>
-            <MotionCard
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.2 }}
+  const hiddenTreasures = [
+    { icon: <AutoStoriesIcon />, title: 'Ghost Stories', count: '25+ haunted locations', color: '#9f00ff' },
+    { icon: <MusicNoteIcon />, title: 'Music History', count: '50+ venues & artists', color: '#ff1493' },
+    { icon: <RestaurantIcon />, title: 'Food Heritage', count: '100+ historic eateries', color: '#ff8c00' },
+    { icon: <StarIcon />, title: 'Famous People', count: '75+ notable residents', color: '#ffd700' },
+  ];
+
+  return (
+    <Box sx={{ 
+      minHeight: '100vh',
+      background: `${theme.backgroundGradient}, 
+        radial-gradient(circle at 20% 20%, ${theme.glow} 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(138, 43, 226, 0.2) 0%, transparent 50%)`,
+      pb: 8,
+    }}>
+      <SEO title="St. Paul Mystical Portal" description="Journey through 175 years of history with immersive 3D, interactive maps, and hidden stories." canonical={window.location.href} />
+      
+      {/* Hero Section */}
+      <Container maxWidth="lg">
+        <MotionBox
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          sx={{ textAlign: 'center', pt: 12, pb: 8 }}
+        >
+          <Typography
+            variant="h1"
+            component="h1"
+            sx={{
+              ...styles.glowText,
+              fontSize: { xs: '3rem', md: '5rem' },
+              mb: 2,
+              animation: 'portalPulse 3s ease-in-out infinite',
+              '@keyframes portalPulse': {
+                '0%, 100%': { textShadow: `0 0 20px ${theme.glow}` },
+                '50%': { textShadow: `0 0 40px ${theme.glow}, 0 0 60px ${theme.primary}` },
+              },
+            }}
+          >
+            THE MYSTICAL PORTAL
+          </Typography>
+          <Typography 
+            variant="h4" 
+            sx={{ 
+              color: theme.textSecondary,
+              letterSpacing: 4,
+              textTransform: 'uppercase',
+              fontWeight: 300,
+              mb: 4,
+            }}
+          >
+            175 Years • 5 Eras • Infinite Stories
+          </Typography>
+          <Typography 
+            variant="h6"
+            sx={{ 
+              color: theme.textColor,
+              maxWidth: 800,
+              mx: 'auto',
+              lineHeight: 1.8,
+              mb: 6,
+              fontSize: '1.2rem',
+            }}
+          >
+            Step through time itself. Explore Saint Paul's layered histories through an
+            immersive blend of interactive maps, 3D reconstruction, and hidden narratives.
+            From the sepia-toned Pioneer Era to the cyan-lit Contemporary age—each moment
+            has its own visual soul.
+          </Typography>
+
+          <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center', flexWrap: 'wrap' }}>
+            <Button
+              onClick={() => navigate('/map')}
+              variant="contained"
+              size="large"
               sx={{
-                height: '100%',
-                display: 'flex',
-                flexDirection: 'column',
-                transition: 'transform 0.3s',
+                ...styles.portalButton,
+                px: 4,
+                py: 1.5,
+                fontSize: '1.1rem',
+              }}
+            >
+              ENTER THE PORTAL
+            </Button>
+            <Button
+              onClick={() => setShowEraShowcase(!showEraShowcase)}
+              variant="outlined"
+              size="large"
+              sx={{
+                color: theme.primary,
+                borderColor: theme.primary,
+                px: 4,
+                py: 1.5,
+                fontSize: '1.1rem',
                 '&:hover': {
-                  transform: 'translateY(-8px)',
+                  borderColor: theme.primary,
+                  bgcolor: `${theme.primary}22`,
+                  boxShadow: `0 0 20px ${theme.glow}`,
                 },
               }}
             >
-              <Box
+              EXPLORE ERAS
+            </Button>
+          </Box>
+
+          {/* Era Showcase */}
+          <Collapse in={showEraShowcase}>
+            <Box sx={{ mt: 6, display: 'flex', gap: 2, justifyContent: 'center', flexWrap: 'wrap' }}>
+              {eras.map((era, i) => (
+                <Chip
+                  key={i}
+                  label={`${era.name} (${era.years})`}
+                  sx={{
+                    bgcolor: `${era.color}33`,
+                    color: era.color,
+                    border: `2px solid ${era.color}`,
+                    fontWeight: 700,
+                    fontSize: '0.9rem',
+                    py: 2.5,
+                    px: 1,
+                    boxShadow: `0 0 15px ${era.color}66`,
+                    cursor: 'pointer',
+                    transition: 'all 0.3s',
+                    '&:hover': {
+                      transform: 'scale(1.05)',
+                      boxShadow: `0 0 25px ${era.color}`,
+                    },
+                  }}
+                  onClick={() => navigate('/map')}
+                />
+              ))}
+            </Box>
+          </Collapse>
+        </MotionBox>
+
+        {/* Feature Cards */}
+        <Grid container spacing={4} sx={{ mb: 8 }}>
+          {features.map((feature, index) => (
+            <Grid item xs={12} md={6} key={feature.id}>
+              <MotionCard
+                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6, delay: 0.2 + index * 0.1 }}
+                onClick={() => setSelectedFeature(feature)}
                 sx={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  p: 3,
-                  bgcolor: feature.color,
-                  color: 'white',
+                  ...styles.mysticalCard,
+                  cursor: 'pointer',
                   position: 'relative',
+                  overflow: 'hidden',
+                  '&::before': {
+                    content: '""',
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    height: '200px',
+                    background: feature.gradient,
+                    opacity: 0.3,
+                    transition: 'opacity 0.3s',
+                  },
+                  '&:hover::before': {
+                    opacity: 0.5,
+                  },
                 }}
               >
-                {feature.icon}
                 {feature.badge && (
-                  <Box
+                  <Chip
+                    label={feature.badge}
                     sx={{
                       position: 'absolute',
-                      top: 8,
-                      right: 8,
-                      bgcolor: 'rgba(255, 255, 255, 0.95)',
-                      color: feature.color,
-                      px: 1.5,
-                      py: 0.5,
-                      borderRadius: 2,
+                      top: 16,
+                      right: 16,
+                      zIndex: 2,
+                      bgcolor: theme.primary,
+                      color: '#000',
                       fontWeight: 700,
                       fontSize: '0.75rem',
-                      boxShadow: 2,
+                      boxShadow: `0 0 15px ${theme.glow}`,
+                    }}
+                  />
+                )}
+                <Box sx={{ 
+                  height: 200, 
+                  display: 'flex', 
+                  flexDirection: 'column',
+                  alignItems: 'center', 
+                  justifyContent: 'center',
+                  position: 'relative',
+                  zIndex: 1,
+                  gap: 1,
+                }}>
+                  <Box sx={{ 
+                    color: theme.primary,
+                    filter: `drop-shadow(0 0 20px ${theme.glow})`,
+                    transition: 'all 0.3s',
+                  }}>
+                    {feature.icon}
+                  </Box>
+                  <Typography 
+                    variant="caption" 
+                    sx={{ 
+                      color: theme.textSecondary,
+                      letterSpacing: 2,
+                      textTransform: 'uppercase',
+                      fontWeight: 600,
                     }}
                   >
-                    {feature.badge}
+                    {feature.subtitle}
+                  </Typography>
+                </Box>
+                <CardContent>
+                  <Typography 
+                    variant="h4" 
+                    sx={{
+                      color: theme.primary,
+                      fontWeight: 700,
+                      letterSpacing: 1,
+                      mb: 2,
+                    }}
+                  >
+                    {feature.title}
+                  </Typography>
+                  <Typography 
+                    variant="body1" 
+                    sx={{ 
+                      color: theme.textColor, 
+                      lineHeight: 1.8,
+                      mb: 3,
+                    }}
+                  >
+                    {feature.description}
+                  </Typography>
+                  <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
+                    {Object.entries(feature.details.stats).map(([key, value]) => (
+                      <Chip
+                        key={key}
+                        label={`${value} ${key}`}
+                        size="small"
+                        sx={{
+                          bgcolor: `${theme.primary}22`,
+                          color: theme.primary,
+                          border: `1px solid ${theme.primary}66`,
+                          fontWeight: 600,
+                        }}
+                      />
+                    ))}
                   </Box>
-                )}
-              </Box>
-              <CardContent sx={{ flexGrow: 1 }}>
-                <Typography gutterBottom variant="h5" component="h2">
-                  {feature.title}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  {feature.description}
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button
-                  component={RouterLink}
-                  to={feature.link}
-                  size="small"
-                  color="primary"
-                >
-                  Learn More
-                </Button>
-              </CardActions>
-            </MotionCard>
-          </Grid>
-        ))}
-      </Grid>
+                  <Button
+                    endIcon={<ArrowForwardIcon />}
+                    sx={{
+                      mt: 3,
+                      color: theme.primary,
+                      '&:hover': {
+                        bgcolor: `${theme.primary}22`,
+                      },
+                    }}
+                  >
+                    Learn More & Enter
+                  </Button>
+                </CardContent>
+              </MotionCard>
+            </Grid>
+          ))}
+        </Grid>
 
-      <Box sx={{ mt: 8, textAlign: 'center' }}>
-        <Typography variant="h4" gutterBottom>
-          About Saint Paul
-        </Typography>
-        <Typography variant="body1" color="text.secondary" paragraph>
-          Founded in 1854, Saint Paul is the capital and second-largest city of Minnesota.
-          Rich in history and culture, the city has been a crossroads of commerce, innovation,
-          and community for over 150 years. From its Native American heritage to its role
-          as a major transportation hub, Saint Paul's story is one of resilience, diversity,
-          and continuous growth.
-        </Typography>
-        <Button
-          component={RouterLink}
-          to="/about"
-          variant="outlined"
-          sx={{ mt: 2 }}
-        >
-          Read More About Our Mission
-        </Button>
-      </Box>
-    </Container>
+        {/* Hidden Treasures Section */}
+        <Box sx={{ ...styles.mysticalCard, p: 6, mb: 8, textAlign: 'center' }}>
+          <Typography 
+            variant="h3" 
+            sx={{
+              ...styles.glowText,
+              mb: 2,
+            }}
+          >
+            HIDDEN TREASURES
+          </Typography>
+          <Typography 
+            variant="h6" 
+            sx={{ 
+              color: theme.textSecondary,
+              letterSpacing: 2,
+              textTransform: 'uppercase',
+              mb: 4,
+            }}
+          >
+            Discover the secrets scattered across Saint Paul
+          </Typography>
+          <Grid container spacing={3}>
+            {hiddenTreasures.map((treasure, i) => (
+              <Grid item xs={12} sm={6} md={3} key={i}>
+                <Box
+                  onClick={() => navigate('/map')}
+                  sx={{
+                    p: 3,
+                    borderRadius: 2,
+                    background: `${treasure.color}22`,
+                    border: `2px solid ${treasure.color}`,
+                    cursor: 'pointer',
+                    transition: 'all 0.3s',
+                    '&:hover': {
+                      transform: 'translateY(-8px)',
+                      boxShadow: `0 8px 30px ${treasure.color}66`,
+                    },
+                  }}
+                >
+                  <Box sx={{ color: treasure.color, mb: 1, filter: `drop-shadow(0 0 10px ${treasure.color})` }}>
+                    {React.cloneElement(treasure.icon, { sx: { fontSize: 50 } })}
+                  </Box>
+                  <Typography variant="h6" sx={{ color: treasure.color, fontWeight: 700, mb: 0.5 }}>
+                    {treasure.title}
+                  </Typography>
+                  <Typography variant="body2" sx={{ color: theme.textSecondary }}>
+                    {treasure.count}
+                  </Typography>
+                </Box>
+              </Grid>
+            ))}
+          </Grid>
+          <Typography 
+            variant="body1" 
+            sx={{ 
+              color: theme.textColor,
+              mt: 4,
+              fontStyle: 'italic',
+            }}
+          >
+            👻 Pro tip: Ghost stories are hidden throughout the map—find them all to unlock
+            the complete haunted history of Saint Paul!
+          </Typography>
+        </Box>
+
+        {/* Call to Action */}
+        <Box sx={{ textAlign: 'center' }}>
+          <Typography 
+            variant="h4" 
+            sx={{ 
+              color: theme.primary,
+              fontWeight: 700,
+              mb: 3,
+            }}
+          >
+            Begin Your Journey
+          </Typography>
+          <Typography 
+            variant="body1" 
+            sx={{ 
+              color: theme.textColor,
+              maxWidth: 600,
+              mx: 'auto',
+              mb: 4,
+              lineHeight: 1.8,
+            }}
+          >
+            Whether you're a longtime resident, curious visitor, or history enthusiast,
+            the mystical portal awaits. Step through and experience Saint Paul as you've
+            never seen it before.
+          </Typography>
+          <Button
+            onClick={() => navigate('/map')}
+            variant="contained"
+            size="large"
+            sx={{
+              ...styles.portalButton,
+              px: 6,
+              py: 2,
+              fontSize: '1.2rem',
+            }}
+          >
+            OPEN THE PORTAL NOW
+          </Button>
+        </Box>
+      </Container>
+
+      {/* Feature Detail Dialog */}
+      <Dialog
+        open={Boolean(selectedFeature)}
+        onClose={() => setSelectedFeature(null)}
+        maxWidth="md"
+        fullWidth
+        PaperProps={{
+          sx: {
+            ...styles.mysticalCard,
+            m: 2,
+          },
+        }}
+      >
+        {selectedFeature && (
+          <>
+            <DialogTitle sx={{ 
+              background: selectedFeature.gradient,
+              color: '#fff',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+            }}>
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+                {selectedFeature.icon}
+                <Box>
+                  <Typography variant="h4" sx={{ fontWeight: 700 }}>
+                    {selectedFeature.title}
+                  </Typography>
+                  <Typography variant="caption" sx={{ letterSpacing: 2, textTransform: 'uppercase' }}>
+                    {selectedFeature.subtitle}
+                  </Typography>
+                </Box>
+              </Box>
+              <IconButton onClick={() => setSelectedFeature(null)} sx={{ color: '#fff' }}>
+                <CloseIcon />
+              </IconButton>
+            </DialogTitle>
+            <DialogContent sx={{ pt: 3 }}>
+              <Typography variant="h6" sx={{ color: theme.primary, fontWeight: 700, mb: 2 }}>
+                Key Features:
+              </Typography>
+              <List>
+                {selectedFeature.details.features.map((feat, i) => (
+                  <ListItem key={i}>
+                    <ListItemIcon>
+                      <LocationOnIcon sx={{ color: theme.primary }} />
+                    </ListItemIcon>
+                    <ListItemText
+                      primary={feat}
+                      primaryTypographyProps={{
+                        sx: { color: theme.textColor },
+                      }}
+                    />
+                  </ListItem>
+                ))}
+              </List>
+              <Button
+                fullWidth
+                variant="contained"
+                size="large"
+                onClick={() => navigate(selectedFeature.link)}
+                sx={{
+                  ...styles.portalButton,
+                  mt: 3,
+                }}
+              >
+                ENTER {selectedFeature.title.toUpperCase()}
+              </Button>
+            </DialogContent>
+          </>
+        )}
+      </Dialog>
+    </Box>
   );
 };
 

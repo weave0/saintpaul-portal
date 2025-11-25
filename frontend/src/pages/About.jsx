@@ -1,91 +1,148 @@
 import React from 'react';
 import { Container, Box, Typography, Paper, Grid } from '@mui/material';
+import { getMysticalTheme, getGlobalMysticalStyles } from '../theme/mysticalTheme';
+import AutoStoriesIcon from '@mui/icons-material/AutoStories';
+import ExploreIcon from '@mui/icons-material/Explore';
+import TimelineIcon from '@mui/icons-material/Timeline';
 
 const About = () => {
+  const theme = getMysticalTheme(2025);
+  const styles = getGlobalMysticalStyles(theme);
+
   return (
-    <Container maxWidth="lg" sx={{ py: 8 }}>
-      <Box sx={{ textAlign: 'center', mb: 6 }}>
-        <Typography variant="h2" component="h1" gutterBottom>
-          About This Project
-        </Typography>
-        <Typography variant="h6" color="text.secondary">
-          Our mission to preserve and share Saint Paul's rich history
-        </Typography>
-      </Box>
+    <Box sx={{ 
+      minHeight: '100vh',
+      background: `${theme.backgroundGradient}, radial-gradient(circle at 20% 20%, ${theme.glow} 0%, transparent 50%)`,
+      py: 8,
+    }}>
+      <Container maxWidth="lg">
+        <Box sx={{ textAlign: 'center', mb: 8 }}>
+          <Typography 
+            variant="h2" 
+            component="h1" 
+            gutterBottom
+            sx={{
+              ...styles.glowText,
+              fontSize: { xs: '2.5rem', md: '3.5rem' },
+              mb: 2,
+            }}
+          >
+            THE MYSTICAL PORTAL
+          </Typography>
+          <Typography 
+            variant="h5" 
+            sx={{ 
+              color: theme.textSecondary,
+              letterSpacing: 3,
+              textTransform: 'uppercase',
+              fontWeight: 300,
+            }}
+          >
+            Journey Through Saint Paul's Layered Histories
+          </Typography>
+        </Box>
 
-      <Paper sx={{ p: 4, mb: 4 }}>
-        <Typography variant="h4" gutterBottom>
-          Our Mission
-        </Typography>
-        <Typography variant="body1" paragraph>
-          The Saint Paul Historical Library & Map project is dedicated to creating the most
-          comprehensive, accessible, and engaging digital resource for exploring the history,
-          culture, and development of Saint Paul, Minnesota.
-        </Typography>
-        <Typography variant="body1" paragraph>
-          We believe that understanding our past is essential to building a better future.
-          Through this platform, we aim to make Saint Paul's rich heritage accessible to
-          everyone—from students and researchers to longtime residents and curious visitors.
-        </Typography>
-      </Paper>
+        <Paper sx={{ ...styles.mysticalCard, p: 5, mb: 5 }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 3 }}>
+            <AutoStoriesIcon sx={{ fontSize: 40, color: theme.primary, filter: `drop-shadow(0 0 8px ${theme.glow})` }} />
+            <Typography variant="h4" sx={{ color: theme.primary, fontWeight: 700 }}>
+              Our Vision
+            </Typography>
+          </Box>
+          <Typography variant="body1" paragraph sx={{ color: theme.textColor, fontSize: '1.1rem', lineHeight: 1.8 }}>
+            This is not merely a digital archive—it is a **mystical portal** through time itself.
+            We've woven together five distinct eras of Saint Paul's history, each with its own
+            visual identity, atmosphere, and soul. From the sepia-toned Pioneer Era to the
+            cyan-lit Contemporary age, you can literally *see* and *feel* how the city transformed.
+          </Typography>
+          <Typography variant="body1" paragraph sx={{ color: theme.textColor, fontSize: '1.1rem', lineHeight: 1.8 }}>
+            Our mission transcends traditional historical preservation. We're creating an
+            **immersive temporal experience**—combining 3D visualization, interactive maps,
+            atmospheric effects, and narrative storytelling to make Saint Paul's past pulse
+            with life in ways no textbook ever could.
+          </Typography>
+        </Paper>
 
-      <Grid container spacing={4} sx={{ mb: 4 }}>
-        <Grid item xs={12} md={6}>
-          <Paper sx={{ p: 3, height: '100%' }}>
-            <Typography variant="h5" gutterBottom>
-              What We Offer
-            </Typography>
-            <Typography variant="body1" component="div">
-              <ul>
-                <li>Interactive map of historical locations</li>
-                <li>Comprehensive timeline of key events</li>
-                <li>Digital archive of photos, documents, and media</li>
-                <li>Curated collections and exhibitions</li>
-                <li>Educational resources for all ages</li>
-              </ul>
-            </Typography>
-          </Paper>
+        <Grid container spacing={4} sx={{ mb: 5 }}>
+          <Grid item xs={12} md={4}>
+            <Paper sx={{ ...styles.mysticalCard, p: 4, height: '100%', textAlign: 'center' }}>
+              <ExploreIcon sx={{ 
+                fontSize: 60, 
+                color: theme.primary,
+                filter: `drop-shadow(0 0 15px ${theme.glow})`,
+                mb: 2,
+              }} />
+              <Typography variant="h5" gutterBottom sx={{ color: theme.primary, fontWeight: 700, mb: 2 }}>
+                FIVE ERAS
+              </Typography>
+              <Typography variant="body1" sx={{ color: theme.textColor, lineHeight: 1.7 }}>
+                Pioneer (1850-1880) • Gilded Age (1880-1920) • Art Deco (1920-1950) • 
+                Modern (1950-1980) • Contemporary (1980-2025)
+              </Typography>
+            </Paper>
+          </Grid>
+
+          <Grid item xs={12} md={4}>
+            <Paper sx={{ ...styles.mysticalCard, p: 4, height: '100%', textAlign: 'center' }}>
+              <TimelineIcon sx={{ 
+                fontSize: 60, 
+                color: theme.primary,
+                filter: `drop-shadow(0 0 15px ${theme.glow})`,
+                mb: 2,
+              }} />
+              <Typography variant="h5" gutterBottom sx={{ color: theme.primary, fontWeight: 700, mb: 2 }}>
+                TEMPORAL NAVIGATION
+              </Typography>
+              <Typography variant="body1" sx={{ color: theme.textColor, lineHeight: 1.7 }}>
+                Slide through 175 years of history. Watch buildings rise and fall, neighborhoods
+                transform, and stories unfold across generations.
+              </Typography>
+            </Paper>
+          </Grid>
+
+          <Grid item xs={12} md={4}>
+            <Paper sx={{ ...styles.mysticalCard, p: 4, height: '100%', textAlign: 'center' }}>
+              <AutoStoriesIcon sx={{ 
+                fontSize: 60, 
+                color: theme.primary,
+                filter: `drop-shadow(0 0 15px ${theme.glow})`,
+                mb: 2,
+              }} />
+              <Typography variant="h5" gutterBottom sx={{ color: theme.primary, fontWeight: 700, mb: 2 }}>
+                LIVING NARRATIVES
+              </Typography>
+              <Typography variant="body1" sx={{ color: theme.textColor, lineHeight: 1.7 }}>
+                Ghost stories, music history, famous residents, cultural events—all woven into
+                an interconnected web of stories that bring the city to life.
+              </Typography>
+            </Paper>
+          </Grid>
         </Grid>
 
-        <Grid item xs={12} md={6}>
-          <Paper sx={{ p: 3, height: '100%' }}>
-            <Typography variant="h5" gutterBottom>
-              Get Involved
-            </Typography>
-            <Typography variant="body1" paragraph>
-              This is a community project, and we welcome contributions from everyone.
-              Whether you have historic photos to share, stories to tell, or research
-              to contribute, your input helps make this resource richer and more complete.
-            </Typography>
-            <Typography variant="body1">
-              Contact us to learn how you can contribute to preserving Saint Paul's history.
-            </Typography>
-          </Paper>
-        </Grid>
-      </Grid>
-
-      <Paper sx={{ p: 4 }}>
-        <Typography variant="h4" gutterBottom>
-          About Saint Paul
-        </Typography>
-        <Typography variant="body1" paragraph>
-          Saint Paul, the capital of Minnesota, was founded in 1854 and has grown from a
-          small frontier settlement into a vibrant metropolitan city. Located along the
-          Mississippi River, the city has played a crucial role in American history as a
-          center of commerce, transportation, and culture.
-        </Typography>
-        <Typography variant="body1" paragraph>
-          The city is known for its well-preserved Victorian architecture, diverse neighborhoods,
-          and rich cultural heritage. From its Native American roots through waves of European,
-          African, Asian, and Latino immigration, Saint Paul has been shaped by the contributions
-          of people from around the world.
-        </Typography>
-        <Typography variant="body1">
-          Today, Saint Paul continues to honor its past while building for the future, maintaining
-          a unique identity that sets it apart from its twin city, Minneapolis, just across the river.
-        </Typography>
-      </Paper>
-    </Container>
+        <Paper sx={{ ...styles.mysticalCard, p: 5 }}>
+          <Typography variant="h4" gutterBottom sx={{ color: theme.primary, fontWeight: 700, mb: 3 }}>
+            The Portal Experience
+          </Typography>
+          <Typography variant="body1" paragraph sx={{ color: theme.textColor, fontSize: '1.1rem', lineHeight: 1.8 }}>
+            **Interactive 2D/3D Maps** • Navigate Saint Paul in both traditional map view and
+            immersive 3D reconstruction. See 3D buildings rise from the ground, explore neighborhoods
+            from street level, and discover hidden historical gems.
+          </Typography>
+          <Typography variant="body1" paragraph sx={{ color: theme.textColor, fontSize: '1.1rem', lineHeight: 1.8 }}>
+            **Atmospheric Effects** • Night sky overlays, era-specific color grading, ambient glows,
+            and mystical transitions make each era feel distinct and alive.
+          </Typography>
+          <Typography variant="body1" paragraph sx={{ color: theme.textColor, fontSize: '1.1rem', lineHeight: 1.8 }}>
+            **Building Specifications** • Dive deep into architectural details—blueprints, construction
+            dates, architects, styles, and the stories behind each structure.
+          </Typography>
+          <Typography variant="body1" sx={{ color: theme.textColor, fontSize: '1.1rem', lineHeight: 1.8 }}>
+            **Cultural Layers** • Music venues, food heritage, famous residents, ghost stories, and
+            major events—all discoverable as you explore the temporal landscape.
+          </Typography>
+        </Paper>
+      </Container>
+    </Box>
   );
 };
 
