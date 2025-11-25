@@ -65,6 +65,9 @@ out/
 # API keys and secrets
 secrets.json
 credentials.json
+secrets/
+*.secret
+*.key
 
 # Large data files (keep samples)
 data/*-full.json

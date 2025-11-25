@@ -3,6 +3,8 @@ const router = express.Router();
 const BuildingSpec = require('../models/BuildingSpec');
 const mongoose = require('mongoose');
 const { writeLimiter } = require('../middleware/rateLimiter');
+const { validate } = require('../middleware/validate');
+const { buildingSpecSchema } = require('../schemas/zodSchemas');
 
 /**
  * @typedef {import('../types').BuildingSpec} BuildingSpec
@@ -140,9 +142,9 @@ router.get('/:id', async (req, res) => {
 });
 
 // POST create spec
-router.post('/', async (req, res) => {
+router.post('/', validate(buildingSpecSchema), async (req, res) => {
   try {
-    const spec = new BuildingSpec(req.body);
+    const spec = new BuildingSpec(req.validated.body);
     await spec.save();
     res.status(201).json(spec);
   } catch (err) {
@@ -151,11 +153,11 @@ router.post('/', async (req, res) => {
 });
 
 // PUT update spec
-router.put('/:id', writeLimiter, async (req, res) => {
+router.put('/:id', writeLimiter, validate(buildingSpecSchema.partial()), async (req, res) => {
   try {
     const spec = await BuildingSpec.findByIdAndUpdate(
       req.params.id,
-      req.body,
+      req.validated.body,
       { new: true, runValidators: true }
     );
     if (!spec) return res.status(404).json({ error: 'BuildingSpec not found' });

@@ -8,7 +8,10 @@ import Map from './pages/Map';
 import Timeline from './pages/Timeline';
 import Library from './pages/Library';
 import About from './pages/About';
-import HistoricalViewer from './pages/HistoricalViewer';
+import ReactLazyPreloader from './components/ReactLazyPreloader';
+import { Suspense, lazy } from 'react';
+
+const HistoricalViewer = lazy(() => import('./pages/HistoricalViewer'));
 
 function App() {
   return (
@@ -21,7 +24,11 @@ function App() {
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/library" element={<Library />} />
           <Route path="/about" element={<About />} />
-          <Route path="/3d-viewer" element={<HistoricalViewer />} />
+          <Route path="/3d-viewer" element={
+            <Suspense fallback={<ReactLazyPreloader label="Loading 3D Viewer" />}> 
+              <HistoricalViewer />
+            </Suspense>
+          } />
         </Routes>
       </Box>
       <Footer />

@@ -1,4 +1,6 @@
 import React from 'react';
+import StatusPanel from '../components/StatusPanel';
+import SEO from '../components/SEO';
 import { Link as RouterLink } from 'react-router-dom';
 import {
   Container,
@@ -23,10 +25,11 @@ const Home = () => {
   const features = [
     {
       title: 'Interactive Map',
-      description: 'Explore Saint Paul through an interactive map showcasing historical landmarks, cultural sites, and points of interest.',
+      description: 'Explore Saint Paul through an interactive map showcasing historical landmarks, cultural sites, and points of interest. Filter by era, category, and discover hidden stories.',
       icon: <MapIcon sx={{ fontSize: 60 }} />,
       link: '/map',
       color: '#1a4d7d',
+      badge: 'Start Here',
     },
     {
       title: 'Historical Timeline',
@@ -46,6 +49,8 @@ const Home = () => {
 
   return (
     <Container maxWidth="lg" sx={{ py: 8 }}>
+      <SEO title="Saint Paul Historical Library" description="Explore Saint Paul's rich history: interactive map, timeline, 3D viewer, and digital archives." canonical={window.location.href} />
+      <StatusPanel />
       <MotionBox
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -109,9 +114,29 @@ const Home = () => {
                   p: 3,
                   bgcolor: feature.color,
                   color: 'white',
+                  position: 'relative',
                 }}
               >
                 {feature.icon}
+                {feature.badge && (
+                  <Box
+                    sx={{
+                      position: 'absolute',
+                      top: 8,
+                      right: 8,
+                      bgcolor: 'rgba(255, 255, 255, 0.95)',
+                      color: feature.color,
+                      px: 1.5,
+                      py: 0.5,
+                      borderRadius: 2,
+                      fontWeight: 700,
+                      fontSize: '0.75rem',
+                      boxShadow: 2,
+                    }}
+                  >
+                    {feature.badge}
+                  </Box>
+                )}
               </Box>
               <CardContent sx={{ flexGrow: 1 }}>
                 <Typography gutterBottom variant="h5" component="h2">

@@ -15,6 +15,9 @@ import {
   useTheme,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import LightModeIcon from '@mui/icons-material/LightMode';
+import { useThemeMode } from '../store/themeMode';
 import MapIcon from '@mui/icons-material/Map';
 import TimelineIcon from '@mui/icons-material/Timeline';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
@@ -42,6 +45,8 @@ const Header = () => {
     setDrawerOpen(open);
   };
 
+  const { mode, toggleMode } = useThemeMode();
+
   return (
     <>
       <AppBar position="sticky" elevation={2}>
@@ -60,6 +65,9 @@ const Header = () => {
             Saint Paul Historical Library
           </Typography>
 
+          <IconButton color="inherit" aria-label="toggle theme mode" onClick={toggleMode} sx={{ mr: 1 }}>
+            {mode === 'dark' ? <LightModeIcon /> : <DarkModeIcon />}
+          </IconButton>
           {isMobile ? (
             <IconButton
               edge="end"

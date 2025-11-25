@@ -10,6 +10,7 @@ import {
   TextField,
   MenuItem,
 } from '@mui/material';
+import { Skeleton } from '@mui/material';
 import { motion } from 'framer-motion';
 
 const MotionCard = motion(Card);
@@ -19,9 +20,7 @@ const Timeline = () => {
   const [filter, setFilter] = useState('all');
 
   useEffect(() => {
-    // Fetch events from API
-    // For now, using sample data
-    setEvents([
+    const timer = setTimeout(() => setEvents([
       {
         id: 1,
         year: 1849,
@@ -64,7 +63,8 @@ const Timeline = () => {
         description: 'The Science Museum of Minnesota opens its doors to the public.',
         category: 'cultural',
       },
-    ]);
+    ]), 700);
+    return () => clearTimeout(timer);
   }, []);
 
   const categories = ['all', 'political', 'cultural', 'economic', 'social', 'infrastructure'];
@@ -124,6 +124,18 @@ const Timeline = () => {
           }}
         />
 
+        {filteredEvents.length === 0 && (
+          [...Array(6)].map((_, i) => (
+            <Card key={`sk-${i}`} sx={{ mb: 4, width: { xs: '100%', md: '45%' } }}>
+              <CardContent>
+                <Skeleton width={120} height={30} />
+                <Skeleton width={220} height={24} />
+                <Skeleton width={'90%'} height={18} />
+                <Skeleton width={'95%'} height={18} />
+              </CardContent>
+            </Card>
+          ))
+        )}
         {filteredEvents.map((event, index) => (
           <MotionCard
             key={event.id}

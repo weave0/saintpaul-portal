@@ -13,6 +13,10 @@ require('dotenv').config();
 
 const connectDB = require('./config/database');
 const { apiLimiter } = require('./middleware/rateLimiter');
+const { errorHandler } = require('./middleware/errorHandler');
+const { initTelemetry } = require('./telemetry');
+const { validate } = require('./middleware/validate');
+const { buildingSpecSchema, locationSchema, historicalEventSchema } = require('./schemas/zodSchemas');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -24,7 +28,44 @@ if (!process.env.JEST_WORKER_ID && process.env.NODE_ENV !== 'test') {
 
 // Middleware
 app.use(helmet({ crossOriginEmbedderPolicy: false }));
-app.use(cors({ origin: process.env.CORS_ORIGIN || '*', methods: 'GET,POST,PUT,DELETE,OPTIONS' }));
+
+// CORS configuration - allow both production and development origins
+const allowedOrigins = [
+  'https://saintpaul.globaldeets.com',
+  'https://stpaul.globaldeets.com',
+  'https://saintpaul-portal.pages.dev',
+  'https://*.saintpaul-portal.pages.dev',
+  'http://localhost:5173',
+  'http://localhost:3000',
+  process.env.CORS_ORIGIN
+].filter(Boolean);
+
+app.use(cors({
+  origin: function (origin, callback) {
+    // Allow requests with no origin (like mobile apps, curl, Postman)
+    if (!origin) return callback(null, true);
+    
+    // Check if origin matches any allowed origin (including wildcards)
+    const isAllowed = allowedOrigins.some(allowed => {
+      if (allowed === '*') return true;
+      if (allowed.includes('*')) {
+        const pattern = allowed.replace(/\*/g, '.*');
+        return new RegExp(`^${pattern}$`).test(origin);
+      }
+      return allowed === origin;
+    });
+    
+    if (isAllowed) {
+      callback(null, true);
+    } else {
+      callback(null, true); // Allow all for now, can restrict later
+    }
+  },
+  methods: 'GET,POST,PUT,DELETE,OPTIONS',
+  credentials: true,
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
 app.use(compression());
 // Structured logging
 const logger = pino({ level: process.env.LOG_LEVEL || 'info' });
@@ -40,9 +81,34 @@ app.locals.logger = logger;
 // Apply rate limiting to all API routes
 app.use('/api/', apiLimiter);
 
+// Initialize telemetry if enabled
+initTelemetry(logger);
+
 // Routes
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'Saint Paul API is running' });
+});
+
+// Readiness: checks basic DB connectivity state
+app.get('/api/readiness', (req, res) => {
+  const state = (require('mongoose').connection.readyState); // 0=disconnected,1=connected,2=connecting,3=disconnecting
+  const states = { 0: 'disconnected', 1: 'connected', 2: 'connecting', 3: 'disconnecting' };
+  res.json({
+    status: states[state] || 'unknown',
+    ready: state === 1,
+    timestamp: new Date().toISOString()
+  });
+});
+
+// Sample validated endpoints (non-invasive; real routes should adopt progressively)
+app.post('/api/validate/building-spec', validate(buildingSpecSchema), (req, res) => {
+  res.json({ valid: true, data: req.validated.body });
+});
+app.post('/api/validate/location', validate(locationSchema), (req, res) => {
+  res.json({ valid: true, data: req.validated.body });
+});
+app.post('/api/validate/event', validate(historicalEventSchema), (req, res) => {
+  res.json({ valid: true, data: req.validated.body });
 });
 
 // API routes
@@ -66,11 +132,8 @@ try {
   logger.error({ err: e }, 'Failed to load OpenAPI spec');
 }
 
-// Error handling
-app.use((err, req, res, next) => {
-  logger.error({ err }, 'Unhandled error');
-  res.status(500).json({ error: 'Something went wrong!' });
-});
+// Error handling (centralized)
+app.use(errorHandler);
 
 // Start server only when not under Jest test runner
 if (!process.env.JEST_WORKER_ID && process.env.NODE_ENV !== 'test') {
