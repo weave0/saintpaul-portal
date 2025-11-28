@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, lazy, Suspense } from 'react';
 import StatusPanel from '../components/StatusPanel';
 import SEO from '../components/SEO';
+import LazySection from '../components/LazySection';
 import { Link as RouterLink, useNavigate } from 'react-router-dom';
 import {
   Container,
@@ -22,24 +23,29 @@ import {
   Fade,
   Collapse,
 } from '@mui/material';
-import { motion, AnimatePresence } from 'framer-motion';
+import { DeferredMotionBox, DeferredMotionCard } from '../components/DeferredMotion';
+// Critical icons loaded eagerly (visible above the fold)
 import MapIcon from '@mui/icons-material/Map';
 import TimelineIcon from '@mui/icons-material/Timeline';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import ViewInArIcon from '@mui/icons-material/ViewInAr';
-import AutoStoriesIcon from '@mui/icons-material/AutoStories';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import HistoryIcon from '@mui/icons-material/History';
-import ApartmentIcon from '@mui/icons-material/Apartment';
-import MusicNoteIcon from '@mui/icons-material/MusicNote';
-import RestaurantIcon from '@mui/icons-material/Restaurant';
-import StarIcon from '@mui/icons-material/Star';
-import CloseIcon from '@mui/icons-material/Close';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+
+// Deferred icons (loaded after initial paint)
+const AutoStoriesIcon = lazy(() => import('@mui/icons-material/AutoStories'));
+const LocationOnIcon = lazy(() => import('@mui/icons-material/LocationOn'));
+const MusicNoteIcon = lazy(() => import('@mui/icons-material/MusicNote'));
+const RestaurantIcon = lazy(() => import('@mui/icons-material/Restaurant'));
+const StarIcon = lazy(() => import('@mui/icons-material/Star'));
+const CloseIcon = lazy(() => import('@mui/icons-material/Close'));
+
+// Fallback for lazy icons
+const IconFallback = () => <Box sx={{ width: 24, height: 24 }} />;
 import { getMysticalTheme, getGlobalMysticalStyles } from '../theme/mysticalTheme';
 
-const MotionBox = motion(Box);
-const MotionCard = motion(Card);
+// Use deferred motion components to reduce initial bundle
+const MotionBox = DeferredMotionBox;
+const MotionCard = DeferredMotionCard;
 
 const Home = () => {
   const navigate = useNavigate();
@@ -50,6 +56,26 @@ const Home = () => {
 
   const features = [
     {
+      id: 'stories',
+      title: 'Shadows of Saint Paul',
+      subtitle: 'MYSTICAL TALES',
+      description: 'Ghost stories, legendary figures, sacred ground, and dark history—immersive narratives that bring the past to life.',
+      icon: <Suspense fallback={<IconFallback />}><AutoStoriesIcon sx={{ fontSize: 70 }} /></Suspense>,
+      link: '/stories',
+      gradient: 'linear-gradient(135deg, #9f00ff 0%, #d4af37 100%)',
+      badge: 'START HERE',
+      details: {
+        features: [
+          'Haunted locations: Forepaugh\'s, Wabasha Caves, Hill House',
+          'F. Scott Fitzgerald\'s Saint Paul legacy',
+          '2,000-year-old sacred Indigenous burial mounds',
+          '1930s gangster hideouts and speakeasies',
+          'Immersive chapter-by-chapter narratives'
+        ],
+        stats: { stories: '50+', locations: '25', eras: '2000 years' }
+      }
+    },
+    {
       id: 'map',
       title: 'Interactive Map',
       subtitle: 'TIME PORTAL',
@@ -57,14 +83,12 @@ const Home = () => {
       icon: <MapIcon sx={{ fontSize: 70 }} />,
       link: '/map',
       gradient: 'linear-gradient(135deg, #00ffff 0%, #4169e1 100%)',
-      badge: 'START HERE',
       details: {
         features: [
           'Slide through 5 distinct eras (1850-2025)',
-          'Filter by 12 categories: landmarks, cultural sites, music venues, ghost stories',
-          '3D buildings with era-specific styling',
-          'Atmospheric effects & night sky overlay',
-          'Click any location for rich historical context'
+          'Filter by categories: landmarks, cultural sites, ghost stories',
+          'Click any location for rich historical context',
+          'Atmospheric effects & night sky overlay'
         ],
         stats: { locations: '500+', buildings: '1,500+', years: 175 }
       }
@@ -138,10 +162,10 @@ const Home = () => {
   ];
 
   const hiddenTreasures = [
-    { icon: <AutoStoriesIcon />, title: 'Ghost Stories', count: '25+ haunted locations', color: '#9f00ff' },
-    { icon: <MusicNoteIcon />, title: 'Music History', count: '50+ venues & artists', color: '#ff1493' },
-    { icon: <RestaurantIcon />, title: 'Food Heritage', count: '100+ historic eateries', color: '#ff8c00' },
-    { icon: <StarIcon />, title: 'Famous People', count: '75+ notable residents', color: '#ffd700' },
+    { icon: <Suspense fallback={<IconFallback />}><AutoStoriesIcon /></Suspense>, title: 'Ghost Stories', count: '12+ haunted locations', color: '#9f00ff', link: '/stories?category=ghost' },
+    { icon: <Suspense fallback={<IconFallback />}><StarIcon /></Suspense>, title: 'Legends & Lore', count: 'Myths that shaped the city', color: '#d4af37', link: '/stories?category=legend' },
+    { icon: <Suspense fallback={<IconFallback />}><MusicNoteIcon /></Suspense>, title: 'Sacred Ground', count: 'Spiritual sites & secrets', color: '#4a7ba7', link: '/stories?category=sacred' },
+    { icon: <Suspense fallback={<IconFallback />}><RestaurantIcon /></Suspense>, title: 'Dark History', count: 'Gangsters & Prohibition', color: '#8b0000', link: '/stories?category=crime' },
   ];
 
   return (
@@ -152,7 +176,7 @@ const Home = () => {
         radial-gradient(circle at 80% 80%, rgba(138, 43, 226, 0.2) 0%, transparent 50%)`,
       pb: 8,
     }}>
-      <SEO title="St. Paul Mystical Portal" description="Journey through 175 years of history with immersive 3D, interactive maps, and hidden stories." canonical={window.location.href} />
+      <SEO title="Shadows of Saint Paul | Mystical Portal" description="Discover ghost stories, legendary figures, and 175 years of hidden history through immersive narratives and atmospheric storytelling." canonical={window.location.href} />
       
       {/* Hero Section */}
       <Container maxWidth="lg">
@@ -402,112 +426,116 @@ const Home = () => {
           ))}
         </Grid>
 
-        {/* Hidden Treasures Section */}
-        <Box sx={{ ...styles.mysticalCard, p: 6, mb: 8, textAlign: 'center' }}>
-          <Typography 
-            variant="h3" 
-            sx={{
-              ...styles.glowText,
-              mb: 2,
-            }}
-          >
-            HIDDEN TREASURES
-          </Typography>
-          <Typography 
-            variant="h6" 
-            sx={{ 
-              color: theme.textSecondary,
-              letterSpacing: 2,
-              textTransform: 'uppercase',
-              mb: 4,
-            }}
-          >
-            Discover the secrets scattered across Saint Paul
-          </Typography>
-          <Grid container spacing={3}>
-            {hiddenTreasures.map((treasure, i) => (
-              <Grid item xs={12} sm={6} md={3} key={i}>
-                <Box
-                  onClick={() => navigate('/map')}
-                  sx={{
-                    p: 3,
-                    borderRadius: 2,
-                    background: `${treasure.color}22`,
-                    border: `2px solid ${treasure.color}`,
-                    cursor: 'pointer',
-                    transition: 'all 0.3s',
-                    '&:hover': {
-                      transform: 'translateY(-8px)',
-                      boxShadow: `0 8px 30px ${treasure.color}66`,
-                    },
-                  }}
-                >
-                  <Box sx={{ color: treasure.color, mb: 1, filter: `drop-shadow(0 0 10px ${treasure.color})` }}>
-                    {React.cloneElement(treasure.icon, { sx: { fontSize: 50 } })}
+        {/* Hidden Treasures Section - Lazy loaded when scrolled into view */}
+        <LazySection minHeight={300} rootMargin="200px">
+          <Box sx={{ ...styles.mysticalCard, p: 6, mb: 8, textAlign: 'center' }}>
+            <Typography 
+              variant="h3" 
+              sx={{
+                ...styles.glowText,
+                mb: 2,
+              }}
+            >
+              HIDDEN TREASURES
+            </Typography>
+            <Typography 
+              variant="h6" 
+              sx={{ 
+                color: theme.textSecondary,
+                letterSpacing: 2,
+                textTransform: 'uppercase',
+                mb: 4,
+              }}
+            >
+              Discover the secrets scattered across Saint Paul
+            </Typography>
+            <Grid container spacing={3}>
+              {hiddenTreasures.map((treasure, i) => (
+                <Grid item xs={12} sm={6} md={3} key={i}>
+                  <Box
+                    onClick={() => navigate(treasure.link)}
+                    sx={{
+                      p: 3,
+                      borderRadius: 2,
+                      background: `${treasure.color}22`,
+                      border: `2px solid ${treasure.color}`,
+                      cursor: 'pointer',
+                      transition: 'all 0.3s',
+                      '&:hover': {
+                        transform: 'translateY(-8px)',
+                        boxShadow: `0 8px 30px ${treasure.color}66`,
+                      },
+                    }}
+                  >
+                    <Box sx={{ color: treasure.color, mb: 1, filter: `drop-shadow(0 0 10px ${treasure.color})` }}>
+                      {React.cloneElement(treasure.icon, { sx: { fontSize: 50 } })}
+                    </Box>
+                    <Typography component="h3" variant="h6" sx={{ color: treasure.color, fontWeight: 700, mb: 0.5 }}>
+                      {treasure.title}
+                    </Typography>
+                    <Typography variant="body2" sx={{ color: theme.textSecondary }}>
+                      {treasure.count}
+                    </Typography>
                   </Box>
-                  <Typography variant="h6" sx={{ color: treasure.color, fontWeight: 700, mb: 0.5 }}>
-                    {treasure.title}
-                  </Typography>
-                  <Typography variant="body2" sx={{ color: theme.textSecondary }}>
-                    {treasure.count}
-                  </Typography>
-                </Box>
-              </Grid>
-            ))}
-          </Grid>
-          <Typography 
-            variant="body1" 
-            sx={{ 
-              color: theme.textColor,
-              mt: 4,
-              fontStyle: 'italic',
-            }}
-          >
-            👻 Pro tip: Ghost stories are hidden throughout the map—find them all to unlock
-            the complete haunted history of Saint Paul!
-          </Typography>
-        </Box>
+                </Grid>
+              ))}
+            </Grid>
+            <Typography 
+              variant="body1" 
+              sx={{ 
+                color: theme.textColor,
+                mt: 4,
+                fontStyle: 'italic',
+              }}
+            >
+              👻 Pro tip: Ghost stories are hidden throughout the map—find them all to unlock
+              the complete haunted history of Saint Paul!
+            </Typography>
+          </Box>
+        </LazySection>
 
-        {/* Call to Action */}
-        <Box sx={{ textAlign: 'center' }}>
-          <Typography 
-            variant="h4" 
-            sx={{ 
-              color: theme.primary,
-              fontWeight: 700,
-              mb: 3,
-            }}
-          >
-            Begin Your Journey
-          </Typography>
-          <Typography 
-            variant="body1" 
-            sx={{ 
-              color: theme.textColor,
-              maxWidth: 600,
-              mx: 'auto',
-              mb: 4,
-              lineHeight: 1.8,
-            }}
-          >
-            Whether you're a longtime resident, curious visitor, or history enthusiast,
-            the mystical portal awaits. Step through and experience Saint Paul as you've
-            never seen it before.
-          </Typography>
-          <Button
-            onClick={() => navigate('/map')}
-            variant="contained"
-            size="large"
-            sx={{
-              ...styles.portalButton,
-              px: 6,
-              py: 2,
-              fontSize: '1.2rem',
-            }}
-          >
-            OPEN THE PORTAL NOW
-          </Button>
-        </Box>
+        {/* Call to Action - Lazy loaded */}
+        <LazySection minHeight={200} rootMargin="150px">
+          <Box sx={{ textAlign: 'center' }}>
+            <Typography 
+              variant="h4" 
+              sx={{ 
+                color: theme.primary,
+                fontWeight: 700,
+                mb: 3,
+              }}
+            >
+              Begin Your Journey
+            </Typography>
+            <Typography 
+              variant="body1" 
+              sx={{ 
+                color: theme.textColor,
+                maxWidth: 600,
+                mx: 'auto',
+                mb: 4,
+                lineHeight: 1.8,
+              }}
+            >
+              Whether you're a longtime resident, curious visitor, or history enthusiast,
+              the mystical portal awaits. Step through and experience Saint Paul as you've
+              never seen it before.
+            </Typography>
+            <Button
+              onClick={() => navigate('/map')}
+              variant="contained"
+              size="large"
+              sx={{
+                ...styles.portalButton,
+                px: 6,
+                py: 2,
+                fontSize: '1.2rem',
+              }}
+            >
+              OPEN THE PORTAL NOW
+            </Button>
+          </Box>
+        </LazySection>
       </Container>
 
       {/* Feature Detail Dialog */}
@@ -535,7 +563,7 @@ const Home = () => {
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                 {selectedFeature.icon}
                 <Box>
-                  <Typography variant="h4" sx={{ fontWeight: 700 }}>
+                  <Typography component="h2" variant="h4" sx={{ fontWeight: 700 }}>
                     {selectedFeature.title}
                   </Typography>
                   <Typography variant="caption" sx={{ letterSpacing: 2, textTransform: 'uppercase' }}>
@@ -543,19 +571,19 @@ const Home = () => {
                   </Typography>
                 </Box>
               </Box>
-              <IconButton onClick={() => setSelectedFeature(null)} sx={{ color: '#fff' }}>
-                <CloseIcon />
+              <IconButton aria-label="close feature details" onClick={() => setSelectedFeature(null)} sx={{ color: '#fff' }}>
+                <Suspense fallback={<IconFallback />}><CloseIcon /></Suspense>
               </IconButton>
             </DialogTitle>
             <DialogContent sx={{ pt: 3 }}>
-              <Typography variant="h6" sx={{ color: theme.primary, fontWeight: 700, mb: 2 }}>
+              <Typography component="h3" variant="h6" sx={{ color: theme.primary, fontWeight: 700, mb: 2 }}>
                 Key Features:
               </Typography>
               <List>
                 {selectedFeature.details.features.map((feat, i) => (
                   <ListItem key={i}>
                     <ListItemIcon>
-                      <LocationOnIcon sx={{ color: theme.primary }} />
+                      <Suspense fallback={<IconFallback />}><LocationOnIcon sx={{ color: theme.primary }} /></Suspense>
                     </ListItemIcon>
                     <ListItemText
                       primary={feat}

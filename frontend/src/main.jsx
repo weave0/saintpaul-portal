@@ -8,6 +8,14 @@ import App from './App';
 import { HelmetProvider } from 'react-helmet-async';
 import ErrorBoundary from './components/ErrorBoundary';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+
+// Self-hosted Roboto font - Latin subset only (smallest, covers English)
+// Other subsets (cyrillic, greek, vietnamese) load on-demand if needed
+import '@fontsource/roboto/latin-300.css';
+import '@fontsource/roboto/latin-400.css';
+import '@fontsource/roboto/latin-500.css';
+import '@fontsource/roboto/latin-700.css';
+
 import './index.css';
 
 const buildTheme = (mode) => createTheme({
@@ -21,7 +29,16 @@ const buildTheme = (mode) => createTheme({
     fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
     h1: { fontSize: '2.5rem', fontWeight: 700 },
     h2: { fontSize: '2rem', fontWeight: 600 },
-    h3: { fontSize: '1.75rem', fontWeight: 600 }
+    h3: { fontSize: '1.75rem', fontWeight: 600 },
+    // Map smaller heading variants to paragraph tags to avoid improper heading order
+    variantMapping: {
+      h4: 'p',
+      h5: 'p',
+      h6: 'p',
+      subtitle1: 'p',
+      subtitle2: 'p',
+      overline: 'span'
+    }
   }
 });
 

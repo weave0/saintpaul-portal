@@ -1,11 +1,10 @@
 import React, { Suspense, useEffect, useMemo, useRef, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { OrbitControls, Environment, Grid, Sky } from '@react-three/drei';
-import { Perf } from 'r3f-perf';
+import { useFrame, useThree } from '@react-three/fiber';
+import { Grid } from '@react-three/drei';
 import { Box, CircularProgress, IconButton, Paper, Tooltip, Typography } from '@mui/material';
 import { DirectionsWalk, Layers, Visibility, VisibilityOff } from '@mui/icons-material';
-import * as THREE from 'three';
+import { Vector3 } from 'three';
 
 import Building3D from '../components/Building3D';
 import InstancedBuildings from '../components/InstancedBuildings';
@@ -13,6 +12,7 @@ import TimelineSlider from '../components/TimelineSlider';
 import HeatmapOverlay, { HeatmapControls } from '../components/HeatmapOverlay';
 import { useUIStore } from '../store/uiStore';
 import { apiGet } from '../services/apiClient';
+const HistoricalViewerEngine = React.lazy(() => import('../components/HistoricalViewerEngine'));
 
 const ShortcutHandler = ({ onGrid, onFirstPerson, onHeatmap }) => {
   useEffect(() => {
@@ -33,7 +33,7 @@ const ShortcutHandler = ({ onGrid, onFirstPerson, onHeatmap }) => {
 const FirstPersonController = ({ enabled, speed = 30, sprintMultiplier = 2.5, buildings = [] }) => {
   const { camera } = useThree();
   const keys = useRef({});
-  const velocity = useRef(new THREE.Vector3());
+  const velocity = useRef(new Vector3());
   const targetSpeed = useRef(speed);
 
   useEffect(() => {
@@ -83,16 +83,16 @@ const FirstPersonController = ({ enabled, speed = 30, sprintMultiplier = 2.5, bu
     const isSprinting = keys.current['shift'];
     targetSpeed.current = isSprinting ? speed * sprintMultiplier : speed;
 
-    const forward = new THREE.Vector3();
+    const forward = new Vector3();
     camera.getWorldDirection(forward);
     forward.y = 0;
     forward.normalize();
-    const right = new THREE.Vector3()
-      .crossVectors(forward, new THREE.Vector3(0, 1, 0))
+    const right = new Vector3()
+      .crossVectors(forward, new Vector3(0, 1, 0))
       .normalize()
       .multiplyScalar(-1);
 
-    let move = new THREE.Vector3();
+    let move = new Vector3();
     if (keys.current['w']) move.add(forward);
     if (keys.current['s']) move.add(forward.clone().multiplyScalar(-1));
     if (keys.current['a']) move.add(right.clone().multiplyScalar(-1));
@@ -109,7 +109,7 @@ const FirstPersonController = ({ enabled, speed = 30, sprintMultiplier = 2.5, bu
         velocity.current.multiplyScalar(0.5);
       }
     } else {
-      velocity.current.lerp(new THREE.Vector3(), 0.1);
+      velocity.current.lerp(new Vector3(), 0.1);
     }
 
     if (camera.position.y < 5) camera.position.y = 5;
@@ -231,8 +231,12 @@ const HistoricalViewer = () => {
   return (
     <Box sx={{ position: 'relative', width: '100%', height: '100vh', backgroundColor: '#87ceeb' }}>
       <ShortcutHandler onGrid={toggleGrid} onFirstPerson={toggleFirstPerson} onHeatmap={toggleHeatmap} />
-      <Canvas camera={{ position: [100, 80, 100], fov: 60 }} shadows>
-        <Suspense fallback={null}>
+      <Suspense fallback={<Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}><CircularProgress /></Box>}>
+        <HistoricalViewerEngine
+          cameraProps={{ position: [100, 80, 100], fov: 60 }}
+          showOrbitControls={!firstPerson}
+          enablePerf={import.meta.env.VITE_ENABLE_PERF === 'true'}
+        >
           <ambientLight intensity={0.5} />
           <directionalLight
             position={[50, 100, 50]}
@@ -242,7 +246,6 @@ const HistoricalViewer = () => {
             shadow-mapSize-height={2048}
           />
           <pointLight position={[-50, 50, -50]} intensity={0.5} />
-          <Sky distance={450000} sunPosition={[100, 20, 100]} inclination={0.6} azimuth={0.25} />
           {showGrid && (
             <Grid
               args={[500, 500]}
@@ -295,21 +298,9 @@ const HistoricalViewer = () => {
               );
             })}
           <HeatmapOverlay metric={heatmapMetric} gridSize={50} visible={heatmapVisible} />
-          <Environment preset="city" />
-          {import.meta.env.VITE_ENABLE_PERF === 'true' && <Perf position="bottom-left" minimal />}
-          {!firstPerson && (
-            <OrbitControls
-              enablePan
-              enableZoom
-              enableRotate
-              minDistance={20}
-              maxDistance={500}
-              maxPolarAngle={Math.PI / 2.2}
-            />
-          )}
           {firstPerson && <FirstPersonController enabled buildings={collisionBuildings} />}
-        </Suspense>
-      </Canvas>
+        </HistoricalViewerEngine>
+      </Suspense>
       {snapshots.length > 0 && (
         <TimelineSlider value={selectedYear} onChange={setSelectedYear} snapshots={snapshots} />
       )}

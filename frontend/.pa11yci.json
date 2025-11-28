@@ -1,0 +1,50 @@
+{
+  "defaults": {
+    "standard": "WCAG2AA",
+    "timeout": 30000,
+    "wait": 1000,
+    "chromeLaunchConfig": {
+      "args": [
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--disable-dev-shm-usage"
+      ]
+    },
+    "runners": [
+      "axe",
+      "htmlcs"
+    ],
+    "ignore": [
+      "warning"
+    ]
+  },
+  "urls": [
+    {
+      "url": "http://localhost:4173",
+      "screenCapture": "screenshots/home.png",
+      "actions": [
+        "wait for element body to be visible"
+      ]
+    },
+    {
+      "url": "http://localhost:4173/map",
+      "screenCapture": "screenshots/map.png",
+      "actions": [
+        "wait for element #map to be visible"
+      ]
+    },
+    {
+      "url": "http://localhost:4173/timeline",
+      "screenCapture": "screenshots/timeline.png"
+    },
+    {
+      "url": "http://localhost:4173/library",
+      "screenCapture": "screenshots/library.png"
+    },
+    {
+      "url": "http://localhost:4173/about",
+      "screenCapture": "screenshots/about.png"
+    }
+  ],
+  "threshold": 0
+}

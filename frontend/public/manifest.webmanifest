@@ -1,0 +1,14 @@
+{
+  "name": "Saint Paul Historical Library & Map",
+  "short_name": "Saint Paul",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#1a4d7d",
+  "lang": "en",
+  "description": "Explore the rich history and culture of Saint Paul, Minnesota through an interactive map and comprehensive historical library.",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

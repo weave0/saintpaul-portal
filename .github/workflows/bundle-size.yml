@@ -1,0 +1,49 @@
+name: Bundle Size Check
+
+on:
+    pull_request:
+        branches: [main, master]
+
+jobs:
+    bundle-size:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+                  cache: "npm"
+                  cache-dependency-path: frontend/package.json
+
+            - name: Install frontend dependencies
+              working-directory: frontend
+              run: npm install
+
+            - name: Build and analyze bundle
+              working-directory: frontend
+              run: |
+                  npm run build
+
+                  # Check main bundle size
+                  BUNDLE_SIZE=$(du -sb dist/assets/*.js | awk '{sum+=$1} END {print sum}')
+                  BUNDLE_SIZE_KB=$((BUNDLE_SIZE / 1024))
+                  MAX_SIZE_KB=200
+
+                  echo "Bundle size: ${BUNDLE_SIZE_KB}KB"
+                  echo "Max allowed: ${MAX_SIZE_KB}KB"
+
+                  if [ $BUNDLE_SIZE_KB -gt $MAX_SIZE_KB ]; then
+                    echo "❌ Bundle size exceeds limit!"
+                    exit 1
+                  else
+                    echo "✅ Bundle size within limits"
+                  fi
+
+            - name: Upload build stats
+              uses: actions/upload-artifact@v4
+              with:
+                  name: bundle-stats
+                  path: frontend/dist/

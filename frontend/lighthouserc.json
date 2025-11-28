@@ -1,0 +1,27 @@
+{
+  "ci": {
+    "collect": {
+      "staticDistDir": "./dist",
+      "numberOfRuns": 1,
+      "settings": {
+        "formFactor": "desktop",
+        "screenEmulation": { "mobile": false, "width": 1366, "height": 768, "deviceScaleFactor": 1, "disabled": false },
+        "disableStorageReset": true,
+        "chromeFlags": "--allow-insecure-localhost --disable-dev-shm-usage --no-first-run --no-default-browser-check --no-sandbox"
+      }
+    },
+    "assert": {
+      "assertions": {
+        "errors-in-console": "warn",
+        "network-dependency-tree-insight": "off",
+        "unused-javascript": ["warn", { "maxLength": 10 }],
+        "render-blocking-resources": ["warn", { "maxLength": 5 }]
+      }
+    },
+    "upload": {
+      "target": "filesystem",
+      "outputDir": "./.lighthouseci",
+      "reportFilenamePattern": "lhci-%%DATETIME%%-report.%%EXTENSION%%"
+    }
+  }
+}

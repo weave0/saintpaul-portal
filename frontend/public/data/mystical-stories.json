@@ -1,0 +1,590 @@
+{
+  "meta": {
+    "title": "Saint Paul Mystical Tales",
+    "description": "Where history bleeds into legend, and the past refuses to stay buried",
+    "version": "2.0",
+    "lastUpdated": "2025-11-27"
+  },
+  "stories": [
+    {
+      "id": "griggs-mansion",
+      "title": "The Curse of Griggs Mansion",
+      "subtitle": "When wealth couldn't buy salvation",
+      "category": "ghost",
+      "mood": "dread",
+      "era": "1883-1939",
+      "location": {
+        "name": "476 Summit Avenue",
+        "coordinates": [-93.1299, 44.9417],
+        "neighborhood": "Summit Hill"
+      },
+      "teaser": "They say the Griggs family mansion stood as a monument to ambition—until ambition turned to ash. One by one, the family fell to misfortune so complete, neighbors whispered of a curse.",
+      "content": [
+        "The house at 476 Summit Avenue was supposed to be a palace. Chauncey Griggs, wholesale grocery magnate, spared no expense in 1883 when he commissioned the grand Victorian mansion that would crown Summit Avenue's 'Millionaires' Row.'",
+        "But from the moment the family moved in, something felt wrong.",
+        "First came the accidents—a servant tumbled down the main staircase, breaking her neck. Then the illnesses struck. Children who played in the yard fell sick with fevers that couldn't be explained. Guests at dinner parties reported feeling watched by something just beyond the candlelight.",
+        "---",
+        "Chauncey's fortune began to hemorrhage. Business deals that should have succeeded collapsed. Partners betrayed him. His health deteriorated as his wealth evaporated.",
+        "By 1910, Chauncey Griggs was dead. His son followed soon after—some said by his own hand, others whispered darker things. The widow, Mary, lasted longest, wandering the empty rooms until 1933, when she too succumbed.",
+        "The mansion stood abandoned, a rotting monument to ruined dreams. Windows broke and no one replaced them. The garden grew wild. Children dared each other to approach the gate, but few went further.",
+        "---",
+        "In 1939, the city demolished what remained. But demolition crews reported strange occurrences—tools going missing, unexplained cold spots even in summer, the distinct sound of a woman weeping from inside walls that no longer stood.",
+        "The lot remains empty to this day. Developers have tried to build there. None have succeeded. Equipment fails. Workers quit. Plans fall through.",
+        "Some things, it seems, cannot be buried with brick and mortar."
+      ],
+      "pullQuote": "Equipment fails. Workers quit. Plans fall through. Some things cannot be buried.",
+      "witnessAccount": {
+        "source": "Construction foreman, 1985",
+        "quote": "I've built on a hundred lots. This one? The ground just... refuses. Every time we break ground, something goes wrong. My guys won't go back."
+      },
+      "imagePrompt": "Victorian mansion on Summit Avenue in winter twilight, snow falling, windows dark except for one flickering candle on third floor, bare oak trees like clawing hands, iron fence gate slightly ajar, footprints leading to door but none returning, atmospheric fog, cinematic horror lighting, hyperrealistic, 8k",
+      "relatedLocations": ["summit-avenue", "landmark-center"],
+      "tags": ["cursed", "victorian", "summit-avenue", "wealth", "tragedy"]
+    },
+    {
+      "id": "wabasha-caves",
+      "title": "The Speakeasy That Time Forgot",
+      "subtitle": "Where gangsters still dance in the dark",
+      "category": "crime",
+      "mood": "noir",
+      "era": "1933-present",
+      "location": {
+        "name": "Wabasha Street Caves",
+        "address": "215 Wabasha Street S",
+        "coordinates": [-93.0847, 44.9378],
+        "neighborhood": "West Side"
+      },
+      "teaser": "They carved nightclubs into the sandstone bluffs. Dillinger drank here. Ma Barker plotted here. And when the bullets stopped flying, something stayed behind.",
+      "content": [
+        "Before they were caves, they were mines—men chipping silica from the soft sandstone bluffs overlooking the Mississippi. By the 1840s, the tunnels stretched deep into the rock, cool and dark as tombs.",
+        "Someone had an idea: mushrooms thrive in darkness. For decades, the caves grew pale fungi for St. Paul's restaurants. But when Prohibition arrived in 1920, entrepreneurs saw a different kind of crop.",
+        "---",
+        "Castle Royal opened in 1933, carved directly into the living rock. The speakeasy featured a full nightclub—bandstand, dance floor, private rooms where deals were made and alliances formed. The stone walls kept secrets well.",
+        "John Dillinger became a regular. So did the Barker-Karpis gang, Ma Barker herself presiding over kidnapping plots between cocktails. St. Paul had declared itself a 'safe city' for criminals—pay off the right cops, and you could walk the streets in peace.",
+        "The caves witnessed it all. Arguments that ended in drawn pistols. Whispered conspiracies. Bodies that may have been carried out under cover of darkness.",
+        "---",
+        "Prohibition ended. The gangsters scattered or died. Castle Royal closed, and the caves fell silent.",
+        "But visitors since the 1970s report something else. The sound of big band music drifting from empty chambers. Figures in 1930s clothing glimpsed in peripheral vision, gone when you turn to look. Cold spots that defy the cave's constant 52-degree temperature.",
+        "Tour guides have captured EVPs—electronic voice phenomena—of what sounds like laughter, clinking glasses, and once, distinctly: 'He's got a gun.'",
+        "The caves remember what happened here. And sometimes, they share."
+      ],
+      "pullQuote": "Tour guides have captured EVPs of laughter, clinking glasses, and once: 'He's got a gun.'",
+      "witnessAccount": {
+        "source": "Cave tour guide, 2019",
+        "quote": "I was closing up alone. Turned off all the lights. Then I heard it—a full orchestra, clear as day. When I switched the lights back on, nothing. Just silence and stone."
+      },
+      "imagePrompt": "1930s speakeasy carved into sandstone cave, art deco bar with bottles, ghostly translucent figures in flapper dresses and gangster suits dancing, mist swirling, warm amber lighting from vintage bulbs casting long shadows, mysterious noir atmosphere, cinematic, hyperrealistic digital painting",
+      "relatedLocations": ["landmark-center", "saint-paul-hotel"],
+      "tags": ["gangster", "prohibition", "speakeasy", "dillinger", "caves", "paranormal"]
+    },
+    {
+      "id": "forepaugh-molly",
+      "title": "Molly's Endless Vigil",
+      "subtitle": "A love story written in tragedy",
+      "category": "ghost",
+      "mood": "melancholy",
+      "era": "1870-present",
+      "location": {
+        "name": "Forepaugh's Restaurant",
+        "address": "276 South Exchange Street",
+        "coordinates": [-93.0936, 44.9456],
+        "neighborhood": "Irvine Park"
+      },
+      "teaser": "She was a maid. He was the master of the house. Their forbidden love ended in twin tragedies—and neither has found peace since.",
+      "content": [
+        "Joseph Lybrandt Forepaugh built his French Second Empire mansion in 1870, a testament to his success as one of St. Paul's wealthiest dry goods merchants. He filled it with a wife, children, servants—and secrets.",
+        "Among the servants was Molly, a young Irish immigrant with dark hair and darker eyes. Joseph noticed her. In the Victorian shadows of that grand house, their affair began.",
+        "---",
+        "By 1892, Molly was pregnant. The scandal would have destroyed Forepaugh's reputation, his marriage, his empire. We don't know what words passed between them in the third-floor servant's quarters. We only know how it ended.",
+        "They found Molly's body on the lawn beneath the third-floor window. Suicide, they ruled. Perhaps she jumped. Perhaps she was pushed. The truth died with her.",
+        "Joseph lasted three months longer. On July 8, 1892, he raised a pistol to his own head in the front yard and pulled the trigger. His suicide note, if he left one, has never been found.",
+        "---",
+        "The mansion passed through hands, falling into disrepair until restaurateurs rescued it in 1976. They restored the woodwork, the chandeliers, the grand staircase. They could not restore peace.",
+        "Diners report a young woman in Victorian dress walking through the upper floors. Staff smell perfume in empty rooms—lily of the valley, Molly's favorite. Candles light themselves. Doors swing open to reveal nothing.",
+        "And Joseph? He paces the dining room still, the scent of cigar smoke announcing his presence. Sometimes both appear together, passing through walls as though searching—always searching—but never finding each other.",
+        "Some guests leave tips for Molly. The coins are often found moved to different tables by morning."
+      ],
+      "pullQuote": "Some guests leave tips for Molly. The coins are often found moved by morning.",
+      "witnessAccount": {
+        "source": "Former server, 2012",
+        "quote": "I was setting table six when I felt someone brush past me. I smelled perfume—old-fashioned, like flowers. When I turned, I saw her for just a second. A woman in a gray dress, heading for the stairs. Then she just... wasn't there."
+      },
+      "imagePrompt": "Victorian mansion dining room at night, ghostly transparent woman in 1890s servant dress on grand staircase, candles flickering, elegant but haunted atmosphere, moonlight through lace curtains, photorealistic paranormal photography style, emotional and ethereal",
+      "relatedLocations": ["irvine-park", "summit-avenue"],
+      "tags": ["tragic-love", "victorian", "restaurant", "haunted", "irvine-park"]
+    },
+    {
+      "id": "fitzgerald-ghost",
+      "title": "The Ghost Writer of Summit Avenue",
+      "subtitle": "F. Scott Fitzgerald's eternal return",
+      "category": "legend",
+      "mood": "wistful",
+      "era": "1896-present",
+      "location": {
+        "name": "599 Summit Avenue",
+        "coordinates": [-93.1367, 44.9403],
+        "neighborhood": "Summit Hill"
+      },
+      "teaser": "He wrote of green lights and lost dreams. Now, some say, he returns to the street where those dreams were born—forever chasing the past he immortalized.",
+      "content": [
+        "Francis Scott Key Fitzgerald was born in St. Paul on September 24, 1896. The city shaped him—its nouveau riche striving, its class divisions, its long winters perfect for dreaming.",
+        "He lived at multiple addresses along Summit Avenue, that grand boulevard of Victorian ambition. It was here, in a cramped room at 599 Summit, that he finished 'This Side of Paradise' in 1920, the novel that would make him famous at 24.",
+        "---",
+        "Fitzgerald spent his life chasing something—wealth, love, meaning—always returning to St. Paul between adventures, between breakdowns. 'I go back to St. Paul when I am in trouble,' he wrote. 'It is my Babylon.'",
+        "He died in Hollywood in 1940, broken by alcoholism and disappointment. But his ghost, some say, never left Summit Avenue.",
+        "Neighbors report seeing a young man in 1920s attire walking the sidewalk at dusk, pausing before certain houses, notebook in hand as though taking notes. He wears a yellow scarf, Fitzgerald's signature. When approached, he vanishes.",
+        "---",
+        "The Fitzgerald Theater downtown, named in his honor, has its own ghost—stagehands call him 'Ben.' But those who've seen both swear they're different spirits. Ben is protective, helpful. The ghost of Summit Avenue seems lost, searching for something he can never recapture.",
+        "Perhaps he's still writing the great American novel. Perhaps he's still trying to get back to that moment before everything went wrong. Or perhaps he's simply come home, to the streets where Jay Gatsby first dreamed.",
+        "'So we beat on,' he wrote, 'boats against the current, borne back ceaselessly into the past.'"
+      ],
+      "pullQuote": "'I go back to St. Paul when I am in trouble. It is my Babylon.' — F. Scott Fitzgerald",
+      "witnessAccount": {
+        "source": "Summit Avenue resident, 2003",
+        "quote": "I was walking my dog around midnight. I saw him clear as day—young guy, old-fashioned clothes, yellow scarf. He was standing under the streetlight writing something. I said hello. He looked up, smiled like he knew a secret, and then he just... faded."
+      },
+      "imagePrompt": "1920s young man in period suit and yellow scarf walking Summit Avenue at twilight, Victorian mansions in background, autumn leaves falling, streetlamps casting golden light, mist rising, notebook in hand, dreamlike nostalgic atmosphere, cinematic lighting, hyperrealistic",
+      "relatedLocations": ["fitzgerald-theater", "summit-avenue"],
+      "tags": ["literary", "jazz-age", "gatsby", "haunted", "summit-avenue"]
+    },
+    {
+      "id": "hill-house",
+      "title": "The Empire Builder's Unfinished Business",
+      "subtitle": "James J. Hill ruled in life. In death, he still walks his halls.",
+      "category": "ghost",
+      "mood": "powerful",
+      "era": "1891-present",
+      "location": {
+        "name": "James J. Hill House",
+        "address": "240 Summit Avenue",
+        "coordinates": [-93.1264, 44.9419],
+        "neighborhood": "Summit Hill"
+      },
+      "teaser": "He built railroads that conquered continents. He built a mansion with 22 fireplaces. Some empires, it seems, survive even death.",
+      "content": [
+        "They called him the Empire Builder. James Jerome Hill arrived in St. Paul in 1856 with nothing. By the time he died in 1916, he had constructed the Great Northern Railway, made and unmade fortunes, and shaped the American West.",
+        "His house matched his ambition: 36,000 square feet, 22 fireplaces, 13 bathrooms. The largest private residence in the state. From here, he directed an empire.",
+        "---",
+        "Mary Hill, his wife, died in the house in 1921. Staff reported strange occurrences almost immediately—the sound of a piano playing in empty rooms, footsteps in hallways, the scent of her perfume drifting through locked doors.",
+        "But it's James himself who seems unable to rest. Security guards have reported a heavy-set figure in Victorian dress standing at the windows of the second-floor study, looking out over Summit Avenue as though surveying his domain.",
+        "Doors in the art gallery open on their own. The pipe organ in the reception hall has been heard playing—but the organ hasn't worked in decades.",
+        "---",
+        "The Minnesota Historical Society operates the house as a museum now. Tours pass through rooms where history was made. And sometimes, history makes itself known.",
+        "One curator, working late, heard footsteps approaching her office. Heavy boots on hardwood. She called out, thinking it was a colleague. The footsteps stopped directly outside her door.",
+        "When she opened it, no one was there. But later, reviewing security footage, she saw what the cameras captured: the shadow of a man, walking purposefully down a hall—passing through a door that had been locked for fifty years."
+      ],
+      "pullQuote": "The shadow of a man, walking purposefully—passing through a door locked for fifty years.",
+      "witnessAccount": {
+        "source": "Night security, 2018",
+        "quote": "I heard the pipe organ at 3 AM. Clear as anything. I radioed my partner—we both heard it. We checked the room together. Empty. Organ covered in dust. Hasn't been played since the 1970s."
+      },
+      "imagePrompt": "Grand Victorian mansion interior, massive pipe organ in ornate room, ghostly figure of bearded man in 1900s suit standing by window, dramatic shadows from crystal chandeliers, dust motes in light beams, opulent but haunted, cinematic horror atmosphere, 8k hyperrealistic",
+      "relatedLocations": ["summit-avenue", "cathedral"],
+      "tags": ["railroad", "mansion", "victorian", "millionaire", "haunted"]
+    },
+    {
+      "id": "landmark-trials",
+      "title": "Justice Never Rests",
+      "subtitle": "In the old Federal Courts, some verdicts are eternal",
+      "category": "crime",
+      "mood": "justice",
+      "era": "1902-present",
+      "location": {
+        "name": "Landmark Center",
+        "address": "75 West 5th Street",
+        "coordinates": [-93.0941, 44.9456],
+        "neighborhood": "Downtown"
+      },
+      "teaser": "Gangsters faced justice here. Prisoners died in the basement cells. The Romanesque fortress has witnessed more human drama than any building in St. Paul—and some of that drama never ended.",
+      "content": [
+        "The Old Federal Courts Building opened in 1902, a Richardsonian Romanesque fortress of pink granite designed to embody the majesty of federal law. For eight decades, justice was dispensed within these walls.",
+        "The basement held cells for federal prisoners. The upper floors held courtrooms where some of the most notorious criminals in American history faced judgment. Machine Gun Kelly. Alvin Karpis. Members of the Barker gang.",
+        "---",
+        "During the gangster era of the 1930s, St. Paul was a 'safe city' for criminals—until federal agents began closing in. The trials held here ended careers, ended freedom, ended lives.",
+        "But the building remembers. Staff report footsteps in the basement corridors, even when the cells have been sealed for decades. Courtroom doors swing open during events. Security cameras capture shadows moving in empty hallways.",
+        "One security guard reported hearing what sounded like a gavel striking—three sharp raps—from a courtroom that had been locked and empty for hours.",
+        "---",
+        "The spirits seem neither malevolent nor peaceful. They appear to be waiting. For what, no one knows. Perhaps for appeals that will never be heard. Perhaps for pardons that will never come.",
+        "Visitors have reported seeing a man in a 1930s suit standing in the fourth-floor courtroom, staring at the judge's bench. When they look again, he's gone. One docent swears she saw him mouth the words: 'I didn't do it.'",
+        "In a building devoted to truth, the dead may still be seeking theirs."
+      ],
+      "pullQuote": "One docent swears she saw him mouth the words: 'I didn't do it.'",
+      "witnessAccount": {
+        "source": "Event staff, 2015",
+        "quote": "We were setting up for a gala in the Cortile. Suddenly, every door in the building slammed shut at once. All of them. Security checked—there was no wind, no pressure change. No explanation."
+      },
+      "imagePrompt": "Grand Romanesque courthouse interior with ornate stonework, spectral figure in 1930s gangster suit standing before judge bench, dramatic light through stained glass windows, dust particles floating, noir atmosphere, photorealistic haunted architecture photography",
+      "relatedLocations": ["wabasha-caves", "saint-paul-hotel"],
+      "tags": ["courthouse", "gangster", "justice", "federal", "haunted"]
+    },
+    {
+      "id": "rondo-requiem",
+      "title": "The Ghost of Rondo Avenue",
+      "subtitle": "A neighborhood destroyed. A community scattered. A song that won't end.",
+      "category": "sacred",
+      "mood": "grief",
+      "era": "1920s-1968",
+      "location": {
+        "name": "Former Rondo Avenue",
+        "coordinates": [-93.1147, 44.9551],
+        "neighborhood": "Rondo/I-94 Corridor"
+      },
+      "teaser": "They called it the heart of Black St. Paul. Jazz flowed from every club. Then they built a highway through it all. But on quiet nights, some say you can still hear the music.",
+      "content": [
+        "Before Interstate 94, there was Rondo Avenue. For five decades, it was the cultural heart of St. Paul's African American community—a thriving corridor of homes, businesses, churches, and jazz clubs that stretched from downtown to the Mississippi.",
+        "The music never stopped on Rondo. Jazz and blues poured from venues like the Nacirema Club. Children played in streets where everybody knew everybody. On summer evenings, families gathered on porches while the sounds of life swirled around them.",
+        "---",
+        "In 1956, highway planners chose their route. They could have gone anywhere. They chose Rondo.",
+        "Between 1956 and 1968, they demolished over 700 homes. Displaced more than 300 businesses. Scattered a community that had taken generations to build. Where neighbors once gathered, now there was only concrete and the roar of traffic.",
+        "'Urban renewal,' they called it. Those who lived there had another name.",
+        "---",
+        "The highway buried Rondo. But something remains.",
+        "Residents of the surrounding neighborhoods report hearing music on summer nights—faint jazz, drifting from nowhere. The sound of laughter. Children playing. Someone once recorded what they thought was a bird—the playback revealed unmistakable piano jazz.",
+        "A woman walking her dog at 2 AM saw lights in the windows of a building that doesn't exist anymore. When she blinked, she saw only freeway barriers.",
+        "Perhaps it's imagination. Perhaps it's memory so strong it leaves an imprint. Or perhaps Rondo Avenue never really died—it just moved to a frequency most of us can't hear."
+      ],
+      "pullQuote": "Perhaps Rondo never really died—it just moved to a frequency most of us can't hear.",
+      "witnessAccount": {
+        "source": "Neighborhood resident, 2021",
+        "quote": "My grandmother lived on Rondo. She said the music would play forever, even after the houses were gone. I didn't believe her until one night I was walking near the overpass and I heard it—clear as anything. A saxophone. Playing something beautiful and sad."
+      },
+      "imagePrompt": "Ghostly overlay of 1950s African American neighborhood over modern highway, jazz musicians transparent and luminous on street corner, vintage cars and modern traffic merged, warm nostalgic sepia tones fading into cold gray concrete, deeply emotional composite image, hyperrealistic digital art",
+      "relatedLocations": ["cathedral", "downtown"],
+      "tags": ["african-american", "jazz", "urban-renewal", "displacement", "music", "sacred"]
+    },
+    {
+      "id": "mounds-park",
+      "title": "The Ancient Watchers",
+      "subtitle": "Two thousand years before St. Paul, they were here first",
+      "category": "sacred",
+      "mood": "ancient",
+      "era": "Pre-Columbian-present",
+      "location": {
+        "name": "Indian Mounds Regional Park",
+        "coordinates": [-93.0639, 44.9531],
+        "neighborhood": "Dayton's Bluff"
+      },
+      "teaser": "Six burial mounds overlook the Mississippi. They've stood for two millennia. The people who built them are long gone—but their presence lingers.",
+      "content": [
+        "Long before French explorers paddled the Mississippi, before Father Galtier built his chapel, before St. Paul had a name, the Hopewell people buried their dead on these bluffs.",
+        "The mounds date back 2,000 years. Once there were nineteen. Development and vandalism destroyed most. Six remain—ancient sentinels overlooking the river valley, silent witnesses to everything that followed.",
+        "---",
+        "The Dakota people, who came later, considered this a sacred site. They spoke of spirits that walked among the mounds, ancestors who watched over the living. Early European settlers dismissed such talk as superstition.",
+        "Then they started seeing things too.",
+        "Reports from the 1850s describe 'spectral Indians' appearing at twilight, vanishing when approached. Settlers heard drums on nights when no one was there. One farmer swore he saw a funeral procession—dozens of figures carrying a body toward the mounds—that dissolved into mist.",
+        "---",
+        "The experiences continue today. Visitors photograph unexplained orbs of light. Dogs refuse to approach certain mounds. People report overwhelming feelings of being watched—not threatening, exactly, but present. Aware.",
+        "Paranormal investigators detect unusual electromagnetic readings. Psychics claim to hear voices in languages they don't recognize. A historian researching the site became convinced someone was reading over his shoulder—he felt breath on his neck, but when he turned, only empty air.",
+        "The ancient ones, it seems, have not forgotten this place. They may never leave."
+      ],
+      "pullQuote": "The ancient ones have not forgotten this place. They may never leave.",
+      "witnessAccount": {
+        "source": "Park visitor, 2019",
+        "quote": "My daughter was maybe four. She pointed at the biggest mound and asked, 'Mommy, why is that man just standing there?' I didn't see anyone. She described him perfectly—leather clothes, long hair, face paint. She said he smiled at her."
+      },
+      "imagePrompt": "Ancient burial mounds at twilight overlooking Mississippi River, translucent Native American figures in traditional Hopewell dress standing among mounds, orbs of soft light floating, mystical fog rising from river, sacred reverent atmosphere, photorealistic spiritual photography",
+      "relatedLocations": ["mississippi-river", "dayton-bluff"],
+      "tags": ["native-american", "burial-mounds", "ancient", "sacred", "hopewell"]
+    },
+    {
+      "id": "cathedral",
+      "title": "The Light That Never Fades",
+      "subtitle": "A miracle on the hill",
+      "category": "sacred",
+      "mood": "divine",
+      "era": "1915-present",
+      "location": {
+        "name": "Cathedral of Saint Paul",
+        "address": "239 Selby Avenue",
+        "coordinates": [-93.1090, 44.9468],
+        "neighborhood": "Cathedral Hill"
+      },
+      "teaser": "The cathedral's dome dominates the St. Paul skyline. But those who've prayed here in the small hours speak of something else—a presence that offers comfort beyond stone and stained glass.",
+      "content": [
+        "Archbishop John Ireland dreamed of a cathedral that would rival the great churches of Europe. In 1915, that dream became reality—a Beaux-Arts masterpiece with a copper dome visible for miles, a spiritual anchor for the city.",
+        "The Cathedral of Saint Paul is not haunted in the traditional sense. No restless spirits walk its aisles. But countless witnesses describe experiences that transcend the ordinary.",
+        "---",
+        "A woman praying alone at 3 AM felt hands rest on her shoulders—warm, comforting hands. She was the only person in the building. Security cameras showed her alone in the pew, but her shoulders compressed as though someone touched her.",
+        "A homeless man seeking shelter described a 'lady in light' who sat beside him, saying nothing, radiating warmth until morning. He'd been suicidal. After that night, he wasn't.",
+        "During a midnight mass, the entire congregation reported seeing the dome fill with golden light—a light that didn't match any source in the building.",
+        "---",
+        "Skeptics point to suggestion, to acoustics, to the play of light through stained glass. But those who've experienced these moments describe something else: a certainty, bone-deep and unshakeable, that they were not alone.",
+        "Whatever dwells in the cathedral seems benevolent. Protective. Priests over the decades have reported feeling guided during difficult homilies, supported during crises of faith.",
+        "Perhaps it's the accumulated prayers of a century. Perhaps it's something older. The Dakota considered this hill sacred long before Europeans arrived. Perhaps holiness, once rooted, never leaves."
+      ],
+      "pullQuote": "A homeless man described a 'lady in light' who sat beside him, radiating warmth until morning.",
+      "witnessAccount": {
+        "source": "Night maintenance, 2017",
+        "quote": "I've worked here thirty years. I don't scare easy. But there's something in this building. Something good. When my wife was sick, I prayed alone one night. I felt... answered. Not words. Just certainty. She recovered. I don't try to explain it."
+      },
+      "imagePrompt": "Grand cathedral interior at night, golden ethereal light streaming through dome, empty pews with single figure praying, divine atmospheric glow, Renaissance religious painting style made photorealistic, sacred and peaceful, 8k",
+      "relatedLocations": ["summit-avenue", "selby-avenue"],
+      "tags": ["cathedral", "sacred", "miracle", "divine", "spiritual"]
+    },
+    {
+      "id": "dillinger-escape",
+      "title": "Dillinger's Last Dance",
+      "subtitle": "The shootout that almost was",
+      "category": "crime",
+      "mood": "danger",
+      "era": "1934",
+      "location": {
+        "name": "Lincoln Court Apartments",
+        "address": "93 South Lexington Parkway",
+        "coordinates": [-93.1467, 44.9389],
+        "neighborhood": "Summit Hill"
+      },
+      "teaser": "March 31, 1934. FBI agents surrounded the building. John Dillinger was inside. What happened next became legend.",
+      "content": [
+        "John Dillinger was Public Enemy Number One. The most wanted man in America. He'd robbed banks across the Midwest, broken out of jail twice, killed men who got in his way. And in March 1934, he was hiding in St. Paul.",
+        "The city's 'O'Connor System' guaranteed criminals safe haven—pay off the cops, keep your guns holstered downtown, and you could walk the streets in peace. Dillinger had been using St. Paul as a rest stop between jobs.",
+        "---",
+        "He was staying at the Lincoln Court Apartments with his girlfriend, Billie Frechette. On March 31, FBI agents got a tip. They surrounded the building at 10:15 AM.",
+        "What happened next depends on who's telling the story.",
+        "The FBI claims they announced themselves and Dillinger opened fire. Survivors from the building say the agents never identified themselves—they just started shooting. Bullets tore through the walls. Dillinger, wounded in the leg, managed to escape through a back staircase.",
+        "An elderly woman on the first floor nearly died from the crossfire. Dillinger limped to a waiting car and vanished.",
+        "---",
+        "Four months later, he died outside the Biograph Theater in Chicago. But his ghost, some say, returned to St. Paul.",
+        "Residents of the building (which still stands) report footsteps in the third-floor hallway at 10:15 AM. The phantom smell of gunpowder. A woman in the laundry room once looked up to see a man in a fedora and wool coat watching her—he vanished when she screamed.",
+        "Whether Dillinger's spirit actually lingers, or whether the violence of that morning left an impression on the building itself, something remains. The shooting never quite ended."
+      ],
+      "pullQuote": "The shooting never quite ended.",
+      "witnessAccount": {
+        "source": "Former resident, 2008",
+        "quote": "I lived in 303—same floor as Dillinger's old apartment. Every March 31st, I'd hear it. Footsteps running. Once, I swear I heard a woman scream. My neighbors thought I was crazy. Then I showed them the history."
+      },
+      "imagePrompt": "1930s apartment building exterior, FBI agents in period suits with Thompson submachine guns, bullet holes in walls, noir lighting, vintage cars on street, tense dangerous atmosphere, black and white with selective color on blood and muzzle flash, cinematic crime photography",
+      "relatedLocations": ["wabasha-caves", "landmark-center", "saint-paul-hotel"],
+      "tags": ["dillinger", "fbi", "gangster", "shootout", "1930s", "crime"]
+    },
+    {
+      "id": "fitzgerald-theater-ben",
+      "title": "Ben's Stage",
+      "subtitle": "The ghost who keeps the show running",
+      "category": "ghost",
+      "mood": "friendly",
+      "era": "1910-present",
+      "location": {
+        "name": "Fitzgerald Theater",
+        "address": "10 East Exchange Street",
+        "coordinates": [-93.0925, 44.9471],
+        "neighborhood": "Downtown"
+      },
+      "teaser": "They call him Ben. He fell from the catwalk decades ago. But he never left the theater he loved—and performers say he still watches over every show.",
+      "content": [
+        "The Fitzgerald Theater opened in 1910 as the Sam S. Shubert Theater, part of the vaudeville circuit that brought entertainment to cities across America. For over a century, performers have taken its stage, from vaudeville acts to Garrison Keillor's 'A Prairie Home Companion.'",
+        "But the theater's most loyal employee isn't on the payroll.",
+        "---",
+        "No one knows exactly when Ben died. Sometime in the 1930s, they say, a stagehand fell from the catwalk above the stage. He may have been named Ben. He may have been named something else. Records from that era are spotty.",
+        "What everyone agrees on is that he never left.",
+        "Stagehands report tools that go missing, only to reappear exactly where they're needed. Lights adjust themselves during rehearsals, always improving the performance. A tech director working alone at 2 AM felt someone tap his shoulder—when he turned, a ladder he'd forgotten to secure was falling toward him. It stopped mid-fall, held by nothing visible.",
+        "---",
+        "Performers love Ben. Many leave small offerings—a cigarette, a shot of whiskey—at the base of the catwalk ladder before opening night. They say it brings good luck. Shows where Ben is forgotten tend to have technical problems.",
+        "Garrison Keillor himself acknowledged Ben on air. 'There's a ghost in this theater,' he said. 'We don't talk about him. We don't have to. He takes care of us.'",
+        "Unlike most theater ghosts, Ben seems entirely benevolent. He's protective, helpful, invested in the success of every show. Perhaps in death he found what eluded him in life: a place where he truly belongs."
+      ],
+      "pullQuote": "'There's a ghost in this theater. We don't talk about him. We don't have to. He takes care of us.'",
+      "witnessAccount": {
+        "source": "Stage manager, 2012",
+        "quote": "Opening night of a big show. Lead actress was about to trip on a cable—I saw it happening, couldn't get there in time. The cable moved. By itself. Just... slid out of her path. I looked up at the catwalk and said 'Thanks, Ben.' The lights flickered twice. I took that as 'you're welcome.'"
+      },
+      "imagePrompt": "Vintage theater interior from stage perspective, empty red velvet seats, spotlight on empty stage, ghostly translucent figure of 1930s stagehand on catwalk above giving thumbs up, warm theatrical lighting, nostalgic and protective atmosphere, cinematic photography",
+      "relatedLocations": ["downtown", "landmark-center"],
+      "tags": ["theater", "friendly-ghost", "performing-arts", "vaudeville", "protective"]
+    },
+    {
+      "id": "swede-hollow",
+      "title": "Voices in the Hollow",
+      "subtitle": "A neighborhood of ghosts",
+      "category": "legend",
+      "mood": "loss",
+      "era": "1850s-1956",
+      "location": {
+        "name": "Swede Hollow",
+        "coordinates": [-93.0722, 44.9564],
+        "neighborhood": "East Side"
+      },
+      "teaser": "For a century, immigrants built their lives in the ravine called Swede Hollow. Then the city burned it all. But on quiet nights, you can still hear them speaking—in Swedish, Italian, and languages from a world away.",
+      "content": [
+        "The hollow was never supposed to be a neighborhood. It was a ravine—a deep gash in the bluffs where Phalen Creek flowed toward the Mississippi. But when Swedish immigrants arrived in the 1850s, too poor to afford land above, they built shanties along the creek.",
+        "For a hundred years, Swede Hollow was home to waves of newcomers. Swedes gave way to Italians, Italians to Mexicans. Each generation built on what came before—makeshift homes without plumbing or electricity, but rich with community.",
+        "---",
+        "The city called it a health hazard. In 1956, they condemned the entire hollow. Residents were given weeks to leave. Then the bulldozers came, and the fires. Every structure was demolished and burned.",
+        "What couldn't be demolished was memory.",
+        "Hikers on the Swede Hollow trail report hearing voices—conversations in foreign languages, children laughing, someone calling out names. A photographer in 2015 captured what appeared to be a woman in early 20th-century dress standing in the creek bed. When he looked up from his camera, no one was there.",
+        "---",
+        "The hollow is a park now, peaceful and green. But the people who lived there left an imprint. On certain evenings, especially in summer, the hollow fills with sounds that have no source—cooking, singing, an accordion playing polkas.",
+        "Perhaps they're simply echoes. Or perhaps, for those who were forced from the only home they'd known, leaving is impossible."
+      ],
+      "pullQuote": "Perhaps, for those forced from the only home they'd known, leaving is impossible.",
+      "witnessAccount": {
+        "source": "Trail walker, 2019",
+        "quote": "I was hiking alone around sunset. I heard singing—a woman's voice, beautiful, in a language I didn't know. Italian, maybe? I followed the sound. It led me deeper into the hollow, then stopped. I was standing in an empty clearing, completely alone. But I could feel them. All around me."
+      },
+      "imagePrompt": "Wooded ravine at twilight, ghostly transparent shacks from 1900s overlaying modern trees, spectral immigrant families in period clothing going about daily life, creek flowing through scene, melancholic beautiful atmosphere, double exposure photography style, emotional and haunting",
+      "relatedLocations": ["east-side", "downtown"],
+      "tags": ["immigrant", "displacement", "swedish", "italian", "mexican", "razed"]
+    },
+    {
+      "id": "saint-paul-hotel",
+      "title": "The Gangster's Check-In",
+      "subtitle": "Some guests never leave",
+      "category": "crime",
+      "mood": "noir",
+      "era": "1910-present",
+      "location": {
+        "name": "Saint Paul Hotel",
+        "address": "350 Market Street",
+        "coordinates": [-93.0930, 44.9462],
+        "neighborhood": "Downtown"
+      },
+      "teaser": "During Prohibition, the Saint Paul Hotel hosted gangsters, bootleggers, and men who made people disappear. Some of those men, it seems, never checked out.",
+      "content": [
+        "The Saint Paul Hotel opened in 1910, the finest accommodation in the city. Its guest list read like a who's who of American power—presidents, celebrities, industrialists. But during the 1930s, it also hosted a different clientele.",
+        "Under the O'Connor System, St. Paul was a safe haven for criminals. The hotel's luxurious rooms provided cover for men like Alvin Karpis and the Barker gang. Kidnapping plots were hatched over room service. Deals were made in the bar.",
+        "---",
+        "In 1933, a businessman named Charles Wade was found dead in his room. The official ruling was natural causes. Rumor suggested otherwise—Wade had owed money to the wrong people.",
+        "His ghost, staff believe, still occupies the hotel.",
+        "Elevators stop on floors where no one pressed the button. Doors to unoccupied rooms swing open. A guest in 1987 woke to find a man in a 1930s suit standing at the foot of his bed, staring. When he turned on the light, the figure vanished.",
+        "---",
+        "Other spirits may linger as well. A woman in a flapper dress has been spotted in the bar. Phantom footsteps pace the hallways. One housekeeper refuses to clean certain rooms after seeing 'a man who walked through the wall.'",
+        "The hotel embraces its history now, gangster tours and all. But the dead were here first, and they seem to have permanent reservations."
+      ],
+      "pullQuote": "The dead were here first, and they seem to have permanent reservations.",
+      "witnessAccount": {
+        "source": "Night concierge, 2020",
+        "quote": "The elevator goes to the fourth floor every night at 3 AM. No one calls it. We've had the system checked a dozen times. One night I watched the doors open on four—and I swear I saw a man in an old-fashioned suit step out. Except the hallway camera showed nothing."
+      },
+      "imagePrompt": "Luxury 1930s hotel lobby with art deco details, ghostly figure in pinstripe suit and fedora walking through, chandelier casting dramatic shadows, noir atmosphere with warm amber lighting, vintage elegance meets supernatural, photorealistic with ethereal effects",
+      "relatedLocations": ["landmark-center", "wabasha-caves", "dillinger-escape"],
+      "tags": ["hotel", "gangster", "prohibition", "luxury", "haunted"]
+    },
+    {
+      "id": "winter-carnival",
+      "title": "The King of Winter's Court",
+      "subtitle": "A century of frozen magic",
+      "category": "culture",
+      "mood": "celebration",
+      "era": "1886-present",
+      "location": {
+        "name": "Rice Park & Downtown",
+        "coordinates": [-93.0944, 44.9439],
+        "neighborhood": "Downtown"
+      },
+      "teaser": "They said St. Paul winters were too cold for civilization. So the city built ice palaces to prove them wrong—and created a tradition that blurs the line between reality and enchantment.",
+      "content": [
+        "In 1885, a New York reporter wrote that St. Paul was 'another Siberia, unfit for human habitation.' The city's response was magnificent: the first Winter Carnival, featuring a 106-foot ice palace that drew 200,000 visitors.",
+        "The tradition has continued for over 130 years. Ice palaces rise and melt. Parades wind through frozen streets. And at the center of it all stands King Boreas, monarch of the snows, and his nemesis Vulcanus Rex, god of fire.",
+        "---",
+        "It's theater, of course. Civic ritual. Men in costumes enacting an ancient drama of winter and warmth.",
+        "But something strange happens during Carnival. The city feels different. People report seeing figures in the ice palaces after hours—revelers in Victorian clothing, dancing to music that isn't playing. The statues of F. Scott Fitzgerald and the Peanuts characters in Rice Park seem to move when you're not looking directly at them.",
+        "A photographer taking long exposures of the ice palace captured what appeared to be hundreds of translucent figures surrounding the structure. A glitch, probably. Or something more.",
+        "---",
+        "The Winter Carnival exists in the space between worlds—where frozen water becomes architecture, where civic leaders become mythological kings, where ordinary people become part of something larger than themselves.",
+        "Some say the magic is just metaphor. Others say the magic is real, accumulated over a century of celebration, and the ice holds memories of every carnival that came before."
+      ],
+      "pullQuote": "The ice holds memories of every carnival that came before.",
+      "witnessAccount": {
+        "source": "Ice palace volunteer, 2018",
+        "quote": "I was doing a final check of the palace at midnight. I heard music—old music, like a Victrola. I followed it inside. For just a moment, I saw them—people in old-fashioned clothes, laughing, dancing. Then a block of ice fell and I jumped. When I looked again, nothing. Just ice and silence."
+      },
+      "imagePrompt": "Magnificent ice palace at night illuminated from within, ghostly Victorian carnival-goers dancing around structure, Northern Lights in sky, snow falling gently, magical winter wonderland atmosphere, fantasy realism, cinematic wide shot, 8k",
+      "relatedLocations": ["rice-park", "downtown", "landmark-center"],
+      "tags": ["winter-carnival", "ice-palace", "tradition", "celebration", "magical"]
+    },
+    {
+      "id": "hamm-kidnapping",
+      "title": "The Beer Baron's Nightmare",
+      "subtitle": "When the Hamm family paid in terror",
+      "category": "crime",
+      "mood": "terror",
+      "era": "1933",
+      "location": {
+        "name": "Hamm Brewing Company",
+        "address": "East Side",
+        "coordinates": [-93.0667, 44.9533],
+        "neighborhood": "Dayton's Bluff"
+      },
+      "teaser": "William Hamm Jr. was one of St. Paul's wealthiest men. Then the Barker-Karpis gang came calling—and the city learned that no fortune was safe.",
+      "content": [
+        "The Hamm family had built an empire on beer. Even during Prohibition, when the brewery officially produced 'near beer,' the family remained wealthy, prominent, connected. William Hamm Jr. was the company president, a pillar of St. Paul society.",
+        "On June 15, 1933, he was kidnapped on his way to lunch.",
+        "---",
+        "The Barker-Karpis gang had planned carefully. They grabbed Hamm near the brewery, threw him into a car, and vanished. The ransom demand: $100,000 (over $2 million today).",
+        "For four days, Hamm was held in a house in Bensenville, Illinois. He was blindfolded, disoriented, uncertain if he would survive. The gang treated him well enough—they needed him alive—but the terror was absolute.",
+        "The family paid. Hamm was released unharmed. The kidnappers were eventually caught, tried at the Landmark Center, and sent to Alcatraz.",
+        "---",
+        "But the trauma lingered. Hamm rarely spoke of those four days. He increased security at the brewery, became reclusive, never fully recovered his former ease.",
+        "Workers at the brewery's former site (now condominiums) report cold spots and unexplained anxiety in certain areas. One resident describes recurring dreams of being grabbed, blindfolded, driven into darkness—dreams that stopped when she moved out.",
+        "Perhaps the fear of those four days left an imprint. Perhaps terror, intense enough, becomes part of a place forever."
+      ],
+      "pullQuote": "Perhaps terror, intense enough, becomes part of a place forever.",
+      "witnessAccount": {
+        "source": "Brewery condo resident, 2016",
+        "quote": "I'd wake up at exactly 11:30 AM—the time Hamm was grabbed—with my heart pounding. Couldn't explain it. I didn't even know the history until a neighbor told me. After I learned, the dreams made horrible sense."
+      },
+      "imagePrompt": "1930s brewery exterior, vintage cars, shadowy figures forcing well-dressed man into black sedan, dramatic noir lighting, tense dangerous atmosphere, selective focus, crime scene photography style, black and white with hints of amber from brewery lights",
+      "relatedLocations": ["landmark-center", "wabasha-caves"],
+      "tags": ["kidnapping", "barker-gang", "prohibition", "brewery", "crime"]
+    }
+  ],
+  "categories": [
+    {
+      "id": "ghost",
+      "name": "Haunted History",
+      "icon": "👻",
+      "description": "Restless spirits and places where the dead refuse to leave",
+      "color": "#9F00FF"
+    },
+    {
+      "id": "legend",
+      "name": "Legends & Lore",
+      "icon": "📜",
+      "description": "Stories passed down through generations, blending fact and myth",
+      "color": "#D4AF37"
+    },
+    {
+      "id": "sacred",
+      "name": "Sacred Ground",
+      "icon": "⛪",
+      "description": "Holy places and spiritual experiences beyond explanation",
+      "color": "#4A7BA7"
+    },
+    {
+      "id": "crime",
+      "name": "Criminal Underworld",
+      "icon": "🔪",
+      "description": "Gangsters, speakeasies, and the dark side of the city's past",
+      "color": "#8B0000"
+    },
+    {
+      "id": "culture",
+      "name": "Cultural Spirits",
+      "icon": "🎭",
+      "description": "The music, traditions, and celebrations that define St. Paul's soul",
+      "color": "#FF1493"
+    }
+  ],
+  "mapConfig": {
+    "center": [-93.094, 44.944],
+    "defaultZoom": 13,
+    "storyMarkerStyle": {
+      "ghost": { "color": "#9F00FF", "icon": "ghost" },
+      "legend": { "color": "#D4AF37", "icon": "book" },
+      "sacred": { "color": "#4A7BA7", "icon": "church" },
+      "crime": { "color": "#8B0000", "icon": "skull" },
+      "culture": { "color": "#FF1493", "icon": "music" }
+    }
+  },
+  "imagePrompts": {
+    "description": "AI image generation prompts for creating atmospheric visuals",
+    "style": "Dark, atmospheric, cinematic, hyperrealistic with ethereal supernatural elements",
+    "guidelines": [
+      "Use dramatic lighting (twilight, moonlight, candlelight)",
+      "Include fog, mist, or smoke for atmosphere",
+      "Blend historical accuracy with supernatural hints",
+      "Emphasize emotion over horror",
+      "Maintain photorealistic quality with subtle supernatural elements"
+    ]
+  }
+}

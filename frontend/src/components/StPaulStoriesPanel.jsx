@@ -219,6 +219,7 @@ const StPaulStoriesPanel = ({
             </Box>
           </Stack>
           <IconButton 
+            aria-label="close stories panel"
             size="small" 
             onClick={onClose}
             sx={{

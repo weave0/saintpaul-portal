@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef, lazy, Suspense, useCallback } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useNavigate } from 'react-router-dom';
 import {
@@ -27,8 +27,8 @@ import {
   CardContent,
   CardMedia
 } from '@mui/material';
-import ReactMapGL, { Marker, Popup, Layer, Source } from 'react-map-gl';
-import 'mapbox-gl/dist/mapbox-gl.css';
+const MapCanvas = lazy(() => import('../components/MapCanvas'));
+const StoryMapLayer = lazy(() => import('../components/StoryMapLayer'));
 import RoomIcon from '@mui/icons-material/Room';
 import ViewInArIcon from '@mui/icons-material/ViewInAr';
 import FilterListIcon from '@mui/icons-material/FilterList';
@@ -36,11 +36,13 @@ import SearchIcon from '@mui/icons-material/Search';
 import TimelineIcon from '@mui/icons-material/Timeline';
 import LayersIcon from '@mui/icons-material/Layers';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
 import { apiGet } from '../services/apiClient';
+import { Source, Layer, Marker, Popup } from 'react-map-gl/maplibre';
 import NightSkyOverlay from '../components/NightSkyOverlay';
 import StPaulStoriesPanel from '../components/StPaulStoriesPanel';
 
-const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN || 'YOUR_MAPBOX_TOKEN';
+// MapLibre styles imported from MapCanvas - no API token needed!
 
 const DOWNTOWN_STPAUL = {
   latitude: 44.9445,
@@ -65,6 +67,8 @@ const CATEGORY_CONFIG = {
 
 const Map = () => {
   const navigate = useNavigate();
+  const mapRef = useRef(null);
+  const [mapInstance, setMapInstance] = useState(null);
   const [viewport, setViewport] = useState(DOWNTOWN_STPAUL);
   const [selectedLocation, setSelectedLocation] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
@@ -77,7 +81,13 @@ const Map = () => {
   const [atmosphericEffects, setAtmosphericEffects] = useState(true);
   const [storyMode, setStoryMode] = useState(false); // Show narrative connections
   const [showHistoricalEvents, setShowHistoricalEvents] = useState(true);
+  const [showMysticalStories, setShowMysticalStories] = useState(true); // Show ghost/legend markers;
   const [showStoriesPanel, setShowStoriesPanel] = useState(false); // Show narrative connections
+  
+  // Handle map instance for story layer
+  const handleMapLoad = useCallback((map) => {
+    setMapInstance(map);
+  }, []);
   
   // Fetch real data from backend
   const { data: locationsData, isLoading: locationsLoading } = useQuery({
@@ -157,11 +167,12 @@ const Map = () => {
   };
 
   const getMapStyle = () => {
+    // Free MapLibre-compatible styles from Carto (no API key needed)
     const styles = {
-      dark: 'mapbox://styles/mapbox/dark-v11',
-      light: 'mapbox://styles/mapbox/light-v11',
-      satellite: 'mapbox://styles/mapbox/satellite-streets-v12',
-      mystical: 'mapbox://styles/mapbox/dark-v11', // We'll enhance this with layers
+      dark: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
+      light: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
+      satellite: 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json', // Voyager as satellite alternative
+      mystical: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
     };
     return styles[mapStyle] || styles.dark;
   };
@@ -292,6 +303,7 @@ const Map = () => {
       {/* Toggle Stories Panel Button */}
       <Tooltip title={showStoriesPanel ? "Hide Stories" : "Show St. Paul Stories"}>
         <IconButton
+          aria-label={showStoriesPanel ? "hide stories panel" : "show stories panel"}
           onClick={() => setShowStoriesPanel(!showStoriesPanel)}
           sx={{
             position: 'absolute',
@@ -608,6 +620,26 @@ const Map = () => {
               />
             }
             label="Show 3D Buildings"
+            sx={{ mb: 1 }}
+          />
+
+          {/* Mystical Stories Toggle */}
+          <FormControlLabel
+            control={
+              <Checkbox
+                checked={showMysticalStories}
+                onChange={(e) => setShowMysticalStories(e.target.checked)}
+                size="small"
+                icon={<MenuBookIcon sx={{ fontSize: 20 }} />}
+                checkedIcon={<MenuBookIcon sx={{ fontSize: 20, color: '#9F00FF' }} />}
+              />
+            }
+            label={
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
+                <span>Mystical Stories</span>
+                <Typography variant="caption" sx={{ color: '#9F00FF' }}>👻</Typography>
+              </Box>
+            }
             sx={{ mb: 2 }}
           />
 
@@ -727,6 +759,7 @@ const Map = () => {
       <Box sx={{ flexGrow: 1, position: 'relative' }}>
         {/* Filter Toggle Button */}
         <IconButton
+          aria-label={showFilters ? "hide filters" : "show filters"}
           onClick={() => setShowFilters(!showFilters)}
           sx={{
             position: 'absolute',
@@ -849,40 +882,32 @@ const Map = () => {
           </Paper>
         )}
 
-        <ReactMapGL
-          {...viewport}
-          width="100%"
-          height="100%"
-          mapStyle={getMapStyle()}
-          onMove={(evt) => setViewport(evt.viewState)}
-          mapboxAccessToken={MAPBOX_TOKEN}
-          pitch={show3DBuildings ? 50 : 0}
-          bearing={show3DBuildings ? -20 : 0}
-          fog={{
-            range: [0.5, 10],
-            color: mapStyle === 'dark' ? '#0a0e27' : '#e0f2ff',
-            'horizon-blend': 0.1,
-          }}
-        >
-          {/* 3D Buildings Layer */}
+        <Suspense fallback={<Skeleton variant="rectangular" width="100%" height="100%" />}>
+          <MapCanvas
+            ref={mapRef}
+            viewport={viewport}
+            setViewport={setViewport}
+            style={getMapStyle()}
+            onMapLoad={handleMapLoad}
+          >
+          {/* 3D Buildings Layer - Using OpenMapTiles building data (free) */}
           {show3DBuildings && (
             <Source
-              id="composite"
+              id="openmaptiles"
               type="vector"
-              url="mapbox://mapbox.mapbox-streets-v8"
+              url="https://api.maptiler.com/tiles/v3/tiles.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL"
             >
               <Layer
                 id="3d-buildings"
-                source="composite"
+                source="openmaptiles"
                 source-layer="building"
-                filter={['==', 'extrude', 'true']}
                 type="fill-extrusion"
                 minzoom={14}
                 paint={{
                   'fill-extrusion-color': [
                     'interpolate',
                     ['linear'],
-                    ['get', 'height'],
+                    ['coalesce', ['get', 'render_height'], 10],
                     0, eraTheme.color,
                     50, '#666',
                     100, '#999',
@@ -894,7 +919,7 @@ const Map = () => {
                     15,
                     0,
                     15.05,
-                    ['get', 'height'],
+                    ['coalesce', ['get', 'render_height'], 10],
                   ],
                   'fill-extrusion-base': [
                     'interpolate',
@@ -903,10 +928,9 @@ const Map = () => {
                     15,
                     0,
                     15.05,
-                    ['get', 'min_height'],
+                    ['coalesce', ['get', 'render_min_height'], 0],
                   ],
                   'fill-extrusion-opacity': mapStyle === 'dark' ? 0.8 : 0.6,
-                  'fill-extrusion-vertical-gradient': true,
                 }}
               />
             </Source>
@@ -1079,7 +1103,14 @@ const Map = () => {
               </Card>
             </Popup>
           )}
-        </ReactMapGL>
+          </MapCanvas>
+        </Suspense>
+        
+        {/* Mystical Stories Overlay Layer */}
+        <StoryMapLayer 
+          map={mapInstance} 
+          visible={showMysticalStories} 
+        />
       </Box>
     </Box>
   );

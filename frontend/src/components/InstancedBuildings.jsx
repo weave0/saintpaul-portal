@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import PropTypes from 'prop-types';
-import * as THREE from 'three';
+import { Vector3 } from 'three';
 import { Instances, Instance, Text } from '@react-three/drei';
 
 // Determine display color for each building based on material and UI state
@@ -33,9 +33,9 @@ const normalizeBuilding = (building) => {
 
   return {
     building,
-    position: new THREE.Vector3(x, height / 2, z),
-    scale: new THREE.Vector3(length, height, width),
-    labelPosition: new THREE.Vector3(x, height + 5, z),
+    position: new Vector3(x, height / 2, z),
+    scale: new Vector3(length, height, width),
+    labelPosition: new Vector3(x, height + 5, z),
     inSnapshot: Boolean(building.inSnapshot)
   };
 };
