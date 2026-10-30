@@ -33,6 +33,11 @@ const Footer = () => {
             Contribute
           </Link>
         </Typography>
+        <Typography variant="body2" align="center" sx={{ mt: 2 }}>
+          <Link href="https://www.linkedin.com/in/weaverbrett/" target="_blank" rel="noopener noreferrer" color="inherit" sx={{ mx: 1 }}>Connect with creator on LinkedIn</Link>
+          |
+          <Link href="https://gofund.me/3f0dfec7a" target="_blank" rel="noopener noreferrer" color="inherit" sx={{ mx: 1 }}>Support GlobalDeets (separate project; GoFundMe)</Link>
+        </Typography>
       </Container>
     </Box>
   );
